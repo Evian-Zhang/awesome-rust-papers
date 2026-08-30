@@ -23,6 +23,7 @@
     "SMACK",
     "cargo-klee",
     "Verifying Dynamic Trait Objects in Rust",
-    "Prusti Closures"
+    "Prusti Closures",
+    "Crust"
   ]
 }

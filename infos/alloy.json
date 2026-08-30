@@ -12,6 +12,7 @@
     "destructor"
   ],
   "reference": [
-    "GhostCell"
+    "GhostCell",
+    "Bronze"
   ]
 }

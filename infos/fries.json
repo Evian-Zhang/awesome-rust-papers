@@ -22,6 +22,8 @@
   ],
   "reference": [
     "RULF",
-    "RUSTYUNIT"
+    "RUSTYUNIT",
+    "Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs",
+    "MirChecker"
   ]
 }

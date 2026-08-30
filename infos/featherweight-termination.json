@@ -36,6 +36,7 @@
     "MirChecker",
     "Rupair",
     "Galeed",
-    "Verifying Dynamic Trait Objects in Rust"
+    "Verifying Dynamic Trait Objects in Rust",
+    "Crust"
   ]
 }

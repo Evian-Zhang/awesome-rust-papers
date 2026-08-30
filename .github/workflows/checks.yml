@@ -1,0 +1,17 @@
+name: checks
+
+on:
+  push:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.x'
+      - name: info format check
+        run: python3 scripts/info-format-check.py
+      - name: info-bib consistency check
+        run: python3 scripts/info-bib-consistency-check.py

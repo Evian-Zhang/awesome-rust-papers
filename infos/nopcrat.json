@@ -28,6 +28,7 @@
     "Engineering the Servo Web Browser Engine Using Rust",
     "SafeDrop",
     "Concrat",
-    "Rust as a Language for High Performance GC Implementation"
+    "Rust as a Language for High Performance GC Implementation",
+    "CRustS2"
   ]
 }

@@ -12,6 +12,7 @@
     "RustBelt: Securing the Foundations of the Rust Programming Language",
     "Translating C to Safer Rust",
     "C2SaferRust",
-    "RustAssure"
+    "RustAssure",
+    "CRustS2"
   ]
 }

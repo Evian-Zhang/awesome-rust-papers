@@ -21,6 +21,8 @@
   ],
   "reference": [
     "TRust",
-    "XRust"
+    "XRust",
+    "FFICHECKER",
+    "MirChecker"
   ]
 }

@@ -20,6 +20,7 @@
     "Is Rust Used Safely by Software Developers?",
     "FFICHECKER",
     "lockbud",
-    "Miri"
+    "Miri",
+    "Crust"
   ]
 }

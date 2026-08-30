@@ -18,6 +18,7 @@
     "Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs",
     "Stacked Borrows: An Aliasing Model for Rust",
     "Fuzzing the Rust Typechecker Using CLP (T)",
-    "Oxide"
+    "Oxide",
+    "Crust"
   ]
 }

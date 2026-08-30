@@ -24,6 +24,7 @@
     "Concrat",
     "C2SaferRust",
     "GenC2Rust",
-    "PanicCheck"
+    "PanicCheck",
+    "CRustS2"
   ]
 }

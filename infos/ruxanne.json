@@ -13,6 +13,7 @@
   ],
   "reference": [
     "Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs",
-    "MirChecker"
+    "MirChecker",
+    "CRustS2"
   ]
 }

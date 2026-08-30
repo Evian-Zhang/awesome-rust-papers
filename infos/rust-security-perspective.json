@@ -13,6 +13,13 @@
     "Is Rust Used Safely by Software Developers?",
     "Fearless Concurrency? Understanding Concurrent Programming Safety in Real-World Rust Software",
     "XRust",
-    "Patina"
+    "Patina",
+    "Aeneas",
+    "cargo-klee",
+    "Fuzzing the Rust Typechecker Using CLP (T)",
+    "Crust",
+    "KRust",
+    "Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs",
+    "MirChecker"
   ]
 }

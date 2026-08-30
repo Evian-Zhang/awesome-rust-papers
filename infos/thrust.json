@@ -34,6 +34,7 @@
     "Flux",
     "RefinedRust",
     "Verifying Dynamic Trait Objects in Rust",
-    "LLBC#"
+    "LLBC#",
+    "Crust"
   ]
 }

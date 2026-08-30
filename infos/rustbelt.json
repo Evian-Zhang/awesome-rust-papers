@@ -1,5 +1,6 @@
 {
   "title": "RustBelt: Securing the Foundations of the Rust Programming Language",
+  "alias": "RustBelt",
   "link": "https://doi.org/10.1145/3158154",
   "pdf": "https://dl.acm.org/doi/pdf/10.1145/3158154",
   "repo": "https://gitlab.mpi-sws.org/iris/lambda-rust",
@@ -14,6 +15,7 @@
     "Coq"
   ],
   "reference": [
-    "The Rust Language"
+    "The Rust Language",
+    "Crust"
   ]
 }

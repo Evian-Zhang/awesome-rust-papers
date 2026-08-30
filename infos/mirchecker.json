@@ -21,6 +21,9 @@
     "cargo-klee",
     "Crust",
     "Memory-Safety Challenge Considered Solved? An In-Depth Study with All Rust CVEs",
-    "Fearless Concurrency? Understanding Concurrent Programming Safety in Real-World Rust Software"
+    "Fearless Concurrency? Understanding Concurrent Programming Safety in Real-World Rust Software",
+    "Fuzzing the Rust Typechecker Using CLP (T)",
+    "Is Rust Used Safely by Software Developers?",
+    "Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs"
   ]
 }

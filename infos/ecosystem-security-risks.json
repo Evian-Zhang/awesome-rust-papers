@@ -22,6 +22,7 @@
     "SMACK",
     "cargo-klee",
     "RustBelt: Securing the Foundations of the Rust Programming Language",
-    "Fuzzing the Rust Typechecker Using CLP (T)"
+    "Fuzzing the Rust Typechecker Using CLP (T)",
+    "Crust"
   ]
 }

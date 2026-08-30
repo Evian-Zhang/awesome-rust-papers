@@ -4,6 +4,8 @@ A curated list of academic papers about the [Rust](https://www.rust-lang.org/) p
 
 Papers are grouped by topic and ordered by year within each group. Contributions are welcome — see [CONTRIBUTING](./CONTRIBUTING.md).
 
+All paper data collected in this repository is checked manually by human, and is guaranteed to be hallucination-free. If there is anything wrong, feel free to send an issue.
+
 ## Citation
 
 ```bibtex
@@ -176,6 +178,8 @@ Papers are grouped by topic and ordered by year within each group. Contributions
 
    ICSE Companion 2022 [PDF](https://dl.acm.org/doi/pdf/10.1145/3510454.3528640)
 
+   Cited by 11 papers in this awesome collection.
+
 * [Translating C to Safer Rust](https://doi.org/10.1145/3485498)
 
    OOPSLA 2021 [PDF](https://dl.acm.org/doi/pdf/10.1145/3485498) [Code](https://doi.org/10.5281/zenodo.5442253)
@@ -304,7 +308,7 @@ Papers are grouped by topic and ordered by year within each group. Contributions
 
    ICSE 2020 [PDF](https://dl.acm.org/doi/pdf/10.1145/3377811.3380413)
 
-   Cited by 37 papers in this awesome collection.
+   Cited by 40 papers in this awesome collection.
 
 * [How Do Programmers Use Unsafe Rust?](https://doi.org/10.1145/3428204)
 
@@ -316,7 +320,7 @@ Papers are grouped by topic and ordered by year within each group. Contributions
 
    PLDI 2020 [PDF](https://dl.acm.org/doi/pdf/10.1145/3385412.3386036) [Code](https://github.com/system-pclub/rust-study)
 
-   Cited by 49 papers in this awesome collection.
+   Cited by 53 papers in this awesome collection.
 
 ### formalization
 
@@ -390,7 +394,7 @@ Papers are grouped by topic and ordered by year within each group. Contributions
 
    TASE 2018 [PDF](https://arxiv.org/pdf/1804.10806)
 
-   Cited by 12 papers in this awesome collection.
+   Cited by 14 papers in this awesome collection.
 
 * Patina: A Formalization of the Rust Programming Language
 
@@ -459,6 +463,8 @@ Papers are grouped by topic and ordered by year within each group. Contributions
 * [Garbage Collection Makes Rust Easier to Use: A Randomized Controlled Trial of the Bronze Garbage Collector](https://doi.org/10.1145/3510003.3510107)
 
    ICSE 2022 [PDF](https://dl.acm.org/doi/pdf/10.1145/3510003.3510107) [Code](https://github.com/mcoblenz/Bronze)
+
+   Cited by 3 papers in this awesome collection.
 
 * [RustViz: Interactively Visualizing Ownership and Borrowing](https://doi.org/10.1109/VL/HCC53370.2022.9833121)
 
@@ -559,6 +565,8 @@ Papers are grouped by topic and ordered by year within each group. Contributions
 * [Firecracker: Lightweight Virtualization for Serverless Applications](https://www.usenix.org/conference/nsdi20/presentation/agache)
 
    NSDI 2020 [PDF](https://www.usenix.org/system/files/nsdi20-paper-agache.pdf) [Code](https://github.com/firecracker-microvm/firecracker)
+
+   Cited by 1 papers in this awesome collection.
 
 * [RedLeaf: Isolation and Communication in a Safe Operating System](https://www.usenix.org/conference/osdi20/presentation/narayanan-vikram)
 
@@ -842,7 +850,7 @@ Papers are grouped by topic and ordered by year within each group. Contributions
 
    ASE 2015 [PDF](https://hardekbc.github.io/files/dewey15fuzzing.pdf)
 
-   Cited by 16 papers in this awesome collection.
+   Cited by 19 papers in this awesome collection.
 
 #### concurrency @ security
 
@@ -940,7 +948,7 @@ Papers are grouped by topic and ordered by year within each group. Contributions
 
    ACSAC 2021 [PDF](https://dl.acm.org/doi/pdf/10.1145/3485832.3485903) [Code](https://github.com/mit-ll/galeed)
 
-   Cited by 10 papers in this awesome collection.
+   Cited by 11 papers in this awesome collection.
 
 * [Securing Unsafe Rust Programs with XRust](https://doi.org/10.1145/3377811.3380325)
 
@@ -986,13 +994,13 @@ Papers are grouped by topic and ordered by year within each group. Contributions
 
    ESORICS 2022
 
-   Cited by 11 papers in this awesome collection.
+   Cited by 12 papers in this awesome collection.
 
 * [MirChecker: Detecting Bugs in Rust Programs via Static Analysis](https://doi.org/10.1145/3460120.3484541)
 
    CCS 2021 [PDF](https://dl.acm.org/doi/pdf/10.1145/3460120.3484541) [Code](https://github.com/lizhuohua/rust-mir-checker)
 
-   Cited by 27 papers in this awesome collection.
+   Cited by 30 papers in this awesome collection.
 
 * [Rudra: Finding Memory Safety Bugs in Rust at the Ecosystem Scale](https://doi.org/10.1145/3477132.3483570)
 
@@ -1114,7 +1122,7 @@ Papers are grouped by topic and ordered by year within each group. Contributions
 
    ICFP 2022 [PDF](https://dl.acm.org/doi/pdf/10.1145/3547647) [Code](https://github.com/AeneasVerif/aeneas)
 
-   Cited by 30 papers in this awesome collection.
+   Cited by 31 papers in this awesome collection.
 
 * [Verifying Dynamic Trait Objects in Rust](https://doi.org/10.1145/3510457.3513031)
 
@@ -1174,13 +1182,13 @@ Papers are grouped by topic and ordered by year within each group. Contributions
 
    INDIN 2018 [Code](https://gitlab.henriktjader.com/pln/cargo-klee/)
 
-   Cited by 15 papers in this awesome collection.
+   Cited by 16 papers in this awesome collection.
 
 * [Crust: A Bounded Verifier for Rust](https://doi.org/10.1109/ASE.2015.77)
 
    ASE 2015
 
-   Cited by 4 papers in this awesome collection.
+   Cited by 26 papers in this awesome collection.
 
 #### proof generation @ verification
 

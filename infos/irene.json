@@ -22,6 +22,7 @@
     "Tymcrat",
     "Concrat",
     "Translating C To Rust: Lessons from a User Study",
-    "Improving Automatic C-to-Rust Translation with Static Analysis"
+    "Improving Automatic C-to-Rust Translation with Static Analysis",
+    "CRustS2"
   ]
 }

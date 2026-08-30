@@ -28,6 +28,7 @@
     "Sandcrust",
     "System Programming in Rust: Beyond Safety",
     "Engineering the Servo Web Browser Engine Using Rust",
-    "Fuzzing the Rust Typechecker Using CLP (T)"
+    "Fuzzing the Rust Typechecker Using CLP (T)",
+    "Crust"
   ]
 }

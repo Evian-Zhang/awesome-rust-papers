@@ -24,6 +24,7 @@
     "SMACK",
     "cargo-klee",
     "XRust",
-    "Fearless Concurrency? Understanding Concurrent Programming Safety in Real-World Rust Software"
+    "Fearless Concurrency? Understanding Concurrent Programming Safety in Real-World Rust Software",
+    "Crust"
   ]
 }

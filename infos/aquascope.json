@@ -13,6 +13,7 @@
   ],
   "reference": [
     "GhostCell",
-    "RustViz"
+    "RustViz",
+    "Bronze"
   ]
 }

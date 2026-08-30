@@ -21,6 +21,8 @@
     "Patina",
     "Crust",
     "KRust",
-    "Oxide"
+    "Oxide",
+    "Fuzzing the Rust Typechecker Using CLP (T)",
+    "Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs"
   ]
 }

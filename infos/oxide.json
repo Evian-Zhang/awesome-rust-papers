@@ -15,6 +15,7 @@
     "RustBelt: Securing the Foundations of the Rust Programming Language",
     "Stacked Borrows: An Aliasing Model for Rust",
     "SMACK",
-    "KRust"
+    "KRust",
+    "Crust"
   ]
 }
