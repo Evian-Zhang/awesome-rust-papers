@@ -1,0 +1,23 @@
+{
+  "title": "TickTock: Verified Isolation in a Production Embedded OS",
+  "alias": "TickTock",
+  "link": "https://doi.org/10.1145/3731569.3764856",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3731569.3764856",
+  "based": [
+    "Flux"
+  ],
+  "venue": "SOSP",
+  "year": 2025,
+  "category": "verification",
+  "tag": [
+    "Tock",
+    "operating system",
+    "isolation"
+  ],
+  "reference": [
+    "SquirrelFS",
+    "Verus",
+    "Tock",
+    "The Prusti Project: Formal Verification for Rust"
+  ]
+}

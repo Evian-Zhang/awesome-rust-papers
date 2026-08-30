@@ -1,0 +1,30 @@
+{
+  "title": "Automatic Linear Resource Bound Analysis for Rust via Prophecy Potentials",
+  "alias": "RaRust",
+  "link": "https://doi.org/10.1145/3720492",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3720492",
+  "repo": "https://github.com/Mepy/rarust-oopsla25",
+  "based": [
+    "Charon",
+    "CoinCbc"
+  ],
+  "venue": "OOPSLA",
+  "year": 2025,
+  "category": "program analysis",
+  "tag": [
+    "performance",
+    "static analysis",
+    "resource consumption",
+    "borrow checker"
+  ],
+  "reference": [
+    "RustBelt: Securing the Foundations of the Rust Programming Language",
+    "Prusti",
+    "The Rust Language",
+    "Verus",
+    "RustHorn",
+    "Aeneas",
+    "Flux",
+    "RefinedRust"
+  ]
+}

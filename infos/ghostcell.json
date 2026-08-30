@@ -1,0 +1,22 @@
+{
+  "title": "GhostCell: Separating Permissions from Data in Rust",
+  "alias": "GhostCell",
+  "link": "https://doi.org/10.1145/3473597",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3473597",
+  "repo": "https://gitlab.mpi-sws.org/FP/ghostcell/",
+  "based": [
+    "RustBelt",
+    "Coq"
+  ],
+  "venue": "ICFP",
+  "year": 2021,
+  "category": "language",
+  "tag": [
+    "interior mutability",
+    "branded type"
+  ],
+  "reference": [
+    "RustBelt: Securing the Foundations of the Rust Programming Language",
+    "The Rust Language"
+  ]
+}

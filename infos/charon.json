@@ -1,0 +1,25 @@
+{
+  "title": "Charon: An Analysis Framework for Rust",
+  "alias": "Charon",
+  "link": "https://doi.org/10.1007/978-3-031-98685-7_18",
+  "pdf": "https://arxiv.org/pdf/2410.18042",
+  "repo": "https://github.com/AeneasVerif/charon",
+  "venue": "CAV",
+  "year": 2025,
+  "category": "program analysis",
+  "tag": [
+    "MIR",
+    "AST"
+  ],
+  "reference": [
+    "RustBelt: Securing the Foundations of the Rust Programming Language",
+    "Prusti",
+    "Verus",
+    "Creusot",
+    "Aeneas",
+    "RefinedRust",
+    "Gillian-Rust",
+    "LLBC#",
+    "Yuga"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "title": "OOM-Guard: Towards Improving the Ergonomics of Rust OOM Handling via a Reservation-Based Approach",
+  "alias": "OOM-Guard",
+  "link": "https://doi.org/10.1145/3611643.3616303",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3611643.3616303",
+  "repo": "https://github.com/cchanging/OOM",
+  "venue": "FSE",
+  "year": 2023,
+  "category": "language",
+  "tag": [
+    "memory management",
+    "static analysis",
+    "LLVM IR"
+  ],
+  "reference": [
+    "Is Rust Used Safely by Software Developers?"
+  ]
+}

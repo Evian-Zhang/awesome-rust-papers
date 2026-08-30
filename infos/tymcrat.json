@@ -1,0 +1,28 @@
+{
+  "title": "Type-Migrating C-to-Rust Translation Using a Large Language Model",
+  "alias": "Tymcrat",
+  "link": "https://doi.org/10.1007/s10664-024-10573-2",
+  "pdf": "https://link.springer.com/content/pdf/10.1007/s10664-024-10573-2.pdf",
+  "repo": "https://github.com/kaist-plrg/simcrat",
+  "compared": [
+    "C2Rust",
+    "Laertes",
+    "CROWN",
+    "Concrat"
+  ],
+  "venue": "Empirical Software Engineering",
+  "year": 2025,
+  "category": "c2rust",
+  "tag": [
+    "LLM",
+    "type"
+  ],
+  "reference": [
+    "RustBelt: Securing the Foundations of the Rust Programming Language",
+    "The Rust Language",
+    "Translating C to Safer Rust",
+    "CROWN",
+    "Laertes",
+    "Concrat"
+  ]
+}

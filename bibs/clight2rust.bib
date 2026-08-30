@@ -1,0 +1,16 @@
+@InProceedings{10.1007/978-3-032-30693-7_4,
+author="Yao, Dongwen
+and Wu, Jinhua
+and Wang, Yuting",
+editor="De Giacomo, Giuseppe
+and Li, Jianwen
+and Xiao, Lili",
+title="Clight2Rust: Translating a Subset of C into Safe Rust with a Small Trusted Runtime",
+booktitle="Theoretical Aspects of Software Engineering",
+year="2027",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="55--72",
+abstract="Memory safety vulnerabilities in C programs remain a critical challenge in systems software. While rewriting legacy code in Rust offers a promising solution, manual migration is error-prone and labor-intensive. Existing automated translation tools either generate unsafe Rust or rely on heavy-weight static analysis that struggles with C's flexible pointer arithmetic. We present a lightweight and automated approach to translating C to safe Rust by exploiting dynamic ownership and borrow checking provided by a small trusted runtime built with Rust's smart-pointer primitives. Our method dynamically tracks ownership and borrow boundaries by using a novel pointer structure Ptr<T>, enabling the translation of complex C pointer operations---including aliasing and pointer arithmetic---into safe Rust code while confining unavoidable unsafe operations (raw pointer dereference/casts and C FFI) to the trusted runtime. We implement our approach for the Clight subset of C, as defined in the CompCert verified compiler. Evaluation on a suite of benchmarks demonstrates that the main test cases in CompCert's test suite are successfully translated. Their functional correctness is validated by comparing with the reference C compilers such as Clang and GCC.",
+isbn="978-3-032-30693-7"
+}

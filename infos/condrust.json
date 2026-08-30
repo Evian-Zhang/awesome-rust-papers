@@ -1,0 +1,18 @@
+{
+  "title": "ConDRust: Scalable Deterministic Concurrency from Verifiable Rust Programs",
+  "alias": "ConDRust",
+  "link": "https://doi.org/10.4230/LIPIcs.ECOOP.2023.33",
+  "pdf": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol263-ecoop2023/LIPIcs.ECOOP.2023.33/LIPIcs.ECOOP.2023.33.pdf",
+  "repo": "https://github.com/ohua-lang/condrust",
+  "venue": "ECOOP",
+  "year": 2023,
+  "category": "formalization",
+  "tag": [
+    "concurrency",
+    "compiler"
+  ],
+  "reference": [
+    "Prusti",
+    "Verifying Dynamic Trait Objects in Rust"
+  ]
+}

@@ -1,0 +1,16 @@
+@inproceedings{10.1145/3144555.3144562,
+author = {Lamowski, Benjamin and Weinhold, Carsten and Lackorzynski, Adam and H{\"a}rtig, Hermann},
+title = {Sandcrust: Automatic Sandboxing of Unsafe Components in Rust},
+year = {2017},
+isbn = {9781450351539},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3144555.3144562},
+doi = {10.1145/3144555.3144562},
+abstract = {System-level development has been dominated by traditional programming languages such as C and C++ for decades. These languages are inherently unsafe regarding memory management. Even experienced developers make mistakes that open up security holes or compromise the safety properties of software. The Rust programming language is targeted at the systems domain and aims to eliminate memory-related programming errors by enforcing a strict memory model at the language and compiler level. Unfortunately, these compile-time guarantees no longer hold when a Rust program is linked against a library written in unsafe C, which is commonly required for functionality where an implementation in Rust is not yet available.In this paper, we present Sandcrust, an easy-to-use sand-boxing solution for isolating code and data of a C library in a separate process. This isolation protects the Rust-based main program from any memory corruption caused by bugs in the unsafe library, which would otherwise invalidate the memory safety guarantees of Rust. Sandcrust is based on the Rust macro system and requires no modification to the compiler or runtime, but only straightforward annotation of functions that call the library's API.},
+booktitle = {Proceedings of the 9th Workshop on Programming Languages and Operating Systems},
+pages = {51–57},
+numpages = {7},
+location = {Shanghai, China},
+series = {PLOS '17}
+}

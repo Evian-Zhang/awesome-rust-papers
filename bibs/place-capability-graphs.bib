@@ -1,0 +1,18 @@
+@article{10.1145/3763122,
+author = {Grannan, Zachary and B{\'i}l{\'y}, Aurel and Fiala, Jon{\'a}{\v s} and Geer, Jasper and de Medeiros, Markus and M{\"u}ller, Peter and Summers, Alexander J.},
+title = {Place Capability Graphs: A General-Purpose Model of Rust’s Ownership and Borrowing Guarantees},
+year = {2025},
+issue_date = {October 2025},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {9},
+number = {OOPSLA2},
+url = {https://doi.org/10.1145/3763122},
+doi = {10.1145/3763122},
+abstract = {Rust’s novel type system has proved an attractive target for verification and program analysis tools, due to the rich guarantees it provides for controlling aliasing and mutability. However, fully understanding, extracting and exploiting these guarantees is subtle and challenging: existing models for Rust’s type checking either support a smaller idealised language disconnected from real-world Rust code, or come with severe limitations in terms of precise modelling of Rust borrows, composite types storing them, function signatures and loops.In this paper, we present Place Capability Graphs: a novel model of Rust’s type-checking results, which lifts these limitations, and which can be directly calculated from the Rust compiler’s own programmatic representations and analyses. We demonstrate that our model supports over 97\% of Rust functions in the most popular public crates, and show its suitability as a general-purpose basis for verification and program analysis tools by developing promising new prototype versions of the existing Flowistry and Prusti tools.},
+journal = {Proc. ACM Program. Lang.},
+month = oct,
+articleno = {344},
+numpages = {28},
+keywords = {Program Analysis, Type Systems, Rust, Borrow Checking}
+}

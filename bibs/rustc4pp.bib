@@ -1,0 +1,15 @@
+@article{10.1145/3800689,
+author = {Zhang, Yichi and Feng, Yang},
+title = {RustC4++: Improving Rust Code-Comment Inconsistency Detection via Hybrid LLM and Static Analysis},
+year = {2026},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+issn = {1049-331X},
+url = {https://doi.org/10.1145/3800689},
+doi = {10.1145/3800689},
+abstract = {Maintaining consistency between source code and its associated comments is essential for software reliability, maintainability, and user experience, particularly in the Rust programming ecosystem where comment serves as both developer guidance and an authoritative API contract. However, existing automated inconsistency detection approaches are largely tailored for object-oriented languages and fall short of addressing Rust’s unique features, such as explicit panic semantics, trait-based abstraction, and idiomatic use of option and finiteness constraints.In this paper, we introduce RustC4 ++ , a novel hybrid framework that integrates large language model (LLM)-driven constraint extraction, static program analysis, and SMT-based bidirectional verification to detect and diagnose code-comment inconsistencies in Rust. RustC4 ++ extends previous solutions by supporting a richer taxonomy of constraints, including interval, boundary, existence, option, and finiteness constraints, and pioneers a systematic method for propagating comment constraint across trait and implementation boundaries. Leveraging chain-of-thought prompt engineering, RustC4 ++ robustly interprets natural language comment, maps it to formal specifications, and checks their alignment with code logic through precise static analysis and formal reasoning. We conduct extensive experiments on 17 diverse, real-world Rust projects, demonstrating that RustC4 ++ substantially outperforms prior tools in both precision and recall, and is capable of uncovering subtle, actionable inconsistencies that have led to confirmed fixes in upstream repositories. By elevating comments to enforceable, verifiable contracts, RustC4 ++ not only enhances code quality and comment reliability in the Rust ecosystem, but also offers generalizable techniques and insights for automated code comment analysis in other modern programming languages.},
+note = {Just Accepted},
+journal = {ACM Trans. Softw. Eng. Methodol.},
+month = mar,
+keywords = {Code Comment Inconsistency, Rust, Large Language Model, Program Analysis}
+}

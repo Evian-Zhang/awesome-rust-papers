@@ -1,0 +1,18 @@
+{
+  "title": "Multiprogramming a 64kB Computer Safely and Efficiently",
+  "alias": "Tock",
+  "link": "https://doi.org/10.1145/3132747.3132786",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3132747.3132786",
+  "repo": "https://github.com/tock/tock",
+  "venue": "SOSP",
+  "year": 2017,
+  "category": {
+    "product": "operating system"
+  },
+  "tag": [
+    "hardware"
+  ],
+  "reference": [
+    "The Rust Language"
+  ]
+}

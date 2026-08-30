@@ -1,0 +1,27 @@
+{
+  "title": "Detecting Cross-Language Memory Management Issues in Rust",
+  "alias": "FFICHECKER",
+  "link": "https://doi.org/10.1007/978-3-031-17143-7_33",
+  "venue": "ESORICS",
+  "year": 2022,
+  "category": {
+    "security": "static analysis"
+  },
+  "tag": [
+    "FFI",
+    "memory management"
+  ],
+  "reference": [
+    "Prusti",
+    "Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs",
+    "MirChecker",
+    "Memory-Safety Challenge Considered Solved? An In-Depth Study with All Rust CVEs",
+    "Is Rust Used Safely by Software Developers?",
+    "SafeDrop",
+    "SMACK",
+    "Crust",
+    "cargo-klee",
+    "Galeed",
+    "Cross-Language Attacks"
+  ]
+}

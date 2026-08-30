@@ -1,0 +1,28 @@
+{
+  "title": "RuMono: Fuzz Driver Synthesis for Rust Generic APIs",
+  "alias": "RuMono",
+  "link": "https://doi.org/10.1145/3709359",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3709359",
+  "repo": "https://github.com/Artisan-Lab/RULF/tree/RuMono",
+  "based": [
+    "RULF"
+  ],
+  "compared": [
+    "RULF",
+    "RPG"
+  ],
+  "venue": "ACM TOSEM",
+  "year": 2025,
+  "category": {
+    "security": "fuzzing"
+  },
+  "tag": [
+    "harness",
+    "generic"
+  ],
+  "reference": [
+    "RULF",
+    "RPG",
+    "SymRustC"
+  ]
+}

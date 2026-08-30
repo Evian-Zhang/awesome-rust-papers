@@ -1,0 +1,23 @@
+{
+  "title": "Converos: Practical Model Checking for Verifying Rust OS Kernel Concurrency",
+  "alias": "Converos",
+  "link": "https://www.usenix.org/conference/atc25/presentation/tang",
+  "pdf": "https://www.usenix.org/system/files/atc25-tang.pdf",
+  "based": [
+    "PlusCal",
+    "TLA+"
+  ],
+  "venue": "USENIX ATC",
+  "year": 2025,
+  "category": "verification",
+  "tag": [
+    "model checking",
+    "concurrency",
+    "PlusCal"
+  ],
+  "reference": [
+    "ASTERINAS",
+    "Verus: A Practical Foundation for Systems Verification",
+    "Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs"
+  ]
+}

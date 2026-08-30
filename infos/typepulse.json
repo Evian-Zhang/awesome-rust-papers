@@ -1,0 +1,30 @@
+{
+  "title": "TYPEPULSE: Detecting Type Confusion Bugs in Rust Programs",
+  "alias": "TYPEPULSE",
+  "link": "https://www.usenix.org/conference/usenixsecurity25/presentation/chen-hung-mao",
+  "pdf": "https://www.usenix.org/system/files/usenixsecurity25-chen-hung-mao.pdf",
+  "repo": "https://github.com/shinmao/TYPEPULSE",
+  "compared": [
+    "Rudra"
+  ],
+  "venue": "USENIX Security",
+  "year": 2025,
+  "category": "security",
+  "tag": [
+    "type confusion",
+    "static analysis",
+    "pointer analysis",
+    "MIR"
+  ],
+  "reference": [
+    "Rupta",
+    "PKRU-safe",
+    "Galeed",
+    "MirChecker",
+    "Rudra",
+    "SafeDrop",
+    "Is Rust Used Safely by Software Developers?",
+    "Memory-Safety Challenge Considered Solved? An In-Depth Study with All Rust CVEs",
+    "Cross-Language Attacks"
+  ]
+}

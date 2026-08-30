@@ -1,0 +1,31 @@
+{
+  "title": "Scylla: Translating an Applicative Subset of C to Safe Rust",
+  "alias": "Scylla",
+  "link": "https://doi.org/10.1145/3798229",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3798229",
+  "repo": "https://github.com/AeneasVerif/scylla",
+  "based": [
+    "KaRaMeL"
+  ],
+  "compared": [
+    "C2Rust"
+  ],
+  "venue": "OOPSLA",
+  "year": 2026,
+  "category": "c2rust",
+  "tag": [
+    "pointer",
+    "formalization"
+  ],
+  "reference": [
+    "Formal Security and Functional Verification of Cryptographic Protocol Implementations in Rust",
+    "C2SaferRust",
+    "Translating C To Rust: Lessons from a User Study",
+    "Tymcrat",
+    "Improving Automatic C-to-Rust Translation with Static Analysis",
+    "Laertes",
+    "CROWN",
+    "Concrat",
+    "Translating C to Safer Rust"
+  ]
+}

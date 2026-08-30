@@ -1,0 +1,19 @@
+{
+  "title": "Cocoon: Static Information Flow Control in Rust",
+  "alias": "Cocoon",
+  "link": "https://doi.org/10.1145/3649817",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3649817",
+  "repo": "https://github.com/PLaSSticity/Cocoon-implementation",
+  "venue": "OOPSLA",
+  "year": 2024,
+  "category": "program analysis",
+  "tag": [
+    "information flow control",
+    "secrecy",
+    "integrity",
+    "effect system"
+  ],
+  "reference": [
+    "Flowistry"
+  ]
+}

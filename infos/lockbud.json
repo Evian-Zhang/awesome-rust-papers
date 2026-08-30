@@ -1,0 +1,42 @@
+{
+  "title": "Understanding and Detecting Real-World Safety Issues in Rust",
+  "alias": "lockbud",
+  "link": "https://doi.org/10.1109/TSE.2024.3380393",
+  "pdf": "https://songlh.github.io/paper/rust-tse.pdf",
+  "repo": "https://github.com/BurtonQin/lockbud",
+  "based": [
+    "Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs"
+  ],
+  "compared": [
+    "Rudra",
+    "MirChecker"
+  ],
+  "venue": "IEEE TSE",
+  "year": 2024,
+  "category": "ecosystem",
+  "tag": [
+    "empirical study",
+    "memory safety",
+    "concurrency",
+    "panic",
+    "MIR",
+    "deadlock"
+  ],
+  "reference": [
+    "RustBelt: Securing the Foundations of the Rust Programming Language",
+    "Tock",
+    "Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs",
+    "MirChecker",
+    "Stacked Borrows: An Aliasing Model for Rust",
+    "Memory-Safety Challenge Considered Solved? An In-Depth Study with All Rust CVEs",
+    "Fuzzing the Rust Typechecker Using CLP (T)",
+    "SafeDrop",
+    "SMACK",
+    "SyRust",
+    "Rumpsteak",
+    "FeatherweightRust",
+    "FFICHECKER",
+    "RPG",
+    "Rupta"
+  ]
+}

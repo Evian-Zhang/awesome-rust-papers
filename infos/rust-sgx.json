@@ -1,0 +1,21 @@
+{
+  "title": "Towards Memory Safe Enclave Programming with Rust-SGX",
+  "alias": "Rust-SGX",
+  "link": "https://doi.org/10.1145/3319535.3354241",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3319535.3354241",
+  "repo": "https://github.com/apache/teaclave-sgx-sdk",
+  "venue": "CCS",
+  "year": 2019,
+  "category": "product",
+  "tag": [
+    "Intel SGX",
+    "hardware",
+    "formalization",
+    "FFI",
+    "security"
+  ],
+  "reference": [
+    "RustBelt: Securing the Foundations of the Rust Programming Language",
+    "The Rust Language"
+  ]
+}

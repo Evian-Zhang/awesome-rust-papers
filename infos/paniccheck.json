@@ -1,0 +1,26 @@
+{
+  "title": "Broadly Enabling KLEE to Effortlessly Find Unrecoverable Errors in Rust",
+  "alias": "PanicCheck",
+  "link": "https://doi.org/10.1145/3639477.3639714",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3639477.3639714",
+  "based": [
+    "KLEE",
+    "LLVM",
+    "RVT"
+  ],
+  "venue": "ICSE-SEIP",
+  "year": 2024,
+  "category": {
+    "verification": "proof generation"
+  },
+  "tag": [
+    "panic",
+    "symbolic execution"
+  ],
+  "reference": [
+    "Prusti",
+    "SMACK",
+    "cargo-klee",
+    "RVT"
+  ]
+}

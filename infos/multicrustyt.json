@@ -1,0 +1,23 @@
+{
+  "title": "Fearless Asynchronous Communications with Timed Multiparty Session Protocols",
+  "alias": "MultiCrustyT",
+  "link": "https://doi.org/10.4230/LIPIcs.ECOOP.2024.19",
+  "pdf": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol313-ecoop2024/LIPIcs.ECOOP.2024.19/LIPIcs.ECOOP.2024.19.pdf",
+  "repo": "https://github.com/NicolasLagaillardie/mpst_rust_github",
+  "venue": "ECOOP",
+  "year": 2024,
+  "category": {
+    "product": "session type"
+  },
+  "tag": [
+    "multiparty session type",
+    "asynchronous",
+    "timeout"
+  ],
+  "reference": [
+    "MultiCrusty",
+    "Rumpsteak",
+    "Rusty Variation",
+    "Session Types for Rust"
+  ]
+}

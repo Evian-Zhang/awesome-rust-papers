@@ -1,0 +1,22 @@
+{
+  "title": "Stay Safe Under Panic: Affine Rust Programming with Multiparty Session Types",
+  "alias": "MultiCrusty",
+  "link": "https://doi.org/10.4230/LIPIcs.ECOOP.2022.4",
+  "pdf": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol222-ecoop2022/LIPIcs.ECOOP.2022.4/LIPIcs.ECOOP.2022.4.pdf",
+  "repo": "https://github.com/NicolasLagaillardie/mpst_rust_github",
+  "venue": "ECOOP",
+  "year": 2022,
+  "category": {
+    "product": "session type"
+  },
+  "tag": [
+    "panic",
+    "multiparty session type"
+  ],
+  "reference": [
+    "Rumpsteak",
+    "Ferrite",
+    "Rusty Variation",
+    "Session Types for Rust"
+  ]
+}

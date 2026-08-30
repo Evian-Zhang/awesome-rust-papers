@@ -1,0 +1,35 @@
+{
+  "title": "Rust for Embedded Systems: Current State and Open Problems",
+  "link": "https://doi.org/10.1145/3658644.3690275",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3658644.3690275",
+  "venue": "CCS",
+  "year": 2024,
+  "category": "ecosystem",
+  "tag": [
+    "embedded system",
+    "empirical study",
+    "static analysis"
+  ],
+  "reference": [
+    "Yuga",
+    "rCanary",
+    "Towards Understanding the Runtime Performance of Rust",
+    "Verifying Dynamic Trait Objects in Rust",
+    "Learning and Programming Challenges of Rust: A Mixed-Methods Study",
+    "PKRU-safe",
+    "Galeed",
+    "MirChecker",
+    "Rudra",
+    "Translating C to Safer Rust",
+    "SafeDrop",
+    "XRust",
+    "Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs",
+    "Sandcrust",
+    "Tock",
+    "The Rust Language",
+    "TRust",
+    "Cross-Language Attacks",
+    "FFICHECKER",
+    "Benefits and Drawbacks of Adopting a Secure Programming Language: Rust as a Case Study"
+  ]
+}

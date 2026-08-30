@@ -1,0 +1,27 @@
+{
+  "title": "hax: Verifying Security-Critical Rust Software Using Multiple Provers",
+  "alias": "hax",
+  "link": "https://doi.org/10.1007/978-3-031-86695-1_7",
+  "repo": "https://github.com/cryspen/hax",
+  "based": [
+    "F*",
+    "ProVerif",
+    "SSProve",
+    "Coq"
+  ],
+  "venue": "VSTTE",
+  "year": 2024,
+  "category": "verification",
+  "tag": [
+    "cryptography",
+    "cryptographic protocol implementation"
+  ],
+  "reference": [
+    "Prusti",
+    "Creusot",
+    "Aeneas",
+    "Flux",
+    "RefinedRust",
+    "Verifying Dynamic Trait Objects in Rust"
+  ]
+}

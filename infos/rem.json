@@ -1,0 +1,19 @@
+{
+  "title": "Adventure of a Lifetime: Extract Method Refactoring for Rust",
+  "alias": "REM",
+  "link": "https://doi.org/10.1145/3622821",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3622821",
+  "repo": "https://doi.org/10.5281/zenodo.8124395",
+  "venue": "OOPSLA",
+  "year": 2023,
+  "category": "language",
+  "tag": [
+    "refactor",
+    "extract method",
+    "lifetime"
+  ],
+  "reference": [
+    "Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs",
+    "Translating C to Safer Rust"
+  ]
+}

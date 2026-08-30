@@ -1,0 +1,25 @@
+{
+  "title": "VERT: Polyglot Verified Equivalent Rust Transpilation with Large Language Models",
+  "alias": "VERT",
+  "link": "https://doi.org/10.1109/ASE63991.2025.00123",
+  "pdf": "https://arxiv.org/pdf/2404.18852",
+  "repo": "https://doi.org/10.5281/zenodo.10927704",
+  "venue": "ASE",
+  "year": 2025,
+  "category": "c2rust",
+  "tag": [
+    "LLM",
+    "model training",
+    "fine tune",
+    "formalization",
+    "Web Assembly",
+    "model checker"
+  ],
+  "reference": [
+    "Verus",
+    "Qrates",
+    "Translating C to Safer Rust",
+    "CROWN",
+    "Verifying Dynamic Trait Objects in Rust"
+  ]
+}

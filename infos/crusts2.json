@@ -1,0 +1,24 @@
+{
+  "title": "In rust we trust: a transpiler from unsafe C to safer rust",
+  "alias": "CRustS2",
+  "link": "https://doi.org/10.1145/3510454.3528640",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3510454.3528640",
+  "based": [
+    "C2Rust"
+  ],
+  "compared": [
+    "C2Rust",
+    "CRustS"
+  ],
+  "venue": "ICSE Companion",
+  "year": 2022,
+  "category": "c2rust",
+  "tag": [
+    "unsafe"
+  ],
+  "reference": [
+    "The Rust Language",
+    "Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs",
+    "Translating C to Safer Rust"
+  ]
+}

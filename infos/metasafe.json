@@ -1,0 +1,22 @@
+{
+  "title": "MetaSafe: Compiling for Protecting Smart Pointer Metadata to Ensure Safe Rust Integrity",
+  "alias": "MetaSafe",
+  "link": "https://www.usenix.org/conference/usenixsecurity24/presentation/kayondo",
+  "pdf": "https://www.usenix.org/system/files/usenixsecurity24-kayondo.pdf",
+  "repo": "https://github.com/seccompgeek/trust23-metsafe24",
+  "based": [
+    "TRust"
+  ],
+  "venue": "USENIX Security",
+  "year": 2024,
+  "category": {
+    "security": "isolation"
+  },
+  "tag": [
+    "smart pointer",
+    "memory safety",
+    "MPK",
+    "hardware"
+  ],
+  "reference": []
+}

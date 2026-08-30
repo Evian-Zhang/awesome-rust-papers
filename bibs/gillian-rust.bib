@@ -1,0 +1,18 @@
+@article{10.1145/3729289,
+author = {Ayoun, Sacha-{\'E}lie and Denis, Xavier and Maksimovi{\'c}, Petar and Gardner, Philippa},
+title = {A Hybrid Approach to Semi-automated Rust Verification},
+year = {2025},
+issue_date = {June 2025},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {9},
+number = {PLDI},
+url = {https://doi.org/10.1145/3729289},
+doi = {10.1145/3729289},
+abstract = {We propose a hybrid approach to end-to-end Rust verification where the proof effort is split into powerful automated verification of safe Rust and targeted semi-automated verification of unsafe Rust. To this end, we present Gillian-Rust, a proof-of-concept semi-automated verification tool built on top of the Gillian platform that can reason about type safety and functional correctness of unsafe code. Gillian-Rust automates a rich separation logic for real-world Rust, embedding the lifetime logic of RustBelt and the parametric prophecies of RustHornBelt, and is able to verify real-world Rust standard library code with only minor annotations and with verification times orders of magnitude faster than those of comparable tools. We link Gillian-Rust with Creusot, a state-of-the-art verifier for safe Rust, by providing a systematic encoding of unsafe code specifications that Creusot can use but cannot verify, demonstrating the feasibility of our hybrid approach.},
+journal = {Proc. ACM Program. Lang.},
+month = jun,
+articleno = {186},
+numpages = {23},
+keywords = {Rust, semi-automatic verification, symbolic execution, compositionality}
+}

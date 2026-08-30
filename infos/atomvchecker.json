@@ -1,0 +1,24 @@
+{
+  "title": "Understanding Atomics and Memory Ordering Issues in Real-World Rust Software",
+  "alias": "AtomVChecker",
+  "link": "https://doi.org/10.1109/ISSRE62328.2024.00061",
+  "repo": "https://github.com/AtomVChecker/rust-atomic-study",
+  "venue": "ISSRE",
+  "year": 2024,
+  "category": {
+    "security": "concurrency"
+  },
+  "tag": [
+    "static analysis",
+    "empirical study",
+    "atomic",
+    "memory ordering"
+  ],
+  "reference": [
+    "Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs",
+    "MirChecker",
+    "SafeDrop",
+    "FFICHECKER",
+    "lockbud"
+  ]
+}

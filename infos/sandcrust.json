@@ -1,0 +1,17 @@
+{
+  "title": "Sandcrust: Automatic sandboxing of unsafe components in rust",
+  "alias": "Sandcrust",
+  "link": "https://doi.org/10.1145/3144555.3144562",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3144555.3144562",
+  "repo": "https://github.com/atopia/sandcrust",
+  "venue": "PLOS@SOSP",
+  "year": 2017,
+  "category": {
+    "security": "isolation"
+  },
+  "tag": [
+    "unsafe",
+    "FFI"
+  ],
+  "reference": []
+}

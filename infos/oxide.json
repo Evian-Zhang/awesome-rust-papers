@@ -1,0 +1,20 @@
+{
+  "title": "Oxide: The Essence of Rust",
+  "alias": "Oxide",
+  "link": "https://arxiv.org/abs/1903.00982",
+  "pdf": "https://arxiv.org/pdf/1903.00982",
+  "repo": "https://github.com/aatxe/oxide",
+  "venue": "arXiv",
+  "year": 2019,
+  "category": "formalization",
+  "tag": [
+    "type system",
+    "type checker"
+  ],
+  "reference": [
+    "RustBelt: Securing the Foundations of the Rust Programming Language",
+    "Stacked Borrows: An Aliasing Model for Rust",
+    "SMACK",
+    "KRust"
+  ]
+}

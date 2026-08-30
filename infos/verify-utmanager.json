@@ -1,0 +1,22 @@
+{
+  "title": "Formal Verification of a Rust-Based Buddy Physical Memory Allocator",
+  "link": "https://doi.org/10.1007/978-3-032-30693-7_5",
+  "venue": "TASE",
+  "year": 2026,
+  "category": "verification",
+  "tag": [
+    "memory allocator",
+    "operating system"
+  ],
+  "reference": [
+    "The Prusti Project: Formal Verification for Rust",
+    "Theseus",
+    "RustBelt: Securing the Foundations of the Rust Programming Language",
+    "Verus: A Practical Foundation for Systems Verification",
+    "Verus",
+    "RedLeaf",
+    "ASTERINAS",
+    "Tock: From Research To Securing 10 Million Computers",
+    "Verifying Dynamic Trait Objects in Rust"
+  ]
+}

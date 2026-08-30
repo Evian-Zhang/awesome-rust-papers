@@ -1,0 +1,22 @@
+{
+  "title": "Carapace: Static-Dynamic Information Flow Control in Rust",
+  "alias": "Carapace",
+  "link": "https://doi.org/10.1145/3720427",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3720427",
+  "repo": "https://github.com/PLaSSticity/Carapace-implementation",
+  "based": [
+    "Cocoon"
+  ],
+  "venue": "OOPSLA",
+  "year": 2025,
+  "category": "program analysis",
+  "tag": [
+    "information flow control",
+    "secrecy",
+    "integrity"
+  ],
+  "reference": [
+    "Cocoon",
+    "System Programming in Rust: Beyond Safety"
+  ]
+}

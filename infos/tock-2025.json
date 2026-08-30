@@ -1,0 +1,19 @@
+{
+  "title": "Tock: From Research To Securing 10 Million Computers",
+  "link": "https://doi.org/10.1145/3731569.3764828",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3731569.3764828",
+  "repo": "https://github.com/tock/tock",
+  "venue": "SOSP",
+  "year": 2025,
+  "category": "product",
+  "tag": [
+    "ecosystem"
+  ],
+  "reference": [
+    "TickTock",
+    "Rudra",
+    "Tock",
+    "Theseus",
+    "RedLeaf"
+  ]
+}

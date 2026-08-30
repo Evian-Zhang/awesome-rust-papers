@@ -1,0 +1,28 @@
+{
+  "title": "PALM: Synergizing Program Analysis and LLMs to Enhance Rust Unit Test Coverage",
+  "alias": "PALM",
+  "link": "https://doi.org/10.1109/ASE63991.2025.00223",
+  "pdf": "https://arxiv.org/pdf/2506.09002",
+  "compared": [
+    "RustyUnit",
+    "RuMono",
+    "Rug"
+  ],
+  "venue": "ASE",
+  "year": 2025,
+  "category": "program analysis",
+  "tag": [
+    "LLM",
+    "harness",
+    "static analysis",
+    "unit test"
+  ],
+  "reference": [
+    "MirChecker",
+    "RULF",
+    "SyRust",
+    "RUSTYUNIT",
+    "Rug",
+    "RuMono"
+  ]
+}

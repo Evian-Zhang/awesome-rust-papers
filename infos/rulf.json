@@ -1,0 +1,25 @@
+{
+  "title": "RULF: Rust Library Fuzzing via API Dependency Graph Traversal",
+  "alias": "RULF",
+  "link": "https://doi.org/10.1109/ASE51524.2021.9678813",
+  "pdf": "https://arxiv.org/pdf/2104.12064",
+  "repo": "https://github.com/Artisan-Lab/RULF",
+  "based": [
+    "AFL++"
+  ],
+  "venue": "ASE",
+  "year": 2021,
+  "category": {
+    "security": "fuzzing"
+  },
+  "tag": [
+    "harness",
+    "static analysis"
+  ],
+  "reference": [
+    "RustBelt: Securing the Foundations of the Rust Programming Language",
+    "Tock",
+    "SyRust",
+    "RedLeaf"
+  ]
+}

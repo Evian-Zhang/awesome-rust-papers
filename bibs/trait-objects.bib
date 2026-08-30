@@ -1,0 +1,17 @@
+@inproceedings{10.1145/3510457.3513031,
+author = {VanHattum, Alexa and Schwartz-Narbonne, Daniel and Chong, Nathan and Sampson, Adrian},
+title = {Verifying dynamic trait objects in rust},
+year = {2022},
+isbn = {9781450392266},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3510457.3513031},
+doi = {10.1145/3510457.3513031},
+abstract = {Rust has risen in prominence as a systems programming language in large part due to its focus on reliability. The language's advanced type system and borrow checker eliminate certain classes of memory safety violations. But for critical pieces of code, teams need assurance beyond what the type checker alone can provide. Verification tools for Rust can check other properties, from memory faults in unsafe Rust code to user-defined correctness assertions. This paper particularly focuses on the challenges in reasoning about Rust's dynamic trait objects, a feature that provides dynamic dispatch for function abstractions. While the explicit dyn keyword that denotes dynamic dispatch is used in 37\% of the 500 most-downloaded Rust libraries (crates), dynamic dispatch is implicitly linked into 70\%. To our knowledge, our open-source Kani Rust Verifier is the first symbolic modeling checking tool for Rust that can verify correctness while supporting the breadth of dynamic trait objects, including dynamically dispatched closures. We show how our system uses semantic trait information from Rust's Mid-level Intermediate Representation (an advantage over targeting a language-agnostic level such as LLVM) to improve verification performance by 5\%--15{\texttimes} for examples from open-source virtualization software. Finally, we share an open-source suite of verification test cases for dynamic trait objects.},
+booktitle = {Proceedings of the 44th International Conference on Software Engineering: Software Engineering in Practice},
+pages = {321–330},
+numpages = {10},
+keywords = {dynamic dispatch, model checking, rust, verification},
+location = {Pittsburgh, Pennsylvania},
+series = {ICSE-SEIP '22}
+}

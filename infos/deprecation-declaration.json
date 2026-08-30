@@ -1,0 +1,16 @@
+{
+  "title": "A Deep Dive Into Deprecation Declarations in the Rust Package Ecosystem",
+  "link": "https://doi.org/10.1109/TSE.2026.3660015",
+  "venue": "IEEE TSE",
+  "year": 2026,
+  "category": "ecosystem",
+  "tag": [
+    "deprecation",
+    "empirical study",
+    "dependency"
+  ],
+  "reference": [
+    "An Empirical Study of Yanked Releases in the Rust Package Registry",
+    "Core Developer Turnover in the Rust Package Ecosystem: Prevalence, Impact, and Awareness"
+  ]
+}

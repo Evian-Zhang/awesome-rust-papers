@@ -1,0 +1,25 @@
+{
+  "title": "Rustlantis: Randomized Differential Testing of the Rust Compiler",
+  "alias": "Rustlantis",
+  "link": "https://doi.org/10.1145/3689780",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3689780",
+  "repo": "https://github.com/cbeuw/rustlantis",
+  "venue": "OOPSLA",
+  "year": 2024,
+  "category": {
+    "security": "compiler"
+  },
+  "tag": [
+    "fuzzing",
+    "differential testing",
+    "correctness",
+    "MIR",
+    "LLVM"
+  ],
+  "reference": [
+    "Stacked Borrows: An Aliasing Model for Rust",
+    "RustSmith: Random Differential Compiler Testing for Rust",
+    "Fuzzing the Rust Typechecker Using CLP (T)",
+    "FeatherweightRust"
+  ]
+}

@@ -1,0 +1,17 @@
+@inproceedings{10.1145/3510454.3528640,
+author = {Ling, Michael and Yu, Yijun and Wu, Haitao and Wang, Yuan and Cordy, James R. and Hassan, Ahmed E.},
+title = {In rust we trust: a transpiler from unsafe C to safer rust},
+year = {2022},
+isbn = {9781450392235},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3510454.3528640},
+doi = {10.1145/3510454.3528640},
+abstract = {Rust is a type-safe system programming language with a compiler checking memory and concurrency safety. For a smooth transition from existing C projects, a source-to-source transpiler can autotransform C programs into Rust using program transformation. However, existing C-to-Rust transformation tools (e.g. the open-source C2Rust transpiler1 project) have the drawback of preserving the unsafe semantics of C, while rewriting them in Rust's syntax. The work by Emre et el. [2] acknowledged these drawbacks, and used rustc compiler feedback to refactor one certain type of raw pointers to Rust references to improve overall safety and idiomaticness of C2Rust output. Focusing on improving API-safeness (i.e. lowering unsafe keyword usage in function signatures), we apply source-to-source transformation technique to auto-refactor C2Rust output using code structure pattern matching and transformation, which does not rely on rustc compiler feedback. And by relaxing the semantics-preserving constraints of transformations, we present CRustS2 a fully-automated source-to-source transformation approach that increases the ratio of the transformed code passing the safety checks of the rustc compiler. Our method uses 220 new TXL [1] source-to-source transformation rules, of which 198 are strictly semantics-preserving and 22 are semantics-approximating, thus reducing the scope of unsafe expressions and exposing more opportunities for safe Rust refactoring. Our method has been evaluated on both open-source and commercial C projects, and demonstrates significantly higher safe code ratios after the transformations, with function-level safe code ratios comparable to the average level of idiomatic Rust projects.},
+booktitle = {Proceedings of the ACM/IEEE 44th International Conference on Software Engineering: Companion Proceedings},
+pages = {354–355},
+numpages = {2},
+keywords = {code transformation, measurement, refactoring, safety, transpiler},
+location = {Pittsburgh, Pennsylvania},
+series = {ICSE '22}
+}

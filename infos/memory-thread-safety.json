@@ -1,0 +1,22 @@
+{
+  "title": "Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs",
+  "link": "https://doi.org/10.1145/3385412.3386036",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3385412.3386036",
+  "repo": "https://github.com/system-pclub/rust-study",
+  "venue": "PLDI",
+  "year": 2020,
+  "category": "ecosystem",
+  "tag": [
+    "memory safety",
+    "concurrency",
+    "empirical study",
+    "unsafe"
+  ],
+  "reference": [
+    "RustBelt: Securing the Foundations of the Rust Programming Language",
+    "Tock",
+    "Stacked Borrows: An Aliasing Model for Rust",
+    "Fuzzing the Rust Typechecker Using CLP (T)",
+    "SMACK"
+  ]
+}

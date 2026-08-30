@@ -1,0 +1,17 @@
+@inproceedings{10.1145/3626183.3659966,
+author = {Abdi, Javad and Posluns, Gilead and Zhang, Guozheng and Wang, Boxuan and Jeffrey, Mark C.},
+title = {When Is Parallelism Fearless and Zero-Cost with Rust?},
+year = {2024},
+isbn = {9798400704161},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3626183.3659966},
+doi = {10.1145/3626183.3659966},
+abstract = {The Rust programming language is lauded for enabling fearless concurrency with zero cost: detecting concurrency errors at compile time. Given the enduring difficulty of parallel programming in other languages, this implied panacea warrants analysis. In particular, the efficacy of Rust across types of parallelism remains unexplored. Is parallel programming always devoid of fear with Rust? We answer this question through a case study, porting 14 benchmarks with abundant regular and irregular parallelism from C++ to Rust and reporting our experience and observations. We find that Rust, with the Rayon library, indeed delivers fearlessness for program phases comprising only regular parallelism, e.g., prefix-sum. However, for applications with any irregular parallelism, the programmer must choose between unsafe code or high-overhead dynamic checks with errors that manifest at run time, leaving the arduous task of parallel programming as scary with Rust as with its predecessors.},
+booktitle = {Proceedings of the 36th ACM Symposium on Parallelism in Algorithms and Architectures},
+pages = {27–40},
+numpages = {14},
+keywords = {fearless concurrency, irregular parallelism, regular parallelism, rust, zero-cost abstraction},
+location = {Nantes, France},
+series = {SPAA '24}
+}

@@ -1,0 +1,28 @@
+{
+  "title": "A Context-Sensitive Pointer Analysis Framework for Rust and Its Application to Call Graph Construction",
+  "alias": "Rupta",
+  "link": "https://doi.org/10.1145/3640537.3641574",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3640537.3641574",
+  "repo": "https://github.com/rustanlys/rupta",
+  "venue": "CC",
+  "year": 2024,
+  "category": "program analysis",
+  "tag": [
+    "pointer",
+    "call graph",
+    "pointer analysis"
+  ],
+  "reference": [
+    "Prusti",
+    "Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs",
+    "MirChecker",
+    "Memory-Safety Challenge Considered Solved? An In-Depth Study with All Rust CVEs",
+    "Is Rust Used Safely by Software Developers?",
+    "Engineering the Servo Web Browser Engine Using Rust",
+    "SafeDrop",
+    "SMACK",
+    "cargo-klee",
+    "Verifying Dynamic Trait Objects in Rust",
+    "Prusti Closures"
+  ]
+}

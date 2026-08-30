@@ -1,0 +1,46 @@
+{
+  "title": "Crabtree: Rust API Test Synthesis Guided by Coverage and Type",
+  "alias": "Crabtree",
+  "link": "https://doi.org/10.1145/3689733",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3689733",
+  "venue": "OOPSLA",
+  "year": 2024,
+  "based": [
+    "afl.rs",
+    "Z3",
+    "Miri"
+  ],
+  "compared": [
+    "SyRust",
+    "RULF"
+  ],
+  "category": {
+    "security": "fuzzing"
+  },
+  "tag": [
+    "harness",
+    "trait",
+    "Miri",
+    "afl.rs",
+    "Z3"
+  ],
+  "reference": [
+    "The Rust Language",
+    "Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs",
+    "Verus",
+    "Stacked Borrows: An Aliasing Model for Rust",
+    "Memory-Safety Challenge Considered Solved? An In-Depth Study with All Rust CVEs",
+    "Creusot",
+    "RULF",
+    "Aeneas",
+    "Flux",
+    "Fuzzing the Rust Typechecker Using CLP (T)",
+    "RustHornBelt",
+    "SyRust",
+    "Verifying Dynamic Trait Objects in Rust",
+    "Prusti Closures",
+    "RusSOL",
+    "Automatically Enforcing Rust Trait Properties",
+    "RVT"
+  ]
+}

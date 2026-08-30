@@ -1,0 +1,17 @@
+@inproceedings{10.1145/3803437.3805266,
+author = {Feng, Jia and Gan, Wenjie and Gao, Cuiyun and Wang, Chaozheng and Luo, Feng and Xia, Xin and Li, Ge and Liu, Kui},
+title = {Dependency-Guided Repository-Level C-to-Rust Translation with Reinforcement Alignment},
+year = {2026},
+isbn = {9798400726361},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3803437.3805266},
+doi = {10.1145/3803437.3805266},
+abstract = {Automating C-to-Rust migration is critical for enhancing software security without compromising performance. Traditional rule-based methods often struggle with diverse C idioms, yielding unidiomatic and rigid Rust translations. In contrast, Large Language Models (LLMs), enriched by massive code corpora, offer a superior alternative due to their cross-language generalization, enabling the generation of idiomatic and maintainable Rust code. However, applying LLMs to C-to-Rust migration still poses several challenges. First, existing LLM-based approaches fail to adequately handle cross-file references. They either overlook the dependencies or incorporate entire files as context, thereby hindering the model's ability to accurately capture dependency information for translation. Second, the complex dependencies and structured inputs/outputs make it difficult to validate the syntactic correctness and functional equivalence of repository-level translations. Furthermore, the scarcity of large-scale C-Rust parallel data constrains the inherent generation capabilities of LLMs, resulting in limited performance.To address these challenges, we propose DepTrans, which synergizes model-level capability enhancement with a structured inference framework. DepTrans first employs the Reinforcement-Aligned Syntax Training module to bolster the model's intrinsic generation capabilities through multi-task fine-tuning and feedback-driven reinforcement learning. Building upon this enhanced foundation model, the Dependency-Guided Iterative Refinement module identifies the fine-grained cross-file dependencies as enriched context for the initial translation, and further iteratively refines the generated Rust code to ensure the syntactic correctness and functional equivalence. To facilitate the model training and repository-level evaluation, we construct a large-scale corpus of 85k training samples and a specialized benchmark of 145 repository-level instances. Experimental results show that DepTrans achieves a compilation success rate of 60.7\% and a computational accuracy of 43.5\%, outperforming the strongest baseline by 22.8\% and 17.3\%, respectively. Moreover, DepTrans successfully builds 7 out of 15 industrial-scale C projects from Huawei's internal codebase, demonstrating its potential in enterprise-level C-to-Rust migration.},
+booktitle = {Proceedings of the 34th ACM International Conference on the Foundations of Software Engineering},
+pages = {954–965},
+numpages = {12},
+keywords = {C-to-rust translation, large language models},
+location = {Concordia University, Montreal, QC, Canada},
+series = {FSE Companion '26}
+}

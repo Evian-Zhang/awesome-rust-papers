@@ -1,0 +1,22 @@
+{
+  "title": "Verus: A Practical Foundation for Systems Verification",
+  "link": "https://doi.org/10.1145/3694715.3695952",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3694715.3695952",
+  "repo": "https://github.com/verus-lang/verus",
+  "compared": [
+    "Pruti",
+    "Creusot"
+  ],
+  "venue": "SOSP",
+  "year": 2024,
+  "category": "verification",
+  "reference": [
+    "Verus",
+    "Aeneas",
+    "Rudra",
+    "Prusti Closures",
+    "RustBelt: Securing the Foundations of the Rust Programming Language",
+    "The Rust Language",
+    "Creusot"
+  ]
+}

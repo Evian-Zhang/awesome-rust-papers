@@ -1,0 +1,18 @@
+@article{10.1145/3763179,
+author = {Hughes, Jacob and Tratt, Laurence},
+title = {Garbage Collection for Rust: The Finalizer Frontier},
+year = {2025},
+issue_date = {October 2025},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {9},
+number = {OOPSLA2},
+url = {https://doi.org/10.1145/3763179},
+doi = {10.1145/3763179},
+abstract = {Rust is a non-Garbage Collected (GCed) language, but the lack of GC makes expressing data-structures that require shared ownership awkward, inefficient, or both. In this paper we explore a new design for, and implementation of, GC in Rust, called Alloy. Unlike previous approaches to GC in Rust, Alloy allows existing Rust destructors to be automatically used as GC finalizers: this makes Alloy integrate better with existing Rust code than previous solutions but introduces surprising soundness and performance problems. Alloy provides novel solutions for the core problems: finalizer safety analysis rejects unsound destructors from automatically being reused as finalizers; finalizer elision optimises away unnecessary finalizers; and premature finalizer prevention ensures that finalizers are only run when it is provably safe to do so.},
+journal = {Proc. ACM Program. Lang.},
+month = oct,
+articleno = {401},
+numpages = {27},
+keywords = {Compilers, Garbage collection, Rust}
+}

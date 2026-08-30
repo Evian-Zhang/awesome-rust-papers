@@ -1,0 +1,29 @@
+{
+  "title": "Atmosphere: Practical Verified Kernels with Rust and Verus",
+  "alias": "Atmosphere",
+  "link": "https://doi.org/10.1145/3731569.3764821",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3731569.3764821",
+  "repo": "https://github.com/mars-research/atmosphere",
+  "venue": "SOSP",
+  "year": 2025,
+  "category": {
+    "product": "operating system"
+  },
+  "tag": [
+    "verification",
+    "Verus",
+    "microkernel",
+    "correctness"
+  ],
+  "reference": [
+    "Verus: A Practical Foundation for Systems Verification",
+    "Verus",
+    "Aeneas",
+    "Prusti",
+    "RustBelt: Securing the Foundations of the Rust Programming Language",
+    "Tock",
+    "Creusot",
+    "The Prusti Project: Formal Verification for Rust",
+    "RedLeaf"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "title": "VRLifeTime - An IDE Tool to Avoid Concurrency and Memory Bugs in Rust",
+  "alias": "VRLifeTime",
+  "link": "https://doi.org/10.1145/3372297.3420024",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3372297.3420024",
+  "repo": "https://github.com/system-pclub/VRLifeTime",
+  "venue": "CCS",
+  "year": 2020,
+  "category": "language",
+  "tag": [
+    "learning",
+    "lifetime",
+    "concurrency"
+  ],
+  "reference": [
+    "Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs"
+  ]
+}

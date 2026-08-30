@@ -1,0 +1,16 @@
+{
+  "title": "Firecracker: Lightweight Virtualization for Serverless Applications",
+  "alias": "Firecracker",
+  "link": "https://www.usenix.org/conference/nsdi20/presentation/agache",
+  "pdf": "https://www.usenix.org/system/files/nsdi20-paper-agache.pdf",
+  "repo": "https://github.com/firecracker-microvm/firecracker",
+  "venue": "NSDI",
+  "year": 2020,
+  "category": {
+    "product": "operating system"
+  },
+  "tag": [
+    "virtual machine monitor"
+  ],
+  "reference": []
+}

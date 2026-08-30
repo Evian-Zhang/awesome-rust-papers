@@ -1,0 +1,18 @@
+@article{10.1145/3371102,
+author = {Dang, Hoang-Hai and Jourdan, Jacques-Henri and Kaiser, Jan-Oliver and Dreyer, Derek},
+title = {RustBelt meets relaxed memory},
+year = {2019},
+issue_date = {January 2020},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {4},
+number = {POPL},
+url = {https://doi.org/10.1145/3371102},
+doi = {10.1145/3371102},
+abstract = {The Rust programming language supports safe systems programming by means of a strong ownership-tracking type system. In their prior work on RustBelt, Jung et al. began the task of setting Rust’s safety claims on a more rigorous formal foundation. Specifically, they used Iris, a Coq-based separation logic framework, to build a machine-checked proof of semantic soundness for a λ-calculus model of Rust, as well as for a number of widely-used Rust libraries that internally employ unsafe language features. However, they also made the significant simplifying assumption that the language is sequentially consistent. In this paper, we adapt RustBelt to account for the relaxed-memory operations that concurrent Rust libraries actually use, in the process uncovering a data race in the Arc library. We focus on the most interesting technical problem: how to reason about resource reclamation under relaxed memory, using a logical construction we call synchronized ghost state.},
+journal = {Proc. ACM Program. Lang.},
+month = dec,
+articleno = {34},
+numpages = {29},
+keywords = {Iris, Rust, relaxed memory models, semantic soundness}
+}

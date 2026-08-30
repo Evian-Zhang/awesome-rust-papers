@@ -1,0 +1,15 @@
+@article{10.1145/3795532,
+author = {Cai, Xuemeng and Liu, Jiakun and Liu, Cunyang and Bao, Lingfeng and Yu, Yijun and Jiang, Lingxiao},
+title = {Fortifying the Seams Between C/C++ and Rust: Characterizing Bugs in Interop Tools},
+year = {2026},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+issn = {1049-331X},
+url = {https://doi.org/10.1145/3795532},
+doi = {10.1145/3795532},
+abstract = {Rust has become increasingly popular in recent years due to its safety and high performance. Despite these advantages, Rust projects rarely start from scratch in practice, and many Rust-based systems instead use hybrid programming, where Rust interoperates with existing C/C++ code. To reduce the manual effort involved in this interoperation (interop) process, several interop tools have been proposed to facilitate hybrid programming between Rust and C/C++. However, the challenges and limitations of these tools remain largely unexplored, leaving developers unclear about the future directions and users unclear about the appropriate usage scenarios. To fill the gap, we mined 320 bugs in the popular interop tools, i.e., Bindgen, Cbindgen, and CXX. We observe that the main obstacle is not tool crashes or performance issues, but the inability to generate correct and functional code. The leading types of the failures are generating code that is unfaithful to the original code's intent and generating incomplete code. Memory layout mismatch is the most common cause with Bindgen. Input with complex struct is the biggest challenge across tools, followed by the usage with specific tool configuration options for customized binding generation. Even input with primitive data types can be problematic. We also observe a common fix pattern that updates the control flow and condition. Based on our findings, we propose a series of suggestions to developers, users, and future researchers. For example, we suggest the developers validate configuration combinations, provide clearer documentation, and implement default-safe mechanisms to prevent failures related to unexpected tool configuration options.},
+note = {Just Accepted},
+journal = {ACM Trans. Softw. Eng. Methodol.},
+month = feb,
+keywords = {Rust, interop, C/C++, empirical study, bug characteristics}
+}

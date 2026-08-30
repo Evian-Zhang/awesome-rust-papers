@@ -1,0 +1,21 @@
+@InProceedings{10.1007/978-3-032-30693-7_6,
+author="Zhang, Yuchen
+and Wen, Cheng
+and Xu, Zhiwu
+and Liu, Dugang
+and Cao, Jialun
+and Liu, Yuwei
+and Qin, Shengchao
+and Tian, Cong",
+editor="De Giacomo, Giuseppe
+and Li, Jianwen
+and Xiao, Lili",
+title="Enhancing LLM-Based Proof Synthesis for Rust Programs via Semantic Chunking and Hierarchical Context Expansion",
+booktitle="Theoretical Aspects of Software Engineering",
+year="2027",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="81--100",
+abstract="Formal verification of Rust programs using Verus provides rigorous correctness guarantees but demands significant manual effort to craft auxiliary specifications and proofs. While Large Language Model (LLM) agents such as AutoVerus show promise for automating this process, they often fail on non-trivial tasks because generation is under-grounded: the model lacks access to fine-grained, verification-relevant proof patterns. Na{\"i}ve retrieval-augmented generation (RAG) is also ineffective, since retrieving coarse-grained entire files or functions introduces noise and obscures the fine-grained logical patterns required for verification. To bridge this gap, we present VerusSeek, a retrieval-augmented framework for automated Verus proof synthesis that addresses this granularity mismatch. VerusSeek semantically chunks verified Verus code into proof constructs (e.g., contracts, loop invariants, lemmas, proof blocks, and assertions), performs type-aware retrieval, and applies hierarchical context expansion to provide concise yet logically grounded evidence to the model. We evaluate VerusSeek on 150 VerusBench tasks, showing that our fine-grained approach substantially improves verification success and significantly outperforms both AutoVerus and the RagVerus, with improvements of 76.7{\%} and 43.4{\%}, respectively.",
+isbn="978-3-032-30693-7"
+}

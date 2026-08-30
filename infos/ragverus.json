@@ -1,0 +1,21 @@
+{
+  "title": "Towards Repository-Level Program Verification with Large Language Models",
+  "alias": "RagVerus",
+  "link": "https://doi.org/10.1145/3759425.3763382",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3759425.3763382",
+  "repo": "https://github.com/GouQi12138/RVBench",
+  "venue": "LMPL",
+  "year": 2025,
+  "category": {
+    "verification": "proof generation"
+  },
+  "tag": [
+    "LLM",
+    "RAG",
+    "Verus"
+  ],
+  "reference": [
+    "AutoVerus",
+    "Verus"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "title": "\"I wouldn't want my unsafe code to run my pacemaker\": An Interview Study on the Use, Comprehension, and Perceived Risks of Unsafe Rust",
+  "link": "https://www.usenix.org/conference/usenixsecurity23/presentation/holtervennhoff",
+  "pdf": "https://www.usenix.org/system/files/usenixsecurity23-holtervennhoff.pdf",
+  "venue": "USENIX Security",
+  "year": 2023,
+  "category": "ecosystem",
+  "tag": [
+    "unsafe",
+    "security",
+    "empirical study"
+  ],
+  "reference": []
+}

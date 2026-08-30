@@ -1,0 +1,24 @@
+{
+  "title": "Keeping Safe Rust Safe with Galeed",
+  "alias": "Galeed",
+  "link": "https://doi.org/10.1145/3485832.3485903",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3485832.3485903",
+  "repo": "https://github.com/mit-ll/galeed",
+  "based": [
+    "libmpk"
+  ],
+  "venue": "ACSAC",
+  "year": 2021,
+  "category": {
+    "security": "isolation"
+  },
+  "tag": [
+    "MPK",
+    "PKRU",
+    "LLVM",
+    "hardware"
+  ],
+  "reference": [
+    "The Rust Language"
+  ]
+}

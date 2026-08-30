@@ -1,0 +1,15 @@
+{
+  "title": "Theseus: An Experiment in Operating System Structure and State Management",
+  "alias": "Theseus",
+  "link": "https://www.usenix.org/conference/osdi20/presentation/boos",
+  "pdf": "https://www.usenix.org/system/files/osdi20-boos.pdf",
+  "repo": "https://github.com/theseus-os/Theseus",
+  "venue": "OSDI",
+  "year": 2020,
+  "category": {
+    "product": "operating system"
+  },
+  "reference": [
+    "Stacked Borrows: An Aliasing Model for Rust"
+  ]
+}

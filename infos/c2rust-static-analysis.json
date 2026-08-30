@@ -1,0 +1,19 @@
+{
+  "title": "Improving Automatic C-to-Rust Translation with Static Analysis",
+  "link": "https://doi.org/10.1109/ICSE-Companion58688.2023.00074",
+  "venue": "ICSE Companion",
+  "year": 2023,
+  "category": "c2rust",
+  "tag": [
+    "static analysis",
+    "unsafe",
+    "concurrency",
+    "output parameter"
+  ],
+  "reference": [
+    "The Rust Language",
+    "RustBelt: Securing the Foundations of the Rust Programming Language",
+    "Translating C to Safer Rust",
+    "Concrat"
+  ]
+}

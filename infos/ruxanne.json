@@ -1,0 +1,18 @@
+{
+  "title": "A Study of Common Bug Fix Patterns in Rust",
+  "alias": "Ruxanne",
+  "link": "https://doi.org/10.1007/s10664-023-10437-1",
+  "repo": "https://github.com/mohrobati/ruxanne",
+  "venue": "Empirical Software Engineering",
+  "year": 2024,
+  "category": "program analysis",
+  "tag": [
+    "borrow checker",
+    "patch",
+    "empirical study"
+  ],
+  "reference": [
+    "Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs",
+    "MirChecker"
+  ]
+}

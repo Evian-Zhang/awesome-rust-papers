@@ -1,0 +1,32 @@
+{
+  "title": "Verifying the Rust Standard Library",
+  "alias": "verify-rust-std",
+  "link": "https://doi.org/10.1007/978-3-032-28079-4_19",
+  "pdf": "https://arxiv.org/pdf/2606.17374",
+  "repo": "https://github.com/model-checking/verify-rust-std",
+  "venue": "NFM",
+  "year": 2026,
+  "category": "verification",
+  "reference": [
+    "RustBelt: Securing the Foundations of the Rust Programming Language",
+    "Tock",
+    "Verus",
+    "Qrates",
+    "MirChecker",
+    "Stacked Borrows: An Aliasing Model for Rust",
+    "Creusot",
+    "The Prusti Project: Formal Verification for Rust",
+    "Flux",
+    "RefinedRust",
+    "RustBelt Meets Relaxed Memory",
+    "Engineering the Servo Web Browser Engine Using Rust",
+    "KRust",
+    "Verifying Dynamic Trait Objects in Rust",
+    "Is Unsafe an Achilles' Heel? A Comprehensive Study of Safety Requirements in Unsafe Rust Programming",
+    "Gillian-Rust",
+    "Tree Borrows",
+    "Formal Security and Functional Verification of Cryptographic Protocol Implementations in Rust",
+    "Miri",
+    "hax"
+  ]
+}

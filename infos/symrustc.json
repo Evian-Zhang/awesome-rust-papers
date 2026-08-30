@@ -1,0 +1,21 @@
+{
+  "title": "SymRustC: A Hybrid Fuzzer for Rust",
+  "alias": "SymRustC",
+  "link": "https://doi.org/10.1145/3597926.3604927",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3597926.3604927",
+  "repo": "https://github.com/sfu-rsl/symrustc",
+  "based": [
+    "SymCC",
+    "LibAFL"
+  ],
+  "venue": "ISSTA",
+  "year": 2023,
+  "category": {
+    "security": "fuzzing"
+  },
+  "tag": [
+    "concolic execution",
+    "LLVM IR"
+  ],
+  "reference": []
+}

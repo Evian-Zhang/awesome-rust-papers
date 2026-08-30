@@ -1,0 +1,32 @@
+{
+  "title": "A Study of Undefined Behavior Across Foreign Function Boundaries in Rust Libraries",
+  "alias": "MiriLLI",
+  "link": "https://doi.org/10.1109/ICSE55347.2025.00167",
+  "pdf": "https://arxiv.org/pdf/2404.11671",
+  "repo": "https://github.com/icmccorm/mirilli",
+  "based": [
+    "Miri"
+  ],
+  "venue": "ICSE",
+  "year": 2025,
+  "category": "security",
+  "tag": [
+    "FFI",
+    "soundness",
+    "Miri",
+    "tree borrow",
+    "empirical study"
+  ],
+  "reference": [
+    "RustBelt: Securing the Foundations of the Rust Programming Language",
+    "Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs",
+    "Qrates",
+    "MirChecker",
+    "Stacked Borrows: An Aliasing Model for Rust",
+    "Memory-Safety Challenge Considered Solved? An In-Depth Study with All Rust CVEs",
+    "RefinedRust",
+    "SafeDrop",
+    "FFICHECKER",
+    "Is Unsafe an Achilles' Heel? A Comprehensive Study of Safety Requirements in Unsafe Rust Programming"
+  ]
+}

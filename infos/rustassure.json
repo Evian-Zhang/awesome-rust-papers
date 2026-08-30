@@ -1,0 +1,29 @@
+{
+  "title": "RustAssure: Differential Symbolic Testing for LLM-Transpiled C-to-Rust Code",
+  "alias": "RustAssure",
+  "link": "https://doi.org/10.1109/ASE63991.2025.00051",
+  "pdf": "https://arxiv.org/pdf/2510.07604",
+  "repo": "https://github.com/davsec-lab/rustassure",
+  "compared": [
+    "FLUORINE"
+  ],
+  "venue": "ASE",
+  "year": 2025,
+  "category": "c2rust",
+  "tag": [
+    "LLM",
+    "differential testing",
+    "symbolic execution",
+    "LLVM IR"
+  ],
+  "reference": [
+    "Translating C to Safer Rust",
+    "CROWN",
+    "Laertes",
+    "Tymcrat",
+    "Concrat",
+    "C2SaferRust",
+    "GenC2Rust",
+    "PanicCheck"
+  ]
+}

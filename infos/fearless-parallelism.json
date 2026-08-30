@@ -1,0 +1,28 @@
+{
+  "title": "When Is Parallelism Fearless and Zero-Cost with Rust?",
+  "link": "https://doi.org/10.1145/3626183.3659966",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3626183.3659966",
+  "venue": "SPAA",
+  "year": 2024,
+  "category": {
+    "security": "concurrency"
+  },
+  "tag": [
+    "empirical study",
+    "parallelism"
+  ],
+  "reference": [
+    "The Rust Language",
+    "Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs",
+    "Qrates",
+    "Stacked Borrows: An Aliasing Model for Rust",
+    "RustHorn",
+    "Aeneas",
+    "RustBelt Meets Relaxed Memory",
+    "Is Rust Used Safely by Software Developers?",
+    "Galeed",
+    "XRust",
+    "Rumpsteak",
+    "GhostCell"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "title": "RPG: Rust Library Fuzzing with Pool-Based Fuzz Target Generation and Generic Support",
+  "alias": "RPG",
+  "link": "https://doi.org/10.1145/3597503.3639102",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3597503.3639102",
+  "repo": "https://doi.org/10.5281/zenodo.8202158",
+  "compared": [
+    "RULF",
+    "Miri",
+    "Rudra"
+  ],
+  "venue": "ICSE",
+  "year": 2024,
+  "category": {
+    "security": "fuzzing"
+  },
+  "tag": [
+    "harness",
+    "unsafe"
+  ],
+  "reference": [
+    "RustHornBelt",
+    "Verifying Dynamic Trait Objects in Rust",
+    "An Empirical Study of Yanked Releases in the Rust Package Registry",
+    "Rupair",
+    "MirChecker",
+    "Rudra",
+    "SyRust",
+    "RULF",
+    "FeatherweightRust",
+    "XRust",
+    "Is Rust Used Safely by Software Developers?",
+    "Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs",
+    "Memory-Safety Challenge Considered Solved? An In-Depth Study with All Rust CVEs",
+    "Stacked Borrows: An Aliasing Model for Rust",
+    "Prusti",
+    "SMACK",
+    "KRust",
+    "RustBelt: Securing the Foundations of the Rust Programming Language",
+    "Fuzzing the Rust Typechecker Using CLP (T)",
+    "FFICHECKER",
+    "Benefits and Drawbacks of Adopting a Secure Programming Language: Rust as a Case Study",
+    "Comprehensiveness, Automation and Lifecycle: A New Perspective for Rust Security",
+    "RUSTYUNIT",
+    "Learning and Programming Challenges of Rust: A Mixed-Methods Study"
+  ]
+}

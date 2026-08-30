@@ -1,0 +1,27 @@
+{
+  "title": "Integrating Rules and Semantics for LLM-Based C-to-Rust Translation",
+  "alias": "IRENE",
+  "link": "https://doi.org/10.1109/ICSME64153.2025.00069",
+  "pdf": "https://arxiv.org/pdf/2508.06926",
+  "compared": [
+    "VERT",
+    "C2Rust"
+  ],
+  "venue": "ICSME",
+  "year": 2025,
+  "category": "c2rust",
+  "tag": [
+    "LLM",
+    "RAG",
+    "static analysis"
+  ],
+  "reference": [
+    "Translating C to Safer Rust",
+    "CROWN",
+    "Laertes",
+    "Tymcrat",
+    "Concrat",
+    "Translating C To Rust: Lessons from a User Study",
+    "Improving Automatic C-to-Rust Translation with Static Analysis"
+  ]
+}

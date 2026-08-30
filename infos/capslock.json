@@ -1,0 +1,34 @@
+{
+  "title": "Securing Mixed Rust with Hardware Capabilities",
+  "alias": "CapsLock",
+  "link": "https://doi.org/10.1145/3719027.3744861",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3719027.3744861",
+  "repo": "https://github.com/jasonyu1996/capslock",
+  "compared": [
+    "Miri"
+  ],
+  "venue": "CCS",
+  "year": 2025,
+  "category": "security",
+  "tag": [
+    "FFI",
+    "unsafe",
+    "QEMU"
+  ],
+  "reference": [
+    "MiriLLI",
+    "On the Dual Nature of Necessity in Use of Rust Unsafe Code",
+    "PKRU-safe",
+    "Galeed",
+    "Qrates",
+    "XRust",
+    "Stacked Borrows: An Aliasing Model for Rust",
+    "Sandcrust",
+    "MetaSafe",
+    "RustSan",
+    "TRust",
+    "FFICHECKER",
+    "Tree Borrows",
+    "ERASan"
+  ]
+}

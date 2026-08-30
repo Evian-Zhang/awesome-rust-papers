@@ -1,0 +1,18 @@
+@article{10.1145/3797128,
+author = {Liu, Zixi and Feng, Yang and Jiang, Jialiang and Xu, Baowen},
+title = {Detecting Bugs in Rust Compiler Fix Suggestions via Constraint-Violation-Guided Mutation},
+year = {2026},
+issue_date = {July 2026},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {3},
+number = {FSE},
+url = {https://doi.org/10.1145/3797128},
+doi = {10.1145/3797128},
+abstract = {Rust is a modern systems programming language that ensures memory safety through unique mechanisms, including ownership, borrowing, and lifetime annotations. These features prevent critical vulnerabilities but also impose strict constraints that many developers find difficult to understand. To mitigate this challenge, the Rust compiler, rustc, provides rich diagnostics and fix suggestions. However, recent studies reveal that diagnostic issues account for about 20\% of all reported rustc bugs. Our analysis of rustc's suggestion bugs fixed over the past three years shows that most of them originated from errors in Rust-specific core modules, such as the type checker and borrow checker, rather than from simple mistakes in the general diagnostic logic, like suggesting an incorrect variable name or mismatched parentheses. The impact of diagnostic issues, especially bugs in rustc's fix suggestion, should not be underestimated, as they can mislead developers and reduce rustc's usability, and in severe cases may even lead to rustc crashes. Existing testing tools, however, provide little support for systematically evaluating the correctness and reliability of these suggestions.    To address this gap, in this paper, we present SugBreaker, an automated testing framework specifically designed to validate rustc's suggestions. We propose a constraint-violation-guided mutation approach that injects type-related, borrow-related, and lifetime-related errors into valid Rust programs to trigger compiler diagnostics and iteratively verify the correctness of suggested fixes.   SugBreaker has already detected 12 bugs, and 11 of them have been confirmed or fixed; all of them are triggered by different rustc error messages.Compared with a series of rustc testing baseline tools, SugBreaker achieves broader coverage of rustc's core checking modules and a higher suggestion trigger rate, which further confirms the effectiveness and efficiency of SugBreaker for testing rustc's fix suggestions.},
+journal = {Proc. ACM Softw. Eng.},
+month = jun,
+articleno = {FSE033},
+numpages = {22},
+keywords = {Rust, compiler, mutation, testing}
+}

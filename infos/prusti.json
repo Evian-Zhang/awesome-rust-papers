@@ -1,0 +1,25 @@
+{
+  "title": "Leveraging Rust Types for Modular Specification and Verification",
+  "alias": "Prusti",
+  "link": "https://doi.org/10.1145/3360573",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3360573",
+  "repo": "https://github.com/viperproject/prusti-dev",
+  "based": [
+    "Viper"
+  ],
+  "venue": "OOPSLA",
+  "year": 2019,
+  "category": "verification",
+  "tag": [
+    "correctness",
+    "memory safety",
+    "MIR"
+  ],
+  "reference": [
+    "RustBelt: Securing the Foundations of the Rust Programming Language",
+    "The Rust Language",
+    "SMACK",
+    "cargo-klee",
+    "KRust"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "title": "RustSan: Retrofitting AddressSanitizer for Efficient Sanitization of Rust",
+  "alias": "RustSan",
+  "link": "https://www.usenix.org/conference/usenixsecurity24/presentation/cho-kyuwon",
+  "pdf": "https://www.usenix.org/system/files/usenixsecurity24-cho-kyuwon.pdf",
+  "repo": "https://github.com/sslab-skku/RustSan",
+  "compared": [
+    "ASan"
+  ],
+  "venue": "USENIX Security",
+  "year": 2024,
+  "category": {
+    "security": "sanitizer"
+  },
+  "tag": [
+    "HIR",
+    "MIR",
+    "unsafe",
+    "LLVM"
+  ],
+  "reference": []
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Is Rust Used Safely by Software Developers?",
+  "link": "https://doi.org/10.1145/3377811.3380413",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3377811.3380413",
+  "venue": "ICSE",
+  "year": 2020,
+  "category": "ecosystem",
+  "tag": [
+    "unsafe"
+  ],
+  "reference": [
+    "Stacked Borrows: An Aliasing Model for Rust",
+    "Oxide",
+    "RustBelt: Securing the Foundations of the Rust Programming Language",
+    "Tock",
+    "System Programming in Rust: Beyond Safety",
+    "Rust as a Language for High Performance GC Implementation",
+    "Engineering the Servo Web Browser Engine Using Rust"
+  ]
+}

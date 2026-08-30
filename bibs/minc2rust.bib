@@ -1,0 +1,18 @@
+@article{10.1007/s10664-026-10905-4,
+author = {Kang, Zhehao and Zhu, Qianyu and Mou, Wenrui and Wang, Bang and Zhang, Xiaogang and Huang, Haojun},
+title = {MinsC2Rust: LLM-driven project-level code migration from C to safe Rust},
+year = {2026},
+issue_date = {Jul 2026},
+publisher = {Kluwer Academic Publishers},
+address = {USA},
+volume = {31},
+number = {6},
+issn = {1382-3256},
+url = {https://doi.org/10.1007/s10664-026-10905-4},
+doi = {10.1007/s10664-026-10905-4},
+abstract = {C and C++ dominate systems programming but suffer from inherent memory safety issues. Rust offers a promising alternative due to its safety guarantees and performance, yet migrating legacy C/C++ code remains challenging. Existing automated transpilation approaches are either rule-based–yielding non-idiomatic, unsafe Rust–or LLM-based, which improve safety and style but struggle with scalability, context limitations, and preserving the original project structure. To address these challenges, we propose MinsC2Rust, an LLM-driven framework for automated C-to-Rust project code migration. It follows a divide-transpile-reconstruct paradigm that enables scalable, context-aware transpilation. MinsC2Rust (1) analyzes function dependencies to schedule transpilation, (2) decomposes projects into self-contained units, (3) iteratively transpiles using LLMs with dependency context and compilation error feedback, and (4) reconstructs the complete Rust project while maintaining the original project’s code structure (including file organization and inter-function call relations). Evaluations on C-Algorithm and Crown benchmarks show that MinsC2Rust achieves 98.4\% compilation success and 42.6\% execution correctness. It also produces highly safe code, with 100\% safe lines of code coverage and 95.8\% safe reference ratio, outperforming four representative methods across rule-based and LLM-based transpilation paradigms. These results demonstrate that MinsC2Rust offers a practical and scalable solution for migrating C codebases to Rust.},
+journal = {Empirical Softw. Engg.},
+month = jun,
+numpages = {34},
+keywords = {C-to-Rust transpilation, LLM-driven transpilation, Project-level transpilation, Safe rust transpilation}
+}

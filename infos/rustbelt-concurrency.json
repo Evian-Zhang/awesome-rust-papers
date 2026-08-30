@@ -1,0 +1,18 @@
+{
+  "title": "RustBelt Meets Relaxed Memory",
+  "link": "https://doi.org/10.1145/3371102",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3371102",
+  "repo": "https://doi.org/10.5281/zenodo.3539237",
+  "based": [
+    "RustBelt"
+  ],
+  "venue": "POPL",
+  "year": 2020,
+  "category": "verification",
+  "tag": [
+    "concurrency"
+  ],
+  "reference": [
+    "RustBelt: Securing the Foundations of the Rust Programming Language"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "title": "Stack Filtering: Elevating Precision and Efficiency in Rust Pointer Analysis",
+  "link": "https://doi.org/10.1145/3696443.3708921",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3696443.3708921",
+  "repo": "https://github.com/rustanlys/rupta",
+  "based": [
+    "Rupta"
+  ],
+  "venue": "CGO",
+  "year": 2025,
+  "category": "program analysis",
+  "tag": [
+    "pointer analysis",
+    "lifetime"
+  ],
+  "reference": [
+    "Prusti",
+    "Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs",
+    "MirChecker",
+    "Flux",
+    "Engineering the Servo Web Browser Engine Using Rust",
+    "SafeDrop",
+    "Verifying Dynamic Trait Objects in Rust",
+    "Prusti Closures",
+    "Flowistry",
+    "Rupta"
+  ]
+}

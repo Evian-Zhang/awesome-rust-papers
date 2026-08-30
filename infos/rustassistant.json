@@ -1,0 +1,15 @@
+{
+  "title": "RustAssistant: Using LLMs to Fix Compilation Errors in Rust Code",
+  "alias": "RustAssistant",
+  "link": "https://doi.org/10.1109/ICSE55347.2025.00022",
+  "pdf": "https://www.microsoft.com/en-us/research/wp-content/uploads/2024/08/paper.pdf",
+  "venue": "ICSE",
+  "year": 2025,
+  "category": "program analysis",
+  "tag": [
+    "LLM",
+    "patch",
+    "compilation error"
+  ],
+  "reference": []
+}

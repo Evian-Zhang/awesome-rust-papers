@@ -1,0 +1,20 @@
+{
+  "title": "Ferrite: A Judgmental Embedding of Session Types in Rust",
+  "alias": "Ferrite",
+  "link": "https://doi.org/10.4230/LIPIcs.ECOOP.2022.22",
+  "pdf": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol222-ecoop2022/LIPIcs.ECOOP.2022.22/LIPIcs.ECOOP.2022.22.pdf",
+  "repo": "https://github.com/ferrite-rs/ferrite",
+  "venue": "ECOOP",
+  "year": 2022,
+  "category": {
+    "product": "session type"
+  },
+  "tag": [
+    "session type"
+  ],
+  "reference": [
+    "RustBelt: Securing the Foundations of the Rust Programming Language",
+    "Session Types for Rust",
+    "Oxide"
+  ]
+}

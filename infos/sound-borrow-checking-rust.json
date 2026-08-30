@@ -1,0 +1,24 @@
+{
+  "title": "Sound Borrow-Checking for Rust via Symbolic Semantics",
+  "alias": "LLBC#",
+  "link": "https://doi.org/10.1145/3674640",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3674640",
+  "repo": "https://doi.org/10.5281/zenodo.11500453",
+  "based": [
+    "Aeneas"
+  ],
+  "venue": "ICFP",
+  "year": 2024,
+  "category": "formalization",
+  "tag": [
+    "borrow checker"
+  ],
+  "reference": [
+    "Prusti",
+    "Verus",
+    "Creusot",
+    "Aeneas",
+    "RustHornBelt",
+    "RustHorn"
+  ]
+}

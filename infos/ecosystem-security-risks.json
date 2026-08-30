@@ -1,0 +1,27 @@
+{
+  "title": "A Closer Look at the Security Risks in the Rust Ecosystem",
+  "link": "https://doi.org/10.1145/3624738",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3624738",
+  "repo": "https://github.com/ZXXYy/rust_ecosystem",
+  "venue": "ACM TOSEM",
+  "year": 2023,
+  "category": "security",
+  "tag": [
+    "empirical study",
+    "ecosystem"
+  ],
+  "reference": [
+    "MirChecker",
+    "Rudra",
+    "Qrates",
+    "Is Rust Used Safely by Software Developers?",
+    "Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs",
+    "Memory-Safety Challenge Considered Solved? An In-Depth Study with All Rust CVEs",
+    "RustBelt Meets Relaxed Memory",
+    "Prusti",
+    "SMACK",
+    "cargo-klee",
+    "RustBelt: Securing the Foundations of the Rust Programming Language",
+    "Fuzzing the Rust Typechecker Using CLP (T)"
+  ]
+}

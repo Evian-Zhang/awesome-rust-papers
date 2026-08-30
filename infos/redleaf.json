@@ -1,0 +1,16 @@
+{
+  "title": "RedLeaf: Isolation and Communication in a Safe Operating System",
+  "alias": "RedLeaf",
+  "link": "https://www.usenix.org/conference/osdi20/presentation/narayanan-vikram",
+  "pdf": "https://www.usenix.org/system/files/osdi20-narayanan_vikram.pdf",
+  "repo": "https://github.com/mars-research/redleaf",
+  "venue": "OSDI",
+  "year": 2020,
+  "category": {
+    "product": "operating system"
+  },
+  "tag": [
+    "isolation"
+  ],
+  "reference": []
+}

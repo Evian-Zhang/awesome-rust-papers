@@ -1,0 +1,17 @@
+@inproceedings{10.1145/3803437.3805227,
+author = {Fan, Yinte and Wang, Chao and Dong, Zikan and Liu, Tianming and Wang, Haoyu},
+title = {An Empirical Analysis of Rust Integration in Android Open Source Project},
+year = {2026},
+isbn = {9798400726361},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3803437.3805227},
+doi = {10.1145/3803437.3805227},
+abstract = {The Android Open Source Project (AOSP) powers the world's largest mobile ecosystem, yet memory-safety vulnerabilities remain prevalent in native components due to the inherent risks of languages like C and C++, which allow manual memory management and unsafe operations. To mitigate these risks, AOSP began adopting Rust, a language with compile-time memory-safety guarantees, in 2021. However, the trajectory, mechanisms, and effectiveness of this transition remain empirically uncharted. We present the first longitudinal and systematic empirical study of Rust in AOSP. By analyzing 16 quarterly snapshots from January 2021 to October 2024, we track adoption trends and map the distribution of Rust code across 67 components. We further align Android Security Bulletin vulnerabilities with these components to assess memory-safety outcomes before and after Rust adoption, while also identifying the remaining non-Rust hotspots that may warrant future migration. In addition, we characterize platform-level integration mechanisms and examine unsafe governance through a large corpus of SAFETY comments, from which we distill actionable best practices and anti-patterns. Taken together, these results clarify Rust's role in AOSP by shedding light on its adoption, integration, and governance in a safety-critical mobile platform. They also provide industry practitioners with an empirical foundation and practical guidance for similar memory-safe migrations in large-scale production systems.},
+booktitle = {Proceedings of the 34th ACM International Conference on the Foundations of Software Engineering},
+pages = {545–556},
+numpages = {12},
+keywords = {rust adoption, android open source project, software migration},
+location = {Concordia University, Montreal, QC, Canada},
+series = {FSE Companion '26}
+}

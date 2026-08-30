@@ -1,0 +1,16 @@
+@inproceedings{10.1007/978-3-031-50521-8_10,
+author = {Byrnes, Twain and Takashima, Yoshiki and Jia, Limin},
+title = {Automatically Enforcing Rust Trait Properties},
+year = {2024},
+isbn = {978-3-031-50520-1},
+publisher = {Springer-Verlag},
+address = {Berlin, Heidelberg},
+url = {https://doi.org/10.1007/978-3-031-50521-8_10},
+doi = {10.1007/978-3-031-50521-8_10},
+abstract = {As Rust’s popularity increases, the need for ensuring correctness properties of software written in Rust also increases. In recent years, much work has been done to develop tools to analyze Rust programs, including Property-Based Testing (PBT), model checking, and verification tools. However, developers still need to specify the properties that need to be analyzed and write test harnesses to perform the analysis. We observe that one kind of correctness properties that has been overlooked is correctness invariants of Rust trait implementations; for instance, implementations of the equality trait need to be reflexive, symmetric, and transitive. In this paper, we develop a fully automated tool that allows developers to analyze their implementations of a set of built-in Rust traits. We encoded the test harnesses for the correctness properties of these traits and use Kani to verify them. We evaluated our tool over six open-source Rust libraries and identified three issues in PROST!, a protocol buffer library with nearly 40 million downloads.},
+booktitle = {Verification, Model Checking, and Abstract Interpretation: 25th International Conference, VMCAI 2024, London, United Kingdom, January 15–16, 2024, Proceedings, Part II},
+pages = {210–223},
+numpages = {14},
+keywords = {Rust, Traits, Software model checking},
+location = {London, United Kingdom}
+}

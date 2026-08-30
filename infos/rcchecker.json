@@ -1,0 +1,27 @@
+{
+  "title": "Two Birds One Stone: Effective Static Detection of Resource and Communication Deadlocks in Rust Programs",
+  "alias": "RcChecker",
+  "link": "https://doi.org/10.1007/s10515-026-00614-z",
+  "pdf": "https://arxiv.org/pdf/2401.01114v2",
+  "compared": [
+    "lockbud"
+  ],
+  "venue": "Automated Software Engineering",
+  "year": 2026,
+  "category": {
+    "security": "concurrency"
+  },
+  "tag": [
+    "deadlock"
+  ],
+  "reference": [
+    "Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs",
+    "MirChecker",
+    "SafeDrop",
+    "lockbud",
+    "Rupair",
+    "Rupta",
+    "Comprehensiveness, Automation and Lifecycle: A New Perspective for Rust Security",
+    "Fearless Concurrency? Understanding Concurrent Programming Safety in Real-World Rust Software"
+  ]
+}

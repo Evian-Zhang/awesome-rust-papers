@@ -1,0 +1,31 @@
+{
+  "title": "Surveying the Rust Verification Landscape",
+  "link": "https://doi.org/10.48550/arXiv.2410.01981",
+  "pdf": "https://arxiv.org/pdf/2410.01981",
+  "venue": "HATRA@SPLASH",
+  "year": 2024,
+  "category": "verification",
+  "tag": [
+    "unsafe",
+    "survey"
+  ],
+  "reference": [
+    "RefinedRust",
+    "Gillian-Rust",
+    "Verus",
+    "Aeneas",
+    "RustHornBelt",
+    "Qrates",
+    "Is Rust Used Safely by Software Developers?",
+    "Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs",
+    "Memory-Safety Challenge Considered Solved? An In-Depth Study with All Rust CVEs",
+    "Oxide",
+    "SMACK",
+    "RustBelt: Securing the Foundations of the Rust Programming Language",
+    "Creusot",
+    "Verifying Dynamic Trait Objects in Rust",
+    "The Prusti Project: Formal Verification for Rust",
+    "Ruxanne",
+    "ERASan"
+  ]
+}

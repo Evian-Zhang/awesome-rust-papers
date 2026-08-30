@@ -1,0 +1,34 @@
+{
+  "title": "Clozemaster: Fuzzing Rust Compiler by Harnessing LLMs for Infilling Masked Real Programs",
+  "alias": "Clozemaster",
+  "link": "https://doi.org/10.1109/ICSE55347.2025.00175",
+  "pdf": "https://arxiv.org/pdf/2605.00413",
+  "repo": "https://github.com/clozeMasterPro/clozeMaster",
+  "compared": [
+    "RustSmith",
+    "Rustlantis"
+  ],
+  "venue": "ICSE",
+  "year": 2025,
+  "category": {
+    "security": "compiler"
+  },
+  "tag": [
+    "compiler",
+    "LLM",
+    "harness",
+    "fuzzing"
+  ],
+  "reference": [
+    "Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs",
+    "Verus",
+    "Qrates",
+    "RULF",
+    "RustSmith: Random Differential Compiler Testing for Rust",
+    "Fuzzing the Rust Typechecker Using CLP (T)",
+    "Aquascope",
+    "On the Dual Nature of Necessity in Use of Rust Unsafe Code",
+    "REM",
+    "OOM-Guard"
+  ]
+}

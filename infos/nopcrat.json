@@ -1,0 +1,33 @@
+{
+  "title": "Don't Write, but Return: Replacing Output Parameters with Algebraic Data Types in C-to-Rust Translation",
+  "alias": "Nopcrat",
+  "link": "https://doi.org/10.1145/3656406",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3656406",
+  "repo": "https://github.com/kaist-plrg/nopcrat",
+  "based": [
+    "C2Rust"
+  ],
+  "compared": [
+    "C2Rust"
+  ],
+  "venue": "PLDI",
+  "year": 2024,
+  "category": "c2rust",
+  "tag": [
+    "algebraic data type",
+    "output parameter"
+  ],
+  "reference": [
+    "RustBelt: Securing the Foundations of the Rust Programming Language",
+    "The Rust Language",
+    "Tock",
+    "MirChecker",
+    "Translating C to Safer Rust",
+    "CROWN",
+    "Laertes",
+    "Engineering the Servo Web Browser Engine Using Rust",
+    "SafeDrop",
+    "Concrat",
+    "Rust as a Language for High Performance GC Implementation"
+  ]
+}

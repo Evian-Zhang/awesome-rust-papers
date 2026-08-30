@@ -1,0 +1,38 @@
+{
+  "title": "Rudra: Finding Memory Safety Bugs in Rust at the Ecosystem Scale",
+  "alias": "Rudra",
+  "link": "https://doi.org/10.1145/3477132.3483570",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3477132.3483570",
+  "repo": "https://github.com/sslab-gatech/Rudra",
+  "compared": [
+    "cargo-fuzz",
+    "honggfuzz",
+    "Miri",
+    "Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs"
+  ],
+  "venue": "SOSP",
+  "year": 2021,
+  "category": {
+    "security": "static analysis"
+  },
+  "tag": [
+    "memory safety",
+    "unsafe",
+    "exception safety",
+    "taint analysis",
+    "data-flow analysis"
+  ],
+  "reference": [
+    "RustBelt: Securing the Foundations of the Rust Programming Language",
+    "Prusti",
+    "Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs",
+    "Qrates",
+    "Stacked Borrows: An Aliasing Model for Rust",
+    "RustBelt Meets Relaxed Memory",
+    "Is Rust Used Safely by Software Developers?",
+    "SMACK",
+    "KRust",
+    "RedLeaf",
+    "Oxide"
+  ]
+}

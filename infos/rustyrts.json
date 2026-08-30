@@ -1,0 +1,14 @@
+{
+  "title": "RustyRTS: Regression Test Selection for Rust",
+  "alias": "RustyRTS",
+  "link": "https://doi.org/10.1109/ICST62969.2025.10988992",
+  "repo": "https://github.com/tum-i4/rustyrts",
+  "venue": "ICST",
+  "year": 2025,
+  "category": "program analysis",
+  "tag": [
+    "regression test",
+    "regression test selection"
+  ],
+  "reference": []
+}

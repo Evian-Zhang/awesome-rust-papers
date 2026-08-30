@@ -1,0 +1,29 @@
+{
+  "title": "Memory-Safety Challenge Considered Solved? An In-Depth Study with All Rust CVEs",
+  "link": "https://doi.org/10.1145/3466642",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3466642",
+  "venue": "ACM TOSEM",
+  "year": 2022,
+  "category": "ecosystem",
+  "tag": [
+    "empirical study",
+    "memory safety",
+    "security"
+  ],
+  "reference": [
+    "RustBelt: Securing the Foundations of the Rust Programming Language",
+    "Prusti",
+    "Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs",
+    "Qrates",
+    "RULF",
+    "Fuzzing the Rust Typechecker Using CLP (T)",
+    "RustBelt Meets Relaxed Memory",
+    "Is Rust Used Safely by Software Developers?",
+    "Engineering the Servo Web Browser Engine Using Rust",
+    "SafeDrop",
+    "SMACK",
+    "cargo-klee",
+    "XRust",
+    "Fearless Concurrency? Understanding Concurrent Programming Safety in Real-World Rust Software"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "title": "A First Look at ROS 2 Applications Written in Asynchronous Rust",
+  "link": "https://doi.org/10.4230/LIPIcs.ECRTS.2025.1",
+  "pdf": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol335-ecrts2025/LIPIcs.ECRTS.2025.1/LIPIcs.ECRTS.2025.1.pdf",
+  "repo": "https://gitlab.ciirc.cvut.cz/skoudmar1/ros-r2r-analysis",
+  "venue": "ECRTS",
+  "year": 2025,
+  "category": "product",
+  "tag": [
+    "asynchronous",
+    "robot",
+    "operating system"
+  ],
+  "reference": []
+}

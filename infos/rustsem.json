@@ -1,0 +1,25 @@
+{
+  "title": "Formally Understanding Rust's Ownership and Borrowing System at the Memory Level",
+  "alias": "RustSEM",
+  "link": "https://doi.org/10.1007/s10703-024-00460-3",
+  "based": [
+    "K Framework"
+  ],
+  "venue": "Formal Methods in System Design",
+  "year": 2024,
+  "category": "formalization",
+  "tag": [
+    "ownership",
+    "borrow checker",
+    "memory safety"
+  ],
+  "reference": [
+    "RustBelt: Securing the Foundations of the Rust Programming Language",
+    "Prusti",
+    "Stacked Borrows: An Aliasing Model for Rust",
+    "RustHorn",
+    "Aeneas",
+    "RustHornBelt",
+    "KRust"
+  ]
+}

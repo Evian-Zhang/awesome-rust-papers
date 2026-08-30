@@ -1,0 +1,31 @@
+{
+  "title": "AutoVerus: Automated Proof Generation for Rust Code",
+  "alias": "AutoVerus",
+  "link": "https://doi.org/10.1145/3763174",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3763174",
+  "repo": "https://github.com/microsoft/verus-proof-synthesis",
+  "based": [
+    "Verus"
+  ],
+  "venue": "OOPSLA",
+  "year": 2025,
+  "category": {
+    "verification": "proof generation"
+  },
+  "tag": [
+    "LLM",
+    "Agent",
+    "Verus",
+    "correctness"
+  ],
+  "reference": [
+    "Verus: A Practical Foundation for Systems Verification",
+    "RefinedRust",
+    "Verus",
+    "Aeneas",
+    "RustHornBelt",
+    "Prusti",
+    "RustBelt: Securing the Foundations of the Rust Programming Language",
+    "Creusot"
+  ]
+}

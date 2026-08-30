@@ -1,0 +1,40 @@
+{
+  "title": "Beyond k-Limiting: Pointer-Flow-Guided Context Sensitivity for Scalable and Precise Rust Pointer Analysis",
+  "alias": "Rceus",
+  "link": "https://doi.org/10.4230/LIPIcs.ECOOP.2026.1",
+  "pdf": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol372-ecoop2026/LIPIcs.ECOOP.2026.1/LIPIcs.ECOOP.2026.1.pdf",
+  "repo": "https://github.com/wenyaoc/rupta-fork/tree/rceus-pr",
+  "based": [
+    "Rupta"
+  ],
+  "compared": [
+    "Rupta",
+    "SF-kcs"
+  ],
+  "venue": "ECOOP",
+  "year": 2026,
+  "category": "program analysis",
+  "tag": [
+    "pointer analysis",
+    "static analysis",
+    "Rupta"
+  ],
+  "reference": [
+    "Rudra",
+    "TRust",
+    "TYPEPULSE",
+    "SafeDrop",
+    "RefinedRust",
+    "RustBelt: Securing the Foundations of the Rust Programming Language",
+    "MetaSafe",
+    "Pincer",
+    "Stack Filtering: Elevating Precision and Efficiency in Rust Pointer Analysis",
+    "Rupta",
+    "MirChecker",
+    "XRust",
+    "RustHornBelt",
+    "RustHorn",
+    "ERASan",
+    "Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs"
+  ]
+}

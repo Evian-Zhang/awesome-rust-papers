@@ -1,0 +1,19 @@
+{
+  "title": "Rust for Morello: Always-On Memory Safety, Even in Unsafe Code (Experience Paper)",
+  "link": "https://doi.org/10.4230/LIPIcs.ECOOP.2023.39",
+  "pdf": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol263-ecoop2023/LIPIcs.ECOOP.2023.39/LIPIcs.ECOOP.2023.39.pdf",
+  "repo": "https://github.com/kent-weak-memory/rust",
+  "venue": "ECOOP",
+  "year": 2023,
+  "category": "product",
+  "tag": [
+    "memory safety",
+    "hardware"
+  ],
+  "reference": [
+    "RustBelt: Securing the Foundations of the Rust Programming Language",
+    "The Rust Language",
+    "Oxide",
+    "Towards Understanding the Runtime Performance of Rust"
+  ]
+}

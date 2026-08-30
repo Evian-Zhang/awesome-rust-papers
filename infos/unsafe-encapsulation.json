@@ -1,0 +1,29 @@
+{
+  "title": "Semi-Automated Verification of Interior Unsafe Code Encapsulation in Real-World Rust Systems",
+  "link": "https://doi.org/10.1145/3691620.3695373",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3691620.3695373",
+  "further": [
+    "https://doi.org/10.48550/arXiv.2406.07936"
+  ],
+  "venue": "ASE",
+  "year": 2024,
+  "category": "security",
+  "tag": [
+    "encapsulation",
+    "unsafe"
+  ],
+  "reference": [
+    "Qrates",
+    "MirChecker",
+    "Memory-Safety Challenge Considered Solved? An In-Depth Study with All Rust CVEs",
+    "The Prusti Project: Formal Verification for Rust",
+    "Is Rust Used Safely by Software Developers?",
+    "SafeDrop",
+    "RustHornBelt",
+    "Galeed",
+    "XRust",
+    "lockbud",
+    "Is Unsafe an Achilles' Heel? A Comprehensive Study of Safety Requirements in Unsafe Rust Programming",
+    "Memory-Safety Challenge Considered Solved? An In-Depth Study with All Rust CVEs"
+  ]
+}

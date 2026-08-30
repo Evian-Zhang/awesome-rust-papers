@@ -1,0 +1,19 @@
+{
+  "title": "RustBelt: Securing the Foundations of the Rust Programming Language",
+  "link": "https://doi.org/10.1145/3158154",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3158154",
+  "repo": "https://gitlab.mpi-sws.org/iris/lambda-rust",
+  "venue": "POPL",
+  "year": 2018,
+  "category": "formalization",
+  "tag": [
+    "safety",
+    "lambda calculus",
+    "unsafe",
+    "Iris",
+    "Coq"
+  ],
+  "reference": [
+    "The Rust Language"
+  ]
+}

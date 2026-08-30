@@ -1,0 +1,27 @@
+{
+  "title": "Cross-Language Attacks",
+  "link": "https://www.ndss-symposium.org/ndss-paper/auto-draft-259/",
+  "pdf": "https://doi.org/10.14722/ndss.2022.24078",
+  "repo": "https://github.com/mit-ll/Cross-Language-Attacks",
+  "venue": "NDSS",
+  "year": 2022,
+  "category": "security",
+  "tag": [
+    "FFI",
+    "memory safety"
+  ],
+  "reference": [
+    "Galeed",
+    "RusTEE",
+    "Qrates",
+    "XRust",
+    "RustBelt Meets Relaxed Memory",
+    "Rust-SGX",
+    "RustBelt: Securing the Foundations of the Rust Programming Language",
+    "Sandcrust",
+    "System Programming in Rust: Beyond Safety",
+    "The Rust Language",
+    "Theseus",
+    "RedLeaf"
+  ]
+}

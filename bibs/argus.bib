@@ -1,0 +1,18 @@
+@article{10.1145/3729302,
+author = {Gray, Gavin and Crichton, Will and Krishnamurthi, Shriram},
+title = {An Interactive Debugger for Rust Trait Errors},
+year = {2025},
+issue_date = {June 2025},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {9},
+number = {PLDI},
+url = {https://doi.org/10.1145/3729302},
+doi = {10.1145/3729302},
+abstract = {Compiler diagnostics for type inference failures are notoriously bad, and type classes only make the problem worse. By introducing a complex search process during inference, type classes can lead to wholly inscrutable or useless errors. We describe a system, Argus, for interactively visualizing type class inferences to help programmers debug inference failures, applied specifically to Rust’s trait system. The core insight of Argus is to avoid the traditional model of compiler diagnostics as one-size-fits-all, instead providing the programmer with different views on the search tree corresponding to different debugging goals. Argus carefully uses defaults to improve debugging productivity, including interface design (e.g., not showing full paths of types by default) and heuristics (e.g., sorting obligations based on the expected complexity of fixing them). We evaluated Argus in a user study where N = 25 participants debugged type inference failures in realistic Rust programs, finding that participants using Argus correctly localized 2.2{\texttimes} as many faults and localized 3.3{\texttimes} faster compared to not using Argus.},
+journal = {Proc. ACM Program. Lang.},
+month = jun,
+articleno = {199},
+numpages = {22},
+keywords = {Rust, type classes, traits, debugging}
+}

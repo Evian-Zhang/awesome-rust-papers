@@ -1,0 +1,23 @@
+{
+  "title": "SyRust: Automatic Testing of Rust Libraries with Semantic-Aware Program Synthesis",
+  "alias": "SyRust",
+  "link": "https://doi.org/10.1145/3453483.3454084",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3453483.3454084",
+  "repo": "https://doi.org/10.1184/R1/14356976",
+  "venue": "PLDI",
+  "year": 2021,
+  "category": "program analysis",
+  "tag": [
+    "harness",
+    "unit test",
+    "ownership",
+    "generic"
+  ],
+  "reference": [
+    "RustBelt: Securing the Foundations of the Rust Programming Language",
+    "Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs",
+    "Stacked Borrows: An Aliasing Model for Rust",
+    "Fuzzing the Rust Typechecker Using CLP (T)",
+    "Oxide"
+  ]
+}

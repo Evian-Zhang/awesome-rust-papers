@@ -1,0 +1,18 @@
+@inproceedings{10.1145/3786583.3786856,
+author = {Wang, Chaofan and Yu, Tingrui and Shen, Beijun and Wang, Jie and Chen, Dong and Zhang, Wenrui and Shi, Yuling and Xie, Chen and Gu, Xiaodong},
+title = {EvoC2Rust: A Skeleton-guided Framework for Project-Level C-to-Rust Translation},
+year = {2026},
+isbn = {9798400724268},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3786583.3786856},
+doi = {10.1145/3786583.3786856},
+abstract = {Translating legacy C codebases to Rust is increasingly demanded for building safety-critical systems. While various approaches have emerged for this task, they face inherent trade-offs: rule-based methods often struggle to satisfy code safety and idiomaticity requirements, while LLM-based methods frequently fail to generate semantically equivalent Rust code, due to the heavy dependencies of modules across the entire codebase. Recent studies have revealed that both solutions are limited to small-scale programs. In this paper, we propose EvoC2Rust, an automated framework for converting complete C projects to equivalent Rust ones. EvoC2Rust employs a skeleton-guided translation strategy for project-level translation. The pipeline consists of three stages: 1) it first decomposes the C project into functional modules, employs a feature-mapping-enhanced LLM to transform definitions and macros, and generates type-checked function stubs, which form a compilable Rust skeleton; 2) it then incrementally translates functions, replacing the corresponding stub placeholders; 3) finally, it repairs compilation errors by integrating LLM and static analysis. Through evolutionary augmentation, EvoC2Rust combines the advantages of both rule-based and LLM-based solutions. Our evaluation on open-source benchmarks and six industrial projects demonstrates the superior performance of EvoC2Rust in project-level C-to-Rust translation. The results show that our approach outperforms the strongest LLM-based baseline by 17.24\% in syntax accuracy and 14.32\% in semantic accuracy, while also achieving a 43.59\% higher code safety rate than the best rule-based tool.},
+booktitle = {Proceedings of the IEEE/ACM 48th International Conference on Software Engineering: Software Engineering in Practice},
+pages = {94–105},
+numpages = {12},
+keywords = {C-to-Rust Translation, Complete Project Conversion, Skeleton Guided, Feature Mapping, Large Language Models},
+location = {
+},
+series = {ICSE-SEIP '26}
+}

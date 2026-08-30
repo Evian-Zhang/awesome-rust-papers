@@ -1,0 +1,23 @@
+{
+  "title": "RustHornBelt: A Semantic Foundation for Functional Verification of Rust Programs with Unsafe Code",
+  "alias": "RustHornBelt",
+  "link": "https://doi.org/10.1145/3519939.3523704",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3519939.3523704",
+  "repo": "https://gitlab.mpi-sws.org/iris/lambda-rust/-/tree/masters/rusthornbelt",
+  "based": [
+    "RustBelt"
+  ],
+  "venue": "PLDI",
+  "year": 2022,
+  "category": "verification",
+  "tag": [
+    "unsound",
+    "first-order logic"
+  ],
+  "reference": [
+    "RustHorn",
+    "Prusti",
+    "RustBelt: Securing the Foundations of the Rust Programming Language",
+    "The Rust Language"
+  ]
+}

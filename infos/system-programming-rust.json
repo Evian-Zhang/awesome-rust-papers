@@ -1,0 +1,16 @@
+{
+  "title": "System Programming in Rust: Beyond Safety",
+  "link": "https://doi.org/10.1145/3102980.3103006",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3102980.3103006",
+  "venue": "HotOS",
+  "year": 2017,
+  "category": "language",
+  "tag": [
+    "linear type",
+    "information flow analysis",
+    "fault isolation"
+  ],
+  "reference": [
+    "Session Types for Rust"
+  ]
+}

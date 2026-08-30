@@ -1,0 +1,12 @@
+{
+  "title": "Benefits and Drawbacks of Adopting a Secure Programming Language: Rust as a Case Study",
+  "link": "https://www.usenix.org/conference/soups2021/presentation/fulton",
+  "pdf": "https://www.usenix.org/system/files/soups2021-fulton.pdf",
+  "venue": "SOUPS",
+  "year": 2021,
+  "category": "ecosystem",
+  "tag": [
+    "survey"
+  ],
+  "reference": []
+}

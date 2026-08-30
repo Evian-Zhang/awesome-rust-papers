@@ -1,0 +1,21 @@
+{
+  "title": "A Tale of Two Case Studies: A Unified Exploration of Rust Verification with SEABMC",
+  "alias": "SeaBMC",
+  "link": "https://doi.org/10.34727/2025/isbn.978-3-85448-084-6_33",
+  "pdf": "https://repositum.tuwien.at/bitstream/20.500.12708/219563/1/Tafese%20Joseph%20-%202025%20-%20A%20Tale%20of%20Two%20Case%20Studies%20A%20Unified%20Exploration%20of%20Rust...pdf",
+  "repo": "https://doi.org/10.5281/zenodo.16415667",
+  "compared": [
+    "Kani"
+  ],
+  "venue": "FMCAD",
+  "year": 2025,
+  "category": "verification",
+  "tag": [
+    "LLVM IR",
+    "unsafe",
+    "model checker",
+    "SMT",
+    "panic"
+  ],
+  "reference": []
+}

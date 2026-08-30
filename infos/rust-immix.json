@@ -1,0 +1,16 @@
+{
+  "title": "Rust as a Language for High Performance GC Implementation",
+  "link": "https://doi.org/10.1145/2926697.2926707",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/2926697.2926707",
+  "repo": "https://github.com/jatcwang/immix-rust",
+  "based": [
+    "Immix"
+  ],
+  "venue": "ISMM",
+  "year": 2016,
+  "category": "product",
+  "tag": [
+    "garbage collection"
+  ],
+  "reference": []
+}

@@ -1,0 +1,17 @@
+@inproceedings{10.1145/3779031.3779086,
+author = {Golfouse, Arnaud and Gu{\'e}neau, Arma{\"e}l and Jourdan, Jacques-Henri},
+title = {Using Ghost Ownership to Verify Union-Find and Persistent Arrays in Rust},
+year = {2026},
+isbn = {9798400723414},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3779031.3779086},
+doi = {10.1145/3779031.3779086},
+abstract = {The type system of Rust enforces the “shared xor mutable” principle, which forbids mutation of shared memory. This principle eases verification in Rust, but certain programs require circumventing it with the mechanism of interior mutability. Thus, supporting interior mutability in a deductive verification tool is difficult. The Verus tool demonstrated the use of ghost resources to that end. So far, this mechanism has only been applied to Verus in order to verify primarily system code. We extend the deductive verification tool Creusot with support for linear ghost resources. We show how Creusot’s full support for mutable borrows enables better specifications for primitives of linear ghost code. We apply this methodology to the verification of two data structures using sharing and mutation: union-find and persistent arrays.},
+booktitle = {Proceedings of the 15th ACM SIGPLAN International Conference on Certified Programs and Proofs},
+pages = {383–397},
+numpages = {15},
+keywords = {Deductive verification, Rust, ghost code},
+location = {Rennes, France},
+series = {CPP '26}
+}

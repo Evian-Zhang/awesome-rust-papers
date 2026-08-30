@@ -1,0 +1,19 @@
+{
+  "title": "On the Dual Nature of Necessity in Use of Rust Unsafe Code",
+  "link": "https://doi.org/10.1145/3611643.3613878",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3611643.3613878",
+  "repo": "https://github.com/yzhang71/Rust-UnsafeToSafe",
+  "venue": "FSE",
+  "year": 2023,
+  "category": "language",
+  "tag": [
+    "empirical study",
+    "unsafe"
+  ],
+  "reference": [
+    "Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs",
+    "MirChecker",
+    "Is Rust Used Safely by Software Developers?",
+    "Towards Understanding the Runtime Performance of Rust"
+  ]
+}

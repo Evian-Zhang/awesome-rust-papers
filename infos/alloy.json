@@ -1,0 +1,17 @@
+{
+  "title": "Garbage Collection for Rust: The Finalizer Frontier",
+  "alias": "Alloy",
+  "link": "https://doi.org/10.1145/3763179",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3763179",
+  "repo": "https://github.com/softdevteam/alloy",
+  "venue": "OOPSLA",
+  "year": 2025,
+  "category": "language",
+  "tag": [
+    "garbage collection",
+    "destructor"
+  ],
+  "reference": [
+    "GhostCell"
+  ]
+}

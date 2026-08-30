@@ -1,0 +1,28 @@
+{
+  "title": "Aeneas: Rust Verification by Functional Translation",
+  "alias": "Aeneas",
+  "link": "https://doi.org/10.1145/3547647",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3547647",
+  "repo": "https://github.com/AeneasVerif/aeneas",
+  "based": [
+    "Charon"
+  ],
+  "venue": "ICFP",
+  "year": 2022,
+  "category": "verification",
+  "tag": [
+    "MIR",
+    "LLBC",
+    "unsafe",
+    "Charon"
+  ],
+  "reference": [
+    "RustBelt: Securing the Foundations of the Rust Programming Language",
+    "Prusti",
+    "Stacked Borrows: An Aliasing Model for Rust",
+    "RustHornBelt",
+    "RustHorn",
+    "Prusti Closures",
+    "RustHorn"
+  ]
+}

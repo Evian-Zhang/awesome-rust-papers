@@ -1,0 +1,25 @@
+{
+  "title": "A Refinement Methodology for Distributed Programs in Rust",
+  "link": "https://doi.org/10.1145/3763119",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3763119",
+  "repo": "https://doi.org/10.5281/zenodo.15753818",
+  "based": [
+    "Prusti"
+  ],
+  "venue": "OOPSLA",
+  "year": 2025,
+  "category": "verification",
+  "tag": [
+    "refinement",
+    "invariant",
+    "distributed",
+    "onwership"
+  ],
+  "reference": [
+    "The Rust Language",
+    "Prusti",
+    "Creusot",
+    "Aeneas",
+    "Verus: A Practical Foundation for Systems Verification"
+  ]
+}

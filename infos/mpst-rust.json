@@ -1,0 +1,20 @@
+{
+  "title": "Implementing Multiparty Session Types in Rust",
+  "alias": "mpst-rust",
+  "link": "https://doi.org/10.1007/978-3-030-50029-0_8",
+  "pdf": "https://link.springer.com/content/pdf/10.1007/978-3-030-50029-0_8.pdf",
+  "repo": "https://github.com/NicolasLagaillardie/mpst_rust_github",
+  "venue": "COORDINATION",
+  "year": 2020,
+  "category": {
+    "product": "session type"
+  },
+  "tag": [
+    "multiparty session type",
+    "session type"
+  ],
+  "reference": [
+    "Session Types for Rust",
+    "Rusty Variation"
+  ]
+}

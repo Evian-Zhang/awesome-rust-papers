@@ -1,0 +1,21 @@
+{
+  "title": "Learning and Programming Challenges of Rust: A Mixed-Methods Study",
+  "link": "https://doi.org/10.1145/3510003.3510164",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3510003.3510164",
+  "repo": "https://github.com/system-pclub/rust-programming-challenges",
+  "venue": "ICSE",
+  "year": 2022,
+  "category": "ecosystem",
+  "tag": [
+    "empirical study",
+    "safety"
+  ],
+  "reference": [
+    "The Rust Language",
+    "Tock",
+    "Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs",
+    "Qrates",
+    "Memory-Safety Challenge Considered Solved? An In-Depth Study with All Rust CVEs",
+    "Is Rust Used Safely by Software Developers?"
+  ]
+}

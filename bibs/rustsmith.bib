@@ -1,0 +1,17 @@
+@inproceedings{10.1145/3597926.3604919,
+author = {Sharma, Mayank and Yu, Pingshi and Donaldson, Alastair F.},
+title = {RustSmith: Random Differential Compiler Testing for Rust},
+year = {2023},
+isbn = {9798400702211},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3597926.3604919},
+doi = {10.1145/3597926.3604919},
+abstract = {We present RustSmith, the first Rust randomised program generator for end-to-end testing of Rust compilers. RustSmith generates programs that conform to the advanced type system of Rust, respecting rules related to borrowing and lifetimes, and that are guaranteed to yield a well-defined result. This makes RustSmith suitable for differential testing between compilers or across optimisation levels. By applying RustSmith to a series of versions of the official Rust compiler, rustc, we show that it can detect insidious historical bugs that evaded detection for some time. We have also used RustSmith to find previously-unknown bugs in an alternative Rust compiler implementation, mrustc. In a controlled experiment, we assess statement and mutation coverage achieved by RustSmith vs. the rustc optimisation test suite.},
+booktitle = {Proceedings of the 32nd ACM SIGSOFT International Symposium on Software Testing and Analysis},
+pages = {1483–1486},
+numpages = {4},
+keywords = {Compiler testing, Rust, differential testing, fuzzing, mutation testing},
+location = {Seattle, WA, USA},
+series = {ISSTA 2023}
+}

@@ -1,0 +1,14 @@
+@article{10.1145/3798277,
+author = {McCormack, Ian and Dougan, Tom{\'a}s and Estep, Sam and Hibshi, Hanan and Aldrich, Jonathan and Sunshine, Joshua},
+title = {A Mixed Methods Study on the Implications of Unsafe Rust for Interoperation, Encapsulation, and Tooling},
+year = {2026},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+issn = {1049-331X},
+url = {https://doi.org/10.1145/3798277},
+doi = {10.1145/3798277},
+abstract = {The Rust programming language restricts aliasing to provide static safety guarantees. However, in certain situations, developers need to bypass these guarantees by using a set of “unsafe” features. When these features are used incorrectly, they can reintroduce the types of safety issues that Rust was designed to prevent. We seek to understand how current development tools can be improved to better assist developers who find it necessary to interact with unsafe code. To that end, we study how developers reason about foreign function calls, the limitations of the tools that they currently use, their motivations for using unsafe code, and how they reason about encapsulating it. We conducted a mixed methods investigation consisting of semi-structured interviews with 19 developers, followed by a survey that reached an additional 160 developers. Our participants were motivated to use unsafe code when they perceived that there was no alternative, and most claimed that they would avoid using it. However, limited tooling support for foreign function calls made participants uncertain about their design choices, and certain foreign aliasing and concurrency patterns were difficult to encapsulate. To overcome these challenges, developers will need analysis tools that can find Rust-specific forms of undefined behavior within multilanguage applications.},
+note = {Just Accepted},
+journal = {ACM Trans. Softw. Eng. Methodol.},
+month = feb
+}

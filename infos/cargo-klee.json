@@ -1,0 +1,18 @@
+{
+  "title": "No Panic! Verification of Rust Programs by Symbolic Execution",
+  "alias": "cargo-klee",
+  "link": "https://doi.org/10.1109/INDIN.2018.8471992",
+  "repo": "https://gitlab.henriktjader.com/pln/cargo-klee/",
+  "venue": "INDIN",
+  "year": 2018,
+  "category": "verification",
+  "tag": [
+    "panic",
+    "klee",
+    "symbolic execution",
+    "LLVM IR"
+  ],
+  "reference": [
+    "The Rust Language"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Modular information flow through ownership",
+  "alias": "Flowistry",
+  "link": "https://doi.org/10.1145/3519939.3523445",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3519939.3523445",
+  "repo": "https://github.com/willcrichton/flowistry",
+  "based": [
+    "Oxide"
+  ],
+  "venue": "PLDI",
+  "year": 2022,
+  "category": "program analysis",
+  "tag": [
+    "information flow",
+    "ownership",
+    "Oxide"
+  ],
+  "reference": [
+    "RustBelt: Securing the Foundations of the Rust Programming Language",
+    "Prusti",
+    "Qrates",
+    "Stacked Borrows: An Aliasing Model for Rust",
+    "Is Rust Used Safely by Software Developers?",
+    "Oxide"
+  ]
+}

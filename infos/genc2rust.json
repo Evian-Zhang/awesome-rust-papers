@@ -1,0 +1,26 @@
+{
+  "title": "GenC2Rust: Towards Generating Generic Rust Code from C",
+  "alias": "GenC2Rust",
+  "link": "https://doi.org/10.1109/ICSE55347.2025.00127",
+  "repo": "https://doi.org/10.5281/zenodo.15009030",
+  "venue": "ICSE",
+  "year": 2025,
+  "category": "c2rust",
+  "tag": [
+    "generic",
+    "static analysis",
+    "void pointer"
+  ],
+  "reference": [
+    "RustBelt: Securing the Foundations of the Rust Programming Language",
+    "Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs",
+    "Qrates",
+    "Translating C to Safer Rust",
+    "Laertes",
+    "Is Rust Used Safely by Software Developers?",
+    "Concrat",
+    "Rust-lancet",
+    "Improving Automatic C-to-Rust Translation with Static Analysis",
+    "REM"
+  ]
+}

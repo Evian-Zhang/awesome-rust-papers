@@ -1,0 +1,26 @@
+{
+  "title": "RustCompCert: A Verified and Verifying Compiler for a Sequential Subset of Rust",
+  "alias": "RustCompCert",
+  "link": "https://arxiv.org/abs/2602.07455",
+  "pdf": "https://arxiv.org/pdf/2602.07455",
+  "based": [
+    "CompCert"
+  ],
+  "venue": "arXiv",
+  "year": 2026,
+  "category": "verification",
+  "tag": [
+    "compiler",
+    "memory safety"
+  ],
+  "reference": [
+    "LLBC#",
+    "Verus",
+    "Aeneas",
+    "RustHorn",
+    "Prusti",
+    "Oxide",
+    "RustBelt: Securing the Foundations of the Rust Programming Language",
+    "Creusot"
+  ]
+}

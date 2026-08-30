@@ -1,0 +1,45 @@
+{
+  "title": "Safe4U: Identifying Unsound Safe Encapsulations of Unsafe Calls in Rust using LLMs",
+  "alias": "Safe4U",
+  "link": "https://doi.org/10.1145/3728890",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3728890",
+  "repo": "https://github.com/huanli-00/Safe4U-replication",
+  "compared": [
+    "lockbud",
+    "Rudra",
+    "Kani"
+  ],
+  "venue": "ISSTA",
+  "year": 2025,
+  "category": "security",
+  "tag": [
+    "LLM",
+    "static analysis",
+    "soundness",
+    "unsafe",
+    "invariant",
+    "documentation",
+    "encapsulation"
+  ],
+  "reference": [
+    "lockbud",
+    "On the Dual Nature of Necessity in Use of Rust Unsafe Code",
+    "A Closer Look at the Security Risks in the Rust Ecosystem",
+    "Verus",
+    "RustHornBelt",
+    "Assessing the Alignment between the Information Needs of Developers and the Documentation of Programming Languages: A Case Study on Rust",
+    "Galeed",
+    "MirChecker",
+    "Rudra",
+    "SafeDrop",
+    "Qrates",
+    "XRust",
+    "Is Rust Used Safely by Software Developers?",
+    "Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs",
+    "Memory-Safety Challenge Considered Solved? An In-Depth Study with All Rust CVEs",
+    "RustHorn",
+    "RustBelt: Securing the Foundations of the Rust Programming Language",
+    "Is Unsafe an Achilles' Heel? A Comprehensive Study of Safety Requirements in Unsafe Rust Programming",
+    "\"I wouldn't want my unsafe code to run my pacemaker\": An Interview Study on the Use, Comprehension, and Perceived Risks of Unsafe Rust"
+  ]
+}

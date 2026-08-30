@@ -1,0 +1,16 @@
+{
+  "title": "Fuzzing the Rust Typechecker Using CLP (T)",
+  "link": "https://doi.org/10.1109/ASE.2015.65",
+  "pdf": "https://hardekbc.github.io/files/dewey15fuzzing.pdf",
+  "venue": "ASE",
+  "year": 2015,
+  "category": {
+    "security": "compiler"
+  },
+  "tag": [
+    "type checker",
+    "fuzzing",
+    "CLP"
+  ],
+  "reference": []
+}

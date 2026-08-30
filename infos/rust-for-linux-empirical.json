@@ -1,0 +1,16 @@
+{
+  "title": "An Empirical Study of Rust-for-Linux: The Success, Dissatisfaction, and Compromise",
+  "link": "https://www.usenix.org/conference/atc24/presentation/li-hongyu",
+  "pdf": "https://www.usenix.org/system/files/atc24-li-hongyu.pdf",
+  "repo": "https://github.com/Richardhongyu/rfl_empirical_tools",
+  "venue": "USENIX ATC",
+  "year": 2024,
+  "category": "ecosystem",
+  "tag": [
+    "empirical study",
+    "Rust for Linux",
+    "security",
+    "performance"
+  ],
+  "reference": []
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Towards Understanding the Runtime Performance of Rust",
+  "link": "https://doi.org/10.1145/3551349.3559494",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3551349.3559494",
+  "repo": "https://github.com/yzhang71/Rust_C_Benchmarks",
+  "venue": "ASE",
+  "year": 2022,
+  "category": "language",
+  "tag": [
+    "performance",
+    "benchmark"
+  ],
+  "reference": [
+    "The Rust Language"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Verifying Dynamic Trait Objects in Rust",
+  "link": "https://doi.org/10.1145/3510457.3513031",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3510457.3513031",
+  "repo": "https://github.com/model-checking/kani",
+  "venue": "ICSE-SEIP",
+  "year": 2022,
+  "category": "verification",
+  "tag": [
+    "trait",
+    "trait object",
+    "MIR"
+  ],
+  "reference": [
+    "RustBelt: Securing the Foundations of the Rust Programming Language",
+    "Prusti",
+    "SMACK",
+    "Prusti Closures"
+  ]
+}

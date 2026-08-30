@@ -1,0 +1,21 @@
+{
+  "title": "RusTEE: Developing Memory-Safe ARM TrustZone Applications",
+  "alias": "RusTEE",
+  "link": "https://doi.org/10.1145/3427228.3427262",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3427228.3427262",
+  "repo": "https://github.com/apache/teaclave-trustzone-sdk",
+  "venue": "ACSAC",
+  "year": 2020,
+  "category": "product",
+  "tag": [
+    "TEE",
+    "ARM TrustZone",
+    "hardware"
+  ],
+  "reference": [
+    "RustBelt: Securing the Foundations of the Rust Programming Language",
+    "The Rust Language",
+    "Tock",
+    "Rust-SGX"
+  ]
+}

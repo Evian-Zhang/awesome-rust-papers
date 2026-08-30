@@ -1,0 +1,31 @@
+{
+  "title": "Rust-twins: Automatic Rust Compiler Testing through Program Mutation and Dual Macros Generation",
+  "alias": "Rust-twins",
+  "link": "https://doi.org/10.1145/3691620.3695059",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3691620.3695059",
+  "repo": "https://anonymous.4open.science/r/Rust-twins-481C",
+  "based": [
+    "LibFuzzer"
+  ],
+  "compared": [
+    "RustSmith"
+  ],
+  "venue": "ASE",
+  "year": 2024,
+  "category": {
+    "security": "compiler"
+  },
+  "tag": [
+    "LLM",
+    "fuzzing",
+    "differential testing",
+    "harness",
+    "HIR"
+  ],
+  "reference": [
+    "Tock",
+    "RustSmith: Random Differential Compiler Testing for Rust",
+    "Fuzzing the Rust Typechecker Using CLP (T)",
+    "Rust-lancet"
+  ]
+}

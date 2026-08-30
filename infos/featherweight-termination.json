@@ -1,0 +1,41 @@
+{
+  "title": "On the Termination of Borrow Checking in Featherweight Rust",
+  "link": "https://doi.org/10.1007/978-3-031-06773-0_22",
+  "pdf": "https://whileydave.com/publications/PPS22_NFM_preprint.pdf",
+  "based": [
+    "FeatherweightRust"
+  ],
+  "venue": "NFM",
+  "year": 2022,
+  "category": "formalization",
+  "tag": [
+    "termination",
+    "borrow checker"
+  ],
+  "reference": [
+    "Session Types for Rust",
+    "Fuzzing the Rust Typechecker Using CLP (T)",
+    "Engineering the Servo Web Browser Engine Using Rust",
+    "Tock",
+    "RustBelt: Securing the Foundations of the Rust Programming Language",
+    "SMACK",
+    "cargo-klee",
+    "Prusti",
+    "KRust",
+    "Rusty Variation",
+    "Rust-SGX",
+    "RustBelt Meets Relaxed Memory",
+    "Stacked Borrows: An Aliasing Model for Rust",
+    "RustHorn",
+    "Is Rust Used Safely by Software Developers?",
+    "XRust",
+    "Qrates",
+    "FeatherweightRust",
+    "Translating C to Safer Rust",
+    "Prusti Closures",
+    "MirChecker",
+    "Rupair",
+    "Galeed",
+    "Verifying Dynamic Trait Objects in Rust"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "title": "How Do Programmers Use Unsafe Rust?",
+  "alias": "Qrates",
+  "link": "https://doi.org/10.1145/3428204",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3428204",
+  "repo": "https://github.com/rust-corpus/qrates",
+  "based": [
+    "Rustwide"
+  ],
+  "venue": "OOPSLA",
+  "year": 2020,
+  "category": "ecosystem",
+  "tag": [
+    "unsafe",
+    "empirical study"
+  ],
+  "reference": [
+    "RustBelt: Securing the Foundations of the Rust Programming Language",
+    "Prusti",
+    "Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs"
+  ]
+}

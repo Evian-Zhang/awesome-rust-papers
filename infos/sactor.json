@@ -1,0 +1,35 @@
+{
+  "title": "SACTOR: LLM-Driven Correct and Idiomatic C to Rust Translation with Static Analysis and FFI-Based Verification",
+  "alias": "SACTOR",
+  "link": "https://doi.org/10.18653/v1/2026.acl-long.28",
+  "pdf": "https://aclanthology.org/2026.acl-long.28.pdf",
+  "repo": "https://github.com/qsdrqs/sactor",
+  "based": [
+    "CROWN",
+    "C2Rust"
+  ],
+  "compared": [
+    "CROWN",
+    "C2Rust",
+    "C2SaferRust",
+    "Vert"
+  ],
+  "venue": "ACL",
+  "year": 2026,
+  "category": "c2rust",
+  "tag": [
+    "LLM",
+    "FFI",
+    "pointer"
+  ],
+  "reference": [
+    "CRUST-Bench",
+    "C2SaferRust",
+    "Syzygy",
+    "FLOURINE",
+    "CROWN",
+    "Translating C to Safer Rust",
+    "RustBelt: Securing the Foundations of the Rust Programming Language",
+    "The Rust Language"
+  ]
+}

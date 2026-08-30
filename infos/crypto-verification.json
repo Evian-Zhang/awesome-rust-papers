@@ -1,0 +1,25 @@
+{
+  "title": "Formal Security and Functional Verification of Cryptographic Protocol Implementations in Rust",
+  "link": "https://doi.org/10.1145/3719027.3765213",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3719027.3765213",
+  "based": [
+    "hax",
+    "F*",
+    "Rocq",
+    "SSProve",
+    "ProVerif"
+  ],
+  "venue": "CCS",
+  "year": 2025,
+  "category": "verification",
+  "tag": [
+    "cryptographic protocol implementation",
+    "cryptography"
+  ],
+  "reference": [
+    "Verus",
+    "Aeneas",
+    "Verifying Dynamic Trait Objects in Rust",
+    "hax"
+  ]
+}

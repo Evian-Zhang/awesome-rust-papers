@@ -1,0 +1,19 @@
+{
+  "title": "Tree Borrows",
+  "link": "https://doi.org/10.1145/3735592",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3735592",
+  "based": [
+    "Miri",
+    "Rcoq"
+  ],
+  "venue": "POPL",
+  "year": 2026,
+  "category": "formalization",
+  "tag": [
+    "soundness",
+    "undefined behavior"
+  ],
+  "reference": [
+    "Stacked Borrows: An Aliasing Model for Rust"
+  ]
+}

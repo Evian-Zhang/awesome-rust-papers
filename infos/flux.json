@@ -1,0 +1,28 @@
+{
+  "title": "Flux: Liquid Types for Rust",
+  "alias": "Flux",
+  "link": "https://doi.org/10.1145/3591283",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3591283",
+  "repo": "https://github.com/flux-rs/flux",
+  "venue": "PLDI",
+  "year": 2023,
+  "category": "language",
+  "tag": [
+    "liquid type",
+    "onwership",
+    "stack borrow",
+    "refined type",
+    "verification"
+  ],
+  "reference": [
+    "RustBelt: Securing the Foundations of the Rust Programming Language",
+    "The Rust Language",
+    "Prusti",
+    "Stacked Borrows: An Aliasing Model for Rust",
+    "RustHorn",
+    "Creusot",
+    "Aeneas",
+    "cargo-klee",
+    "Verifying Dynamic Trait Objects in Rust"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "title": "SafeDrop: Detecting Memory Deallocation Bugs of Rust Programs via Static Data-Flow Analysis",
+  "alias": "SafeDrop",
+  "link": "https://doi.org/10.1145/3542948",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3542948",
+  "repo": "https://github.com/VaynNecol/SafeDrop",
+  "venue": "ACM TOSEM",
+  "year": 2023,
+  "category": "security",
+  "tag": [
+    "exception safety",
+    "memory safety",
+    "data-flow analysis",
+    "static analysis"
+  ],
+  "reference": [
+    "MirChecker",
+    "Rudra",
+    "Qrates",
+    "XRust",
+    "Is Rust Used Safely by Software Developers?",
+    "Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs",
+    "Memory-Safety Challenge Considered Solved? An In-Depth Study with All Rust CVEs",
+    "RustBelt Meets Relaxed Memory",
+    "Stacked Borrows: An Aliasing Model for Rust",
+    "Prusti",
+    "RustBelt: Securing the Foundations of the Rust Programming Language",
+    "Sandcrust",
+    "System Programming in Rust: Beyond Safety",
+    "Engineering the Servo Web Browser Engine Using Rust",
+    "Fuzzing the Rust Typechecker Using CLP (T)"
+  ]
+}

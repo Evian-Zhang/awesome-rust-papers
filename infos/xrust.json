@@ -1,0 +1,19 @@
+{
+  "title": "Securing Unsafe Rust Programs with XRust",
+  "alias": "XRust",
+  "link": "https://doi.org/10.1145/3377811.3380325",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3377811.3380325",
+  "repo": "https://github.com/parasol-aser/XRust",
+  "venue": "ICSE",
+  "year": 2020,
+  "category": {
+    "security": "isolation"
+  },
+  "tag": [
+    "unsafe",
+    "data-flow integrity"
+  ],
+  "reference": [
+    "RustBelt: Securing the Foundations of the Rust Programming Language"
+  ]
+}

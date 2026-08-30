@@ -1,0 +1,41 @@
+{
+  "title": "deepSURF: Detecting Memory Safety Vulnerabilities in Rust Through Fuzzing LLM-Augmented Harnesses",
+  "alias": "deepSURF",
+  "link": "https://doi.org/10.1109/SP63933.2026.00060",
+  "pdf": "https://arxiv.org/pdf/2506.15648",
+  "repo": "https://github.com/purseclab/deepSURF",
+  "compared": [
+    "Rug",
+    "RPG",
+    "RULF"
+  ],
+  "venue": "IEEE S&P",
+  "year": 2026,
+  "category": {
+    "security": "fuzzing"
+  },
+  "tag": [
+    "harness",
+    "LLM"
+  ],
+  "reference": [
+    "Rug",
+    "Crabtree",
+    "FRIES",
+    "ERASan",
+    "RPG",
+    "A Mixed Methods Study on the Implications of Unsafe Rust for Interoperation, Encapsulation, and Tooling",
+    "RuMono",
+    "Yuga",
+    "Verifying Dynamic Trait Objects in Rust",
+    "Rudra",
+    "SyRust",
+    "RULF",
+    "Qrates",
+    "Is Rust Used Safely by Software Developers?",
+    "Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs",
+    "Memory-Safety Challenge Considered Solved? An In-Depth Study with All Rust CVEs",
+    "RustBelt: Securing the Foundations of the Rust Programming Language",
+    "RustSan"
+  ]
+}

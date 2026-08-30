@@ -1,0 +1,14 @@
+{
+  "title": "Session Types for Rust",
+  "link": "https://doi.org/10.1145/2808098.2808100",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/2808098.2808100",
+  "repo": "https://github.com/Munksgaard/session-types",
+  "venue": "WGP@ICFP",
+  "year": 2015,
+  "category": {
+    "product": "session type"
+  },
+  "reference": [
+    "Patina"
+  ]
+}

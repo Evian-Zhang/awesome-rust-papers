@@ -1,0 +1,15 @@
+{
+  "title": "Towards making formal methods normal: meeting developers where they are",
+  "alias": "RVT",
+  "link": "https://2020.splashcon.org/details/hatra-2020-papers/4/",
+  "pdf": "https://arxiv.org/pdf/2010.16345",
+  "venue": "HATRA@SPLASH",
+  "year": 2020,
+  "category": "verification",
+  "tag": [
+    "symbolic execution"
+  ],
+  "reference": [
+    "Prusti"
+  ]
+}

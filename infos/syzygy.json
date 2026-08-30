@@ -1,0 +1,21 @@
+{
+  "title": "Syzygy: Dual Code-Test C to (safe) Rust Translation using LLMs and Dynamic Analysis",
+  "alias": "Syzygy",
+  "link": "https://arxiv.org/abs/2412.14234",
+  "pdf": "https://arxiv.org/pdf/2412.14234",
+  "repo": "https://github.com/syzygy-project/Syzygy_Zopfli",
+  "venue": "arXiv",
+  "year": 2024,
+  "category": "c2rust",
+  "tag": [
+    "LLM",
+    "dynamic analysis",
+    "I/O",
+    "program slicing"
+  ],
+  "reference": [
+    "FLOURINE",
+    "CROWN",
+    "An Empirical Study of Rust-for-Linux: The Success, Dissatisfaction, and Compromise"
+  ]
+}

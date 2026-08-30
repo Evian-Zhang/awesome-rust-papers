@@ -1,0 +1,18 @@
+{
+  "title": "Search-Based Test Suite Generation for Rust",
+  "alias": "RUSTYUNIT",
+  "link": "https://doi.org/10.1007/978-3-031-21251-2_1",
+  "repo": "https://github.com/foxycom/rusty-unit",
+  "venue": "SSBSE",
+  "year": 2022,
+  "category": "program analysis",
+  "tag": [
+    "harness",
+    "unit test"
+  ],
+  "reference": [
+    "RULF",
+    "Engineering the Servo Web Browser Engine Using Rust",
+    "SyRust"
+  ]
+}

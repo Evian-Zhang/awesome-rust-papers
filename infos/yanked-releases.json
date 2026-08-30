@@ -1,0 +1,16 @@
+{
+  "title": "An Empirical Study of Yanked Releases in the Rust Package Registry",
+  "link": "https://doi.org/10.1109/TSE.2022.3152148",
+  "pdf": "https://arxiv.org/pdf/2201.11821",
+  "venue": "IEEE TSE",
+  "year": 2023,
+  "category": "ecosystem",
+  "tag": [
+    "empirical study",
+    "dependency",
+    "yanked release"
+  ],
+  "reference": [
+    "The Rust Language"
+  ]
+}

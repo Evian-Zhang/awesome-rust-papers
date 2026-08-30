@@ -1,0 +1,18 @@
+{
+  "title": "Unleashing the Power of Clippy in Real-World Rust Projects",
+  "link": "https://doi.org/10.1145/3639478.3643096",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3639478.3643096",
+  "venue": "ICSE Companion",
+  "year": 2024,
+  "category": "ecosystem",
+  "tag": [
+    "empirical study",
+    "diagnose",
+    "clippy"
+  ],
+  "reference": [
+    "Is Rust Used Safely by Software Developers?",
+    "Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs",
+    "Memory-Safety Challenge Considered Solved? An In-Depth Study with All Rust CVEs"
+  ]
+}

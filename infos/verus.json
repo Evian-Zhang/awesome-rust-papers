@@ -1,0 +1,34 @@
+{
+  "title": "Verus: Verifying Rust Programs Using Linear Ghost Types",
+  "alias": "Verus",
+  "link": "https://doi.org/10.1145/3586037",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3586037",
+  "repo": "https://github.com/verus-lang/verus",
+  "venue": "OOPSLA",
+  "year": 2023,
+  "category": "verification",
+  "tag": [
+    "linear ghost type",
+    "SMT",
+    "lambda calculus",
+    "pointer",
+    "interior mutability",
+    "concurrency",
+    "formalization"
+  ],
+  "reference": [
+    "Aeneas",
+    "RustHornBelt",
+    "GhostCell",
+    "FeatherweightRust",
+    "RustHorn",
+    "RustBelt Meets Relaxed Memory",
+    "Stacked Borrows: An Aliasing Model for Rust",
+    "Prusti",
+    "Oxide",
+    "RustBelt: Securing the Foundations of the Rust Programming Language",
+    "The Rust Language",
+    "Creusot",
+    "The Prusti Project: Formal Verification for Rust"
+  ]
+}

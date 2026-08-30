@@ -1,0 +1,18 @@
+@article{10.1145/3763119,
+author = {B{\'i}l{\'y}, Aurel and Pereira, Jo{\~a}o and M{\"u}ller, Peter},
+title = {A Refinement Methodology for Distributed Programs in Rust},
+year = {2025},
+issue_date = {October 2025},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {9},
+number = {OOPSLA2},
+url = {https://doi.org/10.1145/3763119},
+doi = {10.1145/3763119},
+abstract = {Refinement relates an abstract system model to a concrete, executable program, such that properties established for the abstract model carry over to the concrete implementation. Refinement has been used successfully in the development of substantial verified systems. Nevertheless, existing refinement techniques have limitations that impede their practical usefulness. Top-down refinement techniques that automatically generate executable code generally produce implementations with sub-optimal performance. Bottom-up refinement allows one to reason about existing, efficient implementations, but imposes strict requirements on the structure of the code, the structure of the refinement proofs, as well as the employed verification logic and tools.In this paper, we present a novel bottom-up refinement methodology that removes these limitations. Our methodology usesthe familiar notion of guarded transition systems to express abstract models, but combines guards with a novel notion of locally inductive invariants to relate the abstract model locally to concrete state. This approach is muchmore flexible than standard coupling invariants; in particular, it supports a wide range of program structures, data representations, and proof structures. We integrate our methodology as a library into Rust, leveraging the Rust type system to reason about ownership of guards. This integration allows oneto use our methodology with an off-the-shelf Rust verification tool. It also facilitates practical applications, as we demonstrate on a number of substantial case studies including a concurrent implementation of Memcached.},
+journal = {Proc. ACM Program. Lang.},
+month = oct,
+articleno = {341},
+numpages = {28},
+keywords = {Refinement}
+}

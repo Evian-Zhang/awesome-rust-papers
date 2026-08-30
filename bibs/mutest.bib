@@ -1,0 +1,15 @@
+@article{10.1145/3787851,
+author = {L{\'e}vai, Zal{\'a}n and Shin, Donghwan and McMinn, Phil},
+title = {A Comprehensive Empirical and Theoretical Analysis of Batching Algorithms for Efficient, Safe, Parallel Mutation Analysis in Rust},
+year = {2026},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+issn = {1049-331X},
+url = {https://doi.org/10.1145/3787851},
+doi = {10.1145/3787851},
+abstract = {There is a lack of serious tooling for mutation analysis for Rust, a safety-focused systems programming language seeing increased adoption across the industry. As such, the testing technique has not been widely used on programs written in the language as of yet. Without robust mutation analysis, Rust developers cannot determine test thoroughness.In response to this challenge, we designed a mutation analysis pipeline for Rust, which overcomes the challenges of generating valid mutants caused by the strictness of the language.Our approach accounts for Rust's distinction between safe and unsafe operations, ensuring that safe mutations of valid Rust programs — those with only valid unsafe code sections — can be safely evaluated within the same process, without the potential for crashes or other undefined behavior invalidating the mutation analysis.We introduce mutation batching, our novel technique for efficiently evaluating multiple mutations simultaneously, while guaranteeing they do not interact. Batching maximizes thread usage, by executing significantly more test cases in parallel. As batching is NP-hard, we present multiple fast approximation algorithms for grouping mutations.We implemented our techniques into a mutation analysis tool, mutest-rs, which we used in our empirical evaluation on a diverse set of  (22)  Rust libraries and programs. We found that mutation batching reduces the overall runtime of mutation analysis by up to  (52.3\%)  and also saving  (73.8)  seconds in one case, and that unsafe mutations are detected at a lower rate, of up to  (53.4\%) . Our mutation analysis tool is available at .},
+note = {Just Accepted},
+journal = {ACM Trans. Softw. Eng. Methodol.},
+month = jan,
+keywords = {mutation analysis, mutation testing, cost reduction, mutation batching, rust, static analysis}
+}

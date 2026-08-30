@@ -1,0 +1,16 @@
+{
+  "title": "Verifying Rust Programs with SMACK",
+  "alias": "SMACK",
+  "link": "https://doi.org/10.1007/978-3-030-01090-4_32",
+  "pdf": "https://soarlab.org/papers/2018_atva_bhr.pdf",
+  "repo": "https://github.com/smackers/smack",
+  "venue": "ATVA",
+  "year": 2018,
+  "category": "verification",
+  "tag": [
+    "LLVM IR"
+  ],
+  "reference": [
+    "RustBelt: Securing the Foundations of the Rust Programming Language"
+  ]
+}

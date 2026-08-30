@@ -1,0 +1,25 @@
+{
+  "title": "Rust-lancet: Automated Ownership-Rule-Violation Fixing with Behavior Preservation",
+  "alias": "Rust-lancet",
+  "link": "https://doi.org/10.1145/3597503.3639103",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3597503.3639103",
+  "repo": "https://anonymous.4open.science/r/rustc-fixer-C121/",
+  "venue": "ICSE",
+  "year": 2024,
+  "category": "program analysis",
+  "tag": [
+    "patch",
+    "ownership",
+    "ANF",
+    "symbolic execution",
+    "compilation error"
+  ],
+  "reference": [
+    "Tock",
+    "Translating C to Safer Rust",
+    "RULF",
+    "CROWN",
+    "FeatherweightRust",
+    "Improving Automatic C-to-Rust Translation with Static Analysis"
+  ]
+}

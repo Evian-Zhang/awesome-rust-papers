@@ -1,0 +1,39 @@
+{
+  "title": "Is Unsafe an Achilles' Heel? A Comprehensive Study of Safety Requirements in Unsafe Rust Programming",
+  "link": "https://doi.org/10.1145/3597503.3639136",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3597503.3639136",
+  "repo": "https://github.com/VaynNecol/SafetyProperty",
+  "venue": "ICSE",
+  "year": 2024,
+  "category": "security",
+  "tag": [
+    "empirical study",
+    "unsafe",
+    "documentation",
+    "invariant"
+  ],
+  "reference": [
+    "RustBelt: Securing the Foundations of the Rust Programming Language",
+    "The Rust Language",
+    "Tock",
+    "Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs",
+    "Verus",
+    "Qrates",
+    "MirChecker",
+    "Stacked Borrows: An Aliasing Model for Rust",
+    "Memory-Safety Challenge Considered Solved? An In-Depth Study with All Rust CVEs",
+    "RustHorn",
+    "RULF",
+    "Aeneas",
+    "The Prusti Project: Formal Verification for Rust",
+    "Fuzzing the Rust Typechecker Using CLP (T)",
+    "RustBelt Meets Relaxed Memory",
+    "Is Rust Used Safely by Software Developers?",
+    "SafeDrop",
+    "cargo-klee",
+    "Verifying Dynamic Trait Objects in Rust",
+    "Prusti Closures",
+    "FFICHECKER",
+    "Flowistry"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "title": "To Tag, or Not to Tag: Translating C's Unions to Rust's Tagged Unions",
+  "alias": "Urcrat",
+  "link": "https://doi.org/10.1145/3691620.3694985",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3691620.3694985",
+  "repo": "https://github.com/kaist-plrg/urcrat/",
+  "venue": "ASE",
+  "year": 2024,
+  "category": "c2rust",
+  "tag": [
+    "tagged union",
+    "pointer analysis",
+    "MIR"
+  ],
+  "reference": [
+    "RustBelt: Securing the Foundations of the Rust Programming Language",
+    "The Rust Language",
+    "Translating C to Safer Rust",
+    "CROWN",
+    "Laertes",
+    "Concrat"
+  ]
+}

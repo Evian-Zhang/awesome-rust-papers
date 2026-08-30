@@ -1,0 +1,33 @@
+{
+  "title": "Cpp2Rust: Automatic Translation of C++ to Safe Rust",
+  "alias": "Cpp2Rust",
+  "link": "https://doi.org/10.1145/3808266",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3808266",
+  "repo": "https://github.com/Cpp2Rust/cpp2rust",
+  "venue": "PLDI",
+  "year": 2026,
+  "category": "c2rust",
+  "tag": [
+    "C++",
+    "ownership",
+    "alias"
+  ],
+  "reference": [
+    "RustBelt: Securing the Foundations of the Rust Programming Language",
+    "Rust-SGX",
+    "Stacked Borrows: An Aliasing Model for Rust",
+    "Translating C to Safer Rust",
+    "CROWN",
+    "Laertes",
+    "Engineering the Servo Web Browser Engine Using Rust",
+    "RusTEE",
+    "Concrat",
+    "Is Unsafe an Achilles' Heel? A Comprehensive Study of Safety Requirements in Unsafe Rust Programming",
+    "Rust-lancet",
+    "Tymcrat",
+    "Rust for Embedded Systems: Current State and Open Problems",
+    "Urcrat",
+    "RustAssistant",
+    "Rust for Linux: Understanding the Security Impact of Rust in the Linux Kernel"
+  ]
+}

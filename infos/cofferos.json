@@ -1,0 +1,22 @@
+{
+  "title": "CofferOS: Hardening OS-level Virtualization with Rust",
+  "alias": "CofferOS",
+  "link": "https://doi.org/10.1145/3767295.3803569",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3767295.3803569",
+  "repo": "https://github.com/casys-kaist/CofferOS",
+  "compared": [
+    "Firecracker"
+  ],
+  "venue": "EuroSys",
+  "year": 2026,
+  "category": {
+    "product": "operating system"
+  },
+  "tag": [
+    "virtualization",
+    "isolation"
+  ],
+  "reference": [
+    "Verus: A Practical Foundation for Systems Verification"
+  ]
+}

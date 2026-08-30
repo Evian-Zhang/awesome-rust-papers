@@ -1,0 +1,24 @@
+{
+  "title": "Finding Performance Issues in Rust Projects",
+  "link": "https://doi.org/10.1145/3691620.3695368",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3691620.3695368",
+  "repo": "https://github.com/Unparalleled-Calvin/Rust-Performance-Study",
+  "further": [
+    "https://doi.org/10.1109/ISSRE66568.2025.00045"
+  ],
+  "venue": "ASE",
+  "year": 2024,
+  "category": "ecosystem",
+  "tag": [
+    "performance",
+    "empirical study"
+  ],
+  "reference": [
+    "Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs",
+    "Memory-Safety Challenge Considered Solved? An In-Depth Study with All Rust CVEs",
+    "Memory-Safety Challenge Considered Solved? An In-Depth Study with All Rust CVEs",
+    "The Rust Language",
+    "Towards Understanding the Runtime Performance of Rust",
+    "On the Dual Nature of Necessity in Use of Rust Unsafe Code"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "title": "EvoC2Rust: A Skeleton-guided Framework for Project-Level C-to-Rust Translation",
+  "alias": "EvoC2Rust",
+  "link": "https://doi.org/10.1145/3786583.3786856",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3786583.3786856",
+  "repo": "https://github.com/bbzswcf/EvoC2rust",
+  "compared": [
+    "C2Rust",
+    "C2SaferRust",
+    "Tymcrat"
+  ],
+  "venue": "ICSE-SEIP",
+  "year": 2026,
+  "category": "c2rust",
+  "tag": [
+    "LLM",
+    "RAG"
+  ],
+  "reference": [
+    "Translating C to Safer Rust",
+    "CROWN",
+    "Laertes",
+    "Tymcrat",
+    "Concrat",
+    "Translating C To Rust: Lessons from a User Study",
+    "GenC2Rust",
+    "Forcrat",
+    "IRENE"
+  ]
+}

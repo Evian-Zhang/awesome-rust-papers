@@ -1,0 +1,29 @@
+{
+  "title": "Forcrat: Automatic I/O API Translation from C to Rust via Origin and Capability Analysis",
+  "alias": "Forcrat",
+  "link": "https://doi.org/10.1109/ASE63991.2025.00130",
+  "pdf": "https://arxiv.org/pdf/2506.01427",
+  "repo": "https://github.com/kaist-plrg/forcrat",
+  "based": [
+    "C2Rust"
+  ],
+  "venue": "ASE",
+  "year": 2025,
+  "category": "c2rust",
+  "tag": [
+    "I/O",
+    "MIR"
+  ],
+  "reference": [
+    "RustBelt: Securing the Foundations of the Rust Programming Language",
+    "The Rust Language",
+    "Translating C to Safer Rust",
+    "CROWN",
+    "Laertes",
+    "Tymcrat",
+    "Concrat",
+    "Urcrat",
+    "GenC2Rust",
+    "Rust for Linux: Understanding the Security Impact of Rust in the Linux Kernel"
+  ]
+}

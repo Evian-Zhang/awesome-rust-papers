@@ -1,0 +1,31 @@
+{
+  "title": "An Empirical Analysis of Rust Integration in Android Open Source Project",
+  "link": "https://doi.org/10.1145/3803437.3805227",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3803437.3805227",
+  "venue": "FSE Companion",
+  "year": 2026,
+  "category": "ecosystem",
+  "tag": [
+    "Android",
+    "empirical study",
+    "documentation"
+  ],
+  "reference": [
+    "lockbud",
+    "Rust-lancet",
+    "REM",
+    "Yuga",
+    "CROWN",
+    "Rudra",
+    "FeatherweightRust",
+    "SafeDrop",
+    "Qrates",
+    "XRust",
+    "Is Rust Used Safely by Software Developers?",
+    "Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs",
+    "Memory-Safety Challenge Considered Solved? An In-Depth Study with All Rust CVEs",
+    "System Programming in Rust: Beyond Safety",
+    "An Empirical Study of Rust-for-Linux: The Success, Dissatisfaction, and Compromise",
+    "FFICHECKER"
+  ]
+}

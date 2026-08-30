@@ -1,0 +1,18 @@
+{
+  "title": "Towards Translating Real-World Code with LLMs: A Study of Translating to Rust",
+  "alias": "FLOURINE",
+  "link": "https://arxiv.org/abs/2405.11514",
+  "pdf": "https://arxiv.org/pdf/2405.11514",
+  "venue": "arXiv",
+  "year": 2024,
+  "category": "c2rust",
+  "tag": [
+    "LLM",
+    "differential testing",
+    "I/O"
+  ],
+  "reference": [
+    "CROWN",
+    "Translating C to Safer Rust"
+  ]
+}

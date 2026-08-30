@@ -1,0 +1,19 @@
+{
+  "title": "Rusty Variation: Deadlock-free Sessions with Failure in Rust",
+  "alias": "Rusty Variation",
+  "link": "https://doi.org/10.4204/EPTCS.304.4",
+  "pdf": "https://arxiv.org/pdf/1909.05970",
+  "repo": "https://github.com/wenkokke/sesh",
+  "venue": "ICE (EPTCS)",
+  "year": 2019,
+  "category": {
+    "product": "session type"
+  },
+  "tag": [
+    "deadlock"
+  ],
+  "reference": [
+    "RustBelt: Securing the Foundations of the Rust Programming Language",
+    "Session Types for Rust"
+  ]
+}

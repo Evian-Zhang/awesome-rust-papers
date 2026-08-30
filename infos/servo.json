@@ -1,0 +1,13 @@
+{
+  "title": "Engineering the Servo Web Browser Engine Using Rust",
+  "link": "https://doi.org/10.1145/2889160.2889229",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/2889160.2889229",
+  "repo": "https://github.com/servo/servo",
+  "venue": "ICSE Companion",
+  "year": 2016,
+  "category": "product",
+  "reference": [
+    "The Rust Language",
+    "Session Types for Rust"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Unleashing the Efficiency of Rust: An Empirical Study of Performance Bugs in Rust Projects",
+  "link": "https://doi.org/10.1109/ISSRE66568.2025.00045",
+  "repo": "https://github.com/Unparalleled-Calvin/Rust-Performance-Study",
+  "based": [
+    "RAPx"
+  ],
+  "venue": "ISSRE",
+  "year": 2025,
+  "category": "ecosystem",
+  "tag": [
+    "empirical study",
+    "performance"
+  ],
+  "reference": [
+    "The Rust Language",
+    "Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs",
+    "Memory-Safety Challenge Considered Solved? An In-Depth Study with All Rust CVEs",
+    "Towards Understanding the Runtime Performance of Rust",
+    "Aquascope",
+    "On the Dual Nature of Necessity in Use of Rust Unsafe Code"
+  ]
+}

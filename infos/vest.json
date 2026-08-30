@@ -1,0 +1,17 @@
+{
+  "title": "Vest: Verified, Secure, High-Performance Parsing and Serialization for Rust",
+  "alias": "Vest",
+  "link": "https://www.usenix.org/conference/usenixsecurity25/presentation/cai-yi",
+  "pdf": "https://www.usenix.org/system/files/usenixsecurity25-cai-yi.pdf",
+  "repo": "https://github.com/secure-foundations/vest",
+  "venue": "USENIX Security",
+  "year": 2025,
+  "category": "product",
+  "tag": [
+    "verification",
+    "performance",
+    "serialization",
+    "parsing"
+  ],
+  "reference": []
+}

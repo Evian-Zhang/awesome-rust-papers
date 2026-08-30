@@ -1,0 +1,28 @@
+{
+  "title": "Miri: Practical Undefined Behavior Detection for Rust",
+  "alias": "Miri",
+  "link": "https://doi.org/10.1145/3776690",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3776690",
+  "repo": "https://github.com/rust-lang/miri",
+  "venue": "POPL",
+  "year": 2026,
+  "category": "security",
+  "tag": [
+    "soundness",
+    "undefined behavior"
+  ],
+  "reference": [
+    "Prusti",
+    "Verus",
+    "Stacked Borrows: An Aliasing Model for Rust",
+    "Creusot",
+    "Aeneas",
+    "Flux",
+    "RefinedRust",
+    "SyRust",
+    "Rustlantis",
+    "Gillian-Rust",
+    "Tree Borrows",
+    "MiriLLI"
+  ]
+}

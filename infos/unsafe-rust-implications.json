@@ -1,0 +1,35 @@
+{
+  "title": "A Mixed Methods Study on the Implications of Unsafe Rust for Interoperation, Encapsulation, and Tooling",
+  "link": "https://doi.org/10.1145/3798277",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3798277",
+  "venue": "ACM TOSEM",
+  "year": 2026,
+  "category": "ecosystem",
+  "tag": [
+    "empirical study",
+    "unsafe",
+    "FFI",
+    "encapsulation"
+  ],
+  "reference": [
+    "Prusti",
+    "Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs",
+    "Verus",
+    "Qrates",
+    "Stacked Borrows: An Aliasing Model for Rust",
+    "Memory-Safety Challenge Considered Solved? An In-Depth Study with All Rust CVEs",
+    "Creusot",
+    "Flux",
+    "RefinedRust",
+    "Is Rust Used Safely by Software Developers?",
+    "Verifying Dynamic Trait Objects in Rust",
+    "GhostCell",
+    "A Closer Look at the Security Risks in the Rust Ecosystem",
+    "Is Unsafe an Achilles' Heel? A Comprehensive Study of Safety Requirements in Unsafe Rust Programming",
+    "On the Dual Nature of Necessity in Use of Rust Unsafe Code",
+    "Tree Borrows",
+    "MiriLLI",
+    "Miri",
+    "CapsLock"
+  ]
+}

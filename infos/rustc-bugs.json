@@ -1,0 +1,34 @@
+{
+  "title": "An Empirical Study of Bugs in the rustc Compiler",
+  "link": "https://doi.org/10.1145/3763800",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3763800",
+  "repo": "https://doi.org/10.5281/zenodo.16600026",
+  "venue": "OOPSLA",
+  "year": 2025,
+  "category": "ecosystem",
+  "tag": [
+    "empirical study",
+    "compiler",
+    "HIR",
+    "MIR"
+  ],
+  "reference": [
+    "Prusti",
+    "Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs",
+    "Verus",
+    "Qrates",
+    "Memory-Safety Challenge Considered Solved? An In-Depth Study with All Rust CVEs",
+    "Aeneas",
+    "RustSmith: Random Differential Compiler Testing for Rust",
+    "Fuzzing the Rust Typechecker Using CLP (T)",
+    "Is Rust Used Safely by Software Developers?",
+    "RustHornBelt",
+    "SyRust",
+    "Prusti Closures",
+    "A Closer Look at the Security Risks in the Rust Ecosystem",
+    "Is Unsafe an Achilles' Heel? A Comprehensive Study of Safety Requirements in Unsafe Rust Programming",
+    "On the Dual Nature of Necessity in Use of Rust Unsafe Code",
+    "Rustlantis",
+    "Rust-twins"
+  ]
+}

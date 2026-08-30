@@ -1,0 +1,28 @@
+{
+  "title": "C2SaferRust: Transforming C Projects Into Safer Rust With NeuroSymbolic Techniques",
+  "alias": "C2SaferRust",
+  "link": "https://doi.org/10.1109/TSE.2025.3641486",
+  "pdf": "https://arxiv.org/pdf/2501.14257",
+  "repo": "https://github.com/vikramnitin9/c2saferrust",
+  "compared": [
+    "Laertes",
+    "CROWN"
+  ],
+  "venue": "IEEE TSE",
+  "year": 2026,
+  "category": "c2rust",
+  "tag": [
+    "neuro symbolic",
+    "LLM",
+    "safety"
+  ],
+  "reference": [
+    "Qrates",
+    "Translating C to Safer Rust",
+    "CROWN",
+    "Laertes",
+    "Translating C To Rust: Lessons from a User Study",
+    "Urcrat",
+    "NADER"
+  ]
+}

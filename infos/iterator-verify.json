@@ -1,0 +1,24 @@
+{
+  "title": "Specifying and Verifying Higher-Order Rust Iterators",
+  "link": "https://doi.org/10.1007/978-3-031-30820-8_9",
+  "pdf": "https://link.springer.com/content/pdf/10.1007/978-3-031-30820-8_9.pdf",
+  "repo": "https://github.com/creusot-rs/creusot",
+  "based": [
+    "Creusot"
+  ],
+  "venue": "TACAS",
+  "year": 2023,
+  "category": "verification",
+  "tag": [
+    "Creusot",
+    "iterator"
+  ],
+  "reference": [
+    "RustHorn",
+    "Creusot",
+    "Aeneas",
+    "The Prusti Project: Formal Verification for Rust",
+    "RustHornBelt",
+    "Prusti Closures"
+  ]
+}

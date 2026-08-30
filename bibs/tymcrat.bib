@@ -1,0 +1,18 @@
+@article{10.1007/s10664-024-10573-2,
+author = {Hong, Jaemin and Ryu, Sukyoung},
+title = {Type-migrating C-to-Rust translation using a large language model},
+year = {2024},
+issue_date = {Dec 2024},
+publisher = {Kluwer Academic Publishers},
+address = {USA},
+volume = {30},
+number = {1},
+issn = {1382-3256},
+url = {https://doi.org/10.1007/s10664-024-10573-2},
+doi = {10.1007/s10664-024-10573-2},
+abstract = {Rust, a modern system programming language, introduces new types that prevent memory bugs and data races. This makes translating legacy system programs from C to Rust a promising approach to enhance their reliability. Since manual code translation is time-consuming, it is desirable to automate the translation. To yield satisfactory results, the translator should have the ability to perform type migration, i.e., removing C types and introducing Rust types in the code. In this work, we aim to automatically port an entire C program to Rust by translating each C function to a Rust function with a signature containing proper Rust types through type migration. This goal is challenging because (1) type migration cannot be achieved through syntactic mappings between type names, and (2) after type migration, function bodies should be correctly restructured based on the precise understanding of the functions’ behavior. To address these difficulties, we leverage large language models (LLMs), which possess knowledge of program semantics and programming idioms. However, na{\"i}vely instructing LLMs to translate each function produces unsatisfactory Rust code, containing unmigrated or improperly migrated types and a huge number of type errors. To resolve these issues, we propose three techniques: (1) generating candidate signatures, (2) providing translated callees’ signatures to LLMs, and (3) iteratively fixing type errors using compiler feedback. Our evaluation shows that the proposed approach yields a 63.5\% increase in migrated types and a 71.5\% decrease in type errors compared to the baseline (the na{\"i}ve LLM-based translation) with modest performance overhead.},
+journal = {Empirical Softw. Engg.},
+month = oct,
+numpages = {38},
+keywords = {Rust, Code translation, Type migration, Large language model}
+}

@@ -1,0 +1,34 @@
+{
+  "title": "Kani: A Model Checker for Rust",
+  "alias": "Kani",
+  "link": "https://arxiv.org/abs/2607.01504",
+  "pdf": "https://arxiv.org/pdf/2607.01504",
+  "repo": "https://github.com/model-checking/kani",
+  "venue": "arXiv",
+  "year": 2026,
+  "category": "verification",
+  "tag": [
+    "model checking",
+    "MIR"
+  ],
+  "reference": [
+    "Miri",
+    "Formal Security and Functional Verification of Cryptographic Protocol Implementations in Rust",
+    "RefinedRust",
+    "Aeneas",
+    "Verifying Dynamic Trait Objects in Rust",
+    "Rudra",
+    "Qrates",
+    "Stacked Borrows: An Aliasing Model for Rust",
+    "Tock",
+    "SeaBMC",
+    "hax",
+    "Flux",
+    "Creusot",
+    "The Prusti Project: Formal Verification for Rust",
+    "Theseus",
+    "RustBelt: Securing the Foundations of the Rust Programming Language",
+    "verify-rust-std",
+    "Verus"
+  ]
+}

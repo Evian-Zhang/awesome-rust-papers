@@ -1,0 +1,36 @@
+{
+  "title": "Project-Level C-to-Rust Translation via Pointer Knowledge Graphs",
+  "alias": "PtrTrans",
+  "link": "https://doi.org/10.1145/3808169",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3808169",
+  "repo": "https://github.com/FudanSELab/PtrTrans-C2Rust",
+  "compared": [
+    "CROWN",
+    "PR2",
+    "FLOURINE"
+  ],
+  "venue": "FSE",
+  "year": 2026,
+  "category": "c2rust",
+  "tag": [
+    "LLM",
+    "pointer",
+    "unsafe"
+  ],
+  "reference": [
+    "CRUST-Bench",
+    "C2SaferRust",
+    "Syzygy",
+    "Translating C To Rust: Lessons from a User Study",
+    "FLOURINE",
+    "On the Dual Nature of Necessity in Use of Rust Unsafe Code",
+    "A Closer Look at the Security Risks in the Rust Ecosystem",
+    "Laertes",
+    "CROWN",
+    "Translating C to Safer Rust",
+    "Memory-Safety Challenge Considered Solved? An In-Depth Study with All Rust CVEs",
+    "The Rust Language",
+    "PR2",
+    "Forcrat"
+  ]
+}

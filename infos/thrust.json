@@ -1,0 +1,39 @@
+{
+  "title": "Thrust: A Prophecy-Based Refinement Type System for Rust",
+  "alias": "Thrust",
+  "link": "https://doi.org/10.1145/3729333",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3729333",
+  "repo": "https://github.com/coord-e/thrust",
+  "compared": [
+    "RustHorn",
+    "Flux",
+    "Prusti"
+  ],
+  "venue": "PLDI",
+  "year": 2025,
+  "category": "verification",
+  "tag": [
+    "refinement type system",
+    "correctness",
+    "invariant",
+    "constrained Horn clause",
+    "formalization"
+  ],
+  "reference": [
+    "RustBelt: Securing the Foundations of the Rust Programming Language",
+    "Prusti",
+    "Stacked Borrows: An Aliasing Model for Rust",
+    "RustHorn",
+    "Creusot",
+    "Aeneas",
+    "RustHornBelt",
+    "SMACK",
+    "cargo-klee",
+    "Prusti Closures",
+    "Verus",
+    "Flux",
+    "RefinedRust",
+    "Verifying Dynamic Trait Objects in Rust",
+    "LLBC#"
+  ]
+}

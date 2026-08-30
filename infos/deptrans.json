@@ -1,0 +1,29 @@
+{
+  "title": "Dependency-Guided Repository-Level C-to-Rust Translation with Reinforcement Alignment",
+  "alias": "DepTrans",
+  "link": "https://doi.org/10.1145/3803437.3805266",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3803437.3805266",
+  "compared": [
+    "Sactor"
+  ],
+  "venue": "FSE",
+  "year": 2026,
+  "category": "c2rust",
+  "tag": [
+    "reinforcement learning",
+    "LLM",
+    "fine tune"
+  ],
+  "reference": [
+    "Translating C to Safer Rust",
+    "CROWN",
+    "Laertes",
+    "Concrat",
+    "Translating C To Rust: Lessons from a User Study",
+    "Urcrat",
+    "Scylla",
+    "Syzygy",
+    "C2SaferRust",
+    "CRUST-Bench"
+  ]
+}

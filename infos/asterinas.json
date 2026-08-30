@@ -1,0 +1,22 @@
+{
+  "title": "ASTERINAS: A Linux ABI-Compatible, Rust-Based Framekernel OS with a Small and Sound TCB",
+  "alias": "ASTERINAS",
+  "link": "https://www.usenix.org/conference/atc25/presentation/peng-yuke",
+  "pdf": "https://www.usenix.org/system/files/atc25-peng-yuke.pdf",
+  "repo": "https://github.com/asterinas/asterinas",
+  "venue": "USENIX ATC",
+  "year": 2025,
+  "category": {
+    "product": "operating system"
+  },
+  "tag": [
+    "framekernel"
+  ],
+  "reference": [
+    "Qrates",
+    "Tock",
+    "An Empirical Study of Rust-for-Linux: The Success, Dissatisfaction, and Compromise",
+    "Theseus",
+    "RedLeaf"
+  ]
+}

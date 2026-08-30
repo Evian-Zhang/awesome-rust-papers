@@ -1,0 +1,19 @@
+{
+  "title": "A Comprehensive Empirical and Theoretical Analysis of Batching Algorithms for Efficient, Safe, Parallel Mutation Analysis in Rust",
+  "link": "https://doi.org/10.1145/3787851",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3787851",
+  "repo": "https://github.com/zalanlevai/mutest-rs",
+  "venue": "ACM TOSEM",
+  "year": 2026,
+  "category": "program analysis",
+  "tag": [
+    "mutation analysis",
+    "empirical study"
+  ],
+  "reference": [
+    "Qrates",
+    "RustSmith: Random Differential Compiler Testing for Rust",
+    "Is Rust Used Safely by Software Developers?",
+    "SyRust"
+  ]
+}

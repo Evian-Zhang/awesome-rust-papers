@@ -1,0 +1,18 @@
+@article{10.1145/3735592,
+author = {Villani, Neven and Hostert, Johannes and Dreyer, Derek and Jung, Ralf},
+title = {Tree Borrows},
+year = {2025},
+issue_date = {June 2025},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {9},
+number = {PLDI},
+url = {https://doi.org/10.1145/3735592},
+doi = {10.1145/3735592},
+abstract = {The Rust programming language is well known for its ownership-based type system, which offers strong guarantees like memory safety and data race freedom. However, Rust also provides unsafe escape hatches, for which safety is not guaranteed automatically and must instead be manually upheld by the programmer. This creates a tension. On the one hand, compilers would like to exploit the strong guarantees of the type system—particularly those pertaining to aliasing of pointers—in order to unlock powerful intraprocedural optimizations. On the other hand, those optimizations are easily invalidated by “badly behaved” unsafe code. To ensure correctness of such optimizations, it thus becomes necessary to clearly define what unsafe code is “badly behaved.” In prior work, Stacked Borrows defined a set of rules achieving this goal. However, Stacked Borrows rules out several patterns that turn out to be common in real-world unsafe Rust code, and it does not account for advanced features of the Rust borrow checker that were introduced more recently.To resolve these issues, we present Tree Borrows. As the name suggests, Tree Borrows is defined by replacing the stack at the heart of Stacked Borrows with a tree. This overcomes the aforementioned limitations: our evaluation on the 30 000 most widely used Rust crates shows that Tree Borrows rejects 54\% fewer test cases than Stacked Borrows does. Additionally, we prove (in Rocq) that it retains most of the Stacked Borrows optimizations and also enables important new ones, notably read-read reorderings.},
+journal = {Proc. ACM Program. Lang.},
+month = jun,
+articleno = {188},
+numpages = {24},
+keywords = {Rust, operational semantics, compiler optimizations, Miri, Rocq}
+}

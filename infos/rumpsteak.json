@@ -1,0 +1,29 @@
+{
+  "title": "Deadlock-Free Asynchronous Message Reordering in Rust with Multiparty Session Types",
+  "alias": "Rumpsteak",
+  "link": "https://doi.org/10.1145/3503221.3508404",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3503221.3508404",
+  "repo": "https://github.com/zakcutner/rumpsteak",
+  "compared": [
+    "Sesh",
+    "Ferrite",
+    "MultiCrusty"
+  ],
+  "venue": "PPoPP",
+  "year": 2022,
+  "category": {
+    "product": "session type"
+  },
+  "tag": [
+    "asynchronous",
+    "concurrency",
+    "deadlock",
+    "session type"
+  ],
+  "reference": [
+    "Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs",
+    "Session Types for Rust",
+    "Rusty Variation",
+    "mpst-rust"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "title": "A Hybrid Approach to Semi-Automated Rust Verification",
+  "alias": "Gillian-Rust",
+  "link": "https://doi.org/10.1145/3729289",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3729289",
+  "repo": "https://github.com/GillianPlatform/Gillian",
+  "based": [
+    "RustBelt",
+    "RustHornBelt",
+    "Creusot",
+    "Gillian"
+  ],
+  "venue": "PLDI",
+  "year": 2025,
+  "category": {
+    "verification": "proof generation"
+  },
+  "tag": [
+    "type safety",
+    "correctness"
+  ],
+  "reference": [
+    "The Rust Language",
+    "RustHorn",
+    "RustHornBelt",
+    "Tree Borrows",
+    "Specifying and Verifying Higher-Order Rust Iterators"
+  ]
+}

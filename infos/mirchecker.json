@@ -1,0 +1,26 @@
+{
+  "title": "MirChecker: Detecting Bugs in Rust Programs via Static Analysis",
+  "alias": "MirChecker",
+  "link": "https://doi.org/10.1145/3460120.3484541",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3460120.3484541",
+  "repo": "https://github.com/lizhuohua/rust-mir-checker",
+  "venue": "CCS",
+  "year": 2021,
+  "category": {
+    "security": "static analysis"
+  },
+  "tag": [
+    "MIR",
+    "memory safety",
+    "SMT",
+    "symbolic execution"
+  ],
+  "reference": [
+    "Prusti",
+    "SafeDrop",
+    "cargo-klee",
+    "Crust",
+    "Memory-Safety Challenge Considered Solved? An In-Depth Study with All Rust CVEs",
+    "Fearless Concurrency? Understanding Concurrent Programming Safety in Real-World Rust Software"
+  ]
+}

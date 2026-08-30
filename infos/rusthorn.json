@@ -1,0 +1,22 @@
+{
+  "title": "RustHorn: CHC-Based Verification for Rust Programs",
+  "alias": "RustHorn",
+  "link": "https://doi.org/10.1007/978-3-030-44914-8_18",
+  "pdf": "https://link.springer.com/content/pdf/10.1007/978-3-030-44914-8_18.pdf",
+  "repo": "https://github.com/hopv/rust-horn",
+  "venue": "ESOP",
+  "year": 2020,
+  "category": "verification",
+  "tag": [
+    "constrained Horn clause",
+    "pointer",
+    "ownership"
+  ],
+  "reference": [
+    "Prusti",
+    "SMACK",
+    "cargo-klee",
+    "RustBelt: Securing the Foundations of the Rust Programming Language",
+    "The Rust Language"
+  ]
+}

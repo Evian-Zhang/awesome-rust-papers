@@ -1,0 +1,33 @@
+{
+  "title": "Ownership Guided C to Rust Translation",
+  "alias": "CROWN",
+  "link": "https://doi.org/10.1007/978-3-031-37709-9_22",
+  "pdf": "https://link.springer.com/content/pdf/10.1007/978-3-031-37709-9_22.pdf",
+  "repo": "https://github.com/KomaEc/crown",
+  "based": [
+    "Z3"
+  ],
+  "compared": [
+    "Laertes"
+  ],
+  "venue": "CAV",
+  "year": 2023,
+  "category": "c2rust",
+  "tag": [
+    "ownership",
+    "pointer",
+    "SAT"
+  ],
+  "reference": [
+    "RustBelt: Securing the Foundations of the Rust Programming Language",
+    "The Rust Language",
+    "Prusti",
+    "Qrates",
+    "Translating C to Safer Rust",
+    "RustHorn",
+    "Laertes",
+    "Is Rust Used Safely by Software Developers?",
+    "RustHornBelt",
+    "Prusti Closures"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "title": "Stacked Borrows: An Aliasing Model for Rust",
+  "link": "https://doi.org/10.1145/3371109",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3371109",
+  "based": [
+    "Miri",
+    "Coq"
+  ],
+  "venue": "POPL",
+  "year": 2020,
+  "category": "formalization",
+  "tag": [
+    "soundness",
+    "undefined behavior"
+  ],
+  "reference": [
+    "RustBelt: Securing the Foundations of the Rust Programming Language"
+  ]
+}

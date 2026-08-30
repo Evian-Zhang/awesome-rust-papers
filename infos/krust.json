@@ -1,0 +1,22 @@
+{
+  "title": "KRust: A Formal Executable Semantics of Rust",
+  "alias": "KRust",
+  "link": "https://doi.org/10.1109/TASE.2018.00014",
+  "pdf": "https://arxiv.org/pdf/1804.10806",
+  "based": [
+    "K Framework"
+  ],
+  "venue": "TASE",
+  "year": 2018,
+  "category": "formalization",
+  "tag": [
+    "verification"
+  ],
+  "reference": [
+    "RustBelt: Securing the Foundations of the Rust Programming Language",
+    "The Rust Language",
+    "Fuzzing the Rust Typechecker Using CLP (T)",
+    "Engineering the Servo Web Browser Engine Using Rust",
+    "Crust"
+  ]
+}

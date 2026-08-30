@@ -1,0 +1,34 @@
+{
+  "title": "Rug: Turbo LLM for Rust Unit Test Generation",
+  "alias": "Rug",
+  "link": "https://doi.org/10.1109/ICSE55347.2025.00097",
+  "pdf": "https://sang.fan/assets/papers/rug_icse25.pdf",
+  "repo": "https://github.com/CXWorks/rug-ae",
+  "based": [
+    "LibFuzzer"
+  ],
+  "compared": [
+    "RULF",
+    "RPG",
+    "RustAssistant"
+  ],
+  "venue": "ICSE",
+  "year": 2025,
+  "category": {
+    "security": "fuzzing"
+  },
+  "tag": [
+    "LLM",
+    "harness",
+    "unit test",
+    "MIR",
+    "static analysis"
+  ],
+  "reference": [
+    "RULF",
+    "SyRust",
+    "RPG",
+    "Rust-lancet",
+    "RUSTYUNIT"
+  ]
+}

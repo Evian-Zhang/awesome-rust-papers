@@ -1,0 +1,22 @@
+{
+  "title": "MinsC2Rust: LLM-driven project-level code migration from C to safe Rust",
+  "alias": "MinsC2Rust",
+  "link": "https://doi.org/10.1007/s10664-026-10905-4",
+  "venue": "Empirical Software Engineering",
+  "year": 2026,
+  "category": "c2rust",
+  "tag": [
+    "LLM"
+  ],
+  "reference": [
+    "The Rust Language",
+    "Translating C to Safer Rust",
+    "CROWN",
+    "Laertes",
+    "Engineering the Servo Web Browser Engine Using Rust",
+    "Concrat",
+    "Translating C To Rust: Lessons from a User Study",
+    "C2SaferRust",
+    "VERT"
+  ]
+}

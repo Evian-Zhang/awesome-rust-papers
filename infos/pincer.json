@@ -1,0 +1,25 @@
+{
+  "title": "From Raw Pointers to Memory Safety: A Modular Demand-Driven Typestate Analysis for Rust",
+  "alias": "Pincer",
+  "link": "https://doi.org/10.1145/3798266",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3798266",
+  "repo": "https://github.com/rustanlys/pincer",
+  "compared": [
+    "Rudra",
+    "SafeDrop"
+  ],
+  "venue": "OOPSLA",
+  "year": 2026,
+  "category": "program analysis",
+  "tag": [
+    "data-flow analysis",
+    "pointer",
+    "memory safety"
+  ],
+  "reference": [
+    "Memory-Safety Challenge Considered Solved? An In-Depth Study with All Rust CVEs",
+    "SafeDrop",
+    "Yuga",
+    "rCanary"
+  ]
+}

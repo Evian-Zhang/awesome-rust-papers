@@ -1,0 +1,25 @@
+{
+  "title": "The Prusti Project: Formal Verification for Rust",
+  "link": "https://doi.org/10.1007/978-3-031-06773-0_5",
+  "pdf": "https://pm.inf.ethz.ch/publications/AstrauskasBilyFialaGrannanMathejaMuellerPoliSummers22.pdf",
+  "repo": "https://github.com/viperproject/prusti-dev",
+  "venue": "NFM",
+  "year": 2022,
+  "category": "verification",
+  "tag": [
+    "Prusti"
+  ],
+  "reference": [
+    "RustBelt: Securing the Foundations of the Rust Programming Language",
+    "Prusti",
+    "Qrates",
+    "Stacked Borrows: An Aliasing Model for Rust",
+    "Creusot",
+    "Is Rust Used Safely by Software Developers?",
+    "SMACK",
+    "cargo-klee",
+    "RustHorn",
+    "Prusti Closures",
+    "Verifying Dynamic Trait Objects in Rust"
+  ]
+}

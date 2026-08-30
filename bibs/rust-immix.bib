@@ -1,0 +1,17 @@
+@inproceedings{10.1145/2926697.2926707,
+author = {Lin, Yi and Blackburn, Stephen M. and Hosking, Antony L. and Norrish, Michael},
+title = {Rust as a language for high performance GC implementation},
+year = {2016},
+isbn = {9781450343176},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/2926697.2926707},
+doi = {10.1145/2926697.2926707},
+abstract = {High performance garbage collectors build upon performance-critical low-level code, typically exhibit multiple levels of concurrency, and are prone to subtle bugs. Implementing, debugging and maintaining such collectors can therefore be extremely challenging. The choice of implementation language is a crucial consideration when building a collector. Typically, the drive for performance and the need for efficient support of low-level memory operations leads to the use of low-level languages like C or C++, which offer little by way of safety and software engineering benefits. This risks undermining the robustness and flexibility of the collector design. Rust's ownership model, lifetime specification, and reference borrowing deliver safety guarantees through a powerful static checker with little runtime overhead. These features make Rust a compelling candidate for a collector implementation language, but they come with restrictions that threaten expressiveness and efficiency. We describe our experience implementing an Immix garbage collector in Rust and C. We discuss the benefits of Rust, the obstacles encountered, and how we overcame them. We show that our Immix implementation has almost identical performance on micro benchmarks, compared to its implementation in C, and outperforms the popular BDW collector on the gcbench micro benchmark. We find that Rust's safety features do not create significant barriers to implementing a high performance collector. Though memory managers are usually considered low-level, our high performance implementation relies on very little unsafe code, with the vast majority of the implementation benefiting from Rust's safety. We see our experience as a compelling proof-of-concept of Rust as an implementation language for high performance garbage collection.},
+booktitle = {Proceedings of the 2016 ACM SIGPLAN International Symposium on Memory Management},
+pages = {89–98},
+numpages = {10},
+keywords = {Rust, garbage collection, memory management},
+location = {Santa Barbara, CA, USA},
+series = {ISMM 2016}
+}

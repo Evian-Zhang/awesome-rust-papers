@@ -1,0 +1,17 @@
+@inproceedings{10.1145/3503221.3508404,
+author = {Cutner, Zak and Yoshida, Nobuko and Vassor, Martin},
+title = {Deadlock-free asynchronous message reordering in rust with multiparty session types},
+year = {2022},
+isbn = {9781450392044},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3503221.3508404},
+doi = {10.1145/3503221.3508404},
+abstract = {Rust is a modern systems language focused on performance and reliability. Complementing Rust's promise to provide "fearless concurrency", developers frequently exploit asynchronous message passing. Unfortunately, sending and receiving messages in an arbitrary order to maximise computation-communication overlap (a popular optimisation in message-passing applications) opens up a Pandora's box of subtle concurrency bugs.To guarantee deadlock-freedom by construction, we present Rumpsteak: a new Rust framework based on multiparty session types. Previous session type implementations in Rust are either built upon synchronous and blocking communication and/or are limited to two-party interactions. Crucially, none support the arbitrary ordering of messages for efficiency.Rumpsteak instead targets asynchronous async/await code. Its unique ability is allowing developers to arbitrarily order send/receive messages while preserving deadlock-freedom. For this, Rumpsteak incorporates two recent advanced session type theories: (1) k-multiparty compatibility (k-MC), which globally verifies the safety of a set of participants, and (2) asynchronous multiparty session subtyping, which locally verifies optimisations in the context of a single participant. Specifically, we propose a novel algorithm for asynchronous subtyping that is both sound and decidable.We first evaluate the performance and expressiveness of Rumpsteak against three previous Rust implementations. We discover that Rumpsteak is around 1.7--8.6x more efficient and can safely express many more examples by virtue of offering arbitrary ordering of messages. Secondly, we analyse the complexity of our new algorithm and benchmark it against k-MC and a binary session subtyping algorithm. We find they are exponentially slower than Rumpsteak's.},
+booktitle = {Proceedings of the 27th ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming},
+pages = {246–261},
+numpages = {16},
+keywords = {asynchronous message passing, computation-communication overlap, message reordering, multi-party session types, rust},
+location = {Seoul, Republic of Korea},
+series = {PPoPP '22}
+}

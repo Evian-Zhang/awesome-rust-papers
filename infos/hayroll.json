@@ -1,0 +1,27 @@
+{
+  "title": "Hayroll: A Modular Wrapper for Translating C Macros and Conditional Compilation to Rust",
+  "alias": "Hayroll",
+  "link": "https://doi.org/10.1145/3808276",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3808276",
+  "repo": "https://github.com/UW-HARVEST/Hayroll",
+  "based": [
+    "C2Rust"
+  ],
+  "venue": "PLDI",
+  "year": 2026,
+  "category": "c2rust",
+  "tag": [
+    "preprocessor",
+    "symbolic execution",
+    "macro"
+  ],
+  "reference": [
+    "Translating C to Safer Rust",
+    "CROWN",
+    "Laertes",
+    "Tymcrat",
+    "Concrat",
+    "Urcrat",
+    "GenC2Rust"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "title": "Compositional Bug Detection for Internally Unsafe Libraries: A Logical Approach to Type Unsoundness",
+  "alias": "RUXt",
+  "link": "https://doi.org/10.4230/LIPIcs.ECOOP.2025.5",
+  "pdf": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol333-ecoop2025/LIPIcs.ECOOP.2025.5/LIPIcs.ECOOP.2025.5.pdf",
+  "repo": "https://doi.org/10.4230/DARTS.11.2.9",
+  "based": [
+    "Rcoq"
+  ],
+  "venue": "ECOOP",
+  "year": 2025,
+  "category": "formalization",
+  "tag": [
+    "undefined behavior",
+    "soundness"
+  ],
+  "reference": [
+    "Gillian-Rust",
+    "Rudra",
+    "Automatically Enforcing Rust Trait Properties",
+    "RefinedRust",
+    "Stacked Borrows: An Aliasing Model for Rust",
+    "RustBelt: Securing the Foundations of the Rust Programming Language",
+    "Verus",
+    "The Rust Language",
+    "Crabtree",
+    "Tree Borrows"
+  ]
+}

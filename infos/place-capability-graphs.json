@@ -1,0 +1,33 @@
+{
+  "title": "Place Capability Graphs: A General-Purpose Model of Rust's Ownership and Borrowing Guarantees",
+  "link": "https://doi.org/10.1145/3763122",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3763122",
+  "repo": "https://github.com/prusti/pcg",
+  "venue": "OOPSLA",
+  "year": 2025,
+  "category": "formalization",
+  "tag": [
+    "ownership",
+    "borrow checker",
+    "type checker",
+    "Floistry",
+    "Prusti"
+  ],
+  "reference": [
+    "RustBelt: Securing the Foundations of the Rust Programming Language",
+    "Prusti",
+    "Stacked Borrows: An Aliasing Model for Rust",
+    "Creusot",
+    "Aeneas",
+    "RustHornBelt",
+    "FeatherweightRust",
+    "Aquascope",
+    "LLBC#",
+    "Tree Borrows",
+    "Flowistry",
+    "Rust for Morello: Always-On Memory Safety, Even in Unsafe Code (Experience Paper)",
+    "Verifying Dynamic Trait Objects in Rust",
+    "KRust",
+    "Flux"
+  ]
+}

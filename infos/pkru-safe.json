@@ -1,0 +1,21 @@
+{
+  "title": "PKRU-safe: automatically locking down the heap between safe and unsafe languages",
+  "alias": "PKRU-safe",
+  "link": "https://doi.org/10.1145/3492321.3519582",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3492321.3519582",
+  "repo": "https://github.com/securesystemslab/PKRU-Safe",
+  "venue": "EuroSys",
+  "year": 2022,
+  "category": {
+    "security": "isolation"
+  },
+  "tag": [
+    "PKRU",
+    "LLVM IR",
+    "MPK"
+  ],
+  "reference": [
+    "RustBelt: Securing the Foundations of the Rust Programming Language",
+    "XRust"
+  ]
+}

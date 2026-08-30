@@ -1,0 +1,18 @@
+{
+  "title": "Comprehensiveness, Automation and Lifecycle: A New Perspective for Rust Security",
+  "link": "https://doi.org/10.1109/QRS57517.2022.00102",
+  "pdf": "https://csslab-ustc.github.io/publications/2022/rust-cal.pdf",
+  "venue": "QRS",
+  "year": 2022,
+  "category": "ecosystem",
+  "tag": [
+    "empirical study",
+    "security"
+  ],
+  "reference": [
+    "Is Rust Used Safely by Software Developers?",
+    "Fearless Concurrency? Understanding Concurrent Programming Safety in Real-World Rust Software",
+    "XRust",
+    "Patina"
+  ]
+}

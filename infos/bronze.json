@@ -1,0 +1,16 @@
+{
+  "title": "Garbage Collection Makes Rust Easier to Use: A Randomized Controlled Trial of the Bronze Garbage Collector",
+  "alias": "Bronze",
+  "link": "https://doi.org/10.1145/3510003.3510107",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3510003.3510107",
+  "repo": "https://github.com/mcoblenz/Bronze",
+  "venue": "ICSE",
+  "year": 2022,
+  "category": "language",
+  "tag": [
+    "garbage collection"
+  ],
+  "reference": [
+    "Qrates"
+  ]
+}

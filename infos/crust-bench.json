@@ -1,0 +1,21 @@
+{
+  "title": "CRUST-Bench: A Comprehensive Benchmark for C-to-safe-Rust Transpilation",
+  "alias": "CRUST-Bench",
+  "link": "https://arxiv.org/abs/2504.15254",
+  "pdf": "https://arxiv.org/pdf/2504.15254",
+  "repo": "https://github.com/anirudhkhatry/CRUST-bench",
+  "venue": "arXiv",
+  "year": 2025,
+  "category": "c2rust",
+  "tag": [
+    "empirical study",
+    "benchmark"
+  ],
+  "reference": [
+    "C2SaferRust",
+    "Syzygy",
+    "FLOURINE",
+    "CROWN",
+    "Translating C to Safer Rust"
+  ]
+}

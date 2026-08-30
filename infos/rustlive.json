@@ -1,0 +1,17 @@
+{
+  "title": "RustLIVE: Reducing the Learning Barriers of Rust Through Visualization",
+  "alias": "RustLIVE",
+  "link": "https://doi.org/10.1109/FIE61694.2024.10893207",
+  "venue": "FIE",
+  "year": 2024,
+  "category": "language",
+  "tag": [
+    "learning",
+    "borrow checker",
+    "ownership"
+  ],
+  "reference": [
+    "Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs",
+    "RustViz"
+  ]
+}

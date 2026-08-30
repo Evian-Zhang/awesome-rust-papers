@@ -1,0 +1,25 @@
+{
+  "title": "PR2: Peephole Raw Pointer Rewriting with LLMs for Translating C to Safer Rust",
+  "alias": "PR2",
+  "link": "https://doi.org/10.18653/v1/2026.findings-acl.1763",
+  "pdf": "https://aclanthology.org/2026.findings-acl.1763.pdf",
+  "repo": "https://github.com/bhcsayx/PR2",
+  "compared": [
+    "Laertes"
+  ],
+  "venue": "ACL Findings",
+  "year": 2026,
+  "category": "c2rust",
+  "tag": [
+    "LLM",
+    "pointer",
+    "decision-tree"
+  ],
+  "reference": [
+    "Laertes",
+    "CROWN",
+    "Translating C to Safer Rust",
+    "The Rust Language",
+    "Syzygy"
+  ]
+}

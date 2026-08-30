@@ -1,0 +1,19 @@
+{
+  "title": "Translating C To Rust: Lessons from a User Study",
+  "link": "https://www.ndss-symposium.org/ndss-paper/translating-c-to-rust-lessons-from-a-user-study/",
+  "pdf": "https://dx.doi.org/10.14722/ndss.2025.241407",
+  "venue": "NDSS",
+  "year": 2025,
+  "category": "c2rust",
+  "tag": [
+    "empirical study",
+    "safety"
+  ],
+  "reference": [
+    "FLOURINE",
+    "Laertes",
+    "CROWN",
+    "Translating C to Safer Rust",
+    "RustBelt: Securing the Foundations of the Rust Programming Language"
+  ]
+}

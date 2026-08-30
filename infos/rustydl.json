@@ -1,0 +1,22 @@
+{
+  "title": "RustyDL: A Program Logic for Rust",
+  "alias": "RustyDL",
+  "link": "https://doi.org/10.1007/978-3-032-26204-2_19",
+  "pdf": "https://link.springer.com/content/pdf/10.1007/978-3-032-26204-2_19.pdf",
+  "repo": "https://github.com/Drodt/fm26-artifact",
+  "venue": "FM",
+  "year": 2026,
+  "category": "formalization",
+  "tag": [
+    "human-in-the-loop"
+  ],
+  "reference": [
+    "Verus",
+    "Qrates",
+    "Creusot",
+    "Aeneas",
+    "The Prusti Project: Formal Verification for Rust",
+    "Gillian-Rust",
+    "Surveying the Rust Verification Landscape"
+  ]
+}

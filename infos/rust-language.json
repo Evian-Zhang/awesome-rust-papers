@@ -1,0 +1,10 @@
+{
+  "title": "The Rust Language",
+  "link": "https://doi.org/10.1145/2663171.2663188",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/2663171.2663188",
+  "repo": "https://github.com/rust-lang/rust",
+  "venue": "HILT (ACM SIGAda)",
+  "year": 2014,
+  "category": "language",
+  "reference": []
+}

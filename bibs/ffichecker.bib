@@ -1,0 +1,16 @@
+@inproceedings{10.1007/978-3-031-17143-7_33,
+author = {Li, Zhuohua and Wang, Jincheng and Sun, Mingshen and Lui, John C. S.},
+title = {Detecting Cross-language Memory Management Issues in&nbsp;Rust},
+year = {2022},
+isbn = {978-3-031-17142-0},
+publisher = {Springer-Verlag},
+address = {Berlin, Heidelberg},
+url = {https://doi.org/10.1007/978-3-031-17143-7_33},
+doi = {10.1007/978-3-031-17143-7_33},
+abstract = {Rust is a promising system-level programming language that can prevent memory corruption bugs using its strong type system and ownership-based memory management scheme. In practice, programmers usually write Rust code in conjunction with other languages such as C/C++ through Foreign Function Interface (FFI). For example, many notable projects are developed using Rust and other programming languages, such as Firefox, Google Fuchsia OS, and the Linux kernel. Although it is widely believed that gradually re-implementing security-critical components in Rust is a way of enhancing software security, however, using FFI is inherently unsafe. In this paper, we show that memory management across the FFI boundaries is error-prone. Any incorrect use of FFI may corrupt Rust’s ownership system, leading to memory safety issues. To tackle this problem, we design and build FFIChecker, an automated static analysis and bug detection tool dedicated to memory management issues across the Rust/C FFI. We evaluate our tool by checking 987 Rust packages crawled from the official package registry and reveal 34 bugs in 12 packages. Our experiments show that FFIChecker is a useful tool to detect real-world cross-language memory management issues with a reasonable amount of computational resources.},
+booktitle = {Computer Security – ESORICS 2022: 27th European Symposium on Research in Computer Security, Copenhagen, Denmark, September 26–30, 2022, Proceedings, Part III},
+pages = {680–700},
+numpages = {21},
+keywords = {Bug detection, Rust, Static analysis},
+location = {Copenhagen, Denmark}
+}

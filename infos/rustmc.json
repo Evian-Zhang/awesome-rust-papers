@@ -1,0 +1,25 @@
+{
+  "title": "RUSTMC: Automated Verification of Real-World Concurrent Rust",
+  "alias": "RUSTMC",
+  "link": "https://doi.org/10.1007/978-3-032-28187-6_14",
+  "based": [
+    "GENMC"
+  ],
+  "venue": "FORTE",
+  "year": 2026,
+  "category": "verification",
+  "tag": [
+    "concurrency",
+    "LLVM IR",
+    "FFI",
+    "model checker"
+  ],
+  "reference": [
+    "RustBelt: Securing the Foundations of the Rust Programming Language",
+    "Qrates",
+    "Is Rust Used Safely by Software Developers?",
+    "FFICHECKER",
+    "lockbud",
+    "Miri"
+  ]
+}

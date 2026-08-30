@@ -1,0 +1,26 @@
+{
+  "title": "PanicFI: An Infrastructure for Fixing Panic Bugs in Real-World Rust Programs",
+  "alias": "PanicFI",
+  "link": "https://doi.org/10.1145/3773991",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3773991",
+  "venue": "ACM TOSEM",
+  "year": 2026,
+  "category": "program analysis",
+  "tag": [
+    "panic",
+    "benchmark",
+    "patch",
+    "HIR"
+  ],
+  "reference": [
+    "RULF",
+    "RustSmith: Random Differential Compiler Testing for Rust",
+    "SafeDrop",
+    "SyRust",
+    "A Closer Look at the Security Risks in the Rust Ecosystem",
+    "lockbud",
+    "Rupta",
+    "Rust-lancet",
+    "Ruxanne"
+  ]
+}

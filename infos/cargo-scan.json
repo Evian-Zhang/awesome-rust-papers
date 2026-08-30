@@ -1,0 +1,32 @@
+{
+  "title": "Auditing Rust Crates Effectively",
+  "alias": "Cargo Scan",
+  "link": "https://doi.org/10.1007/978-3-032-22723-2_15",
+  "pdf": "https://link.springer.com/content/pdf/10.1007/978-3-032-22723-2_15.pdf",
+  "repo": "https://github.com/PLSysSec/cargo-scan",
+  "venue": "ESOP",
+  "year": 2026,
+  "category": {
+    "security": "static analysis"
+  },
+  "tag": [
+    "dependency",
+    "empirical study"
+  ],
+  "reference": [
+    "RustBelt: Securing the Foundations of the Rust Programming Language",
+    "Prusti",
+    "Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs",
+    "Qrates",
+    "Stacked Borrows: An Aliasing Model for Rust",
+    "Memory-Safety Challenge Considered Solved? An In-Depth Study with All Rust CVEs",
+    "RULF",
+    "Aeneas",
+    "Flux",
+    "Is Rust Used Safely by Software Developers?",
+    "RustHornBelt",
+    "SyRust",
+    "Verifying Dynamic Trait Objects in Rust",
+    "An Empirical Study of Yanked Releases in the Rust Package Registry"
+  ]
+}

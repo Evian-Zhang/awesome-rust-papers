@@ -1,0 +1,27 @@
+{
+  "title": "FRIES: Fuzzing Rust Library Interactions via Efficient Ecosystem-Guided Target Generation",
+  "alias": "FRIES",
+  "link": "https://doi.org/10.1145/3650212.3680348",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3650212.3680348",
+  "based": [
+    "AFL++"
+  ],
+  "compared": [
+    "SyRust",
+    "RULF"
+  ],
+  "venue": "ISSTA",
+  "year": 2024,
+  "category": {
+    "security": "fuzzing"
+  },
+  "tag": [
+    "harness",
+    "ecosystem",
+    "dependency"
+  ],
+  "reference": [
+    "RULF",
+    "RUSTYUNIT"
+  ]
+}

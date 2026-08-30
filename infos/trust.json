@@ -1,0 +1,23 @@
+{
+  "title": "TRust: A Compilation Framework for In-process Isolation to Protect Safe Rust against Untrusted Code",
+  "alias": "TRust",
+  "link": "https://www.usenix.org/conference/usenixsecurity23/presentation/bang",
+  "pdf": "https://www.usenix.org/system/files/usenixsecurity23-bang.pdf",
+  "repo": "https://github.com/cssl-unist/trust-sec23",
+  "compared": [
+    "XRust",
+    "Sandcrust"
+  ],
+  "venue": "USENIX Security",
+  "year": 2023,
+  "category": {
+    "security": "isolation"
+  },
+  "tag": [
+    "hardware",
+    "MPK",
+    "FFI",
+    "LLVM IR"
+  ],
+  "reference": []
+}

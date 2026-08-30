@@ -1,0 +1,15 @@
+@inproceedings{10.1007/978-3-032-22723-2_15,
+author = {Zoghbi, Lydia and Thien, David and Jhala, Ranjit and Stefan, Deian and Stanford, Caleb},
+title = {Auditing Rust Crates Effectively},
+year = {2026},
+isbn = {978-3-032-22722-5},
+publisher = {Springer-Verlag},
+address = {Berlin, Heidelberg},
+url = {https://doi.org/10.1007/978-3-032-22723-2_15},
+doi = {10.1007/978-3-032-22723-2_15},
+abstract = {We introduce Cargo Scan , the first interactive program analysis tool designed to help developers audit third-party Rust code. Real systems written in Rust rely on thousands of transitive dependencies. These dependencies are as dangerous in Rust as they are in other languages (e.g., C or JavaScript)—and auditing these dependencies today means manually inspecting every line of code. Unlike for most industrial languages, though, we can take advantage of Rust’s type and module system to minimize the amount of code that developers need to inspect to the code that is potentially dangerous. Cargo Scan models such potentially dangerous code as effects and performs a side-effects analysis, tailored to Rust, to identify effects and track them across crate and module boundaries. In most cases (69.2\%) developers can inspect flagged effects and decide whether the code is potentially dangerous locally. In some cases, however, the safety of an effect depends on the calling context—how a function is called, potentially by a crate the developer imports later. Hence, Cargo Scan tracks context-dependent information using a call-graph, and collects audit results into composable and reusable audit files. In this paper, we describe our experience auditing Rust crates with Cargo Scan . In particular, we audit the popular client and server HTTP crate, hyper, and all of its dependencies; our experience shows that Cargo Scan can reduce the auditing burden of potentially dangerous code to a median of 0.2\% of lines of code when compared to auditing whole crates. Looking at the Rust ecosystem more broadly, we find that Cargo Scan can automatically classify ∼3.5K of the top 10K crates on crates.io as safe; of the crates that do require manual inspection, we find that most of the potentially dangerous side-effects are concentrated in roughly 3\% of these crates.},
+booktitle = {Programming Languages and Systems: 35th European Symposium on Programming, ESOP 2026, Held as Part of the International Joint Conferences on Theory and Practice of Software, ETAPS 2026, Turin, Italy, April 11–16, 2026, Proceedings, Part II},
+pages = {424–444},
+numpages = {21},
+location = {Turin, Italy}
+}

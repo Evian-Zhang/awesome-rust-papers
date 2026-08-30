@@ -1,0 +1,28 @@
+{
+  "title": "Ruby: Unmasking Unsafe Rust in Stripped Binaries via Machine Learning",
+  "alias": "Ruby",
+  "link": "https://doi.org/10.1109/DSN69566.2026.00068",
+  "pdf": "https://arxiv.org/pdf/2211.00111",
+  "venue": "DSN",
+  "year": 2026,
+  "category": "security",
+  "tag": [
+    "binary",
+    "unsafe",
+    "machine learning"
+  ],
+  "reference": [
+    "RustBelt: Securing the Foundations of the Rust Programming Language",
+    "The Rust Language",
+    "Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs",
+    "Qrates",
+    "MirChecker",
+    "RULF",
+    "SafeDrop",
+    "Is Unsafe an Achilles' Heel? A Comprehensive Study of Safety Requirements in Unsafe Rust Programming",
+    "RPG",
+    "Rug",
+    "ERASan",
+    "RuMono"
+  ]
+}

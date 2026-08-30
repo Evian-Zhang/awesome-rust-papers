@@ -1,0 +1,25 @@
+{
+  "title": "Rupair: Towards Automatic Buffer Overflow Detection and Rectification for Rust",
+  "alias": "Rupair",
+  "link": "https://doi.org/10.1145/3485832.3485841",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3485832.3485841",
+  "venue": "ACSAC",
+  "year": 2021,
+  "category": {
+    "security": "patch"
+  },
+  "tag": [
+    "memory safety",
+    "buffer overflow",
+    "data-flow analysis"
+  ],
+  "reference": [
+    "RustBelt: Securing the Foundations of the Rust Programming Language",
+    "Prusti",
+    "Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs",
+    "Is Rust Used Safely by Software Developers?",
+    "RustHorn",
+    "XRust",
+    "KRust"
+  ]
+}

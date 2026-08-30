@@ -1,0 +1,26 @@
+{
+  "title": "&inator: Correct, Precise C-to-Rust Interface Translation",
+  "alias": "&inator",
+  "link": "https://doi.org/10.1145/3808270",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3808270",
+  "repo": "https://github.com/PLaSSticity/refinator-impl",
+  "based": [
+    "Z3",
+    "LLVM"
+  ],
+  "venue": "PLDI",
+  "year": 2026,
+  "category": "c2rust",
+  "tag": [
+    "interface",
+    "LLVM IR",
+    "SMT"
+  ],
+  "reference": [
+    "Translating C to Safer Rust",
+    "CROWN",
+    "Laertes",
+    "Tymcrat",
+    "Translating C To Rust: Lessons from a User Study"
+  ]
+}

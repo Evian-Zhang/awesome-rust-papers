@@ -1,0 +1,21 @@
+{
+  "title": "Safer at Any Speed: Automatic Context-Aware Safety Enhancement for Rust",
+  "alias": "NADER",
+  "link": "https://doi.org/10.1145/3485480",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3485480",
+  "repo": "https://doi.org/10.5281/zenodo.5484436",
+  "venue": "OOPSLA",
+  "year": 2021,
+  "category": "security",
+  "tag": [
+    "performance",
+    "unsafe"
+  ],
+  "reference": [
+    "RustBelt: Securing the Foundations of the Rust Programming Language",
+    "The Rust Language",
+    "Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs",
+    "Qrates",
+    "Is Rust Used Safely by Software Developers?"
+  ]
+}

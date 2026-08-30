@@ -1,0 +1,18 @@
+{
+  "title": "An Interactive Debugger for Rust Trait Errors",
+  "alias": "Argus",
+  "link": "https://doi.org/10.1145/3729302",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3729302",
+  "repo": "https://github.com/cognitive-engineering-lab/argus",
+  "venue": "PLDI",
+  "year": 2025,
+  "category": "language",
+  "tag": [
+    "debug",
+    "trait",
+    "type inference"
+  ],
+  "reference": [
+    "Aquascope"
+  ]
+}

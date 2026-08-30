@@ -1,0 +1,20 @@
+@InProceedings{10.1007/978-3-032-30693-7_5,
+author="Wang, Shaojie
+and Wang, Yuting
+and Zhang, Qianying
+and Dai, Weituo
+and Xie, Tian'ao
+and Zhao, Shijun
+and Zhao, Yongwang",
+editor="De Giacomo, Giuseppe
+and Li, Jianwen
+and Xiao, Lili",
+title="Formal Verification of a Rust-Based Buddy Physical Memory Allocator",
+booktitle="Theoretical Aspects of Software Engineering",
+year="2027",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="73--80",
+abstract="The physical memory allocator is a foundational component of an operating system, whose functional correctness is paramount for system reliability. Although Rust provides compile-time memory safety, it cannot guarantee the correctness of allocator-specific implementation logic. This paper presents the formal verification of UtManager, a Rust-based buddy physical memory allocator. Leveraging the Verus verification tool, we define state invariants and provide function specifications for the bitmap-based Rust implementation. We prove that operations such as allocation and free preserve these invariants and satisfy their postconditions, while ensuring bounds safety, overflow freedom, and termination. Notably, during verification, we uncovered and fixed a previously unknown control-flow defect in the original code. These results demonstrate that formal methods can enhance the reliability of Rust-based memory management components with zero runtime overhead.",
+isbn="978-3-032-30693-7"
+}

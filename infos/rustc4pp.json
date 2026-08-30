@@ -1,0 +1,25 @@
+{
+  "title": "RustC4++: Improving Rust Code-Comment Inconsistency Detection via Hybrid LLM and Static Analysis",
+  "alias": "RustC4++",
+  "link": "https://doi.org/10.1145/3800689",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3800689",
+  "based": [
+    "RustC4"
+  ],
+  "venue": "ACM TOSEM",
+  "year": 2026,
+  "category": {
+    "program analysis": "documentation"
+  },
+  "tag": [
+    "code-comment inconsistency",
+    "LLM",
+    "trait",
+    "SMT"
+  ],
+  "reference": [
+    "RustBelt: Securing the Foundations of the Rust Programming Language",
+    "The Rust Language",
+    "RustC4"
+  ]
+}

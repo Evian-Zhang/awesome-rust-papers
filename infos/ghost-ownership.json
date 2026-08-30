@@ -1,0 +1,31 @@
+{
+  "title": "Using Ghost Ownership to Verify Union-Find and Persistent Arrays in Rust",
+  "link": "https://doi.org/10.1145/3779031.3779086",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3779031.3779086",
+  "repo": "https://github.com/creusot-rs/creusot",
+  "based": [
+    "Creusot"
+  ],
+  "venue": "CPP",
+  "year": 2026,
+  "category": "verification",
+  "tag": [
+    "ghost",
+    "interior mutability",
+    "Verus"
+  ],
+  "reference": [
+    "Verus: A Practical Foundation for Systems Verification",
+    "Gillian-Rust",
+    "Verus",
+    "Flux",
+    "Aeneas",
+    "RustHornBelt",
+    "GhostCell",
+    "RustHorn",
+    "Prusti",
+    "RustBelt: Securing the Foundations of the Rust Programming Language",
+    "Creusot",
+    "The Prusti Project: Formal Verification for Rust"
+  ]
+}

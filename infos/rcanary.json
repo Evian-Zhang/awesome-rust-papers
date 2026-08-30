@@ -1,0 +1,33 @@
+{
+  "title": "rCanary: Detecting Memory Leaks Across Semi-Automated Memory Management Boundary in Rust",
+  "alias": "rCanary",
+  "link": "https://doi.org/10.1109/TSE.2024.3443624",
+  "pdf": "https://arxiv.org/pdf/2308.04787",
+  "repo": "https://github.com/artisan-archived-projects/rCanary",
+  "compared": [
+    "FFICHECKER"
+  ],
+  "venue": "IEEE TSE",
+  "year": 2024,
+  "category": "security",
+  "tag": [
+    "model checker",
+    "memory leak",
+    "SMT",
+    "MIR"
+  ],
+  "reference": [
+    "RustBelt: Securing the Foundations of the Rust Programming Language",
+    "The Rust Language",
+    "Tock",
+    "Qrates",
+    "MirChecker",
+    "Stacked Borrows: An Aliasing Model for Rust",
+    "Is Rust Used Safely by Software Developers?",
+    "SafeDrop",
+    "KRust",
+    "FFICHECKER",
+    "Is Unsafe an Achilles' Heel? A Comprehensive Study of Safety Requirements in Unsafe Rust Programming",
+    "Rupta"
+  ]
+}

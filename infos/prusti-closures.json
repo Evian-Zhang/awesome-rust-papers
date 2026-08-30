@@ -1,0 +1,24 @@
+{
+  "title": "Modular Specification and Verification of Closures in Rust",
+  "alias": "Prusti Closures",
+  "link": "https://doi.org/10.1145/3485522",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3485522",
+  "repo": "https://github.com/Aurel300/prusti-dev/tree/closure-oopsla-submission-2",
+  "based": [
+    "Prusti"
+  ],
+  "venue": "OOPSLA",
+  "year": 2021,
+  "category": "verification",
+  "tag": [
+    "closure",
+    "SMT",
+    "first-order logic"
+  ],
+  "reference": [
+    "The Rust Language",
+    "Prusti",
+    "Qrates",
+    "Is Rust Used Safely by Software Developers?"
+  ]
+}

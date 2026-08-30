@@ -1,0 +1,16 @@
+@inproceedings{10.1145/3639477.3639714,
+author = {Zhang, Ying and Li, Peng and Ding, Yu and Wang, Lingxiang and Williams, Dan and Meng, Na},
+title = {Broadly Enabling KLEE to Effortlessly Find Unrecoverable Errors in Rust},
+year = {2024},
+isbn = {9798400705014},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3639477.3639714},
+doi = {10.1145/3639477.3639714},
+abstract = {Rust is a general-purpose programming language designed for performance and safety. Unrecoverable errors (e.g., Divide by Zero) in Rust programs are critical, as they signal bad program states and terminate programs abruptly. Previous work has contributed to utilizing KLEE, a dynamic symbolic test engine, to verify the program would not panic. However, it is difficult for engineers who lack domain expertise to write test code correctly. Besides, the effectiveness of KLEE in finding panics in production Rust code has not been evaluated. We created an approach, called PanicCheck, to hide the complexity of verifying Rust programs with KLEE. Using PanicCheck, engineers only need to annotate the function-to-verify with #[panic_check]. The annotation guides PanicCheck to generate test code, compile the function together with tests, and execute KLEE for verification. After applying PanicCheck to 21 open-source and 2 closed-source projects, we found 61 test inputs that triggered panics; 59 of the 61 panics have been addressed by developers so far. Our research shows promising verification results by KLEE, while revealing technical challenges in using KLEE. Our experience will shed light on future practice and research in program verification.},
+booktitle = {Proceedings of the 46th International Conference on Software Engineering: Software Engineering in Practice},
+pages = {441–451},
+numpages = {11},
+location = {Lisbon, Portugal},
+series = {ICSE-SEIP '24}
+}

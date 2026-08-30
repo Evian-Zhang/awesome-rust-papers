@@ -1,0 +1,16 @@
+{
+  "title": "Fearless Concurrency? Understanding Concurrent Programming Safety in Real-World Rust Software",
+  "link": "https://arxiv.org/abs/1902.01906",
+  "pdf": "https://arxiv.org/pdf/1902.01906",
+  "venue": "arXiv",
+  "year": 2019,
+  "category": {
+    "security": "concurrency"
+  },
+  "tag": [
+    "empirical study",
+    "deadlock",
+    "data race"
+  ],
+  "reference": []
+}

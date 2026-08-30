@@ -1,0 +1,17 @@
+@inproceedings{10.1145/3597926.3604927,
+author = {Tuong, Fr{\'e}d{\'e}ric and Omidvar Tehrani, Mohammad and Gaboardi, Marco and Ko, Steven Y.},
+title = {SymRustC: A Hybrid Fuzzer for Rust},
+year = {2023},
+isbn = {9798400702211},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3597926.3604927},
+doi = {10.1145/3597926.3604927},
+abstract = {We present SymRustC, a hybrid fuzzer for Rust. SymRustC is hybrid   in the sense that it combines fuzzing and concolic execution.   SymRustC leverages an existing tool called SymCC for   its concolic execution capability and another existing tool   called LibAFL for its fuzzing capability.   Since SymCC instruments LLVM IR (Intermediate   Representation) for concolic execution and the Rust compiler   uses LLVM as a backend, we integrate SymCC with the   Rust compiler to instrument Rust programs for concolic   execution. LibAFL provides a framework to develop a   fuzzer, and we use it to develop a hybrid fuzzer that   combines fuzzing and our concolic execution. We discuss our   implementation as well as four case studies to demonstrate   that SymRustC can generate inputs that discover errors in   Rust programs.},
+booktitle = {Proceedings of the 32nd ACM SIGSOFT International Symposium on Software Testing and Analysis},
+pages = {1515–1518},
+numpages = {4},
+keywords = {concolic execution, Rust, Hybrid fuzzing},
+location = {Seattle, WA, USA},
+series = {ISSTA 2023}
+}

@@ -1,0 +1,14 @@
+{
+  "title": "SquirrelFS: Using the Rust Compiler to Check File-System Crash Consistency",
+  "alias": "SquirrelFS",
+  "link": "https://www.usenix.org/conference/osdi24/presentation/leblanc",
+  "pdf": "https://www.usenix.org/system/files/osdi24-leblanc.pdf",
+  "repo": "https://github.com/utsaslab/squirrelfs",
+  "venue": "OSDI",
+  "year": 2024,
+  "category": "product",
+  "tag": [
+    "type system"
+  ],
+  "reference": []
+}

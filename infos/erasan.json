@@ -1,0 +1,26 @@
+{
+  "title": "ERASan: Efficient Rust Address Sanitizer",
+  "alias": "ERASan",
+  "link": "https://doi.org/10.1109/SP54263.2024.00258",
+  "pdf": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10646812",
+  "repo": "https://github.com/S2-Lab/ERASan",
+  "based": [
+    "SVF",
+    "ASan"
+  ],
+  "compared": [
+    "ASan"
+  ],
+  "venue": "IEEE S&P",
+  "year": 2024,
+  "category": {
+    "security": "sanitizer"
+  },
+  "tag": [
+    "memory safety"
+  ],
+  "reference": [
+    "TRust",
+    "XRust"
+  ]
+}

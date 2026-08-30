@@ -1,0 +1,29 @@
+{
+  "title": "Leveraging Rust Types for Program Synthesis",
+  "alias": "RusSOL",
+  "link": "https://doi.org/10.1145/3591278",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3591278",
+  "repo": "https://github.com/JonasAlaif/russol-alpha",
+  "venue": "OOPSLA",
+  "year": 2023,
+  "category": "formalization",
+  "tag": [
+    "program synthesis",
+    "type system",
+    "ownership"
+  ],
+  "reference": [
+    "Verus",
+    "Flux",
+    "Aeneas",
+    "RustHornBelt",
+    "Prusti Closures",
+    "SyRust",
+    "RustHorn",
+    "Stacked Borrows: An Aliasing Model for Rust",
+    "Prusti",
+    "Oxide",
+    "RustBelt: Securing the Foundations of the Rust Programming Language",
+    "The Rust Language"
+  ]
+}

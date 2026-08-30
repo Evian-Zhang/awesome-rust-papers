@@ -1,0 +1,17 @@
+{
+  "title": "RustRepoTrans: Repository-level Context Code Translation Benchmark Targeting Rust",
+  "alias": "RustRepoTrans",
+  "link": "https://doi.org/10.1109/ASE63991.2025.00057",
+  "pdf": "https://arxiv.org/pdf/2411.13990",
+  "repo": "https://github.com/SYSUSELab/RustRepoTrans",
+  "venue": "ASE",
+  "year": 2025,
+  "category": "c2rust",
+  "tag": [
+    "benchmark",
+    "LLM"
+  ],
+  "reference": [
+    "C2SaferRust"
+  ]
+}

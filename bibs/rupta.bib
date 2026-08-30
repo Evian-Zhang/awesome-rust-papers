@@ -1,0 +1,17 @@
+@inproceedings{10.1145/3640537.3641574,
+author = {Li, Wei and He, Dongjie and Gui, Yujiang and Chen, Wenguang and Xue, Jingling},
+title = {A Context-Sensitive Pointer Analysis Framework for Rust and Its Application to Call Graph Construction},
+year = {2024},
+isbn = {9798400705076},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3640537.3641574},
+doi = {10.1145/3640537.3641574},
+abstract = {Existing program analysis tools for Rust lack the ability to effectively detect security vulnerabilities due to the absence of an accurate call graph and precise points-to information. We present Rupta, the first context-sensitive pointer analysis framework designed for Rust, with a particular focus on its role in constructing call graphs. Operating on Rust MIR, Rupta employs callsite-based context-sensitivity and on-the-fly call graph construction to address a range of pointer analysis challenges, including method/function calls, pointer casts, and nested structs, while preserving type information.   Our assessment of Rupta against two state-of-the-art call graph construction techniques, Rurta (Rapid Type Analysis-based) and Ruscg (static dispatch-only), across 13 real-world Rust programs demonstrates its high efficiency and precision. In particular, our results reveal that Rupta surpasses Ruscg in soundness by discovering 29\% more call graph edges and outperforms Rurta in precision by eliminating approximately 70\% of spurious dynamic call edges. Consequently, Rupta has the potential to enhance existing security analysis tools, enabling them to identify a greater number of security vulnerabilities in Rust programs.},
+booktitle = {Proceedings of the 33rd ACM SIGPLAN International Conference on Compiler Construction},
+pages = {60–72},
+numpages = {13},
+keywords = {Call Graph Construction, Pointer Analysis, Rust},
+location = {Edinburgh, United Kingdom},
+series = {CC 2024}
+}

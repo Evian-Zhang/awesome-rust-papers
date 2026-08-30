@@ -1,0 +1,26 @@
+{
+  "title": "A Lightweight Formalism for Reference Lifetimes and Borrowing in Rust",
+  "alias": "FeatherweightRust",
+  "link": "https://doi.org/10.1145/3443420",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3443420",
+  "repo": "https://github.com/DavePearce/FeatherweightRust",
+  "venue": "ACM TOPLAS",
+  "year": 2021,
+  "category": "formalization",
+  "tag": [
+    "compiler",
+    "fuzz",
+    "lifetime",
+    "borrow checker"
+  ],
+  "reference": [
+    "Prusti",
+    "SMACK",
+    "cargo-klee",
+    "RustHorn",
+    "Patina",
+    "Crust",
+    "KRust",
+    "Oxide"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "title": "Automatically Enforcing Rust Trait Properties",
+  "link": "https://doi.org/10.1007/978-3-031-50521-8_10",
+  "repo": "https://github.com/binarynewts/kani-vscode-extension",
+  "based": [
+    "Kani"
+  ],
+  "venue": "VMCAI",
+  "year": 2024,
+  "category": "verification",
+  "tag": [
+    "invariant",
+    "trait invariant",
+    "Kani"
+  ],
+  "reference": [
+    "RustBelt: Securing the Foundations of the Rust Programming Language",
+    "The Rust Language",
+    "RustHorn",
+    "Creusot",
+    "Aeneas",
+    "The Prusti Project: Formal Verification for Rust",
+    "Verifying Dynamic Trait Objects in Rust"
+  ]
+}

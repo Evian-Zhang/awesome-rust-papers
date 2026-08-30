@@ -1,0 +1,38 @@
+{
+  "title": "VerusBelt: A Semantic Foundation for Verus's Proof-Oriented Extensions to the Rust Type System",
+  "alias": "VerusBelt",
+  "link": "https://doi.org/10.1145/3808325",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3808325",
+  "repo": "https://doi.org/10.5281/zenodo.19613067",
+  "based": [
+    "Iris",
+    "Rcoq"
+  ],
+  "venue": "PLDI",
+  "year": 2026,
+  "category": "verification",
+  "tag": [
+    "type system",
+    "soundness",
+    "lifetime",
+    "concurrency",
+    "Verus"
+  ],
+  "reference": [
+    "RustBelt: Securing the Foundations of the Rust Programming Language",
+    "Prusti",
+    "Verus",
+    "Stacked Borrows: An Aliasing Model for Rust",
+    "Creusot",
+    "Aeneas",
+    "Verus: A Practical Foundation for Systems Verification",
+    "Flux",
+    "RefinedRust",
+    "RustHornBelt",
+    "RustHorn",
+    "GhostCell",
+    "Gillian-Rust",
+    "Tree Borrows",
+    "Using Ghost Ownership to Verify Union-Find and Persistent Arrays in Rust"
+  ]
+}

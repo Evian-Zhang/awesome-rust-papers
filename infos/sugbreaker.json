@@ -1,0 +1,41 @@
+{
+  "title": "Detecting Bugs in Rust Compiler Fix Suggestions via Constraint-Violation-Guided Mutation",
+  "alias": "SugBreaker",
+  "link": "https://doi.org/10.1145/3797128",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3797128",
+  "compared": [
+    "RustSmith",
+    "Rustlantis"
+  ],
+  "venue": "FSE",
+  "year": 2026,
+  "category": {
+    "security": "compiler"
+  },
+  "tag": [
+    "diagnose",
+    "fuzzing",
+    "borrow checker",
+    "lifetime"
+  ],
+  "reference": [
+    "The Rust Language",
+    "Stacked Borrows: An Aliasing Model for Rust",
+    "RULF",
+    "RustSmith: Random Differential Compiler Testing for Rust",
+    "RustHornBelt",
+    "SyRust",
+    "RusSOL",
+    "RPG",
+    "On the Dual Nature of Necessity in Use of Rust Unsafe Code",
+    "Rustlantis",
+    "Rug",
+    "RuMono",
+    "Demystifying Compiler Unstable Feature Usage and Impacts in the Rust Ecosystem",
+    "FRIES",
+    "Rust-twins",
+    "An Empirical Study of Bugs in the rustc Compiler",
+    "Crabtree",
+    "RustLIVE"
+  ]
+}

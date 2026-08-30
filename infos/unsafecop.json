@@ -1,0 +1,33 @@
+{
+  "title": "UnsafeCop: Towards Memory Safety for Real-World Unsafe Rust Code with Practical Bounded Model Checking",
+  "alias": "UnsafeCop",
+  "link": "https://doi.org/10.1007/978-3-031-71177-0_19",
+  "pdf": "https://link.springer.com/content/pdf/10.1007/978-3-031-71177-0_19.pdf",
+  "based": [
+    "Kani"
+  ],
+  "venue": "FM",
+  "year": 2024,
+  "category": "verification",
+  "tag": [
+    "memory safety",
+    "model checker",
+    "bounded model checking",
+    "unsafe",
+    "MIR"
+  ],
+  "reference": [
+    "RustBelt: Securing the Foundations of the Rust Programming Language",
+    "Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs",
+    "Qrates",
+    "Rust-SGX",
+    "MirChecker",
+    "RustHorn",
+    "Creusot",
+    "The Prusti Project: Formal Verification for Rust",
+    "SafeDrop",
+    "RustHornBelt",
+    "cargo-klee",
+    "FFICHECKER"
+  ]
+}

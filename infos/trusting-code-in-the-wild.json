@@ -1,0 +1,14 @@
+{
+  "title": "Trusting Code in the Wild: Exploring Contributor Reputation Measures to Review Dependencies in the Rust Ecosystem",
+  "link": "https://doi.org/10.1109/TSE.2025.3551664",
+  "pdf": "https://arxiv.org/pdf/2406.10317",
+  "venue": "IEEE TSE",
+  "year": 2025,
+  "category": "ecosystem",
+  "tag": [
+    "empirical study",
+    "code review",
+    "dependency"
+  ],
+  "reference": []
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Aliasing Limits on Translating C to Safe Rust",
+  "alias": "Laertes",
+  "link": "https://doi.org/10.1145/3586046",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3586046",
+  "repo": "https://doi.org/10.5281/zenodo.7714175",
+  "venue": "OOPSLA",
+  "year": 2023,
+  "category": "c2rust",
+  "tag": [
+    "empirical study",
+    "pointer",
+    "alias"
+  ],
+  "reference": [
+    "Translating C to Safer Rust",
+    "Rust for Morello: Always-On Memory Safety, Even in Unsafe Code (Experience Paper)",
+    "Rust as a Language for High Performance GC Implementation"
+  ]
+}

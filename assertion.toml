@@ -1,0 +1,14 @@
+# A list of paper titles which do not have bib citations
+no_bib = [
+    # NDSS paper, no official citation
+    "Cross-Language Attacks",
+    # NDSS paper, no official citation
+    "Translating C To Rust: Lessons from a User Study",
+    # No citation found
+    "Patina: A Formalization of the Rust Programming Language",
+]
+# A list of paper titles which do not have venues
+no_venue = [
+    # No venue found
+    "Patina: A Formalization of the Rust Programming Language",
+]

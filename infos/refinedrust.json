@@ -1,0 +1,35 @@
+{
+  "title": "RefinedRust: A Type System for High-Assurance Verification of Rust Programs",
+  "alias": "RefinedRust",
+  "link": "https://doi.org/10.1145/3656422",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3656422",
+  "repo": "https://gitlab.mpi-sws.org/lgaeher/refinedrust-dev",
+  "based": [
+    "Lithium"
+  ],
+  "venue": "PLDI",
+  "year": 2024,
+  "category": {
+    "verification": "proof generation"
+  },
+  "tag": [
+    "refined type",
+    "type system",
+    "Coq",
+    "MIR"
+  ],
+  "reference": [
+    "RustBelt: Securing the Foundations of the Rust Programming Language",
+    "Prusti",
+    "Verus",
+    "Stacked Borrows: An Aliasing Model for Rust",
+    "Creusot",
+    "Aeneas",
+    "Flux",
+    "RustHornBelt",
+    "RustHorn",
+    "KRust",
+    "Prusti Closures",
+    "RustHorn"
+  ]
+}

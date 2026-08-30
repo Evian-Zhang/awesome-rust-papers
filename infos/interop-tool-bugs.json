@@ -1,0 +1,24 @@
+{
+  "title": "Fortifying the Seams Between C/C++ and Rust: Characterizing Bugs in Interop Tools",
+  "link": "https://doi.org/10.1145/3795532",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3795532",
+  "repo": "https://github.com/Cxm211/IT1",
+  "venue": "ACM TOSEM",
+  "year": 2026,
+  "category": "ecosystem",
+  "tag": [
+    "FFI",
+    "empirical study"
+  ],
+  "reference": [
+    "Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs",
+    "Memory-Safety Challenge Considered Solved? An In-Depth Study with All Rust CVEs",
+    "Translating C to Safer Rust",
+    "CROWN",
+    "Tymcrat",
+    "Rust for Embedded Systems: Current State and Open Problems",
+    "C2SaferRust",
+    "GenC2Rust",
+    "Ruxanne"
+  ]
+}

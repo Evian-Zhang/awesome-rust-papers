@@ -1,0 +1,18 @@
+@article{10.1145/3808169,
+author = {Yuan, Zhiqiang and Mao, Wenjun and Chen, Zhuo and Shang, Xiyue and Wang, Chong and Lou, Yiling and Peng, Xin},
+title = {Project-Level C-to-Rust Translation via Pointer Knowledge Graphs},
+year = {2026},
+issue_date = {July 2026},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {3},
+number = {FSE},
+url = {https://doi.org/10.1145/3808169},
+doi = {10.1145/3808169},
+abstract = {Translating C code into safe Rust is an effective way to ensure memory safety. Compared to rule-based approaches, which often produce largely unsafe Rust code, LLM-based methods generate more idiomatic and safer Rust by leveraging extensive training on human-written code. Despite their promise, existing LLM-based approaches still struggle with project-level C-to-Rust translation. They typically partition a C project into smaller units (e.g., functions) based on call graphs and translate them in a bottom-up manner to resolve dependencies. However, this unit-by-unit paradigm often fails to handle pointers due to the lack of a global view of their usage.   To address this limitation, we propose a novel C-to-Rust Pointer Knowledge Graph (KG) that augments code dependency graphs with two types of pointer semantics: (i) pointer usage information, which captures global behaviors such as points-to flows and lifts low-level struct interactions to higher-level abstractions; and (ii) Rust-oriented annotations, which encode ownership, mutability, nullability, and lifetime. Building on this KG, we further propose PtrTrans, a project-level C-to-Rust translation approach. In PtrTrans, the KG provides LLMs with comprehensive global pointer semantics, guiding them to generate safe and idiomatic Rust code. Experimental results show that PtrTrans reduces unsafe usages in translated Rust by 99.9\% compared to both rule-based and conventional LLM-based methods, while achieving 29.3\% higher functional correctness than fuzzing-enhanced LLM approaches.},
+journal = {Proc. ACM Softw. Eng.},
+month = jun,
+articleno = {FSE162},
+numpages = {24},
+keywords = {C-to-Rust Translation, Knowledge Graph, Large Language Model}
+}

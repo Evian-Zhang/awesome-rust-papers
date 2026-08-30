@@ -1,0 +1,27 @@
+{
+  "title": "Enhancing LLM-Based Proof Synthesis for Rust Programs via Semantic Chunking and Hierarchical Context Expansion",
+  "alias": "VERUSSEEK",
+  "link": "https://doi.org/10.1007/978-3-032-30693-7_6",
+  "compared": [
+    "AutoVerus",
+    "RagVerus"
+  ],
+  "venue": "TASE",
+  "year": 2026,
+  "category": {
+    "verification": "proof generation"
+  },
+  "tag": [
+    "RAG",
+    "LLM",
+    "Verus"
+  ],
+  "reference": [
+    "RustBelt: Securing the Foundations of the Rust Programming Language",
+    "RPG",
+    "Verus",
+    "Verus: A Practical Foundation for Systems Verification",
+    "AutoVerus",
+    "RagVerus"
+  ]
+}

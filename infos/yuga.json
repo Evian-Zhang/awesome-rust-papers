@@ -1,0 +1,38 @@
+{
+  "title": "Yuga: Automatically Detecting Lifetime Annotation Bugs in the Rust Language",
+  "alias": "Yuga",
+  "link": "https://doi.org/10.1109/TSE.2024.3447671",
+  "pdf": "https://arxiv.org/pdf/2310.08507",
+  "repo": "https://github.com/vnrst/Yuga",
+  "based": [
+    "Rudra"
+  ],
+  "compared": [
+    "Rudra",
+    "MirChecker",
+    "Miri"
+  ],
+  "venue": "IEEE TSE",
+  "year": 2024,
+  "category": "security",
+  "tag": [
+    "lifetime",
+    "pointer analysis",
+    "HIR",
+    "MIR"
+  ],
+  "reference": [
+    "RustBelt: Securing the Foundations of the Rust Programming Language",
+    "Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs",
+    "Qrates",
+    "MirChecker",
+    "Stacked Borrows: An Aliasing Model for Rust",
+    "Memory-Safety Challenge Considered Solved? An In-Depth Study with All Rust CVEs",
+    "RustHorn",
+    "SafeDrop",
+    "RustHornBelt",
+    "SMACK",
+    "Galeed",
+    "FeatherweightRust"
+  ]
+}

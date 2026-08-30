@@ -1,0 +1,18 @@
+{
+  "title": "Oxidizer: Toward Concise and High-fidelity Rust Decompilation",
+  "alias": "Oxidizer",
+  "link": "https://doi.org/10.1109/SP63933.2026.00257",
+  "pdf": "https://adamdoupe.com/publications/oxidizer-oakland2026.pdf",
+  "repo": "https://github.com/sefcom/oxidizer",
+  "based": [
+    "angr"
+  ],
+  "venue": "IEEE S&P",
+  "year": 2026,
+  "category": "security",
+  "tag": [
+    "decompiler",
+    "binary"
+  ],
+  "reference": []
+}

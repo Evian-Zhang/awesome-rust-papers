@@ -1,0 +1,18 @@
+@article{10.1007/s10664-023-10437-1,
+author = {Robati&nbsp;Shirzad, Mohammad and Lam, Patrick},
+title = {A study of common bug fix patterns in Rust},
+year = {2024},
+issue_date = {Mar 2024},
+publisher = {Kluwer Academic Publishers},
+address = {USA},
+volume = {29},
+number = {2},
+issn = {1382-3256},
+url = {https://doi.org/10.1007/s10664-023-10437-1},
+doi = {10.1007/s10664-023-10437-1},
+abstract = {Rust is a relatively new programming language which allows programmers to write programs that have low-level control over resources while still ensuring high-level safety guarantees (for programs written in safe Rust). Rust’s ownership framework enables programs to meet these two seemingly-contradictory goals. The Rust compiler’s Borrow-Checker component enforces the ownership framework requirements that ensure Rust’s safety guarantees. Rust is popular: as of 2022, it has ranked first, for the seventh consecutive year, in Stack Overflow’s annual Developer Survey as the most-loved programming language. The number of Rust developers is growing as the need for faster and safer software increases. Yet, to our knowledge, no research has sought to identify the most pervasive bug fix patterns within Rust programs. In this project, we introduce Ruxanne, a tool for analyzing and extracting fix patterns in Rust. Ruxanne implements a novel embedding of Rust code into fixed-sized vectors. Using Ruxanne, we mined the top 18 most-starred Rust projects in GitHub to discover the most common bug fix patterns committed to their repositories. We analyzed 87,726 code changes drawn from 57,214 commits across these 18 projects. After clustering the code changes, and conducting a manual analysis, we identified 20 groups of cross-project bug fix patterns, which we categorize as (1) general patterns and (2) borrow-checker-related patterns. Among the general patterns, the most frequently observed pattern is when the user either adds or removes struct fields. In the case of borrow-checker-related patterns, the most common pattern we encountered is when the user removes a clone() call. We describe all detected patterns and their implications to automated program repair.},
+journal = {Empirical Softw. Engg.},
+month = feb,
+numpages = {34},
+keywords = {Bug patterns, Pattern mining, Bug fix changes, Rust}
+}

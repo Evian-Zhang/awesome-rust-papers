@@ -1,0 +1,18 @@
+@article{10.1145/3720427,
+author = {Beardsley, Vincent and Xiong, Chris and Lamba, Ada and Bond, Michael D.},
+title = {Carapace: Static–Dynamic Information Flow Control in Rust},
+year = {2025},
+issue_date = {April 2025},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {9},
+number = {OOPSLA1},
+url = {https://doi.org/10.1145/3720427},
+doi = {10.1145/3720427},
+abstract = {Fine-grained information flow control (IFC) ensures confidentiality and integrity at the programming language level by ensuring that high-secrecy values do not affect low-secrecy values and that low-integrity values do not affect high-integrity values. However, prior support for fine-grained IFC is impractical: It either analyzes programs using whole-program static analysis, detecting false IFC violations; or it extends the language and compiler, thwarting adoption. Recent work called Cocoon demonstrates how to provide fine-grained IFC for Rust programs without modifying the language or compiler, but it is limited to static secrecy labels, and its case studies are limited. This paper introduces an approach called Carapace that employs Cocoon’s core approach and supports both static and dynamic IFC and supports both secrecy and integrity. We demonstrate Carapace using three case studies involving real applications and comprehensive security policies. An evaluation shows that applications can be retrofitted to use Carapace with relatively few changes, while incurring negligible run-time overhead in most cases. Carapace advances the state of the art by being the first hybrid static—dynamic IFC that works with an off-the-shelf language—Rust—and its unmodified compiler.},
+journal = {Proc. ACM Program. Lang.},
+month = apr,
+articleno = {93},
+numpages = {29},
+keywords = {information flow control, type and effect systems, Rust}
+}
