@@ -17,6 +17,7 @@
   "reference": [
     "RustBelt: Securing the Foundations of the Rust Programming Language",
     "Prusti",
-    "Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs"
+    "Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs",
+    "RustBelt"
   ]
 }

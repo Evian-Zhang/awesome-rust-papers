@@ -27,6 +27,9 @@
     "RustHornBelt",
     "SyRust",
     "Verifying Dynamic Trait Objects in Rust",
-    "An Empirical Study of Yanked Releases in the Rust Package Registry"
+    "An Empirical Study of Yanked Releases in the Rust Package Registry",
+    "Rudra",
+    "RustBelt",
+    "System Programming in Rust: Beyond Safety"
   ]
 }

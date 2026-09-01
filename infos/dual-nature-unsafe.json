@@ -14,6 +14,7 @@
     "Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs",
     "MirChecker",
     "Is Rust Used Safely by Software Developers?",
-    "Towards Understanding the Runtime Performance of Rust"
+    "Towards Understanding the Runtime Performance of Rust",
+    "Rudra"
   ]
 }

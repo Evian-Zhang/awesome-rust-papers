@@ -28,6 +28,7 @@
     "SafeDrop",
     "RustHornBelt",
     "cargo-klee",
-    "FFICHECKER"
+    "FFICHECKER",
+    "RustBelt"
   ]
 }

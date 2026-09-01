@@ -23,6 +23,13 @@
     "TRust",
     "XRust",
     "FFICHECKER",
-    "MirChecker"
+    "MirChecker",
+    "PKRU-safe",
+    "Qrates",
+    "Rudra",
+    "Rupair",
+    "Memory-Safety Challenge Considered Solved? An In-Depth Study with All Rust CVEs",
+    "SafeDrop",
+    "Sandcrust"
   ]
 }

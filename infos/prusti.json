@@ -21,6 +21,7 @@
     "SMACK",
     "cargo-klee",
     "KRust",
-    "Crust"
+    "Crust",
+    "RustBelt"
   ]
 }

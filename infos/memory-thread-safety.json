@@ -17,6 +17,7 @@
     "Tock",
     "Stacked Borrows: An Aliasing Model for Rust",
     "Fuzzing the Rust Typechecker Using CLP (T)",
-    "SMACK"
+    "SMACK",
+    "RustBelt"
   ]
 }

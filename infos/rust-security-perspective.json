@@ -20,6 +20,23 @@
     "Crust",
     "KRust",
     "Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs",
-    "MirChecker"
+    "MirChecker",
+    "PKRU-safe",
+    "Prusti",
+    "Qrates",
+    "Rudra",
+    "RULF",
+    "Rupair",
+    "RustBelt",
+    "RustBelt Meets Relaxed Memory",
+    "RustViz",
+    "Memory-Safety Challenge Considered Solved? An In-Depth Study with All Rust CVEs",
+    "SafeDrop",
+    "Sandcrust",
+    "SMACK",
+    "Stacked Borrows: An Aliasing Model for Rust",
+    "SyRust",
+    "Verifying Dynamic Trait Objects in Rust",
+    "VRLifeTime"
   ]
 }

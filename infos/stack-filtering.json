@@ -23,6 +23,8 @@
     "Verifying Dynamic Trait Objects in Rust",
     "Prusti Closures",
     "Flowistry",
-    "Rupta"
+    "Rupta",
+    "Rudra",
+    "VRLifeTime"
   ]
 }

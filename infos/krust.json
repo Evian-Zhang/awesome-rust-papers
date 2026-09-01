@@ -17,6 +17,7 @@
     "The Rust Language",
     "Fuzzing the Rust Typechecker Using CLP (T)",
     "Engineering the Servo Web Browser Engine Using Rust",
-    "Crust"
+    "Crust",
+    "RustBelt"
   ]
 }

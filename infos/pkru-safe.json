@@ -16,6 +16,8 @@
   ],
   "reference": [
     "RustBelt: Securing the Foundations of the Rust Programming Language",
-    "XRust"
+    "XRust",
+    "RustBelt",
+    "Sandcrust"
   ]
 }

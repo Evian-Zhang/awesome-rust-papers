@@ -24,6 +24,10 @@
     "Fearless Concurrency? Understanding Concurrent Programming Safety in Real-World Rust Software",
     "Fuzzing the Rust Typechecker Using CLP (T)",
     "Is Rust Used Safely by Software Developers?",
-    "Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs"
+    "Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs",
+    "Engineering the Servo Web Browser Engine Using Rust",
+    "SMACK",
+    "Tock",
+    "XRust"
   ]
 }

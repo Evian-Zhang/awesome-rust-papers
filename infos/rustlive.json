@@ -12,6 +12,8 @@
   ],
   "reference": [
     "Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs",
-    "RustViz"
+    "RustViz",
+    "Learning and Programming Challenges of Rust: A Mixed-Methods Study",
+    "VRLifeTime"
   ]
 }

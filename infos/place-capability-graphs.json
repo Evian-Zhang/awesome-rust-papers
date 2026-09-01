@@ -28,6 +28,8 @@
     "Rust for Morello: Always-On Memory Safety, Even in Unsafe Code (Experience Paper)",
     "Verifying Dynamic Trait Objects in Rust",
     "KRust",
-    "Flux"
+    "Flux",
+    "Rudra",
+    "RustBelt"
   ]
 }

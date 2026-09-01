@@ -12,5 +12,9 @@
   "tag": [
     "isolation"
   ],
-  "reference": []
+  "reference": [
+    "RustBelt",
+    "SMACK",
+    "System Programming in Rust: Beyond Safety"
+  ]
 }

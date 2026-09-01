@@ -30,6 +30,7 @@
     "RustHorn",
     "KRust",
     "Prusti Closures",
-    "RustHorn"
+    "RustHorn",
+    "RustBelt"
   ]
 }

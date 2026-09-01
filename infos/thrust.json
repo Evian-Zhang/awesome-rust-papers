@@ -35,6 +35,7 @@
     "RefinedRust",
     "Verifying Dynamic Trait Objects in Rust",
     "LLBC#",
-    "Crust"
+    "Crust",
+    "RustBelt"
   ]
 }

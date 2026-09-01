@@ -24,6 +24,10 @@
     "RULF",
     "RUSTYUNIT",
     "Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs",
-    "MirChecker"
+    "MirChecker",
+    "Rudra",
+    "Memory-Safety Challenge Considered Solved? An In-Depth Study with All Rust CVEs",
+    "Comprehensiveness, Automation and Lifecycle: A New Perspective for Rust Security",
+    "SyRust"
   ]
 }

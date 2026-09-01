@@ -14,6 +14,7 @@
     "undefined behavior"
   ],
   "reference": [
-    "RustBelt: Securing the Foundations of the Rust Programming Language"
+    "RustBelt: Securing the Foundations of the Rust Programming Language",
+    "RustBelt"
   ]
 }

@@ -15,6 +15,7 @@
   "reference": [
     "RustBelt: Securing the Foundations of the Rust Programming Language",
     "Session Types for Rust",
-    "Oxide"
+    "Oxide",
+    "RustBelt"
   ]
 }

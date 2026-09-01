@@ -20,6 +20,7 @@
     "cargo-klee",
     "RustHorn",
     "Prusti Closures",
-    "Verifying Dynamic Trait Objects in Rust"
+    "Verifying Dynamic Trait Objects in Rust",
+    "RustBelt"
   ]
 }

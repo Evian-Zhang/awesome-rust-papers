@@ -21,6 +21,8 @@
     "Qrates",
     "Stacked Borrows: An Aliasing Model for Rust",
     "Is Rust Used Safely by Software Developers?",
-    "Oxide"
+    "Oxide",
+    "RustBelt",
+    "System Programming in Rust: Beyond Safety"
   ]
 }

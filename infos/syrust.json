@@ -19,6 +19,7 @@
     "Stacked Borrows: An Aliasing Model for Rust",
     "Fuzzing the Rust Typechecker Using CLP (T)",
     "Oxide",
-    "Crust"
+    "Crust",
+    "RustBelt"
   ]
 }

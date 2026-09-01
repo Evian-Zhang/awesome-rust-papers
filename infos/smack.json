@@ -12,6 +12,8 @@
   ],
   "reference": [
     "RustBelt: Securing the Foundations of the Rust Programming Language",
-    "Crust"
+    "Crust",
+    "RustBelt",
+    "System Programming in Rust: Beyond Safety"
   ]
 }

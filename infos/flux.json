@@ -23,6 +23,7 @@
     "Creusot",
     "Aeneas",
     "cargo-klee",
-    "Verifying Dynamic Trait Objects in Rust"
+    "Verifying Dynamic Trait Objects in Rust",
+    "RustBelt"
   ]
 }

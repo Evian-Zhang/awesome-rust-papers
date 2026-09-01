@@ -16,6 +16,7 @@
     "Stacked Borrows: An Aliasing Model for Rust",
     "SMACK",
     "KRust",
-    "Crust"
+    "Crust",
+    "RustBelt"
   ]
 }

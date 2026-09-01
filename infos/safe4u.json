@@ -40,6 +40,7 @@
     "RustHorn",
     "RustBelt: Securing the Foundations of the Rust Programming Language",
     "Is Unsafe an Achilles' Heel? A Comprehensive Study of Safety Requirements in Unsafe Rust Programming",
-    "\"I wouldn't want my unsafe code to run my pacemaker\": An Interview Study on the Use, Comprehension, and Perceived Risks of Unsafe Rust"
+    "\"I wouldn't want my unsafe code to run my pacemaker\": An Interview Study on the Use, Comprehension, and Perceived Risks of Unsafe Rust",
+    "RustBelt"
   ]
 }

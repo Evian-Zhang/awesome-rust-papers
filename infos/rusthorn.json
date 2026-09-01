@@ -18,6 +18,7 @@
     "cargo-klee",
     "RustBelt: Securing the Foundations of the Rust Programming Language",
     "The Rust Language",
-    "Crust"
+    "Crust",
+    "RustBelt"
   ]
 }

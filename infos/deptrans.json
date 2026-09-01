@@ -24,6 +24,7 @@
     "Scylla",
     "Syzygy",
     "C2SaferRust",
-    "CRUST-Bench"
+    "CRUST-Bench",
+    "PR2"
   ]
 }

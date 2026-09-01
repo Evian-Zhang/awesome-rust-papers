@@ -22,6 +22,9 @@
     "Rust-lancet",
     "Improving Automatic C-to-Rust Translation with Static Analysis",
     "REM",
-    "CRustS2"
+    "CRustS2",
+    "Nopcrat",
+    "PKRU-safe",
+    "RustBelt"
   ]
 }

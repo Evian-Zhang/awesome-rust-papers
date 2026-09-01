@@ -22,6 +22,8 @@
     "Crust",
     "cargo-klee",
     "Galeed",
-    "Cross-Language Attacks"
+    "Cross-Language Attacks",
+    "PKRU-safe",
+    "Rudra"
   ]
 }

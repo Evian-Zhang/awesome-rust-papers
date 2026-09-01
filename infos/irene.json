@@ -23,6 +23,7 @@
     "Concrat",
     "Translating C To Rust: Lessons from a User Study",
     "Improving Automatic C-to-Rust Translation with Static Analysis",
-    "CRustS2"
+    "CRustS2",
+    "Nopcrat"
   ]
 }

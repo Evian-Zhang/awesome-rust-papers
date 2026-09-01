@@ -17,6 +17,9 @@
     "SMACK",
     "Prusti Closures",
     "Crust",
-    "Firecracker"
+    "Firecracker",
+    "RustBelt",
+    "RVT",
+    "Stacked Borrows: An Aliasing Model for Rust"
   ]
 }

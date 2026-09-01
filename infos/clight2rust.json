@@ -13,6 +13,7 @@
     "Translating C to Safer Rust",
     "C2SaferRust",
     "RustAssure",
-    "CRustS2"
+    "CRustS2",
+    "RustBelt"
   ]
 }

@@ -23,6 +23,12 @@
     "KRust",
     "Oxide",
     "Fuzzing the Rust Typechecker Using CLP (T)",
-    "Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs"
+    "Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs",
+    "RustBelt",
+    "RustBelt Meets Relaxed Memory",
+    "Engineering the Servo Web Browser Engine Using Rust",
+    "Session Types for Rust",
+    "Stacked Borrows: An Aliasing Model for Rust",
+    "Tock"
   ]
 }

@@ -33,6 +33,7 @@
     "GhostCell",
     "Gillian-Rust",
     "Tree Borrows",
-    "Using Ghost Ownership to Verify Union-Find and Persistent Arrays in Rust"
+    "Using Ghost Ownership to Verify Union-Find and Persistent Arrays in Rust",
+    "RustBelt"
   ]
 }

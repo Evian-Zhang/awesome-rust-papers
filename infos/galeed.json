@@ -19,6 +19,7 @@
     "hardware"
   ],
   "reference": [
-    "The Rust Language"
+    "The Rust Language",
+    "Sandcrust"
   ]
 }

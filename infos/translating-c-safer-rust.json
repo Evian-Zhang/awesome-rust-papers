@@ -18,6 +18,7 @@
     "SMACK",
     "Rust as a Language for High Performance GC Implementation",
     "Oxide",
-    "KRust"
+    "KRust",
+    "RustBelt"
   ]
 }

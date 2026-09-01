@@ -14,6 +14,7 @@
   "reference": [
     "GhostCell",
     "RustViz",
-    "Bronze"
+    "Bronze",
+    "Learning and Programming Challenges of Rust: A Mixed-Methods Study"
   ]
 }

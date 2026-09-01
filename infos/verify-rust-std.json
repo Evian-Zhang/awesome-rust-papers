@@ -27,6 +27,7 @@
     "Tree Borrows",
     "Formal Security and Functional Verification of Cryptographic Protocol Implementations in Rust",
     "Miri",
-    "hax"
+    "hax",
+    "RustBelt"
   ]
 }

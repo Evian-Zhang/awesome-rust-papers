@@ -16,6 +16,8 @@
     "RustBelt: Securing the Foundations of the Rust Programming Language",
     "The Rust Language",
     "Tock",
-    "Rust-SGX"
+    "Rust-SGX",
+    "RustBelt",
+    "System Programming in Rust: Beyond Safety"
   ]
 }

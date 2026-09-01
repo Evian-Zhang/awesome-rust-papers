@@ -20,6 +20,7 @@
     "RustBelt: Securing the Foundations of the Rust Programming Language",
     "Tock",
     "SyRust",
-    "RedLeaf"
+    "RedLeaf",
+    "RustBelt"
   ]
 }
