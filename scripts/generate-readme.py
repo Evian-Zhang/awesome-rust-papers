@@ -5,6 +5,7 @@ from pathlib import Path
 
 PROJECT_DIR = Path(__file__).resolve().parent.parent
 INFOS_DIR = PROJECT_DIR / 'infos'
+BIBS_DIR = PROJECT_DIR / 'bibs'
 TEMPLATE = PROJECT_DIR / 'README.template.md'
 README = PROJECT_DIR / 'README.md'
 CITATION = PROJECT_DIR / 'CITATION.bib'
@@ -73,17 +74,14 @@ def render_paper(payload):
         publish = f"{venue} {year}"
     else:
         publish = f"{year}"
+    info_line = publish
 
     pdf = payload.get("pdf")
+    if pdf:
+        info_line += f" [PDF]({pdf})"
     repo = payload.get("repo")
-    if pdf and repo:
-        lines.append(f"   {publish} [PDF]({pdf}) [Code]({repo})")
-    elif pdf:
-        lines.append(f"   {publish} [PDF]({pdf})")
-    elif repo:
-        lines.append(f"   {publish} [Code]({repo})")
-    else:
-        lines.append(f"   {publish}")
+    if repo:
+        info_line += f" [Code]({repo})"
 
     if payload['_cited_by'] != 0:
         lines.append(f"\n   Cited by {payload['_cited_by']} papers in this awesome collection.")
