@@ -23,17 +23,6 @@ def load_entries():
         entries.append(payload)
     return entries
 
-def top_category(payload):
-    category = payload.get("category")
-    if not category:
-        return "Not categorized"
-    if isinstance(category, str):
-        return category
-    if isinstance(category, dict):
-        return next(iter(category))
-    print("Unexpected!")
-    sys.exit(1)
-
 def category_path(category):
     if isinstance(category, str):
         return [category]
