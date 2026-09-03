@@ -6,7 +6,9 @@
   "repo": "https://github.com/smackers/smack",
   "venue": "ATVA",
   "year": 2018,
-  "category": "verification",
+  "category": [
+    "verification"
+  ],
   "tag": [
     "LLVM IR"
   ],

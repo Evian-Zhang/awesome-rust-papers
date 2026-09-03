@@ -6,7 +6,9 @@
   "repo": "https://github.com/mcoblenz/Bronze",
   "venue": "ICSE",
   "year": 2022,
-  "category": "language",
+  "category": [
+    "language"
+  ],
   "tag": [
     "garbage collection"
   ],

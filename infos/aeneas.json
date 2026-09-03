@@ -9,7 +9,9 @@
   ],
   "venue": "ICFP",
   "year": 2022,
-  "category": "verification",
+  "category": [
+    "verification"
+  ],
   "tag": [
     "MIR",
     "LLBC",

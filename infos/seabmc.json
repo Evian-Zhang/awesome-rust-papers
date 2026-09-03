@@ -9,7 +9,9 @@
   ],
   "venue": "FMCAD",
   "year": 2025,
-  "category": "verification",
+  "category": [
+    "verification"
+  ],
   "tag": [
     "LLVM IR",
     "unsafe",

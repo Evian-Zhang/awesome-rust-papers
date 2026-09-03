@@ -11,7 +11,9 @@
   ],
   "venue": "CCS",
   "year": 2025,
-  "category": "verification",
+  "category": [
+    "verification"
+  ],
   "tag": [
     "cryptographic protocol implementation",
     "cryptography"

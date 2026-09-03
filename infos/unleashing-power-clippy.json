@@ -4,7 +4,9 @@
   "pdf": "https://dl.acm.org/doi/pdf/10.1145/3639478.3643096",
   "venue": "ICSE Companion",
   "year": 2024,
-  "category": "ecosystem",
+  "category": [
+    "ecosystem"
+  ],
   "tag": [
     "empirical study",
     "diagnose",

@@ -6,7 +6,9 @@
   "repo": "https://github.com/rustviz/rustviz",
   "venue": "VL/HCC",
   "year": 2022,
-  "category": "language",
+  "category": [
+    "language"
+  ],
   "tag": [
     "learning",
     "ownership",

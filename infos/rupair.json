@@ -5,9 +5,10 @@
   "pdf": "https://dl.acm.org/doi/pdf/10.1145/3485832.3485841",
   "venue": "ACSAC",
   "year": 2021,
-  "category": {
-    "security": "patch"
-  },
+  "category": [
+    "security",
+    "patch"
+  ],
   "tag": [
     "memory safety",
     "buffer overflow",

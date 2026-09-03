@@ -6,9 +6,10 @@
   "repo": "https://github.com/asterinas/asterinas",
   "venue": "USENIX ATC",
   "year": 2025,
-  "category": {
-    "product": "operating system"
-  },
+  "category": [
+    "product",
+    "operating system"
+  ],
   "tag": [
     "framekernel"
   ],

@@ -3,7 +3,9 @@
   "link": "https://doi.org/10.1109/TSE.2026.3660015",
   "venue": "IEEE TSE",
   "year": 2026,
-  "category": "ecosystem",
+  "category": [
+    "ecosystem"
+  ],
   "tag": [
     "deprecation",
     "empirical study",

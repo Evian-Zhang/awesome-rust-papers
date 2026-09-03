@@ -5,9 +5,10 @@
   "pdf": "https://dl.acm.org/doi/pdf/10.1145/3691620.3695010",
   "venue": "ASE",
   "year": 2024,
-  "category": {
-    "program analysis": "documentation"
-  },
+  "category": [
+    "program analysis",
+    "documentation"
+  ],
   "tag": [
     "code-comment inconsistency",
     "LLM"

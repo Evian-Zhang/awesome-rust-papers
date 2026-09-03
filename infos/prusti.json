@@ -9,7 +9,9 @@
   ],
   "venue": "OOPSLA",
   "year": 2019,
-  "category": "verification",
+  "category": [
+    "verification"
+  ],
   "tag": [
     "correctness",
     "memory safety",

@@ -6,7 +6,9 @@
   "repo": "https://doi.org/10.5281/zenodo.8124395",
   "venue": "OOPSLA",
   "year": 2023,
-  "category": "language",
+  "category": [
+    "language"
+  ],
   "tag": [
     "refactor",
     "extract method",

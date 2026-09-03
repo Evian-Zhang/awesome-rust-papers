@@ -6,7 +6,9 @@
   "repo": "https://github.com/DavePearce/FeatherweightRust",
   "venue": "ACM TOPLAS",
   "year": 2021,
-  "category": "formalization",
+  "category": [
+    "formalization"
+  ],
   "tag": [
     "compiler",
     "fuzz",

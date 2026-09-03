@@ -10,7 +10,9 @@
   ],
   "venue": "ICFP",
   "year": 2021,
-  "category": "language",
+  "category": [
+    "language"
+  ],
   "tag": [
     "interior mutability",
     "branded type"

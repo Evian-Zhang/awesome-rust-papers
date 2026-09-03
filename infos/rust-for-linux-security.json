@@ -4,7 +4,9 @@
   "repo": "https://github.com/mars-research/rfl-artifacts",
   "venue": "ACSAC",
   "year": 2024,
-  "category": "ecosystem",
+  "category": [
+    "ecosystem"
+  ],
   "tag": [
     "Rust for Linux",
     "security"

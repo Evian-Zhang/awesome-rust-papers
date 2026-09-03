@@ -10,9 +10,10 @@
   ],
   "venue": "USENIX Security",
   "year": 2023,
-  "category": {
-    "security": "isolation"
-  },
+  "category": [
+    "security",
+    "isolation"
+  ],
   "tag": [
     "hardware",
     "MPK",

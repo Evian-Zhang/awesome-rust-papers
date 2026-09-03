@@ -6,9 +6,10 @@
   "repo": "https://github.com/mars-research/atmosphere",
   "venue": "SOSP",
   "year": 2025,
-  "category": {
-    "product": "operating system"
-  },
+  "category": [
+    "product",
+    "operating system"
+  ],
   "tag": [
     "verification",
     "Verus",

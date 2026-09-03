@@ -5,7 +5,9 @@
   "repo": "https://github.com/Cxm211/IT1",
   "venue": "ACM TOSEM",
   "year": 2026,
-  "category": "ecosystem",
+  "category": [
+    "ecosystem"
+  ],
   "tag": [
     "FFI",
     "empirical study"

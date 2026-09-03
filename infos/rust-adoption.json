@@ -4,7 +4,9 @@
   "pdf": "https://www.usenix.org/system/files/soups2021-fulton.pdf",
   "venue": "SOUPS",
   "year": 2021,
-  "category": "ecosystem",
+  "category": [
+    "ecosystem"
+  ],
   "tag": [
     "survey"
   ],

@@ -5,6 +5,8 @@
   "repo": "https://github.com/rust-lang/rust",
   "venue": "HILT (ACM SIGAda)",
   "year": 2014,
-  "category": "language",
+  "category": [
+    "language"
+  ],
   "reference": []
 }

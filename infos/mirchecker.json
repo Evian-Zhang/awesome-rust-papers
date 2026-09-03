@@ -6,9 +6,10 @@
   "repo": "https://github.com/lizhuohua/rust-mir-checker",
   "venue": "CCS",
   "year": 2021,
-  "category": {
-    "security": "static analysis"
-  },
+  "category": [
+    "security",
+    "static analysis"
+  ],
   "tag": [
     "MIR",
     "memory safety",

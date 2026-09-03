@@ -6,7 +6,9 @@
   "repo": "https://github.com/apache/teaclave-trustzone-sdk",
   "venue": "ACSAC",
   "year": 2020,
-  "category": "product",
+  "category": [
+    "product"
+  ],
   "tag": [
     "TEE",
     "ARM TrustZone",

@@ -7,7 +7,9 @@
   ],
   "venue": "NFM",
   "year": 2022,
-  "category": "formalization",
+  "category": [
+    "formalization"
+  ],
   "tag": [
     "termination",
     "borrow checker"

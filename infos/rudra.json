@@ -12,9 +12,10 @@
   ],
   "venue": "SOSP",
   "year": 2021,
-  "category": {
-    "security": "static analysis"
-  },
+  "category": [
+    "security",
+    "static analysis"
+  ],
   "tag": [
     "memory safety",
     "unsafe",

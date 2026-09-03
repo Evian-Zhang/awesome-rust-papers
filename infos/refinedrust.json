@@ -9,9 +9,10 @@
   ],
   "venue": "PLDI",
   "year": 2024,
-  "category": {
-    "verification": "proof generation"
-  },
+  "category": [
+    "verification",
+    "proof generation"
+  ],
   "tag": [
     "refined type",
     "type system",

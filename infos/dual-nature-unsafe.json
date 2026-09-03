@@ -5,7 +5,9 @@
   "repo": "https://github.com/yzhang71/Rust-UnsafeToSafe",
   "venue": "FSE",
   "year": 2023,
-  "category": "language",
+  "category": [
+    "language"
+  ],
   "tag": [
     "empirical study",
     "unsafe"

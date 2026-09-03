@@ -9,9 +9,10 @@
   ],
   "venue": "OOPSLA",
   "year": 2025,
-  "category": {
-    "verification": "proof generation"
-  },
+  "category": [
+    "verification",
+    "proof generation"
+  ],
   "tag": [
     "LLM",
     "Agent",

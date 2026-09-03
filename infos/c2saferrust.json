@@ -10,7 +10,9 @@
   ],
   "venue": "IEEE TSE",
   "year": 2026,
-  "category": "c2rust",
+  "category": [
+    "c2rust"
+  ],
   "tag": [
     "neuro symbolic",
     "LLM",

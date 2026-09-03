@@ -12,7 +12,9 @@
   ],
   "venue": "Empirical Software Engineering",
   "year": 2025,
-  "category": "c2rust",
+  "category": [
+    "c2rust"
+  ],
   "tag": [
     "LLM",
     "type"

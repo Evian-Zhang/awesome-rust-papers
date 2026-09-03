@@ -13,7 +13,9 @@
   ],
   "venue": "ECOOP",
   "year": 2026,
-  "category": "program analysis",
+  "category": [
+    "program analysis"
+  ],
   "tag": [
     "pointer analysis",
     "static analysis",

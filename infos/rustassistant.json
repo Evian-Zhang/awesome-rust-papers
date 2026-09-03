@@ -5,7 +5,9 @@
   "pdf": "https://www.microsoft.com/en-us/research/wp-content/uploads/2024/08/paper.pdf",
   "venue": "ICSE",
   "year": 2025,
-  "category": "program analysis",
+  "category": [
+    "program analysis"
+  ],
   "tag": [
     "LLM",
     "patch",

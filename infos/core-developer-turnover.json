@@ -4,7 +4,9 @@
   "pdf": "https://dl.acm.org/doi/pdf/10.1145/3729392",
   "venue": "FSE",
   "year": 2025,
-  "category": "ecosystem",
+  "category": [
+    "ecosystem"
+  ],
   "tag": [
     "empirical study",
     "developer turnover"

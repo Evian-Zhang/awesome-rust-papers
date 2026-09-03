@@ -14,7 +14,9 @@
   ],
   "venue": "IEEE TSE",
   "year": 2024,
-  "category": "security",
+  "category": [
+    "security"
+  ],
   "tag": [
     "lifetime",
     "pointer analysis",

@@ -6,7 +6,9 @@
   "repo": "https://github.com/hopv/rust-horn",
   "venue": "ESOP",
   "year": 2020,
-  "category": "verification",
+  "category": [
+    "verification"
+  ],
   "tag": [
     "constrained Horn clause",
     "pointer",

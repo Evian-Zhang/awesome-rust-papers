@@ -8,7 +8,9 @@
   ],
   "venue": "POPL",
   "year": 2026,
-  "category": "formalization",
+  "category": [
+    "formalization"
+  ],
   "tag": [
     "soundness",
     "undefined behavior"

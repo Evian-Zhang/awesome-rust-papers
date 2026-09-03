@@ -6,9 +6,10 @@
   "repo": "https://github.com/NicolasLagaillardie/mpst_rust_github",
   "venue": "COORDINATION",
   "year": 2020,
-  "category": {
-    "product": "session type"
-  },
+  "category": [
+    "product",
+    "session type"
+  ],
   "tag": [
     "multiparty session type",
     "session type"

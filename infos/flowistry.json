@@ -9,7 +9,9 @@
   ],
   "venue": "PLDI",
   "year": 2022,
-  "category": "program analysis",
+  "category": [
+    "program analysis"
+  ],
   "tag": [
     "information flow",
     "ownership",

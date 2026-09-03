@@ -13,9 +13,10 @@
   ],
   "venue": "ACM TOSEM",
   "year": 2025,
-  "category": {
-    "security": "fuzzing"
-  },
+  "category": [
+    "security",
+    "fuzzing"
+  ],
   "tag": [
     "harness",
     "generic"

@@ -6,9 +6,10 @@
   "repo": "https://github.com/ferrite-rs/ferrite",
   "venue": "ECOOP",
   "year": 2022,
-  "category": {
-    "product": "session type"
-  },
+  "category": [
+    "product",
+    "session type"
+  ],
   "tag": [
     "session type"
   ],

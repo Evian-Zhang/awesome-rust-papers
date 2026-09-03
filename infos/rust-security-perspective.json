@@ -4,7 +4,9 @@
   "pdf": "https://csslab-ustc.github.io/publications/2022/rust-cal.pdf",
   "venue": "QRS",
   "year": 2022,
-  "category": "ecosystem",
+  "category": [
+    "ecosystem"
+  ],
   "tag": [
     "empirical study",
     "security"

@@ -11,9 +11,10 @@
   ],
   "venue": "ICSE",
   "year": 2024,
-  "category": {
-    "security": "fuzzing"
-  },
+  "category": [
+    "security",
+    "fuzzing"
+  ],
   "tag": [
     "harness",
     "unsafe"

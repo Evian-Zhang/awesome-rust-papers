@@ -6,7 +6,9 @@
   "repo": "https://github.com/cchanging/OOM",
   "venue": "FSE",
   "year": 2023,
-  "category": "language",
+  "category": [
+    "language"
+  ],
   "tag": [
     "memory management",
     "static analysis",

@@ -6,9 +6,10 @@
   "repo": "https://github.com/theseus-os/Theseus",
   "venue": "OSDI",
   "year": 2020,
-  "category": {
-    "product": "operating system"
-  },
+  "category": [
+    "product",
+    "operating system"
+  ],
   "reference": [
     "Stacked Borrows: An Aliasing Model for Rust",
     "System Programming in Rust: Beyond Safety"

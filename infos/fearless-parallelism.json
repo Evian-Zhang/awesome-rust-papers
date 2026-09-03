@@ -4,9 +4,10 @@
   "pdf": "https://dl.acm.org/doi/pdf/10.1145/3626183.3659966",
   "venue": "SPAA",
   "year": 2024,
-  "category": {
-    "security": "concurrency"
-  },
+  "category": [
+    "security",
+    "concurrency"
+  ],
   "tag": [
     "empirical study",
     "parallelism"

@@ -9,7 +9,9 @@
   ],
   "venue": "ICSE",
   "year": 2023,
-  "category": "c2rust",
+  "category": [
+    "c2rust"
+  ],
   "tag": [
     "concurrent",
     "lock"

@@ -8,7 +8,9 @@
   ],
   "venue": "CPP",
   "year": 2026,
-  "category": "verification",
+  "category": [
+    "verification"
+  ],
   "tag": [
     "ghost",
     "interior mutability",

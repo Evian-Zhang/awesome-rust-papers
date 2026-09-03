@@ -6,7 +6,9 @@
   "repo": "https://github.com/model-checking/kani",
   "venue": "arXiv",
   "year": 2026,
-  "category": "verification",
+  "category": [
+    "verification"
+  ],
   "tag": [
     "model checking",
     "MIR"

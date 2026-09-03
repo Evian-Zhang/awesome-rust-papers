@@ -6,7 +6,9 @@
   "repo": "https://github.com/syzygy-project/Syzygy_Zopfli",
   "venue": "arXiv",
   "year": 2024,
-  "category": "c2rust",
+  "category": [
+    "c2rust"
+  ],
   "tag": [
     "LLM",
     "dynamic analysis",

@@ -6,7 +6,9 @@
   "repo": "https://github.com/anirudhkhatry/CRUST-bench",
   "venue": "arXiv",
   "year": 2025,
-  "category": "c2rust",
+  "category": [
+    "c2rust"
+  ],
   "tag": [
     "empirical study",
     "benchmark"

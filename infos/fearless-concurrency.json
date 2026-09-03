@@ -4,9 +4,10 @@
   "pdf": "https://arxiv.org/pdf/1902.01906",
   "venue": "arXiv",
   "year": 2019,
-  "category": {
-    "security": "concurrency"
-  },
+  "category": [
+    "security",
+    "concurrency"
+  ],
   "tag": [
     "empirical study",
     "deadlock",

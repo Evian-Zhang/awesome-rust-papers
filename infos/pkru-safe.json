@@ -6,9 +6,10 @@
   "repo": "https://github.com/securesystemslab/PKRU-Safe",
   "venue": "EuroSys",
   "year": 2022,
-  "category": {
-    "security": "isolation"
-  },
+  "category": [
+    "security",
+    "isolation"
+  ],
   "tag": [
     "PKRU",
     "LLVM IR",

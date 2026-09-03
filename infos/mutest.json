@@ -5,7 +5,9 @@
   "repo": "https://github.com/zalanlevai/mutest-rs",
   "venue": "ACM TOSEM",
   "year": 2026,
-  "category": "program analysis",
+  "category": [
+    "program analysis"
+  ],
   "tag": [
     "mutation analysis",
     "empirical study"

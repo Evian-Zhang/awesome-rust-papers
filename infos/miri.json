@@ -6,7 +6,9 @@
   "repo": "https://github.com/rust-lang/miri",
   "venue": "POPL",
   "year": 2026,
-  "category": "security",
+  "category": [
+    "security"
+  ],
   "tag": [
     "soundness",
     "undefined behavior"

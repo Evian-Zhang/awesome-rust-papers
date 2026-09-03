@@ -14,9 +14,10 @@
   ],
   "venue": "ICSE",
   "year": 2025,
-  "category": {
-    "security": "fuzzing"
-  },
+  "category": [
+    "security",
+    "fuzzing"
+  ],
   "tag": [
     "LLM",
     "harness",

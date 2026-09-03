@@ -6,9 +6,10 @@
   "repo": "https://github.com/mars-research/redleaf",
   "venue": "OSDI",
   "year": 2020,
-  "category": {
-    "product": "operating system"
-  },
+  "category": [
+    "product",
+    "operating system"
+  ],
   "tag": [
     "isolation"
   ],

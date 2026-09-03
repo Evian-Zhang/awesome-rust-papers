@@ -5,7 +5,9 @@
   "repo": "https://github.com/mit-ll/Cross-Language-Attacks",
   "venue": "NDSS",
   "year": 2022,
-  "category": "security",
+  "category": [
+    "security"
+  ],
   "tag": [
     "FFI",
     "memory safety"

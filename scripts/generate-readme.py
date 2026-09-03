@@ -23,20 +23,11 @@ def load_entries():
         entries.append(payload)
     return entries
 
-def category_path(category):
-    if isinstance(category, str):
-        return [category]
-    if isinstance(category, dict):
-        key = next(iter(category))
-        return [key] + category_path(category[key])
-    print("Unexpected!")
-    sys.exit(1)
-
 def build_tree(entries):
     root = {"papers": [], "children": {}}
     for payload in entries:
         node = root
-        for part in category_path(payload["category"]):
+        for part in payload["category"]:
             node = node["children"].setdefault(part, {"papers": [], "children": {}})
         node["papers"].append(payload)
     return root

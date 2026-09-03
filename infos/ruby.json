@@ -5,7 +5,9 @@
   "pdf": "https://arxiv.org/pdf/2211.00111",
   "venue": "DSN",
   "year": 2026,
-  "category": "security",
+  "category": [
+    "security"
+  ],
   "tag": [
     "binary",
     "unsafe",

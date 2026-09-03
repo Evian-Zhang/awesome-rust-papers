@@ -6,7 +6,9 @@
   "repo": "https://github.com/Drodt/fm26-artifact",
   "venue": "FM",
   "year": 2026,
-  "category": "formalization",
+  "category": [
+    "formalization"
+  ],
   "tag": [
     "human-in-the-loop"
   ],

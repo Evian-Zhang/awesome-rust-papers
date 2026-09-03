@@ -5,7 +5,9 @@
   "repo": "https://github.com/kent-weak-memory/rust",
   "venue": "ECOOP",
   "year": 2023,
-  "category": "product",
+  "category": [
+    "product"
+  ],
   "tag": [
     "memory safety",
     "hardware"

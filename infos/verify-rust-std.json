@@ -6,7 +6,9 @@
   "repo": "https://github.com/model-checking/verify-rust-std",
   "venue": "NFM",
   "year": 2026,
-  "category": "verification",
+  "category": [
+    "verification"
+  ],
   "reference": [
     "RustBelt: Securing the Foundations of the Rust Programming Language",
     "Tock",

@@ -5,7 +5,9 @@
   "repo": "https://github.com/system-pclub/rust-programming-challenges",
   "venue": "ICSE",
   "year": 2022,
-  "category": "ecosystem",
+  "category": [
+    "ecosystem"
+  ],
   "tag": [
     "empirical study",
     "safety"

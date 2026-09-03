@@ -4,7 +4,9 @@
   "link": "https://doi.org/10.1109/ASE.2015.77",
   "venue": "ASE",
   "year": 2015,
-  "category": "verification",
+  "category": [
+    "verification"
+  ],
   "tag": [
     "memory safety",
     "pointer alias",

@@ -4,9 +4,10 @@
   "pdf": "https://hardekbc.github.io/files/dewey15fuzzing.pdf",
   "venue": "ASE",
   "year": 2015,
-  "category": {
-    "security": "compiler"
-  },
+  "category": [
+    "security",
+    "compiler"
+  ],
   "tag": [
     "type checker",
     "fuzzing",

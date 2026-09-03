@@ -5,7 +5,9 @@
   "repo": "https://gitlab.henriktjader.com/pln/cargo-klee/",
   "venue": "INDIN",
   "year": 2018,
-  "category": "verification",
+  "category": [
+    "verification"
+  ],
   "tag": [
     "panic",
     "klee",

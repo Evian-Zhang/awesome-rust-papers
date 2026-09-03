@@ -4,7 +4,9 @@
   "link": "https://doi.org/10.1007/s10664-026-10905-4",
   "venue": "Empirical Software Engineering",
   "year": 2026,
-  "category": "c2rust",
+  "category": [
+    "c2rust"
+  ],
   "tag": [
     "LLM"
   ],

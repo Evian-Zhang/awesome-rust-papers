@@ -6,7 +6,9 @@
   "repo": "https://github.com/secure-foundations/vest",
   "venue": "USENIX Security",
   "year": 2025,
-  "category": "product",
+  "category": [
+    "product"
+  ],
   "tag": [
     "verification",
     "performance",

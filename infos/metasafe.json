@@ -9,9 +9,10 @@
   ],
   "venue": "USENIX Security",
   "year": 2024,
-  "category": {
-    "security": "isolation"
-  },
+  "category": [
+    "security",
+    "isolation"
+  ],
   "tag": [
     "smart pointer",
     "memory safety",

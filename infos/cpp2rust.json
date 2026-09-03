@@ -6,7 +6,9 @@
   "repo": "https://github.com/Cpp2Rust/cpp2rust",
   "venue": "PLDI",
   "year": 2026,
-  "category": "c2rust",
+  "category": [
+    "c2rust"
+  ],
   "tag": [
     "C++",
     "ownership",

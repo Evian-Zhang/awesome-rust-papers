@@ -5,7 +5,9 @@
   "repo": "https://github.com/VaynNecol/SafetyProperty",
   "venue": "ICSE",
   "year": 2024,
-  "category": "security",
+  "category": [
+    "security"
+  ],
   "tag": [
     "empirical study",
     "unsafe",

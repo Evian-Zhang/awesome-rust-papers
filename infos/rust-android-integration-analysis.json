@@ -4,7 +4,9 @@
   "pdf": "https://dl.acm.org/doi/pdf/10.1145/3803437.3805227",
   "venue": "FSE Companion",
   "year": 2026,
-  "category": "ecosystem",
+  "category": [
+    "ecosystem"
+  ],
   "tag": [
     "Android",
     "empirical study",

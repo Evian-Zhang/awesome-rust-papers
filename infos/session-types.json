@@ -5,9 +5,10 @@
   "repo": "https://github.com/Munksgaard/session-types",
   "venue": "WGP@ICFP",
   "year": 2015,
-  "category": {
-    "product": "session type"
-  },
+  "category": [
+    "product",
+    "session type"
+  ],
   "reference": [
     "Patina"
   ]

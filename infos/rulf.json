@@ -9,9 +9,10 @@
   ],
   "venue": "ASE",
   "year": 2021,
-  "category": {
-    "security": "fuzzing"
-  },
+  "category": [
+    "security",
+    "fuzzing"
+  ],
   "tag": [
     "harness",
     "static analysis"

@@ -6,7 +6,9 @@
   "repo": "https://github.com/SYSUSELab/RustRepoTrans",
   "venue": "ASE",
   "year": 2025,
-  "category": "c2rust",
+  "category": [
+    "c2rust"
+  ],
   "tag": [
     "benchmark",
     "LLM"

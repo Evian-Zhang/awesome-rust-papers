@@ -9,9 +9,10 @@
   ],
   "venue": "FSE",
   "year": 2026,
-  "category": {
-    "security": "compiler"
-  },
+  "category": [
+    "security",
+    "compiler"
+  ],
   "tag": [
     "diagnose",
     "fuzzing",

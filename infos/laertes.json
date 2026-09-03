@@ -6,7 +6,9 @@
   "repo": "https://doi.org/10.5281/zenodo.7714175",
   "venue": "OOPSLA",
   "year": 2023,
-  "category": "c2rust",
+  "category": [
+    "c2rust"
+  ],
   "tag": [
     "empirical study",
     "pointer",

@@ -4,7 +4,9 @@
   "pdf": "https://arxiv.org/pdf/2410.01981",
   "venue": "HATRA@SPLASH",
   "year": 2024,
-  "category": "verification",
+  "category": [
+    "verification"
+  ],
   "tag": [
     "unsafe",
     "survey"

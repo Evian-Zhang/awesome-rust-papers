@@ -11,7 +11,9 @@
   ],
   "venue": "FSE",
   "year": 2026,
-  "category": "c2rust",
+  "category": [
+    "c2rust"
+  ],
   "tag": [
     "LLM",
     "pointer",

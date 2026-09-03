@@ -8,7 +8,9 @@
   ],
   "venue": "OOPSLA",
   "year": 2025,
-  "category": "verification",
+  "category": [
+    "verification"
+  ],
   "tag": [
     "refinement",
     "invariant",

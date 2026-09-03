@@ -5,7 +5,9 @@
   "repo": "https://github.com/yzhang71/Rust_C_Benchmarks",
   "venue": "ASE",
   "year": 2022,
-  "category": "language",
+  "category": [
+    "language"
+  ],
   "tag": [
     "performance",
     "benchmark"

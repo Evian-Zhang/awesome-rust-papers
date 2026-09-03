@@ -7,7 +7,9 @@
   ],
   "venue": "ISSRE",
   "year": 2025,
-  "category": "ecosystem",
+  "category": [
+    "ecosystem"
+  ],
   "tag": [
     "empirical study",
     "performance"

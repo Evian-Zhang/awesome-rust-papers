@@ -24,20 +24,6 @@ ALLOWED_KEYS = {
     "reference"
 }
 
-def category_ok(category):
-    if isinstance(category, str):
-        return True
-    elif isinstance(category, dict):
-        if len(category) != 1:
-            return False
-        for key, value in category.items():
-            if not isinstance(key, str):
-                return False
-            if not category_ok(value):
-                return False
-        return True
-    return False
-
 def read_asserted_no_venue():
     with ASSERTION_TOML.open("rb") as f:
         assertion = tomllib.load(f)
@@ -73,9 +59,8 @@ def validate(payload, path, no_venue, titles, aliases):
     if "tag" in payload:
         if not isinstance(payload["tag"], list) or not all(isinstance(item, str) for item in payload["tag"]):
             errors.append(f"{path}: invalid tag")
-
     if "category" in payload:
-        if not category_ok(payload["category"]):
+        if not isinstance(payload["category"], list) or not all(isinstance(item, str) for item in payload["category"]):
             errors.append(f"{path}: invalid category")
 
     if "reference" in payload:

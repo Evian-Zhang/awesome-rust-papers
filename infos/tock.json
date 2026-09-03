@@ -6,9 +6,10 @@
   "repo": "https://github.com/tock/tock",
   "venue": "SOSP",
   "year": 2017,
-  "category": {
-    "product": "operating system"
-  },
+  "category": [
+    "product",
+    "operating system"
+  ],
   "tag": [
     "hardware"
   ],

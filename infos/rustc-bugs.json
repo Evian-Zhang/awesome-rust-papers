@@ -5,7 +5,9 @@
   "repo": "https://doi.org/10.5281/zenodo.16600026",
   "venue": "OOPSLA",
   "year": 2025,
-  "category": "ecosystem",
+  "category": [
+    "ecosystem"
+  ],
   "tag": [
     "empirical study",
     "compiler",

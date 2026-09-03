@@ -8,7 +8,9 @@
   ],
   "venue": "TACAS",
   "year": 2023,
-  "category": "verification",
+  "category": [
+    "verification"
+  ],
   "tag": [
     "Creusot",
     "iterator"

@@ -13,9 +13,10 @@
   ],
   "venue": "IEEE S&P",
   "year": 2024,
-  "category": {
-    "security": "sanitizer"
-  },
+  "category": [
+    "security",
+    "sanitizer"
+  ],
   "tag": [
     "memory safety"
   ],

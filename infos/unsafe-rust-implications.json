@@ -4,7 +4,9 @@
   "pdf": "https://dl.acm.org/doi/pdf/10.1145/3798277",
   "venue": "ACM TOSEM",
   "year": 2026,
-  "category": "ecosystem",
+  "category": [
+    "ecosystem"
+  ],
   "tag": [
     "empirical study",
     "unsafe",

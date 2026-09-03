@@ -6,9 +6,10 @@
   "repo": "https://github.com/GouQi12138/RVBench",
   "venue": "LMPL",
   "year": 2025,
-  "category": {
-    "verification": "proof generation"
-  },
+  "category": [
+    "verification",
+    "proof generation"
+  ],
   "tag": [
     "LLM",
     "RAG",

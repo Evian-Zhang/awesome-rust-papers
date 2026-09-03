@@ -8,9 +8,10 @@
   ],
   "venue": "Automated Software Engineering",
   "year": 2026,
-  "category": {
-    "security": "concurrency"
-  },
+  "category": [
+    "security",
+    "concurrency"
+  ],
   "tag": [
     "deadlock"
   ],

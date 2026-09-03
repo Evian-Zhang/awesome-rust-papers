@@ -5,9 +5,10 @@
   "repo": "https://github.com/rustsmith/rustsmith",
   "venue": "ISSTA",
   "year": 2023,
-  "category": {
-    "security": "compiler"
-  },
+  "category": [
+    "security",
+    "compiler"
+  ],
   "tag": [
     "differential testing",
     "fuzzing",

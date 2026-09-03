@@ -6,7 +6,9 @@
   "repo": "https://github.com/kaist-plrg/urcrat/",
   "venue": "ASE",
   "year": 2024,
-  "category": "c2rust",
+  "category": [
+    "c2rust"
+  ],
   "tag": [
     "tagged union",
     "pointer analysis",

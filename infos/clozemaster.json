@@ -10,9 +10,10 @@
   ],
   "venue": "ICSE",
   "year": 2025,
-  "category": {
-    "security": "compiler"
-  },
+  "category": [
+    "security",
+    "compiler"
+  ],
   "tag": [
     "compiler",
     "LLM",

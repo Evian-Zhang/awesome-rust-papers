@@ -10,7 +10,9 @@
   ],
   "venue": "OOPSLA",
   "year": 2026,
-  "category": "program analysis",
+  "category": [
+    "program analysis"
+  ],
   "tag": [
     "data-flow analysis",
     "pointer",

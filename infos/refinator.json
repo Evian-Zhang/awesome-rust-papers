@@ -10,7 +10,9 @@
   ],
   "venue": "PLDI",
   "year": 2026,
-  "category": "c2rust",
+  "category": [
+    "c2rust"
+  ],
   "tag": [
     "interface",
     "LLVM IR",

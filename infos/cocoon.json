@@ -6,7 +6,9 @@
   "repo": "https://github.com/PLaSSticity/Cocoon-implementation",
   "venue": "OOPSLA",
   "year": 2024,
-  "category": "program analysis",
+  "category": [
+    "program analysis"
+  ],
   "tag": [
     "information flow control",
     "secrecy",

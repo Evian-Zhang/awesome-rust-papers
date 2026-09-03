@@ -6,7 +6,9 @@
   "repo": "https://doi.org/10.5281/zenodo.10927704",
   "venue": "ASE",
   "year": 2025,
-  "category": "c2rust",
+  "category": [
+    "c2rust"
+  ],
   "tag": [
     "LLM",
     "model training",

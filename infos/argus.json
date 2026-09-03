@@ -6,7 +6,9 @@
   "repo": "https://github.com/cognitive-engineering-lab/argus",
   "venue": "PLDI",
   "year": 2025,
-  "category": "language",
+  "category": [
+    "language"
+  ],
   "tag": [
     "debug",
     "trait",

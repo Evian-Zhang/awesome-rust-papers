@@ -4,7 +4,9 @@
   "pdf": "https://dx.doi.org/10.14722/ndss.2025.241407",
   "venue": "NDSS",
   "year": 2025,
-  "category": "c2rust",
+  "category": [
+    "c2rust"
+  ],
   "tag": [
     "empirical study",
     "safety"

@@ -10,9 +10,10 @@
   ],
   "venue": "ICSE-SEIP",
   "year": 2024,
-  "category": {
-    "verification": "proof generation"
-  },
+  "category": [
+    "verification",
+    "proof generation"
+  ],
   "tag": [
     "panic",
     "symbolic execution"

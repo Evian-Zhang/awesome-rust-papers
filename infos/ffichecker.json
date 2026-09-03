@@ -4,9 +4,10 @@
   "link": "https://doi.org/10.1007/978-3-031-17143-7_33",
   "venue": "ESORICS",
   "year": 2022,
-  "category": {
-    "security": "static analysis"
-  },
+  "category": [
+    "security",
+    "static analysis"
+  ],
   "tag": [
     "FFI",
     "memory management"

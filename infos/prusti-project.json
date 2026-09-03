@@ -5,7 +5,9 @@
   "repo": "https://github.com/viperproject/prusti-dev",
   "venue": "NFM",
   "year": 2022,
-  "category": "verification",
+  "category": [
+    "verification"
+  ],
   "tag": [
     "Prusti"
   ],

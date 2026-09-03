@@ -7,7 +7,9 @@
   ],
   "venue": "Formal Methods in System Design",
   "year": 2024,
-  "category": "formalization",
+  "category": [
+    "formalization"
+  ],
   "tag": [
     "ownership",
     "borrow checker",

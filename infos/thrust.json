@@ -11,7 +11,9 @@
   ],
   "venue": "PLDI",
   "year": 2025,
-  "category": "verification",
+  "category": [
+    "verification"
+  ],
   "tag": [
     "refinement type system",
     "correctness",

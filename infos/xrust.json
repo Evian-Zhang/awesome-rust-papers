@@ -6,9 +6,10 @@
   "repo": "https://github.com/parasol-aser/XRust",
   "venue": "ICSE",
   "year": 2020,
-  "category": {
-    "security": "isolation"
-  },
+  "category": [
+    "security",
+    "isolation"
+  ],
   "tag": [
     "unsafe",
     "data-flow integrity"

@@ -12,7 +12,9 @@
   ],
   "venue": "ICSE Companion",
   "year": 2022,
-  "category": "c2rust",
+  "category": [
+    "c2rust"
+  ],
   "tag": [
     "unsafe"
   ],

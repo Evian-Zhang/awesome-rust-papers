@@ -5,7 +5,9 @@
   "repo": "https://github.com/system-pclub/rust-study",
   "venue": "PLDI",
   "year": 2020,
-  "category": "ecosystem",
+  "category": [
+    "ecosystem"
+  ],
   "tag": [
     "memory safety",
     "concurrency",

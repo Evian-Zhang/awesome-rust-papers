@@ -6,7 +6,9 @@
   "repo": "https://github.com/rustanlys/rupta",
   "venue": "CC",
   "year": 2024,
-  "category": "program analysis",
+  "category": [
+    "program analysis"
+  ],
   "tag": [
     "pointer",
     "call graph",

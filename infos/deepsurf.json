@@ -11,9 +11,10 @@
   ],
   "venue": "IEEE S&P",
   "year": 2026,
-  "category": {
-    "security": "fuzzing"
-  },
+  "category": [
+    "security",
+    "fuzzing"
+  ],
   "tag": [
     "harness",
     "LLM"

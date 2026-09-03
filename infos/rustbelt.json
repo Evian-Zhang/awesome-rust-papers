@@ -6,7 +6,9 @@
   "repo": "https://gitlab.mpi-sws.org/iris/lambda-rust",
   "venue": "POPL",
   "year": 2018,
-  "category": "formalization",
+  "category": [
+    "formalization"
+  ],
   "tag": [
     "safety",
     "lambda calculus",

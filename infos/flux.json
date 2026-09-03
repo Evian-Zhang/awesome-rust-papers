@@ -6,7 +6,9 @@
   "repo": "https://github.com/flux-rs/flux",
   "venue": "PLDI",
   "year": 2023,
-  "category": "language",
+  "category": [
+    "language"
+  ],
   "tag": [
     "liquid type",
     "onwership",

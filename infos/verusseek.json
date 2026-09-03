@@ -8,9 +8,10 @@
   ],
   "venue": "TASE",
   "year": 2026,
-  "category": {
-    "verification": "proof generation"
-  },
+  "category": [
+    "verification",
+    "proof generation"
+  ],
   "tag": [
     "RAG",
     "LLM",

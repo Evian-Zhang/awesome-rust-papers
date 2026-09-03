@@ -6,7 +6,9 @@
   "repo": "https://doi.org/10.1184/R1/14356976",
   "venue": "PLDI",
   "year": 2021,
-  "category": "program analysis",
+  "category": [
+    "program analysis"
+  ],
   "tag": [
     "harness",
     "unit test",

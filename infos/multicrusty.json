@@ -6,9 +6,10 @@
   "repo": "https://github.com/NicolasLagaillardie/mpst_rust_github",
   "venue": "ECOOP",
   "year": 2022,
-  "category": {
-    "product": "session type"
-  },
+  "category": [
+    "product",
+    "session type"
+  ],
   "tag": [
     "panic",
     "multiparty session type"

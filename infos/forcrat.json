@@ -9,7 +9,9 @@
   ],
   "venue": "ASE",
   "year": 2025,
-  "category": "c2rust",
+  "category": [
+    "c2rust"
+  ],
   "tag": [
     "I/O",
     "MIR"

@@ -9,7 +9,9 @@
   ],
   "venue": "PLDI",
   "year": 2022,
-  "category": "verification",
+  "category": [
+    "verification"
+  ],
   "tag": [
     "unsound",
     "first-order logic"

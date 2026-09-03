@@ -4,7 +4,9 @@
   "pdf": "https://dl.acm.org/doi/pdf/10.1145/3546945",
   "venue": "ACM TOSEM",
   "year": 2023,
-  "category": "language",
+  "category": [
+    "language"
+  ],
   "tag": [
     "documentation"
   ],

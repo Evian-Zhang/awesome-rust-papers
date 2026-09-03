@@ -9,7 +9,9 @@
   ],
   "venue": "OOPSLA",
   "year": 2020,
-  "category": "ecosystem",
+  "category": [
+    "ecosystem"
+  ],
   "tag": [
     "unsafe",
     "empirical study"

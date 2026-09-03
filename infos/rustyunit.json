@@ -5,7 +5,9 @@
   "repo": "https://github.com/foxycom/rusty-unit",
   "venue": "SSBSE",
   "year": 2022,
-  "category": "program analysis",
+  "category": [
+    "program analysis"
+  ],
   "tag": [
     "harness",
     "unit test"

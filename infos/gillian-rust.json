@@ -12,9 +12,10 @@
   ],
   "venue": "PLDI",
   "year": 2025,
-  "category": {
-    "verification": "proof generation"
-  },
+  "category": [
+    "verification",
+    "proof generation"
+  ],
   "tag": [
     "type safety",
     "correctness"

@@ -6,7 +6,9 @@
   "repo": "https://github.com/system-pclub/VRLifeTime",
   "venue": "CCS",
   "year": 2020,
-  "category": "language",
+  "category": [
+    "language"
+  ],
   "tag": [
     "learning",
     "lifetime",

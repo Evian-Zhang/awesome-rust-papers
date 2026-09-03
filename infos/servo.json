@@ -5,7 +5,9 @@
   "repo": "https://github.com/servo/servo",
   "venue": "ICSE Companion",
   "year": 2016,
-  "category": "product",
+  "category": [
+    "product"
+  ],
   "reference": [
     "The Rust Language",
     "Session Types for Rust"

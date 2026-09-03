@@ -5,7 +5,9 @@
   "repo": "https://github.com/model-checking/kani",
   "venue": "ICSE-SEIP",
   "year": 2022,
-  "category": "verification",
+  "category": [
+    "verification"
+  ],
   "tag": [
     "trait",
     "trait object",

@@ -4,7 +4,9 @@
   "pdf": "https://dl.acm.org/doi/pdf/10.1145/3102980.3103006",
   "venue": "HotOS",
   "year": 2017,
-  "category": "language",
+  "category": [
+    "language"
+  ],
   "tag": [
     "linear type",
     "information flow analysis",

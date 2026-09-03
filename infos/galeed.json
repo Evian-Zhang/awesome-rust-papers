@@ -9,9 +9,10 @@
   ],
   "venue": "ACSAC",
   "year": 2021,
-  "category": {
-    "security": "isolation"
-  },
+  "category": [
+    "security",
+    "isolation"
+  ],
   "tag": [
     "MPK",
     "PKRU",

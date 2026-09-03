@@ -3,7 +3,9 @@
   "alias": "Patina",
   "pdf": "https://dada.cs.washington.edu/research/tr/2015/03/UW-CSE-15-03-02.pdf",
   "year": 2015,
-  "category": "formalization",
+  "category": [
+    "formalization"
+  ],
   "tag": [
     "borrow checker",
     "memory safety"

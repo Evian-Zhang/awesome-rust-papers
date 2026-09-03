@@ -6,7 +6,9 @@
   "repo": "https://anonymous.4open.science/r/rustc-fixer-C121/",
   "venue": "ICSE",
   "year": 2024,
-  "category": "program analysis",
+  "category": [
+    "program analysis"
+  ],
   "tag": [
     "patch",
     "ownership",

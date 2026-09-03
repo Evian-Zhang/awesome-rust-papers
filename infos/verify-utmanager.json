@@ -3,7 +3,9 @@
   "link": "https://doi.org/10.1007/978-3-032-30693-7_5",
   "venue": "TASE",
   "year": 2026,
-  "category": "verification",
+  "category": [
+    "verification"
+  ],
   "tag": [
     "memory allocator",
     "operating system"

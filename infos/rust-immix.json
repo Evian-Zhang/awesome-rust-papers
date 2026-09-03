@@ -8,7 +8,9 @@
   ],
   "venue": "ISMM",
   "year": 2016,
-  "category": "product",
+  "category": [
+    "product"
+  ],
   "tag": [
     "garbage collection"
   ],

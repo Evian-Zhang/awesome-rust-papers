@@ -10,7 +10,9 @@
   ],
   "venue": "ASE",
   "year": 2025,
-  "category": "program analysis",
+  "category": [
+    "program analysis"
+  ],
   "tag": [
     "LLM",
     "harness",

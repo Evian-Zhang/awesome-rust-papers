@@ -11,9 +11,10 @@
   ],
   "venue": "PPoPP",
   "year": 2022,
-  "category": {
-    "product": "session type"
-  },
+  "category": [
+    "product",
+    "session type"
+  ],
   "tag": [
     "asynchronous",
     "concurrency",

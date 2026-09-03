@@ -6,7 +6,9 @@
   "repo": "https://github.com/JonasAlaif/russol-alpha",
   "venue": "OOPSLA",
   "year": 2023,
-  "category": "formalization",
+  "category": [
+    "formalization"
+  ],
   "tag": [
     "program synthesis",
     "type system",

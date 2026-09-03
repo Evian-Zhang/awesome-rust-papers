@@ -4,7 +4,9 @@
   "pdf": "https://dl.acm.org/doi/pdf/10.1145/3658644.3690275",
   "venue": "CCS",
   "year": 2024,
-  "category": "ecosystem",
+  "category": [
+    "ecosystem"
+  ],
   "tag": [
     "embedded system",
     "empirical study",

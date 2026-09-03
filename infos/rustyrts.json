@@ -5,7 +5,9 @@
   "repo": "https://github.com/tum-i4/rustyrts",
   "venue": "ICST",
   "year": 2025,
-  "category": "program analysis",
+  "category": [
+    "program analysis"
+  ],
   "tag": [
     "regression test",
     "regression test selection"

@@ -8,9 +8,10 @@
   ],
   "venue": "ACM TOSEM",
   "year": 2026,
-  "category": {
-    "program analysis": "documentation"
-  },
+  "category": [
+    "program analysis",
+    "documentation"
+  ],
   "tag": [
     "code-comment inconsistency",
     "LLM",

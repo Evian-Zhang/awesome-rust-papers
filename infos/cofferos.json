@@ -9,9 +9,10 @@
   ],
   "venue": "EuroSys",
   "year": 2026,
-  "category": {
-    "product": "operating system"
-  },
+  "category": [
+    "product",
+    "operating system"
+  ],
   "tag": [
     "virtualization",
     "isolation"

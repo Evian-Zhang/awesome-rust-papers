@@ -14,9 +14,10 @@
     "SyRust",
     "RULF"
   ],
-  "category": {
-    "security": "fuzzing"
-  },
+  "category": [
+    "security",
+    "fuzzing"
+  ],
   "tag": [
     "harness",
     "trait",

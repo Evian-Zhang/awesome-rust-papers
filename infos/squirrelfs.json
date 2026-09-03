@@ -6,7 +6,9 @@
   "repo": "https://github.com/utsaslab/squirrelfs",
   "venue": "OSDI",
   "year": 2024,
-  "category": "product",
+  "category": [
+    "product"
+  ],
   "tag": [
     "type system"
   ],

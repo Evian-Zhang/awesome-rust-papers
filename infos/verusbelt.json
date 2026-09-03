@@ -10,7 +10,9 @@
   ],
   "venue": "PLDI",
   "year": 2026,
-  "category": "verification",
+  "category": [
+    "verification"
+  ],
   "tag": [
     "type system",
     "soundness",

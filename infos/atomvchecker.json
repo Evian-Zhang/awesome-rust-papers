@@ -5,9 +5,10 @@
   "repo": "https://github.com/AtomVChecker/rust-atomic-study",
   "venue": "ISSRE",
   "year": 2024,
-  "category": {
-    "security": "concurrency"
-  },
+  "category": [
+    "security",
+    "concurrency"
+  ],
   "tag": [
     "static analysis",
     "empirical study",

@@ -8,7 +8,9 @@
   ],
   "venue": "CGO",
   "year": 2025,
-  "category": "program analysis",
+  "category": [
+    "program analysis"
+  ],
   "tag": [
     "pointer analysis",
     "lifetime"

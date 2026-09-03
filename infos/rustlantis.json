@@ -6,9 +6,10 @@
   "repo": "https://github.com/cbeuw/rustlantis",
   "venue": "OOPSLA",
   "year": 2024,
-  "category": {
-    "security": "compiler"
-  },
+  "category": [
+    "security",
+    "compiler"
+  ],
   "tag": [
     "fuzzing",
     "differential testing",

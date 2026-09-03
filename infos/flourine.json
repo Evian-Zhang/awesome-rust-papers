@@ -5,7 +5,9 @@
   "pdf": "https://arxiv.org/pdf/2405.11514",
   "venue": "arXiv",
   "year": 2024,
-  "category": "c2rust",
+  "category": [
+    "c2rust"
+  ],
   "tag": [
     "LLM",
     "differential testing",

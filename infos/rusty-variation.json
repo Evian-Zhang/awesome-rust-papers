@@ -6,9 +6,10 @@
   "repo": "https://github.com/wenkokke/sesh",
   "venue": "ICE (EPTCS)",
   "year": 2019,
-  "category": {
-    "product": "session type"
-  },
+  "category": [
+    "product",
+    "session type"
+  ],
   "tag": [
     "deadlock"
   ],

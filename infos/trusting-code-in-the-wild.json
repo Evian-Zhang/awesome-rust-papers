@@ -4,7 +4,9 @@
   "pdf": "https://arxiv.org/pdf/2406.10317",
   "venue": "IEEE TSE",
   "year": 2025,
-  "category": "ecosystem",
+  "category": [
+    "ecosystem"
+  ],
   "tag": [
     "empirical study",
     "code review",

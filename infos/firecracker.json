@@ -6,9 +6,10 @@
   "repo": "https://github.com/firecracker-microvm/firecracker",
   "venue": "NSDI",
   "year": 2020,
-  "category": {
-    "product": "operating system"
-  },
+  "category": [
+    "product",
+    "operating system"
+  ],
   "tag": [
     "virtual machine monitor"
   ],

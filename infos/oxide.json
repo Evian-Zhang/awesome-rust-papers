@@ -6,7 +6,9 @@
   "repo": "https://github.com/aatxe/oxide",
   "venue": "arXiv",
   "year": 2019,
-  "category": "formalization",
+  "category": [
+    "formalization"
+  ],
   "tag": [
     "type system",
     "type checker"

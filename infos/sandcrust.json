@@ -6,9 +6,10 @@
   "repo": "https://github.com/atopia/sandcrust",
   "venue": "PLOS@SOSP",
   "year": 2017,
-  "category": {
-    "security": "isolation"
-  },
+  "category": [
+    "security",
+    "isolation"
+  ],
   "tag": [
     "unsafe",
     "FFI"

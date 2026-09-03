@@ -5,7 +5,9 @@
   "repo": "https://github.com/mohrobati/ruxanne",
   "venue": "Empirical Software Engineering",
   "year": 2024,
-  "category": "program analysis",
+  "category": [
+    "program analysis"
+  ],
   "tag": [
     "borrow checker",
     "patch",

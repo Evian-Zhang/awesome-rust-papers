@@ -12,9 +12,10 @@
   ],
   "venue": "ASE",
   "year": 2024,
-  "category": {
-    "security": "compiler"
-  },
+  "category": [
+    "security",
+    "compiler"
+  ],
   "tag": [
     "LLM",
     "fuzzing",

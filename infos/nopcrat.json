@@ -12,7 +12,9 @@
   ],
   "venue": "PLDI",
   "year": 2024,
-  "category": "c2rust",
+  "category": [
+    "c2rust"
+  ],
   "tag": [
     "algebraic data type",
     "output parameter"

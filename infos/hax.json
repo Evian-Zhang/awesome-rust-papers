@@ -11,7 +11,9 @@
   ],
   "venue": "VSTTE",
   "year": 2024,
-  "category": "verification",
+  "category": [
+    "verification"
+  ],
   "tag": [
     "cryptography",
     "cryptographic protocol implementation"

@@ -6,7 +6,9 @@
   "repo": "https://github.com/cognitive-engineering-lab/rust-book",
   "venue": "OOPSLA",
   "year": 2023,
-  "category": "language",
+  "category": [
+    "language"
+  ],
   "tag": [
     "ownership",
     "borrow checker"

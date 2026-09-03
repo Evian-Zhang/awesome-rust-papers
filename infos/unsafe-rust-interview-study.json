@@ -4,7 +4,9 @@
   "pdf": "https://www.usenix.org/system/files/usenixsecurity23-holtervennhoff.pdf",
   "venue": "USENIX Security",
   "year": 2023,
-  "category": "ecosystem",
+  "category": [
+    "ecosystem"
+  ],
   "tag": [
     "unsafe",
     "security",

@@ -6,7 +6,9 @@
   "repo": "https://doi.org/10.5281/zenodo.5484436",
   "venue": "OOPSLA",
   "year": 2021,
-  "category": "security",
+  "category": [
+    "security"
+  ],
   "tag": [
     "performance",
     "unsafe"

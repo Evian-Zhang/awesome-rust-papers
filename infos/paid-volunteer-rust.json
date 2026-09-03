@@ -7,7 +7,9 @@
   ],
   "venue": "ICSE",
   "year": 2024,
-  "category": "ecosystem",
+  "category": [
+    "ecosystem"
+  ],
   "tag": [
     "empirical study",
     "payment"

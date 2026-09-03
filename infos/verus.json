@@ -6,7 +6,9 @@
   "repo": "https://github.com/verus-lang/verus",
   "venue": "OOPSLA",
   "year": 2023,
-  "category": "verification",
+  "category": [
+    "verification"
+  ],
   "tag": [
     "linear ghost type",
     "SMT",

@@ -6,9 +6,10 @@
   "repo": "https://github.com/PLSysSec/cargo-scan",
   "venue": "ESOP",
   "year": 2026,
-  "category": {
-    "security": "static analysis"
-  },
+  "category": [
+    "security",
+    "static analysis"
+  ],
   "tag": [
     "dependency",
     "empirical study"

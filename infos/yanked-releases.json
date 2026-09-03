@@ -4,7 +4,9 @@
   "pdf": "https://arxiv.org/pdf/2201.11821",
   "venue": "IEEE TSE",
   "year": 2023,
-  "category": "ecosystem",
+  "category": [
+    "ecosystem"
+  ],
   "tag": [
     "empirical study",
     "dependency",
