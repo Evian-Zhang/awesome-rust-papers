@@ -17,7 +17,10 @@ def load_entries():
     entries = []
     for file in INFOS_DIR.iterdir():
         with file.open("r") as f:
-            entries.append(json.load(f))
+            payload = json.load(f)
+        bib = (BIBS_DIR / file.stem).with_suffix(".bib")
+        payload["_bib"] = bib if bib.exists() else None
+        entries.append(payload)
     return entries
 
 def top_category(payload):
@@ -66,8 +69,6 @@ def render_paper(payload):
     else:
         lines.append(f"* {title}")
 
-    lines.append("")
-
     venue = payload.get("venue")
     year = payload["year"]
     if venue:
@@ -82,6 +83,12 @@ def render_paper(payload):
     repo = payload.get("repo")
     if repo:
         info_line += f" [Code]({repo})"
+
+    bib = payload.get("_bib")
+    if bib:
+        info_line += f" [Bib](./bibs/{bib.name})"
+
+    lines.append(f"\n   {info_line}")
 
     if payload['_cited_by'] != 0:
         lines.append(f"\n   Cited by {payload['_cited_by']} papers in this awesome collection.")

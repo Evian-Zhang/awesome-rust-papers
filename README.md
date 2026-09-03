@@ -24,95 +24,95 @@ All paper data collected in this repository is checked manually by human, and is
 
 * [SACTOR: LLM-Driven Correct and Idiomatic C to Rust Translation with Static Analysis and FFI-Based Verification](https://doi.org/10.18653/v1/2026.acl-long.28)
 
-   ACL 2026 [PDF](https://aclanthology.org/2026.acl-long.28.pdf) [Code](https://github.com/qsdrqs/sactor)
+   ACL 2026 [PDF](https://aclanthology.org/2026.acl-long.28.pdf) [Code](https://github.com/qsdrqs/sactor) [Bib](./bibs/sactor.bib)
 
 * [PR2: Peephole Raw Pointer Rewriting with LLMs for Translating C to Safer Rust](https://doi.org/10.18653/v1/2026.findings-acl.1763)
 
-   ACL Findings 2026 [PDF](https://aclanthology.org/2026.findings-acl.1763.pdf) [Code](https://github.com/bhcsayx/PR2)
+   ACL Findings 2026 [PDF](https://aclanthology.org/2026.findings-acl.1763.pdf) [Code](https://github.com/bhcsayx/PR2) [Bib](./bibs/pr2.bib)
 
    Cited by 2 papers in this awesome collection.
 
 * [MinsC2Rust: LLM-driven project-level code migration from C to safe Rust](https://doi.org/10.1007/s10664-026-10905-4)
 
-   Empirical Software Engineering 2026
+   Empirical Software Engineering 2026 [Bib](./bibs/minc2rust.bib)
 
 * [Dependency-Guided Repository-Level C-to-Rust Translation with Reinforcement Alignment](https://doi.org/10.1145/3803437.3805266)
 
-   FSE 2026 [PDF](https://dl.acm.org/doi/pdf/10.1145/3803437.3805266)
+   FSE 2026 [PDF](https://dl.acm.org/doi/pdf/10.1145/3803437.3805266) [Bib](./bibs/deptrans.bib)
 
 * [Project-Level C-to-Rust Translation via Pointer Knowledge Graphs](https://doi.org/10.1145/3808169)
 
-   FSE 2026 [PDF](https://dl.acm.org/doi/pdf/10.1145/3808169) [Code](https://github.com/FudanSELab/PtrTrans-C2Rust)
+   FSE 2026 [PDF](https://dl.acm.org/doi/pdf/10.1145/3808169) [Code](https://github.com/FudanSELab/PtrTrans-C2Rust) [Bib](./bibs/ptrtrans.bib)
 
 * [EvoC2Rust: A Skeleton-guided Framework for Project-Level C-to-Rust Translation](https://doi.org/10.1145/3786583.3786856)
 
-   ICSE-SEIP 2026 [PDF](https://dl.acm.org/doi/pdf/10.1145/3786583.3786856) [Code](https://github.com/bbzswcf/EvoC2rust)
+   ICSE-SEIP 2026 [PDF](https://dl.acm.org/doi/pdf/10.1145/3786583.3786856) [Code](https://github.com/bbzswcf/EvoC2rust) [Bib](./bibs/evoc2rust.bib)
 
 * [C2SaferRust: Transforming C Projects Into Safer Rust With NeuroSymbolic Techniques](https://doi.org/10.1109/TSE.2025.3641486)
 
-   IEEE TSE 2026 [PDF](https://arxiv.org/pdf/2501.14257) [Code](https://github.com/vikramnitin9/c2saferrust)
+   IEEE TSE 2026 [PDF](https://arxiv.org/pdf/2501.14257) [Code](https://github.com/vikramnitin9/c2saferrust) [Bib](./bibs/c2saferrust.bib)
 
    Cited by 10 papers in this awesome collection.
 
 * [Scylla: Translating an Applicative Subset of C to Safe Rust](https://doi.org/10.1145/3798229)
 
-   OOPSLA 2026 [PDF](https://dl.acm.org/doi/pdf/10.1145/3798229) [Code](https://github.com/AeneasVerif/scylla)
+   OOPSLA 2026 [PDF](https://dl.acm.org/doi/pdf/10.1145/3798229) [Code](https://github.com/AeneasVerif/scylla) [Bib](./bibs/scylla.bib)
 
    Cited by 2 papers in this awesome collection.
 
 * [&inator: Correct, Precise C-to-Rust Interface Translation](https://doi.org/10.1145/3808270)
 
-   PLDI 2026 [PDF](https://dl.acm.org/doi/pdf/10.1145/3808270) [Code](https://github.com/PLaSSticity/refinator-impl)
+   PLDI 2026 [PDF](https://dl.acm.org/doi/pdf/10.1145/3808270) [Code](https://github.com/PLaSSticity/refinator-impl) [Bib](./bibs/refinator.bib)
 
 * [Cpp2Rust: Automatic Translation of C++ to Safe Rust](https://doi.org/10.1145/3808266)
 
-   PLDI 2026 [PDF](https://dl.acm.org/doi/pdf/10.1145/3808266) [Code](https://github.com/Cpp2Rust/cpp2rust)
+   PLDI 2026 [PDF](https://dl.acm.org/doi/pdf/10.1145/3808266) [Code](https://github.com/Cpp2Rust/cpp2rust) [Bib](./bibs/cpp2rust.bib)
 
 * [Hayroll: A Modular Wrapper for Translating C Macros and Conditional Compilation to Rust](https://doi.org/10.1145/3808276)
 
-   PLDI 2026 [PDF](https://dl.acm.org/doi/pdf/10.1145/3808276) [Code](https://github.com/UW-HARVEST/Hayroll)
+   PLDI 2026 [PDF](https://dl.acm.org/doi/pdf/10.1145/3808276) [Code](https://github.com/UW-HARVEST/Hayroll) [Bib](./bibs/hayroll.bib)
 
 * [Clight2Rust: Translating a Subset of C into Safe Rust with a Small Trusted Runtime](https://doi.org/10.1007/978-3-032-30693-7_4)
 
-   TASE 2026
+   TASE 2026 [Bib](./bibs/clight2rust.bib)
 
 * [Forcrat: Automatic I/O API Translation from C to Rust via Origin and Capability Analysis](https://doi.org/10.1109/ASE63991.2025.00130)
 
-   ASE 2025 [PDF](https://arxiv.org/pdf/2506.01427) [Code](https://github.com/kaist-plrg/forcrat)
+   ASE 2025 [PDF](https://arxiv.org/pdf/2506.01427) [Code](https://github.com/kaist-plrg/forcrat) [Bib](./bibs/forcrat.bib)
 
    Cited by 2 papers in this awesome collection.
 
 * [RustAssure: Differential Symbolic Testing for LLM-Transpiled C-to-Rust Code](https://doi.org/10.1109/ASE63991.2025.00051)
 
-   ASE 2025 [PDF](https://arxiv.org/pdf/2510.07604) [Code](https://github.com/davsec-lab/rustassure)
+   ASE 2025 [PDF](https://arxiv.org/pdf/2510.07604) [Code](https://github.com/davsec-lab/rustassure) [Bib](./bibs/rustassure.bib)
 
    Cited by 1 papers in this awesome collection.
 
 * [RustRepoTrans: Repository-level Context Code Translation Benchmark Targeting Rust](https://doi.org/10.1109/ASE63991.2025.00057)
 
-   ASE 2025 [PDF](https://arxiv.org/pdf/2411.13990) [Code](https://github.com/SYSUSELab/RustRepoTrans)
+   ASE 2025 [PDF](https://arxiv.org/pdf/2411.13990) [Code](https://github.com/SYSUSELab/RustRepoTrans) [Bib](./bibs/rustrepotrans.bib)
 
 * [VERT: Polyglot Verified Equivalent Rust Transpilation with Large Language Models](https://doi.org/10.1109/ASE63991.2025.00123)
 
-   ASE 2025 [PDF](https://arxiv.org/pdf/2404.18852) [Code](https://doi.org/10.5281/zenodo.10927704)
+   ASE 2025 [PDF](https://arxiv.org/pdf/2404.18852) [Code](https://doi.org/10.5281/zenodo.10927704) [Bib](./bibs/vert.bib)
 
    Cited by 1 papers in this awesome collection.
 
 * [Type-Migrating C-to-Rust Translation Using a Large Language Model](https://doi.org/10.1007/s10664-024-10573-2)
 
-   Empirical Software Engineering 2025 [PDF](https://link.springer.com/content/pdf/10.1007/s10664-024-10573-2.pdf) [Code](https://github.com/kaist-plrg/simcrat)
+   Empirical Software Engineering 2025 [PDF](https://link.springer.com/content/pdf/10.1007/s10664-024-10573-2.pdf) [Code](https://github.com/kaist-plrg/simcrat) [Bib](./bibs/tymcrat.bib)
 
    Cited by 10 papers in this awesome collection.
 
 * [GenC2Rust: Towards Generating Generic Rust Code from C](https://doi.org/10.1109/ICSE55347.2025.00127)
 
-   ICSE 2025 [Code](https://doi.org/10.5281/zenodo.15009030)
+   ICSE 2025 [Code](https://doi.org/10.5281/zenodo.15009030) [Bib](./bibs/genc2rust.bib)
 
    Cited by 5 papers in this awesome collection.
 
 * [Integrating Rules and Semantics for LLM-Based C-to-Rust Translation](https://doi.org/10.1109/ICSME64153.2025.00069)
 
-   ICSME 2025 [PDF](https://arxiv.org/pdf/2508.06926)
+   ICSME 2025 [PDF](https://arxiv.org/pdf/2508.06926) [Bib](./bibs/irene.bib)
 
    Cited by 1 papers in this awesome collection.
 
@@ -124,67 +124,67 @@ All paper data collected in this repository is checked manually by human, and is
 
 * [CRUST-Bench: A Comprehensive Benchmark for C-to-safe-Rust Transpilation](https://arxiv.org/abs/2504.15254)
 
-   arXiv 2025 [PDF](https://arxiv.org/pdf/2504.15254) [Code](https://github.com/anirudhkhatry/CRUST-bench)
+   arXiv 2025 [PDF](https://arxiv.org/pdf/2504.15254) [Code](https://github.com/anirudhkhatry/CRUST-bench) [Bib](./bibs/crust-bench.bib)
 
    Cited by 3 papers in this awesome collection.
 
 * [To Tag, or Not to Tag: Translating C's Unions to Rust's Tagged Unions](https://doi.org/10.1145/3691620.3694985)
 
-   ASE 2024 [PDF](https://dl.acm.org/doi/pdf/10.1145/3691620.3694985) [Code](https://github.com/kaist-plrg/urcrat/)
+   ASE 2024 [PDF](https://dl.acm.org/doi/pdf/10.1145/3691620.3694985) [Code](https://github.com/kaist-plrg/urcrat/) [Bib](./bibs/urcrat.bib)
 
    Cited by 6 papers in this awesome collection.
 
 * [Don't Write, but Return: Replacing Output Parameters with Algebraic Data Types in C-to-Rust Translation](https://doi.org/10.1145/3656406)
 
-   PLDI 2024 [PDF](https://dl.acm.org/doi/pdf/10.1145/3656406) [Code](https://github.com/kaist-plrg/nopcrat)
+   PLDI 2024 [PDF](https://dl.acm.org/doi/pdf/10.1145/3656406) [Code](https://github.com/kaist-plrg/nopcrat) [Bib](./bibs/nopcrat.bib)
 
    Cited by 10 papers in this awesome collection.
 
 * [Syzygy: Dual Code-Test C to (safe) Rust Translation using LLMs and Dynamic Analysis](https://arxiv.org/abs/2412.14234)
 
-   arXiv 2024 [PDF](https://arxiv.org/pdf/2412.14234) [Code](https://github.com/syzygy-project/Syzygy_Zopfli)
+   arXiv 2024 [PDF](https://arxiv.org/pdf/2412.14234) [Code](https://github.com/syzygy-project/Syzygy_Zopfli) [Bib](./bibs/syzygy.bib)
 
    Cited by 5 papers in this awesome collection.
 
 * [Towards Translating Real-World Code with LLMs: A Study of Translating to Rust](https://arxiv.org/abs/2405.11514)
 
-   arXiv 2024 [PDF](https://arxiv.org/pdf/2405.11514)
+   arXiv 2024 [PDF](https://arxiv.org/pdf/2405.11514) [Bib](./bibs/flourine.bib)
 
    Cited by 5 papers in this awesome collection.
 
 * [Ownership Guided C to Rust Translation](https://doi.org/10.1007/978-3-031-37709-9_22)
 
-   CAV 2023 [PDF](https://link.springer.com/content/pdf/10.1007/978-3-031-37709-9_22.pdf) [Code](https://github.com/KomaEc/crown)
+   CAV 2023 [PDF](https://link.springer.com/content/pdf/10.1007/978-3-031-37709-9_22.pdf) [Code](https://github.com/KomaEc/crown) [Bib](./bibs/crown.bib)
 
    Cited by 25 papers in this awesome collection.
 
 * [Concrat: An Automatic C-to-Rust Lock API Translator for Concurrent Programs](https://doi.org/10.1109/ICSE48619.2023.00069)
 
-   ICSE 2023 [PDF](https://arxiv.org/pdf/2301.10943) [Code](https://github.com/kaist-plrg/concrat)
+   ICSE 2023 [PDF](https://arxiv.org/pdf/2301.10943) [Code](https://github.com/kaist-plrg/concrat) [Bib](./bibs/concrat.bib)
 
    Cited by 14 papers in this awesome collection.
 
 * [Improving Automatic C-to-Rust Translation with Static Analysis](https://doi.org/10.1109/ICSE-Companion58688.2023.00074)
 
-   ICSE Companion 2023
+   ICSE Companion 2023 [Bib](./bibs/c2rust-static-analysis.bib)
 
    Cited by 4 papers in this awesome collection.
 
 * [Aliasing Limits on Translating C to Safe Rust](https://doi.org/10.1145/3586046)
 
-   OOPSLA 2023 [PDF](https://dl.acm.org/doi/pdf/10.1145/3586046) [Code](https://doi.org/10.5281/zenodo.7714175)
+   OOPSLA 2023 [PDF](https://dl.acm.org/doi/pdf/10.1145/3586046) [Code](https://doi.org/10.5281/zenodo.7714175) [Bib](./bibs/laertes.bib)
 
    Cited by 19 papers in this awesome collection.
 
 * [In rust we trust: a transpiler from unsafe C to safer rust](https://doi.org/10.1145/3510454.3528640)
 
-   ICSE Companion 2022 [PDF](https://dl.acm.org/doi/pdf/10.1145/3510454.3528640)
+   ICSE Companion 2022 [PDF](https://dl.acm.org/doi/pdf/10.1145/3510454.3528640) [Bib](./bibs/crusts2.bib)
 
    Cited by 11 papers in this awesome collection.
 
 * [Translating C to Safer Rust](https://doi.org/10.1145/3485498)
 
-   OOPSLA 2021 [PDF](https://dl.acm.org/doi/pdf/10.1145/3485498) [Code](https://doi.org/10.5281/zenodo.5442253)
+   OOPSLA 2021 [PDF](https://dl.acm.org/doi/pdf/10.1145/3485498) [Code](https://doi.org/10.5281/zenodo.5442253) [Bib](./bibs/translating-c-safer-rust.bib)
 
    Cited by 33 papers in this awesome collection.
 
@@ -192,135 +192,135 @@ All paper data collected in this repository is checked manually by human, and is
 
 * [A Mixed Methods Study on the Implications of Unsafe Rust for Interoperation, Encapsulation, and Tooling](https://doi.org/10.1145/3798277)
 
-   ACM TOSEM 2026 [PDF](https://dl.acm.org/doi/pdf/10.1145/3798277)
+   ACM TOSEM 2026 [PDF](https://dl.acm.org/doi/pdf/10.1145/3798277) [Bib](./bibs/unsafe-rust-implications.bib)
 
    Cited by 1 papers in this awesome collection.
 
 * [Fortifying the Seams Between C/C++ and Rust: Characterizing Bugs in Interop Tools](https://doi.org/10.1145/3795532)
 
-   ACM TOSEM 2026 [PDF](https://dl.acm.org/doi/pdf/10.1145/3795532) [Code](https://github.com/Cxm211/IT1)
+   ACM TOSEM 2026 [PDF](https://dl.acm.org/doi/pdf/10.1145/3795532) [Code](https://github.com/Cxm211/IT1) [Bib](./bibs/interop-tool-bugs.bib)
 
 * [An Empirical Analysis of Rust Integration in Android Open Source Project](https://doi.org/10.1145/3803437.3805227)
 
-   FSE Companion 2026 [PDF](https://dl.acm.org/doi/pdf/10.1145/3803437.3805227)
+   FSE Companion 2026 [PDF](https://dl.acm.org/doi/pdf/10.1145/3803437.3805227) [Bib](./bibs/rust-android-integration-analysis.bib)
 
 * [A Deep Dive Into Deprecation Declarations in the Rust Package Ecosystem](https://doi.org/10.1109/TSE.2026.3660015)
 
-   IEEE TSE 2026
+   IEEE TSE 2026 [Bib](./bibs/deprecation-declaration.bib)
 
 * [Core Developer Turnover in the Rust Package Ecosystem: Prevalence, Impact, and Awareness](https://doi.org/10.1145/3729392)
 
-   FSE 2025 [PDF](https://dl.acm.org/doi/pdf/10.1145/3729392)
+   FSE 2025 [PDF](https://dl.acm.org/doi/pdf/10.1145/3729392) [Bib](./bibs/core-developer-turnover.bib)
 
    Cited by 1 papers in this awesome collection.
 
 * [Trusting Code in the Wild: Exploring Contributor Reputation Measures to Review Dependencies in the Rust Ecosystem](https://doi.org/10.1109/TSE.2025.3551664)
 
-   IEEE TSE 2025 [PDF](https://arxiv.org/pdf/2406.10317)
+   IEEE TSE 2025 [PDF](https://arxiv.org/pdf/2406.10317) [Bib](./bibs/trusting-code-in-the-wild.bib)
 
 * [Unleashing the Efficiency of Rust: An Empirical Study of Performance Bugs in Rust Projects](https://doi.org/10.1109/ISSRE66568.2025.00045)
 
-   ISSRE 2025 [Code](https://github.com/Unparalleled-Calvin/Rust-Performance-Study)
+   ISSRE 2025 [Code](https://github.com/Unparalleled-Calvin/Rust-Performance-Study) [Bib](./bibs/rust-performance-study.bib)
 
 * [An Empirical Study of Bugs in the rustc Compiler](https://doi.org/10.1145/3763800)
 
-   OOPSLA 2025 [PDF](https://dl.acm.org/doi/pdf/10.1145/3763800) [Code](https://doi.org/10.5281/zenodo.16600026)
+   OOPSLA 2025 [PDF](https://dl.acm.org/doi/pdf/10.1145/3763800) [Code](https://doi.org/10.5281/zenodo.16600026) [Bib](./bibs/rustc-bugs.bib)
 
    Cited by 1 papers in this awesome collection.
 
 * [Rust for Linux: Understanding the Security Impact of Rust in the Linux Kernel](https://doi.org/10.1109/ACSAC63791.2024.00054)
 
-   ACSAC 2024 [Code](https://github.com/mars-research/rfl-artifacts)
+   ACSAC 2024 [Code](https://github.com/mars-research/rfl-artifacts) [Bib](./bibs/rust-for-linux-security.bib)
 
    Cited by 2 papers in this awesome collection.
 
 * [Finding Performance Issues in Rust Projects](https://doi.org/10.1145/3691620.3695368)
 
-   ASE 2024 [PDF](https://dl.acm.org/doi/pdf/10.1145/3691620.3695368) [Code](https://github.com/Unparalleled-Calvin/Rust-Performance-Study)
+   ASE 2024 [PDF](https://dl.acm.org/doi/pdf/10.1145/3691620.3695368) [Code](https://github.com/Unparalleled-Calvin/Rust-Performance-Study) [Bib](./bibs/finding-performance-issues.bib)
 
 * [Rust for Embedded Systems: Current State and Open Problems](https://doi.org/10.1145/3658644.3690275)
 
-   CCS 2024 [PDF](https://dl.acm.org/doi/pdf/10.1145/3658644.3690275)
+   CCS 2024 [PDF](https://dl.acm.org/doi/pdf/10.1145/3658644.3690275) [Bib](./bibs/rust-for-embedded-systems.bib)
 
    Cited by 2 papers in this awesome collection.
 
 * [Demystifying Compiler Unstable Feature Usage and Impacts in the Rust Ecosystem](https://doi.org/10.1145/3597503.3623352)
 
-   ICSE 2024 [PDF](https://dl.acm.org/doi/pdf/10.1145/3597503.3623352) [Code](https://github.com/ZJU-SEC/Cargo-Ecosystem-Monitor)
+   ICSE 2024 [PDF](https://dl.acm.org/doi/pdf/10.1145/3597503.3623352) [Code](https://github.com/ZJU-SEC/Cargo-Ecosystem-Monitor) [Bib](./bibs/unstable-features.bib)
 
    Cited by 1 papers in this awesome collection.
 
 * [How Are Paid and Volunteer Open Source Developers Different? A Study of the Rust Project](https://doi.org/10.1145/3597503.3639197)
 
-   ICSE 2024 [PDF](https://dl.acm.org/doi/pdf/10.1145/3597503.3639197)
+   ICSE 2024 [PDF](https://dl.acm.org/doi/pdf/10.1145/3597503.3639197) [Bib](./bibs/paid-volunteer-rust.bib)
 
 * [Unleashing the Power of Clippy in Real-World Rust Projects](https://doi.org/10.1145/3639478.3643096)
 
-   ICSE Companion 2024 [PDF](https://dl.acm.org/doi/pdf/10.1145/3639478.3643096)
+   ICSE Companion 2024 [PDF](https://dl.acm.org/doi/pdf/10.1145/3639478.3643096) [Bib](./bibs/unleashing-power-clippy.bib)
 
 * [Understanding and Detecting Real-World Safety Issues in Rust](https://doi.org/10.1109/TSE.2024.3380393)
 
-   IEEE TSE 2024 [PDF](https://songlh.github.io/paper/rust-tse.pdf) [Code](https://github.com/BurtonQin/lockbud)
+   IEEE TSE 2024 [PDF](https://songlh.github.io/paper/rust-tse.pdf) [Code](https://github.com/BurtonQin/lockbud) [Bib](./bibs/lockbud.bib)
 
    Cited by 8 papers in this awesome collection.
 
 * [An Empirical Study of Rust-for-Linux: The Success, Dissatisfaction, and Compromise](https://www.usenix.org/conference/atc24/presentation/li-hongyu)
 
-   USENIX ATC 2024 [PDF](https://www.usenix.org/system/files/atc24-li-hongyu.pdf) [Code](https://github.com/Richardhongyu/rfl_empirical_tools)
+   USENIX ATC 2024 [PDF](https://www.usenix.org/system/files/atc24-li-hongyu.pdf) [Code](https://github.com/Richardhongyu/rfl_empirical_tools) [Bib](./bibs/rust-for-linux-empirical.bib)
 
    Cited by 3 papers in this awesome collection.
 
 * [An Empirical Study of Yanked Releases in the Rust Package Registry](https://doi.org/10.1109/TSE.2022.3152148)
 
-   IEEE TSE 2023 [PDF](https://arxiv.org/pdf/2201.11821)
+   IEEE TSE 2023 [PDF](https://arxiv.org/pdf/2201.11821) [Bib](./bibs/yanked-releases.bib)
 
    Cited by 4 papers in this awesome collection.
 
 * ["I wouldn't want my unsafe code to run my pacemaker": An Interview Study on the Use, Comprehension, and Perceived Risks of Unsafe Rust](https://www.usenix.org/conference/usenixsecurity23/presentation/holtervennhoff)
 
-   USENIX Security 2023 [PDF](https://www.usenix.org/system/files/usenixsecurity23-holtervennhoff.pdf)
+   USENIX Security 2023 [PDF](https://www.usenix.org/system/files/usenixsecurity23-holtervennhoff.pdf) [Bib](./bibs/unsafe-rust-interview-study.bib)
 
    Cited by 1 papers in this awesome collection.
 
 * [Memory-Safety Challenge Considered Solved? An In-Depth Study with All Rust CVEs](https://doi.org/10.1145/3466642)
 
-   ACM TOSEM 2022 [PDF](https://dl.acm.org/doi/pdf/10.1145/3466642)
+   ACM TOSEM 2022 [PDF](https://dl.acm.org/doi/pdf/10.1145/3466642) [Bib](./bibs/rust-cves.bib)
 
    Cited by 34 papers in this awesome collection.
 
 * [Learning and Programming Challenges of Rust: A Mixed-Methods Study](https://doi.org/10.1145/3510003.3510164)
 
-   ICSE 2022 [PDF](https://dl.acm.org/doi/pdf/10.1145/3510003.3510164) [Code](https://github.com/system-pclub/rust-programming-challenges)
+   ICSE 2022 [PDF](https://dl.acm.org/doi/pdf/10.1145/3510003.3510164) [Code](https://github.com/system-pclub/rust-programming-challenges) [Bib](./bibs/rust-programming-challenges.bib)
 
    Cited by 15 papers in this awesome collection.
 
 * [Comprehensiveness, Automation and Lifecycle: A New Perspective for Rust Security](https://doi.org/10.1109/QRS57517.2022.00102)
 
-   QRS 2022 [PDF](https://csslab-ustc.github.io/publications/2022/rust-cal.pdf)
+   QRS 2022 [PDF](https://csslab-ustc.github.io/publications/2022/rust-cal.pdf) [Bib](./bibs/rust-security-perspective.bib)
 
    Cited by 3 papers in this awesome collection.
 
 * [Benefits and Drawbacks of Adopting a Secure Programming Language: Rust as a Case Study](https://www.usenix.org/conference/soups2021/presentation/fulton)
 
-   SOUPS 2021 [PDF](https://www.usenix.org/system/files/soups2021-fulton.pdf)
+   SOUPS 2021 [PDF](https://www.usenix.org/system/files/soups2021-fulton.pdf) [Bib](./bibs/rust-adoption.bib)
 
    Cited by 3 papers in this awesome collection.
 
 * [Is Rust Used Safely by Software Developers?](https://doi.org/10.1145/3377811.3380413)
 
-   ICSE 2020 [PDF](https://dl.acm.org/doi/pdf/10.1145/3377811.3380413)
+   ICSE 2020 [PDF](https://dl.acm.org/doi/pdf/10.1145/3377811.3380413) [Bib](./bibs/is-rust-used-safely.bib)
 
    Cited by 40 papers in this awesome collection.
 
 * [How Do Programmers Use Unsafe Rust?](https://doi.org/10.1145/3428204)
 
-   OOPSLA 2020 [PDF](https://dl.acm.org/doi/pdf/10.1145/3428204) [Code](https://github.com/rust-corpus/qrates)
+   OOPSLA 2020 [PDF](https://dl.acm.org/doi/pdf/10.1145/3428204) [Code](https://github.com/rust-corpus/qrates) [Bib](./bibs/qrates.bib)
 
    Cited by 45 papers in this awesome collection.
 
 * [Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs](https://doi.org/10.1145/3385412.3386036)
 
-   PLDI 2020 [PDF](https://dl.acm.org/doi/pdf/10.1145/3385412.3386036) [Code](https://github.com/system-pclub/rust-study)
+   PLDI 2020 [PDF](https://dl.acm.org/doi/pdf/10.1145/3385412.3386036) [Code](https://github.com/system-pclub/rust-study) [Bib](./bibs/memory-thread-safety.bib)
 
    Cited by 53 papers in this awesome collection.
 
@@ -328,73 +328,73 @@ All paper data collected in this repository is checked manually by human, and is
 
 * [RustyDL: A Program Logic for Rust](https://doi.org/10.1007/978-3-032-26204-2_19)
 
-   FM 2026 [PDF](https://link.springer.com/content/pdf/10.1007/978-3-032-26204-2_19.pdf) [Code](https://github.com/Drodt/fm26-artifact)
+   FM 2026 [PDF](https://link.springer.com/content/pdf/10.1007/978-3-032-26204-2_19.pdf) [Code](https://github.com/Drodt/fm26-artifact) [Bib](./bibs/rustydl.bib)
 
 * [Tree Borrows](https://doi.org/10.1145/3735592)
 
-   POPL 2026 [PDF](https://dl.acm.org/doi/pdf/10.1145/3735592)
+   POPL 2026 [PDF](https://dl.acm.org/doi/pdf/10.1145/3735592) [Bib](./bibs/tree-borrows.bib)
 
    Cited by 8 papers in this awesome collection.
 
 * [Compositional Bug Detection for Internally Unsafe Libraries: A Logical Approach to Type Unsoundness](https://doi.org/10.4230/LIPIcs.ECOOP.2025.5)
 
-   ECOOP 2025 [PDF](https://drops.dagstuhl.de/storage/00lipics/lipics-vol333-ecoop2025/LIPIcs.ECOOP.2025.5/LIPIcs.ECOOP.2025.5.pdf) [Code](https://doi.org/10.4230/DARTS.11.2.9)
+   ECOOP 2025 [PDF](https://drops.dagstuhl.de/storage/00lipics/lipics-vol333-ecoop2025/LIPIcs.ECOOP.2025.5/LIPIcs.ECOOP.2025.5.pdf) [Code](https://doi.org/10.4230/DARTS.11.2.9) [Bib](./bibs/ruxt.bib)
 
 * [Place Capability Graphs: A General-Purpose Model of Rust's Ownership and Borrowing Guarantees](https://doi.org/10.1145/3763122)
 
-   OOPSLA 2025 [PDF](https://dl.acm.org/doi/pdf/10.1145/3763122) [Code](https://github.com/prusti/pcg)
+   OOPSLA 2025 [PDF](https://dl.acm.org/doi/pdf/10.1145/3763122) [Code](https://github.com/prusti/pcg) [Bib](./bibs/place-capability-graphs.bib)
 
 * [Formally Understanding Rust's Ownership and Borrowing System at the Memory Level](https://doi.org/10.1007/s10703-024-00460-3)
 
-   Formal Methods in System Design 2024
+   Formal Methods in System Design 2024 [Bib](./bibs/rustsem.bib)
 
 * [Sound Borrow-Checking for Rust via Symbolic Semantics](https://doi.org/10.1145/3674640)
 
-   ICFP 2024 [PDF](https://dl.acm.org/doi/pdf/10.1145/3674640) [Code](https://doi.org/10.5281/zenodo.11500453)
+   ICFP 2024 [PDF](https://dl.acm.org/doi/pdf/10.1145/3674640) [Code](https://doi.org/10.5281/zenodo.11500453) [Bib](./bibs/sound-borrow-checking-rust.bib)
 
    Cited by 4 papers in this awesome collection.
 
 * [ConDRust: Scalable Deterministic Concurrency from Verifiable Rust Programs](https://doi.org/10.4230/LIPIcs.ECOOP.2023.33)
 
-   ECOOP 2023 [PDF](https://drops.dagstuhl.de/storage/00lipics/lipics-vol263-ecoop2023/LIPIcs.ECOOP.2023.33/LIPIcs.ECOOP.2023.33.pdf) [Code](https://github.com/ohua-lang/condrust)
+   ECOOP 2023 [PDF](https://drops.dagstuhl.de/storage/00lipics/lipics-vol263-ecoop2023/LIPIcs.ECOOP.2023.33/LIPIcs.ECOOP.2023.33.pdf) [Code](https://github.com/ohua-lang/condrust) [Bib](./bibs/condrust.bib)
 
 * [Leveraging Rust Types for Program Synthesis](https://doi.org/10.1145/3591278)
 
-   OOPSLA 2023 [PDF](https://dl.acm.org/doi/pdf/10.1145/3591278) [Code](https://github.com/JonasAlaif/russol-alpha)
+   OOPSLA 2023 [PDF](https://dl.acm.org/doi/pdf/10.1145/3591278) [Code](https://github.com/JonasAlaif/russol-alpha) [Bib](./bibs/russol.bib)
 
    Cited by 3 papers in this awesome collection.
 
 * [On the Termination of Borrow Checking in Featherweight Rust](https://doi.org/10.1007/978-3-031-06773-0_22)
 
-   NFM 2022 [PDF](https://whileydave.com/publications/PPS22_NFM_preprint.pdf)
+   NFM 2022 [PDF](https://whileydave.com/publications/PPS22_NFM_preprint.pdf) [Bib](./bibs/featherweight-termination.bib)
 
 * [A Lightweight Formalism for Reference Lifetimes and Borrowing in Rust](https://doi.org/10.1145/3443420)
 
-   ACM TOPLAS 2021 [PDF](https://dl.acm.org/doi/pdf/10.1145/3443420) [Code](https://github.com/DavePearce/FeatherweightRust)
+   ACM TOPLAS 2021 [PDF](https://dl.acm.org/doi/pdf/10.1145/3443420) [Code](https://github.com/DavePearce/FeatherweightRust) [Bib](./bibs/featherweightrust.bib)
 
    Cited by 9 papers in this awesome collection.
 
 * [Stacked Borrows: An Aliasing Model for Rust](https://doi.org/10.1145/3371109)
 
-   POPL 2020 [PDF](https://dl.acm.org/doi/pdf/10.1145/3371109)
+   POPL 2020 [PDF](https://dl.acm.org/doi/pdf/10.1145/3371109) [Bib](./bibs/stacked-borrows.bib)
 
    Cited by 41 papers in this awesome collection.
 
 * [Oxide: The Essence of Rust](https://arxiv.org/abs/1903.00982)
 
-   arXiv 2019 [PDF](https://arxiv.org/pdf/1903.00982) [Code](https://github.com/aatxe/oxide)
+   arXiv 2019 [PDF](https://arxiv.org/pdf/1903.00982) [Code](https://github.com/aatxe/oxide) [Bib](./bibs/oxide.bib)
 
    Cited by 12 papers in this awesome collection.
 
 * [RustBelt: Securing the Foundations of the Rust Programming Language](https://doi.org/10.1145/3158154)
 
-   POPL 2018 [PDF](https://dl.acm.org/doi/pdf/10.1145/3158154) [Code](https://gitlab.mpi-sws.org/iris/lambda-rust)
+   POPL 2018 [PDF](https://dl.acm.org/doi/pdf/10.1145/3158154) [Code](https://gitlab.mpi-sws.org/iris/lambda-rust) [Bib](./bibs/rustbelt.bib)
 
    Cited by 74 papers in this awesome collection.
 
 * [KRust: A Formal Executable Semantics of Rust](https://doi.org/10.1109/TASE.2018.00014)
 
-   TASE 2018 [PDF](https://arxiv.org/pdf/1804.10806)
+   TASE 2018 [PDF](https://arxiv.org/pdf/1804.10806) [Bib](./bibs/krust.bib)
 
    Cited by 14 papers in this awesome collection.
 
@@ -408,93 +408,93 @@ All paper data collected in this repository is checked manually by human, and is
 
 * [Garbage Collection for Rust: The Finalizer Frontier](https://doi.org/10.1145/3763179)
 
-   OOPSLA 2025 [PDF](https://dl.acm.org/doi/pdf/10.1145/3763179) [Code](https://github.com/softdevteam/alloy)
+   OOPSLA 2025 [PDF](https://dl.acm.org/doi/pdf/10.1145/3763179) [Code](https://github.com/softdevteam/alloy) [Bib](./bibs/alloy.bib)
 
 * [An Interactive Debugger for Rust Trait Errors](https://doi.org/10.1145/3729302)
 
-   PLDI 2025 [PDF](https://dl.acm.org/doi/pdf/10.1145/3729302) [Code](https://github.com/cognitive-engineering-lab/argus)
+   PLDI 2025 [PDF](https://dl.acm.org/doi/pdf/10.1145/3729302) [Code](https://github.com/cognitive-engineering-lab/argus) [Bib](./bibs/argus.bib)
 
 * [RustLIVE: Reducing the Learning Barriers of Rust Through Visualization](https://doi.org/10.1109/FIE61694.2024.10893207)
 
-   FIE 2024
+   FIE 2024 [Bib](./bibs/rustlive.bib)
 
    Cited by 1 papers in this awesome collection.
 
 * [Assessing the Alignment between the Information Needs of Developers and the Documentation of Programming Languages: A Case Study on Rust](https://doi.org/10.1145/3546945)
 
-   ACM TOSEM 2023 [PDF](https://dl.acm.org/doi/pdf/10.1145/3546945)
+   ACM TOSEM 2023 [PDF](https://dl.acm.org/doi/pdf/10.1145/3546945) [Bib](./bibs/rust-documentation-alignment.bib)
 
    Cited by 1 papers in this awesome collection.
 
 * [OOM-Guard: Towards Improving the Ergonomics of Rust OOM Handling via a Reservation-Based Approach](https://doi.org/10.1145/3611643.3616303)
 
-   FSE 2023 [PDF](https://dl.acm.org/doi/pdf/10.1145/3611643.3616303) [Code](https://github.com/cchanging/OOM)
+   FSE 2023 [PDF](https://dl.acm.org/doi/pdf/10.1145/3611643.3616303) [Code](https://github.com/cchanging/OOM) [Bib](./bibs/oom-guard.bib)
 
    Cited by 1 papers in this awesome collection.
 
 * [On the Dual Nature of Necessity in Use of Rust Unsafe Code](https://doi.org/10.1145/3611643.3613878)
 
-   FSE 2023 [PDF](https://dl.acm.org/doi/pdf/10.1145/3611643.3613878) [Code](https://github.com/yzhang71/Rust-UnsafeToSafe)
+   FSE 2023 [PDF](https://dl.acm.org/doi/pdf/10.1145/3611643.3613878) [Code](https://github.com/yzhang71/Rust-UnsafeToSafe) [Bib](./bibs/dual-nature-unsafe.bib)
 
    Cited by 9 papers in this awesome collection.
 
 * [A Grounded Conceptual Model for Ownership Types in Rust](https://doi.org/10.1145/3622841)
 
-   OOPSLA 2023 [PDF](https://dl.acm.org/doi/pdf/10.1145/3622841) [Code](https://github.com/cognitive-engineering-lab/rust-book)
+   OOPSLA 2023 [PDF](https://dl.acm.org/doi/pdf/10.1145/3622841) [Code](https://github.com/cognitive-engineering-lab/rust-book) [Bib](./bibs/aquascope.bib)
 
    Cited by 4 papers in this awesome collection.
 
 * [Adventure of a Lifetime: Extract Method Refactoring for Rust](https://doi.org/10.1145/3622821)
 
-   OOPSLA 2023 [PDF](https://dl.acm.org/doi/pdf/10.1145/3622821) [Code](https://doi.org/10.5281/zenodo.8124395)
+   OOPSLA 2023 [PDF](https://dl.acm.org/doi/pdf/10.1145/3622821) [Code](https://doi.org/10.5281/zenodo.8124395) [Bib](./bibs/rem.bib)
 
    Cited by 3 papers in this awesome collection.
 
 * [Flux: Liquid Types for Rust](https://doi.org/10.1145/3591283)
 
-   PLDI 2023 [PDF](https://dl.acm.org/doi/pdf/10.1145/3591283) [Code](https://github.com/flux-rs/flux)
+   PLDI 2023 [PDF](https://dl.acm.org/doi/pdf/10.1145/3591283) [Code](https://github.com/flux-rs/flux) [Bib](./bibs/flux.bib)
 
    Cited by 15 papers in this awesome collection.
 
 * [Towards Understanding the Runtime Performance of Rust](https://doi.org/10.1145/3551349.3559494)
 
-   ASE 2022 [PDF](https://dl.acm.org/doi/pdf/10.1145/3551349.3559494) [Code](https://github.com/yzhang71/Rust_C_Benchmarks)
+   ASE 2022 [PDF](https://dl.acm.org/doi/pdf/10.1145/3551349.3559494) [Code](https://github.com/yzhang71/Rust_C_Benchmarks) [Bib](./bibs/runtime-performance.bib)
 
    Cited by 5 papers in this awesome collection.
 
 * [Garbage Collection Makes Rust Easier to Use: A Randomized Controlled Trial of the Bronze Garbage Collector](https://doi.org/10.1145/3510003.3510107)
 
-   ICSE 2022 [PDF](https://dl.acm.org/doi/pdf/10.1145/3510003.3510107) [Code](https://github.com/mcoblenz/Bronze)
+   ICSE 2022 [PDF](https://dl.acm.org/doi/pdf/10.1145/3510003.3510107) [Code](https://github.com/mcoblenz/Bronze) [Bib](./bibs/bronze.bib)
 
    Cited by 3 papers in this awesome collection.
 
 * [RustViz: Interactively Visualizing Ownership and Borrowing](https://doi.org/10.1109/VL/HCC53370.2022.9833121)
 
-   VL/HCC 2022 [PDF](https://arxiv.org/pdf/2011.09012) [Code](https://github.com/rustviz/rustviz)
+   VL/HCC 2022 [PDF](https://arxiv.org/pdf/2011.09012) [Code](https://github.com/rustviz/rustviz) [Bib](./bibs/rustviz.bib)
 
    Cited by 3 papers in this awesome collection.
 
 * [GhostCell: Separating Permissions from Data in Rust](https://doi.org/10.1145/3473597)
 
-   ICFP 2021 [PDF](https://dl.acm.org/doi/pdf/10.1145/3473597) [Code](https://gitlab.mpi-sws.org/FP/ghostcell/)
+   ICFP 2021 [PDF](https://dl.acm.org/doi/pdf/10.1145/3473597) [Code](https://gitlab.mpi-sws.org/FP/ghostcell/) [Bib](./bibs/ghostcell.bib)
 
    Cited by 7 papers in this awesome collection.
 
 * [VRLifeTime - An IDE Tool to Avoid Concurrency and Memory Bugs in Rust](https://doi.org/10.1145/3372297.3420024)
 
-   CCS 2020 [PDF](https://dl.acm.org/doi/pdf/10.1145/3372297.3420024) [Code](https://github.com/system-pclub/VRLifeTime)
+   CCS 2020 [PDF](https://dl.acm.org/doi/pdf/10.1145/3372297.3420024) [Code](https://github.com/system-pclub/VRLifeTime) [Bib](./bibs/vrlifetime.bib)
 
    Cited by 5 papers in this awesome collection.
 
 * [System Programming in Rust: Beyond Safety](https://doi.org/10.1145/3102980.3103006)
 
-   HotOS 2017 [PDF](https://dl.acm.org/doi/pdf/10.1145/3102980.3103006)
+   HotOS 2017 [PDF](https://dl.acm.org/doi/pdf/10.1145/3102980.3103006) [Bib](./bibs/system-programming-rust.bib)
 
    Cited by 15 papers in this awesome collection.
 
 * [The Rust Language](https://doi.org/10.1145/2663171.2663188)
 
-   HILT (ACM SIGAda) 2014 [PDF](https://dl.acm.org/doi/pdf/10.1145/2663171.2663188) [Code](https://github.com/rust-lang/rust)
+   HILT (ACM SIGAda) 2014 [PDF](https://dl.acm.org/doi/pdf/10.1145/2663171.2663188) [Code](https://github.com/rust-lang/rust) [Bib](./bibs/rust-language.bib)
 
    Cited by 51 papers in this awesome collection.
 
@@ -502,51 +502,51 @@ All paper data collected in this repository is checked manually by human, and is
 
 * [A First Look at ROS 2 Applications Written in Asynchronous Rust](https://doi.org/10.4230/LIPIcs.ECRTS.2025.1)
 
-   ECRTS 2025 [PDF](https://drops.dagstuhl.de/storage/00lipics/lipics-vol335-ecrts2025/LIPIcs.ECRTS.2025.1/LIPIcs.ECRTS.2025.1.pdf) [Code](https://gitlab.ciirc.cvut.cz/skoudmar1/ros-r2r-analysis)
+   ECRTS 2025 [PDF](https://drops.dagstuhl.de/storage/00lipics/lipics-vol335-ecrts2025/LIPIcs.ECRTS.2025.1/LIPIcs.ECRTS.2025.1.pdf) [Code](https://gitlab.ciirc.cvut.cz/skoudmar1/ros-r2r-analysis) [Bib](./bibs/ros2-application.bib)
 
 * [Tock: From Research To Securing 10 Million Computers](https://doi.org/10.1145/3731569.3764828)
 
-   SOSP 2025 [PDF](https://dl.acm.org/doi/pdf/10.1145/3731569.3764828) [Code](https://github.com/tock/tock)
+   SOSP 2025 [PDF](https://dl.acm.org/doi/pdf/10.1145/3731569.3764828) [Code](https://github.com/tock/tock) [Bib](./bibs/tock-2025.bib)
 
    Cited by 1 papers in this awesome collection.
 
 * [Vest: Verified, Secure, High-Performance Parsing and Serialization for Rust](https://www.usenix.org/conference/usenixsecurity25/presentation/cai-yi)
 
-   USENIX Security 2025 [PDF](https://www.usenix.org/system/files/usenixsecurity25-cai-yi.pdf) [Code](https://github.com/secure-foundations/vest)
+   USENIX Security 2025 [PDF](https://www.usenix.org/system/files/usenixsecurity25-cai-yi.pdf) [Code](https://github.com/secure-foundations/vest) [Bib](./bibs/vest.bib)
 
 * [SquirrelFS: Using the Rust Compiler to Check File-System Crash Consistency](https://www.usenix.org/conference/osdi24/presentation/leblanc)
 
-   OSDI 2024 [PDF](https://www.usenix.org/system/files/osdi24-leblanc.pdf) [Code](https://github.com/utsaslab/squirrelfs)
+   OSDI 2024 [PDF](https://www.usenix.org/system/files/osdi24-leblanc.pdf) [Code](https://github.com/utsaslab/squirrelfs) [Bib](./bibs/squirrelfs.bib)
 
    Cited by 1 papers in this awesome collection.
 
 * [Rust for Morello: Always-On Memory Safety, Even in Unsafe Code (Experience Paper)](https://doi.org/10.4230/LIPIcs.ECOOP.2023.39)
 
-   ECOOP 2023 [PDF](https://drops.dagstuhl.de/storage/00lipics/lipics-vol263-ecoop2023/LIPIcs.ECOOP.2023.39/LIPIcs.ECOOP.2023.39.pdf) [Code](https://github.com/kent-weak-memory/rust)
+   ECOOP 2023 [PDF](https://drops.dagstuhl.de/storage/00lipics/lipics-vol263-ecoop2023/LIPIcs.ECOOP.2023.39/LIPIcs.ECOOP.2023.39.pdf) [Code](https://github.com/kent-weak-memory/rust) [Bib](./bibs/rust-morello.bib)
 
    Cited by 4 papers in this awesome collection.
 
 * [RusTEE: Developing Memory-Safe ARM TrustZone Applications](https://doi.org/10.1145/3427228.3427262)
 
-   ACSAC 2020 [PDF](https://dl.acm.org/doi/pdf/10.1145/3427228.3427262) [Code](https://github.com/apache/teaclave-trustzone-sdk)
+   ACSAC 2020 [PDF](https://dl.acm.org/doi/pdf/10.1145/3427228.3427262) [Code](https://github.com/apache/teaclave-trustzone-sdk) [Bib](./bibs/rustee.bib)
 
    Cited by 2 papers in this awesome collection.
 
 * [Towards Memory Safe Enclave Programming with Rust-SGX](https://doi.org/10.1145/3319535.3354241)
 
-   CCS 2019 [PDF](https://dl.acm.org/doi/pdf/10.1145/3319535.3354241) [Code](https://github.com/apache/teaclave-sgx-sdk)
+   CCS 2019 [PDF](https://dl.acm.org/doi/pdf/10.1145/3319535.3354241) [Code](https://github.com/apache/teaclave-sgx-sdk) [Bib](./bibs/rust-sgx.bib)
 
    Cited by 5 papers in this awesome collection.
 
 * [Engineering the Servo Web Browser Engine Using Rust](https://doi.org/10.1145/2889160.2889229)
 
-   ICSE Companion 2016 [PDF](https://dl.acm.org/doi/pdf/10.1145/2889160.2889229) [Code](https://github.com/servo/servo)
+   ICSE Companion 2016 [PDF](https://dl.acm.org/doi/pdf/10.1145/2889160.2889229) [Code](https://github.com/servo/servo) [Bib](./bibs/servo.bib)
 
    Cited by 15 papers in this awesome collection.
 
 * [Rust as a Language for High Performance GC Implementation](https://doi.org/10.1145/2926697.2926707)
 
-   ISMM 2016 [PDF](https://dl.acm.org/doi/pdf/10.1145/2926697.2926707) [Code](https://github.com/jatcwang/immix-rust)
+   ISMM 2016 [PDF](https://dl.acm.org/doi/pdf/10.1145/2926697.2926707) [Code](https://github.com/jatcwang/immix-rust) [Bib](./bibs/rust-immix.bib)
 
    Cited by 4 papers in this awesome collection.
 
@@ -554,39 +554,39 @@ All paper data collected in this repository is checked manually by human, and is
 
 * [CofferOS: Hardening OS-level Virtualization with Rust](https://doi.org/10.1145/3767295.3803569)
 
-   EuroSys 2026 [PDF](https://dl.acm.org/doi/pdf/10.1145/3767295.3803569) [Code](https://github.com/casys-kaist/CofferOS)
+   EuroSys 2026 [PDF](https://dl.acm.org/doi/pdf/10.1145/3767295.3803569) [Code](https://github.com/casys-kaist/CofferOS) [Bib](./bibs/cofferos.bib)
 
 * [Atmosphere: Practical Verified Kernels with Rust and Verus](https://doi.org/10.1145/3731569.3764821)
 
-   SOSP 2025 [PDF](https://dl.acm.org/doi/pdf/10.1145/3731569.3764821) [Code](https://github.com/mars-research/atmosphere)
+   SOSP 2025 [PDF](https://dl.acm.org/doi/pdf/10.1145/3731569.3764821) [Code](https://github.com/mars-research/atmosphere) [Bib](./bibs/atmosphere.bib)
 
 * [ASTERINAS: A Linux ABI-Compatible, Rust-Based Framekernel OS with a Small and Sound TCB](https://www.usenix.org/conference/atc25/presentation/peng-yuke)
 
-   USENIX ATC 2025 [PDF](https://www.usenix.org/system/files/atc25-peng-yuke.pdf) [Code](https://github.com/asterinas/asterinas)
+   USENIX ATC 2025 [PDF](https://www.usenix.org/system/files/atc25-peng-yuke.pdf) [Code](https://github.com/asterinas/asterinas) [Bib](./bibs/asterinas.bib)
 
    Cited by 2 papers in this awesome collection.
 
 * [Firecracker: Lightweight Virtualization for Serverless Applications](https://www.usenix.org/conference/nsdi20/presentation/agache)
 
-   NSDI 2020 [PDF](https://www.usenix.org/system/files/nsdi20-paper-agache.pdf) [Code](https://github.com/firecracker-microvm/firecracker)
+   NSDI 2020 [PDF](https://www.usenix.org/system/files/nsdi20-paper-agache.pdf) [Code](https://github.com/firecracker-microvm/firecracker) [Bib](./bibs/firecracker.bib)
 
    Cited by 1 papers in this awesome collection.
 
 * [RedLeaf: Isolation and Communication in a Safe Operating System](https://www.usenix.org/conference/osdi20/presentation/narayanan-vikram)
 
-   OSDI 2020 [PDF](https://www.usenix.org/system/files/osdi20-narayanan_vikram.pdf) [Code](https://github.com/mars-research/redleaf)
+   OSDI 2020 [PDF](https://www.usenix.org/system/files/osdi20-narayanan_vikram.pdf) [Code](https://github.com/mars-research/redleaf) [Bib](./bibs/redleaf.bib)
 
    Cited by 7 papers in this awesome collection.
 
 * [Theseus: An Experiment in Operating System Structure and State Management](https://www.usenix.org/conference/osdi20/presentation/boos)
 
-   OSDI 2020 [PDF](https://www.usenix.org/system/files/osdi20-boos.pdf) [Code](https://github.com/theseus-os/Theseus)
+   OSDI 2020 [PDF](https://www.usenix.org/system/files/osdi20-boos.pdf) [Code](https://github.com/theseus-os/Theseus) [Bib](./bibs/theseus.bib)
 
    Cited by 5 papers in this awesome collection.
 
 * [Multiprogramming a 64kB Computer Safely and Efficiently](https://doi.org/10.1145/3132747.3132786)
 
-   SOSP 2017 [PDF](https://dl.acm.org/doi/pdf/10.1145/3132747.3132786) [Code](https://github.com/tock/tock)
+   SOSP 2017 [PDF](https://dl.acm.org/doi/pdf/10.1145/3132747.3132786) [Code](https://github.com/tock/tock) [Bib](./bibs/tock.bib)
 
    Cited by 22 papers in this awesome collection.
 
@@ -594,41 +594,41 @@ All paper data collected in this repository is checked manually by human, and is
 
 * [Fearless Asynchronous Communications with Timed Multiparty Session Protocols](https://doi.org/10.4230/LIPIcs.ECOOP.2024.19)
 
-   ECOOP 2024 [PDF](https://drops.dagstuhl.de/storage/00lipics/lipics-vol313-ecoop2024/LIPIcs.ECOOP.2024.19/LIPIcs.ECOOP.2024.19.pdf) [Code](https://github.com/NicolasLagaillardie/mpst_rust_github)
+   ECOOP 2024 [PDF](https://drops.dagstuhl.de/storage/00lipics/lipics-vol313-ecoop2024/LIPIcs.ECOOP.2024.19/LIPIcs.ECOOP.2024.19.pdf) [Code](https://github.com/NicolasLagaillardie/mpst_rust_github) [Bib](./bibs/multicrustyt.bib)
 
 * [Ferrite: A Judgmental Embedding of Session Types in Rust](https://doi.org/10.4230/LIPIcs.ECOOP.2022.22)
 
-   ECOOP 2022 [PDF](https://drops.dagstuhl.de/storage/00lipics/lipics-vol222-ecoop2022/LIPIcs.ECOOP.2022.22/LIPIcs.ECOOP.2022.22.pdf) [Code](https://github.com/ferrite-rs/ferrite)
+   ECOOP 2022 [PDF](https://drops.dagstuhl.de/storage/00lipics/lipics-vol222-ecoop2022/LIPIcs.ECOOP.2022.22/LIPIcs.ECOOP.2022.22.pdf) [Code](https://github.com/ferrite-rs/ferrite) [Bib](./bibs/ferrite.bib)
 
    Cited by 1 papers in this awesome collection.
 
 * [Stay Safe Under Panic: Affine Rust Programming with Multiparty Session Types](https://doi.org/10.4230/LIPIcs.ECOOP.2022.4)
 
-   ECOOP 2022 [PDF](https://drops.dagstuhl.de/storage/00lipics/lipics-vol222-ecoop2022/LIPIcs.ECOOP.2022.4/LIPIcs.ECOOP.2022.4.pdf) [Code](https://github.com/NicolasLagaillardie/mpst_rust_github)
+   ECOOP 2022 [PDF](https://drops.dagstuhl.de/storage/00lipics/lipics-vol222-ecoop2022/LIPIcs.ECOOP.2022.4/LIPIcs.ECOOP.2022.4.pdf) [Code](https://github.com/NicolasLagaillardie/mpst_rust_github) [Bib](./bibs/multicrusty.bib)
 
    Cited by 1 papers in this awesome collection.
 
 * [Deadlock-Free Asynchronous Message Reordering in Rust with Multiparty Session Types](https://doi.org/10.1145/3503221.3508404)
 
-   PPoPP 2022 [PDF](https://dl.acm.org/doi/pdf/10.1145/3503221.3508404) [Code](https://github.com/zakcutner/rumpsteak)
+   PPoPP 2022 [PDF](https://dl.acm.org/doi/pdf/10.1145/3503221.3508404) [Code](https://github.com/zakcutner/rumpsteak) [Bib](./bibs/rumpsteak.bib)
 
    Cited by 4 papers in this awesome collection.
 
 * [Implementing Multiparty Session Types in Rust](https://doi.org/10.1007/978-3-030-50029-0_8)
 
-   COORDINATION 2020 [PDF](https://link.springer.com/content/pdf/10.1007/978-3-030-50029-0_8.pdf) [Code](https://github.com/NicolasLagaillardie/mpst_rust_github)
+   COORDINATION 2020 [PDF](https://link.springer.com/content/pdf/10.1007/978-3-030-50029-0_8.pdf) [Code](https://github.com/NicolasLagaillardie/mpst_rust_github) [Bib](./bibs/mpst-rust.bib)
 
    Cited by 1 papers in this awesome collection.
 
 * [Rusty Variation: Deadlock-free Sessions with Failure in Rust](https://doi.org/10.4204/EPTCS.304.4)
 
-   ICE (EPTCS) 2019 [PDF](https://arxiv.org/pdf/1909.05970) [Code](https://github.com/wenkokke/sesh)
+   ICE (EPTCS) 2019 [PDF](https://arxiv.org/pdf/1909.05970) [Code](https://github.com/wenkokke/sesh) [Bib](./bibs/rusty-variation.bib)
 
    Cited by 5 papers in this awesome collection.
 
 * [Session Types for Rust](https://doi.org/10.1145/2808098.2808100)
 
-   WGP@ICFP 2015 [PDF](https://dl.acm.org/doi/pdf/10.1145/2808098.2808100) [Code](https://github.com/Munksgaard/session-types)
+   WGP@ICFP 2015 [PDF](https://dl.acm.org/doi/pdf/10.1145/2808098.2808100) [Code](https://github.com/Munksgaard/session-types) [Bib](./bibs/session-types.bib)
 
    Cited by 10 papers in this awesome collection.
 
@@ -636,93 +636,93 @@ All paper data collected in this repository is checked manually by human, and is
 
 * [A Comprehensive Empirical and Theoretical Analysis of Batching Algorithms for Efficient, Safe, Parallel Mutation Analysis in Rust](https://doi.org/10.1145/3787851)
 
-   ACM TOSEM 2026 [PDF](https://dl.acm.org/doi/pdf/10.1145/3787851) [Code](https://github.com/zalanlevai/mutest-rs)
+   ACM TOSEM 2026 [PDF](https://dl.acm.org/doi/pdf/10.1145/3787851) [Code](https://github.com/zalanlevai/mutest-rs) [Bib](./bibs/mutest.bib)
 
 * [PanicFI: An Infrastructure for Fixing Panic Bugs in Real-World Rust Programs](https://doi.org/10.1145/3773991)
 
-   ACM TOSEM 2026 [PDF](https://dl.acm.org/doi/pdf/10.1145/3773991)
+   ACM TOSEM 2026 [PDF](https://dl.acm.org/doi/pdf/10.1145/3773991) [Bib](./bibs/panicfi.bib)
 
 * [Beyond k-Limiting: Pointer-Flow-Guided Context Sensitivity for Scalable and Precise Rust Pointer Analysis](https://doi.org/10.4230/LIPIcs.ECOOP.2026.1)
 
-   ECOOP 2026 [PDF](https://drops.dagstuhl.de/storage/00lipics/lipics-vol372-ecoop2026/LIPIcs.ECOOP.2026.1/LIPIcs.ECOOP.2026.1.pdf) [Code](https://github.com/wenyaoc/rupta-fork/tree/rceus-pr)
+   ECOOP 2026 [PDF](https://drops.dagstuhl.de/storage/00lipics/lipics-vol372-ecoop2026/LIPIcs.ECOOP.2026.1/LIPIcs.ECOOP.2026.1.pdf) [Code](https://github.com/wenyaoc/rupta-fork/tree/rceus-pr) [Bib](./bibs/rceus.bib)
 
 * [From Raw Pointers to Memory Safety: A Modular Demand-Driven Typestate Analysis for Rust](https://doi.org/10.1145/3798266)
 
-   OOPSLA 2026 [PDF](https://dl.acm.org/doi/pdf/10.1145/3798266) [Code](https://github.com/rustanlys/pincer)
+   OOPSLA 2026 [PDF](https://dl.acm.org/doi/pdf/10.1145/3798266) [Code](https://github.com/rustanlys/pincer) [Bib](./bibs/pincer.bib)
 
    Cited by 1 papers in this awesome collection.
 
 * [PALM: Synergizing Program Analysis and LLMs to Enhance Rust Unit Test Coverage](https://doi.org/10.1109/ASE63991.2025.00223)
 
-   ASE 2025 [PDF](https://arxiv.org/pdf/2506.09002)
+   ASE 2025 [PDF](https://arxiv.org/pdf/2506.09002) [Bib](./bibs/palm.bib)
 
 * [Charon: An Analysis Framework for Rust](https://doi.org/10.1007/978-3-031-98685-7_18)
 
-   CAV 2025 [PDF](https://arxiv.org/pdf/2410.18042) [Code](https://github.com/AeneasVerif/charon)
+   CAV 2025 [PDF](https://arxiv.org/pdf/2410.18042) [Code](https://github.com/AeneasVerif/charon) [Bib](./bibs/charon.bib)
 
 * [Stack Filtering: Elevating Precision and Efficiency in Rust Pointer Analysis](https://doi.org/10.1145/3696443.3708921)
 
-   CGO 2025 [PDF](https://dl.acm.org/doi/pdf/10.1145/3696443.3708921) [Code](https://github.com/rustanlys/rupta)
+   CGO 2025 [PDF](https://dl.acm.org/doi/pdf/10.1145/3696443.3708921) [Code](https://github.com/rustanlys/rupta) [Bib](./bibs/stack-filtering.bib)
 
    Cited by 1 papers in this awesome collection.
 
 * [RustAssistant: Using LLMs to Fix Compilation Errors in Rust Code](https://doi.org/10.1109/ICSE55347.2025.00022)
 
-   ICSE 2025 [PDF](https://www.microsoft.com/en-us/research/wp-content/uploads/2024/08/paper.pdf)
+   ICSE 2025 [PDF](https://www.microsoft.com/en-us/research/wp-content/uploads/2024/08/paper.pdf) [Bib](./bibs/rustassistant.bib)
 
    Cited by 1 papers in this awesome collection.
 
 * [RustyRTS: Regression Test Selection for Rust](https://doi.org/10.1109/ICST62969.2025.10988992)
 
-   ICST 2025 [Code](https://github.com/tum-i4/rustyrts)
+   ICST 2025 [Code](https://github.com/tum-i4/rustyrts) [Bib](./bibs/rustyrts.bib)
 
 * [Automatic Linear Resource Bound Analysis for Rust via Prophecy Potentials](https://doi.org/10.1145/3720492)
 
-   OOPSLA 2025 [PDF](https://dl.acm.org/doi/pdf/10.1145/3720492) [Code](https://github.com/Mepy/rarust-oopsla25)
+   OOPSLA 2025 [PDF](https://dl.acm.org/doi/pdf/10.1145/3720492) [Code](https://github.com/Mepy/rarust-oopsla25) [Bib](./bibs/rarust.bib)
 
 * [Carapace: Static-Dynamic Information Flow Control in Rust](https://doi.org/10.1145/3720427)
 
-   OOPSLA 2025 [PDF](https://dl.acm.org/doi/pdf/10.1145/3720427) [Code](https://github.com/PLaSSticity/Carapace-implementation)
+   OOPSLA 2025 [PDF](https://dl.acm.org/doi/pdf/10.1145/3720427) [Code](https://github.com/PLaSSticity/Carapace-implementation) [Bib](./bibs/carapace.bib)
 
 * [A Context-Sensitive Pointer Analysis Framework for Rust and Its Application to Call Graph Construction](https://doi.org/10.1145/3640537.3641574)
 
-   CC 2024 [PDF](https://dl.acm.org/doi/pdf/10.1145/3640537.3641574) [Code](https://github.com/rustanlys/rupta)
+   CC 2024 [PDF](https://dl.acm.org/doi/pdf/10.1145/3640537.3641574) [Code](https://github.com/rustanlys/rupta) [Bib](./bibs/rupta.bib)
 
    Cited by 8 papers in this awesome collection.
 
 * [A Study of Common Bug Fix Patterns in Rust](https://doi.org/10.1007/s10664-023-10437-1)
 
-   Empirical Software Engineering 2024 [Code](https://github.com/mohrobati/ruxanne)
+   Empirical Software Engineering 2024 [Code](https://github.com/mohrobati/ruxanne) [Bib](./bibs/ruxanne.bib)
 
    Cited by 3 papers in this awesome collection.
 
 * [Rust-lancet: Automated Ownership-Rule-Violation Fixing with Behavior Preservation](https://doi.org/10.1145/3597503.3639103)
 
-   ICSE 2024 [PDF](https://dl.acm.org/doi/pdf/10.1145/3597503.3639103) [Code](https://anonymous.4open.science/r/rustc-fixer-C121/)
+   ICSE 2024 [PDF](https://dl.acm.org/doi/pdf/10.1145/3597503.3639103) [Code](https://anonymous.4open.science/r/rustc-fixer-C121/) [Bib](./bibs/rust-lancet.bib)
 
    Cited by 6 papers in this awesome collection.
 
 * [Cocoon: Static Information Flow Control in Rust](https://doi.org/10.1145/3649817)
 
-   OOPSLA 2024 [PDF](https://dl.acm.org/doi/pdf/10.1145/3649817) [Code](https://github.com/PLaSSticity/Cocoon-implementation)
+   OOPSLA 2024 [PDF](https://dl.acm.org/doi/pdf/10.1145/3649817) [Code](https://github.com/PLaSSticity/Cocoon-implementation) [Bib](./bibs/cocoon.bib)
 
    Cited by 1 papers in this awesome collection.
 
 * [Modular information flow through ownership](https://doi.org/10.1145/3519939.3523445)
 
-   PLDI 2022 [PDF](https://dl.acm.org/doi/pdf/10.1145/3519939.3523445) [Code](https://github.com/willcrichton/flowistry)
+   PLDI 2022 [PDF](https://dl.acm.org/doi/pdf/10.1145/3519939.3523445) [Code](https://github.com/willcrichton/flowistry) [Bib](./bibs/flowistry.bib)
 
    Cited by 5 papers in this awesome collection.
 
 * [Search-Based Test Suite Generation for Rust](https://doi.org/10.1007/978-3-031-21251-2_1)
 
-   SSBSE 2022 [Code](https://github.com/foxycom/rusty-unit)
+   SSBSE 2022 [Code](https://github.com/foxycom/rusty-unit) [Bib](./bibs/rustyunit.bib)
 
    Cited by 4 papers in this awesome collection.
 
 * [SyRust: Automatic Testing of Rust Libraries with Semantic-Aware Program Synthesis](https://doi.org/10.1145/3453483.3454084)
 
-   PLDI 2021 [PDF](https://dl.acm.org/doi/pdf/10.1145/3453483.3454084) [Code](https://doi.org/10.1184/R1/14356976)
+   PLDI 2021 [PDF](https://dl.acm.org/doi/pdf/10.1145/3453483.3454084) [Code](https://doi.org/10.1184/R1/14356976) [Bib](./bibs/syrust.bib)
 
    Cited by 17 papers in this awesome collection.
 
@@ -730,11 +730,11 @@ All paper data collected in this repository is checked manually by human, and is
 
 * [RustC4++: Improving Rust Code-Comment Inconsistency Detection via Hybrid LLM and Static Analysis](https://doi.org/10.1145/3800689)
 
-   ACM TOSEM 2026 [PDF](https://dl.acm.org/doi/pdf/10.1145/3800689)
+   ACM TOSEM 2026 [PDF](https://dl.acm.org/doi/pdf/10.1145/3800689) [Bib](./bibs/rustc4pp.bib)
 
 * [Leveraging Large Language Model to Assist Detecting Rust Code Comment Inconsistency](https://doi.org/10.1145/3691620.3695010)
 
-   ASE 2024 [PDF](https://dl.acm.org/doi/pdf/10.1145/3691620.3695010)
+   ASE 2024 [PDF](https://dl.acm.org/doi/pdf/10.1145/3691620.3695010) [Bib](./bibs/rustc4.bib)
 
    Cited by 1 papers in this awesome collection.
 
@@ -742,71 +742,71 @@ All paper data collected in this repository is checked manually by human, and is
 
 * [Ruby: Unmasking Unsafe Rust in Stripped Binaries via Machine Learning](https://doi.org/10.1109/DSN69566.2026.00068)
 
-   DSN 2026 [PDF](https://arxiv.org/pdf/2211.00111)
+   DSN 2026 [PDF](https://arxiv.org/pdf/2211.00111) [Bib](./bibs/ruby.bib)
 
 * [Oxidizer: Toward Concise and High-fidelity Rust Decompilation](https://doi.org/10.1109/SP63933.2026.00257)
 
-   IEEE S&P 2026 [PDF](https://adamdoupe.com/publications/oxidizer-oakland2026.pdf) [Code](https://github.com/sefcom/oxidizer)
+   IEEE S&P 2026 [PDF](https://adamdoupe.com/publications/oxidizer-oakland2026.pdf) [Code](https://github.com/sefcom/oxidizer) [Bib](./bibs/oxidizer.bib)
 
 * [Miri: Practical Undefined Behavior Detection for Rust](https://doi.org/10.1145/3776690)
 
-   POPL 2026 [PDF](https://dl.acm.org/doi/pdf/10.1145/3776690) [Code](https://github.com/rust-lang/miri)
+   POPL 2026 [PDF](https://dl.acm.org/doi/pdf/10.1145/3776690) [Code](https://github.com/rust-lang/miri) [Bib](./bibs/miri.bib)
 
    Cited by 4 papers in this awesome collection.
 
 * [Securing Mixed Rust with Hardware Capabilities](https://doi.org/10.1145/3719027.3744861)
 
-   CCS 2025 [PDF](https://dl.acm.org/doi/pdf/10.1145/3719027.3744861) [Code](https://github.com/jasonyu1996/capslock)
+   CCS 2025 [PDF](https://dl.acm.org/doi/pdf/10.1145/3719027.3744861) [Code](https://github.com/jasonyu1996/capslock) [Bib](./bibs/capslock.bib)
 
    Cited by 1 papers in this awesome collection.
 
 * [A Study of Undefined Behavior Across Foreign Function Boundaries in Rust Libraries](https://doi.org/10.1109/ICSE55347.2025.00167)
 
-   ICSE 2025 [PDF](https://arxiv.org/pdf/2404.11671) [Code](https://github.com/icmccorm/mirilli)
+   ICSE 2025 [PDF](https://arxiv.org/pdf/2404.11671) [Code](https://github.com/icmccorm/mirilli) [Bib](./bibs/mirilli.bib)
 
    Cited by 3 papers in this awesome collection.
 
 * [Safe4U: Identifying Unsound Safe Encapsulations of Unsafe Calls in Rust using LLMs](https://doi.org/10.1145/3728890)
 
-   ISSTA 2025 [PDF](https://dl.acm.org/doi/pdf/10.1145/3728890) [Code](https://github.com/huanli-00/Safe4U-replication)
+   ISSTA 2025 [PDF](https://dl.acm.org/doi/pdf/10.1145/3728890) [Code](https://github.com/huanli-00/Safe4U-replication) [Bib](./bibs/safe4u.bib)
 
 * [TYPEPULSE: Detecting Type Confusion Bugs in Rust Programs](https://www.usenix.org/conference/usenixsecurity25/presentation/chen-hung-mao)
 
-   USENIX Security 2025 [PDF](https://www.usenix.org/system/files/usenixsecurity25-chen-hung-mao.pdf) [Code](https://github.com/shinmao/TYPEPULSE)
+   USENIX Security 2025 [PDF](https://www.usenix.org/system/files/usenixsecurity25-chen-hung-mao.pdf) [Code](https://github.com/shinmao/TYPEPULSE) [Bib](./bibs/typepulse.bib)
 
    Cited by 1 papers in this awesome collection.
 
 * [Semi-Automated Verification of Interior Unsafe Code Encapsulation in Real-World Rust Systems](https://doi.org/10.1145/3691620.3695373)
 
-   ASE 2024 [PDF](https://dl.acm.org/doi/pdf/10.1145/3691620.3695373)
+   ASE 2024 [PDF](https://dl.acm.org/doi/pdf/10.1145/3691620.3695373) [Bib](./bibs/unsafe-encapsulation.bib)
 
 * [Is Unsafe an Achilles' Heel? A Comprehensive Study of Safety Requirements in Unsafe Rust Programming](https://doi.org/10.1145/3597503.3639136)
 
-   ICSE 2024 [PDF](https://dl.acm.org/doi/pdf/10.1145/3597503.3639136) [Code](https://github.com/VaynNecol/SafetyProperty)
+   ICSE 2024 [PDF](https://dl.acm.org/doi/pdf/10.1145/3597503.3639136) [Code](https://github.com/VaynNecol/SafetyProperty) [Bib](./bibs/achilles-heel.bib)
 
    Cited by 10 papers in this awesome collection.
 
 * [Yuga: Automatically Detecting Lifetime Annotation Bugs in the Rust Language](https://doi.org/10.1109/TSE.2024.3447671)
 
-   IEEE TSE 2024 [PDF](https://arxiv.org/pdf/2310.08507) [Code](https://github.com/vnrst/Yuga)
+   IEEE TSE 2024 [PDF](https://arxiv.org/pdf/2310.08507) [Code](https://github.com/vnrst/Yuga) [Bib](./bibs/yuga.bib)
 
    Cited by 5 papers in this awesome collection.
 
 * [rCanary: Detecting Memory Leaks Across Semi-Automated Memory Management Boundary in Rust](https://doi.org/10.1109/TSE.2024.3443624)
 
-   IEEE TSE 2024 [PDF](https://arxiv.org/pdf/2308.04787) [Code](https://github.com/artisan-archived-projects/rCanary)
+   IEEE TSE 2024 [PDF](https://arxiv.org/pdf/2308.04787) [Code](https://github.com/artisan-archived-projects/rCanary) [Bib](./bibs/rcanary.bib)
 
    Cited by 2 papers in this awesome collection.
 
 * [A Closer Look at the Security Risks in the Rust Ecosystem](https://doi.org/10.1145/3624738)
 
-   ACM TOSEM 2023 [PDF](https://dl.acm.org/doi/pdf/10.1145/3624738) [Code](https://github.com/ZXXYy/rust_ecosystem)
+   ACM TOSEM 2023 [PDF](https://dl.acm.org/doi/pdf/10.1145/3624738) [Code](https://github.com/ZXXYy/rust_ecosystem) [Bib](./bibs/ecosystem-security-risks.bib)
 
    Cited by 5 papers in this awesome collection.
 
 * [SafeDrop: Detecting Memory Deallocation Bugs of Rust Programs via Static Data-Flow Analysis](https://doi.org/10.1145/3542948)
 
-   ACM TOSEM 2023 [PDF](https://dl.acm.org/doi/pdf/10.1145/3542948) [Code](https://github.com/VaynNecol/SafeDrop)
+   ACM TOSEM 2023 [PDF](https://dl.acm.org/doi/pdf/10.1145/3542948) [Code](https://github.com/VaynNecol/SafeDrop) [Bib](./bibs/safedrop.bib)
 
    Cited by 26 papers in this awesome collection.
 
@@ -818,7 +818,7 @@ All paper data collected in this repository is checked manually by human, and is
 
 * [Safer at Any Speed: Automatic Context-Aware Safety Enhancement for Rust](https://doi.org/10.1145/3485480)
 
-   OOPSLA 2021 [PDF](https://dl.acm.org/doi/pdf/10.1145/3485480) [Code](https://doi.org/10.5281/zenodo.5484436)
+   OOPSLA 2021 [PDF](https://dl.acm.org/doi/pdf/10.1145/3485480) [Code](https://doi.org/10.5281/zenodo.5484436) [Bib](./bibs/nader.bib)
 
    Cited by 1 papers in this awesome collection.
 
@@ -826,33 +826,33 @@ All paper data collected in this repository is checked manually by human, and is
 
 * [Detecting Bugs in Rust Compiler Fix Suggestions via Constraint-Violation-Guided Mutation](https://doi.org/10.1145/3797128)
 
-   FSE 2026 [PDF](https://dl.acm.org/doi/pdf/10.1145/3797128)
+   FSE 2026 [PDF](https://dl.acm.org/doi/pdf/10.1145/3797128) [Bib](./bibs/sugbreaker.bib)
 
 * [Clozemaster: Fuzzing Rust Compiler by Harnessing LLMs for Infilling Masked Real Programs](https://doi.org/10.1109/ICSE55347.2025.00175)
 
-   ICSE 2025 [PDF](https://arxiv.org/pdf/2605.00413) [Code](https://github.com/clozeMasterPro/clozeMaster)
+   ICSE 2025 [PDF](https://arxiv.org/pdf/2605.00413) [Code](https://github.com/clozeMasterPro/clozeMaster) [Bib](./bibs/clozemaster.bib)
 
 * [Rust-twins: Automatic Rust Compiler Testing through Program Mutation and Dual Macros Generation](https://doi.org/10.1145/3691620.3695059)
 
-   ASE 2024 [PDF](https://dl.acm.org/doi/pdf/10.1145/3691620.3695059) [Code](https://anonymous.4open.science/r/Rust-twins-481C)
+   ASE 2024 [PDF](https://dl.acm.org/doi/pdf/10.1145/3691620.3695059) [Code](https://anonymous.4open.science/r/Rust-twins-481C) [Bib](./bibs/rust-twins.bib)
 
    Cited by 2 papers in this awesome collection.
 
 * [Rustlantis: Randomized Differential Testing of the Rust Compiler](https://doi.org/10.1145/3689780)
 
-   OOPSLA 2024 [PDF](https://dl.acm.org/doi/pdf/10.1145/3689780) [Code](https://github.com/cbeuw/rustlantis)
+   OOPSLA 2024 [PDF](https://dl.acm.org/doi/pdf/10.1145/3689780) [Code](https://github.com/cbeuw/rustlantis) [Bib](./bibs/rustlantis.bib)
 
    Cited by 3 papers in this awesome collection.
 
 * [RustSmith: Random Differential Compiler Testing for Rust](https://doi.org/10.1145/3597926.3604919)
 
-   ISSTA 2023 [PDF](https://dl.acm.org/doi/pdf/10.1145/3597926.3604919) [Code](https://github.com/rustsmith/rustsmith)
+   ISSTA 2023 [PDF](https://dl.acm.org/doi/pdf/10.1145/3597926.3604919) [Code](https://github.com/rustsmith/rustsmith) [Bib](./bibs/rustsmith.bib)
 
    Cited by 7 papers in this awesome collection.
 
 * [Fuzzing the Rust Typechecker Using CLP (T)](https://doi.org/10.1109/ASE.2015.65)
 
-   ASE 2015 [PDF](https://hardekbc.github.io/files/dewey15fuzzing.pdf)
+   ASE 2015 [PDF](https://hardekbc.github.io/files/dewey15fuzzing.pdf) [Bib](./bibs/clp.bib)
 
    Cited by 19 papers in this awesome collection.
 
@@ -860,19 +860,19 @@ All paper data collected in this repository is checked manually by human, and is
 
 * [Two Birds One Stone: Effective Static Detection of Resource and Communication Deadlocks in Rust Programs](https://doi.org/10.1007/s10515-026-00614-z)
 
-   Automated Software Engineering 2026 [PDF](https://arxiv.org/pdf/2401.01114v2)
+   Automated Software Engineering 2026 [PDF](https://arxiv.org/pdf/2401.01114v2) [Bib](./bibs/rcchecker.bib)
 
 * [Understanding Atomics and Memory Ordering Issues in Real-World Rust Software](https://doi.org/10.1109/ISSRE62328.2024.00061)
 
-   ISSRE 2024 [Code](https://github.com/AtomVChecker/rust-atomic-study)
+   ISSRE 2024 [Code](https://github.com/AtomVChecker/rust-atomic-study) [Bib](./bibs/atomvchecker.bib)
 
 * [When Is Parallelism Fearless and Zero-Cost with Rust?](https://doi.org/10.1145/3626183.3659966)
 
-   SPAA 2024 [PDF](https://dl.acm.org/doi/pdf/10.1145/3626183.3659966)
+   SPAA 2024 [PDF](https://dl.acm.org/doi/pdf/10.1145/3626183.3659966) [Bib](./bibs/fearless-parallelism.bib)
 
 * [Fearless Concurrency? Understanding Concurrent Programming Safety in Real-World Rust Software](https://arxiv.org/abs/1902.01906)
 
-   arXiv 2019 [PDF](https://arxiv.org/pdf/1902.01906)
+   arXiv 2019 [PDF](https://arxiv.org/pdf/1902.01906) [Bib](./bibs/fearless-concurrency.bib)
 
    Cited by 4 papers in this awesome collection.
 
@@ -880,51 +880,51 @@ All paper data collected in this repository is checked manually by human, and is
 
 * [deepSURF: Detecting Memory Safety Vulnerabilities in Rust Through Fuzzing LLM-Augmented Harnesses](https://doi.org/10.1109/SP63933.2026.00060)
 
-   IEEE S&P 2026 [PDF](https://arxiv.org/pdf/2506.15648) [Code](https://github.com/purseclab/deepSURF)
+   IEEE S&P 2026 [PDF](https://arxiv.org/pdf/2506.15648) [Code](https://github.com/purseclab/deepSURF) [Bib](./bibs/deepsurf.bib)
 
 * [RuMono: Fuzz Driver Synthesis for Rust Generic APIs](https://doi.org/10.1145/3709359)
 
-   ACM TOSEM 2025 [PDF](https://dl.acm.org/doi/pdf/10.1145/3709359) [Code](https://github.com/Artisan-Lab/RULF/tree/RuMono)
+   ACM TOSEM 2025 [PDF](https://dl.acm.org/doi/pdf/10.1145/3709359) [Code](https://github.com/Artisan-Lab/RULF/tree/RuMono) [Bib](./bibs/rumono.bib)
 
    Cited by 4 papers in this awesome collection.
 
 * [Don't Panic! Finding Bugs Hidden Behind Rust Runtime Safety Checks](https://doi.org/10.1145/3719027.3765142)
 
-   CCS 2025 [PDF](https://dl.acm.org/doi/pdf/10.1145/3719027.3765142)
+   CCS 2025 [PDF](https://dl.acm.org/doi/pdf/10.1145/3719027.3765142) [Bib](./bibs/panickiller.bib)
 
 * [Rug: Turbo LLM for Rust Unit Test Generation](https://doi.org/10.1109/ICSE55347.2025.00097)
 
-   ICSE 2025 [PDF](https://sang.fan/assets/papers/rug_icse25.pdf) [Code](https://github.com/CXWorks/rug-ae)
+   ICSE 2025 [PDF](https://sang.fan/assets/papers/rug_icse25.pdf) [Code](https://github.com/CXWorks/rug-ae) [Bib](./bibs/rug.bib)
 
    Cited by 4 papers in this awesome collection.
 
 * [RPG: Rust Library Fuzzing with Pool-Based Fuzz Target Generation and Generic Support](https://doi.org/10.1145/3597503.3639102)
 
-   ICSE 2024 [PDF](https://dl.acm.org/doi/pdf/10.1145/3597503.3639102) [Code](https://doi.org/10.5281/zenodo.8202158)
+   ICSE 2024 [PDF](https://dl.acm.org/doi/pdf/10.1145/3597503.3639102) [Code](https://doi.org/10.5281/zenodo.8202158) [Bib](./bibs/rpg.bib)
 
    Cited by 7 papers in this awesome collection.
 
 * [FRIES: Fuzzing Rust Library Interactions via Efficient Ecosystem-Guided Target Generation](https://doi.org/10.1145/3650212.3680348)
 
-   ISSTA 2024 [PDF](https://dl.acm.org/doi/pdf/10.1145/3650212.3680348)
+   ISSTA 2024 [PDF](https://dl.acm.org/doi/pdf/10.1145/3650212.3680348) [Bib](./bibs/fries.bib)
 
    Cited by 2 papers in this awesome collection.
 
 * [Crabtree: Rust API Test Synthesis Guided by Coverage and Type](https://doi.org/10.1145/3689733)
 
-   OOPSLA 2024 [PDF](https://dl.acm.org/doi/pdf/10.1145/3689733)
+   OOPSLA 2024 [PDF](https://dl.acm.org/doi/pdf/10.1145/3689733) [Bib](./bibs/crabtree.bib)
 
    Cited by 3 papers in this awesome collection.
 
 * [SymRustC: A Hybrid Fuzzer for Rust](https://doi.org/10.1145/3597926.3604927)
 
-   ISSTA 2023 [PDF](https://dl.acm.org/doi/pdf/10.1145/3597926.3604927) [Code](https://github.com/sfu-rsl/symrustc)
+   ISSTA 2023 [PDF](https://dl.acm.org/doi/pdf/10.1145/3597926.3604927) [Code](https://github.com/sfu-rsl/symrustc) [Bib](./bibs/symrustc.bib)
 
    Cited by 1 papers in this awesome collection.
 
 * [RULF: Rust Library Fuzzing via API Dependency Graph Traversal](https://doi.org/10.1109/ASE51524.2021.9678813)
 
-   ASE 2021 [PDF](https://arxiv.org/pdf/2104.12064) [Code](https://github.com/Artisan-Lab/RULF)
+   ASE 2021 [PDF](https://arxiv.org/pdf/2104.12064) [Code](https://github.com/Artisan-Lab/RULF) [Bib](./bibs/rulf.bib)
 
    Cited by 19 papers in this awesome collection.
 
@@ -932,37 +932,37 @@ All paper data collected in this repository is checked manually by human, and is
 
 * [MetaSafe: Compiling for Protecting Smart Pointer Metadata to Ensure Safe Rust Integrity](https://www.usenix.org/conference/usenixsecurity24/presentation/kayondo)
 
-   USENIX Security 2024 [PDF](https://www.usenix.org/system/files/usenixsecurity24-kayondo.pdf) [Code](https://github.com/seccompgeek/trust23-metsafe24)
+   USENIX Security 2024 [PDF](https://www.usenix.org/system/files/usenixsecurity24-kayondo.pdf) [Code](https://github.com/seccompgeek/trust23-metsafe24) [Bib](./bibs/metasafe.bib)
 
    Cited by 2 papers in this awesome collection.
 
 * [TRust: A Compilation Framework for In-process Isolation to Protect Safe Rust against Untrusted Code](https://www.usenix.org/conference/usenixsecurity23/presentation/bang)
 
-   USENIX Security 2023 [PDF](https://www.usenix.org/system/files/usenixsecurity23-bang.pdf) [Code](https://github.com/cssl-unist/trust-sec23)
+   USENIX Security 2023 [PDF](https://www.usenix.org/system/files/usenixsecurity23-bang.pdf) [Code](https://github.com/cssl-unist/trust-sec23) [Bib](./bibs/trust.bib)
 
    Cited by 4 papers in this awesome collection.
 
 * [PKRU-safe: automatically locking down the heap between safe and unsafe languages](https://doi.org/10.1145/3492321.3519582)
 
-   EuroSys 2022 [PDF](https://dl.acm.org/doi/pdf/10.1145/3492321.3519582) [Code](https://github.com/securesystemslab/PKRU-Safe)
+   EuroSys 2022 [PDF](https://dl.acm.org/doi/pdf/10.1145/3492321.3519582) [Code](https://github.com/securesystemslab/PKRU-Safe) [Bib](./bibs/pkru-safe.bib)
 
    Cited by 7 papers in this awesome collection.
 
 * [Keeping Safe Rust Safe with Galeed](https://doi.org/10.1145/3485832.3485903)
 
-   ACSAC 2021 [PDF](https://dl.acm.org/doi/pdf/10.1145/3485832.3485903) [Code](https://github.com/mit-ll/galeed)
+   ACSAC 2021 [PDF](https://dl.acm.org/doi/pdf/10.1145/3485832.3485903) [Code](https://github.com/mit-ll/galeed) [Bib](./bibs/galeed.bib)
 
    Cited by 11 papers in this awesome collection.
 
 * [Securing Unsafe Rust Programs with XRust](https://doi.org/10.1145/3377811.3380325)
 
-   ICSE 2020 [PDF](https://dl.acm.org/doi/pdf/10.1145/3377811.3380325) [Code](https://github.com/parasol-aser/XRust)
+   ICSE 2020 [PDF](https://dl.acm.org/doi/pdf/10.1145/3377811.3380325) [Code](https://github.com/parasol-aser/XRust) [Bib](./bibs/xrust.bib)
 
    Cited by 18 papers in this awesome collection.
 
 * [Sandcrust: Automatic sandboxing of unsafe components in rust](https://doi.org/10.1145/3144555.3144562)
 
-   PLOS@SOSP 2017 [PDF](https://dl.acm.org/doi/pdf/10.1145/3144555.3144562) [Code](https://github.com/atopia/sandcrust)
+   PLOS@SOSP 2017 [PDF](https://dl.acm.org/doi/pdf/10.1145/3144555.3144562) [Code](https://github.com/atopia/sandcrust) [Bib](./bibs/sandcrust.bib)
 
    Cited by 9 papers in this awesome collection.
 
@@ -970,7 +970,7 @@ All paper data collected in this repository is checked manually by human, and is
 
 * [Rupair: Towards Automatic Buffer Overflow Detection and Rectification for Rust](https://doi.org/10.1145/3485832.3485841)
 
-   ACSAC 2021 [PDF](https://dl.acm.org/doi/pdf/10.1145/3485832.3485841)
+   ACSAC 2021 [PDF](https://dl.acm.org/doi/pdf/10.1145/3485832.3485841) [Bib](./bibs/rupair.bib)
 
    Cited by 5 papers in this awesome collection.
 
@@ -978,13 +978,13 @@ All paper data collected in this repository is checked manually by human, and is
 
 * [ERASan: Efficient Rust Address Sanitizer](https://doi.org/10.1109/SP54263.2024.00258)
 
-   IEEE S&P 2024 [PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10646812) [Code](https://github.com/S2-Lab/ERASan)
+   IEEE S&P 2024 [PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10646812) [Code](https://github.com/S2-Lab/ERASan) [Bib](./bibs/erasan.bib)
 
    Cited by 6 papers in this awesome collection.
 
 * [RustSan: Retrofitting AddressSanitizer for Efficient Sanitization of Rust](https://www.usenix.org/conference/usenixsecurity24/presentation/cho-kyuwon)
 
-   USENIX Security 2024 [PDF](https://www.usenix.org/system/files/usenixsecurity24-cho-kyuwon.pdf) [Code](https://github.com/sslab-skku/RustSan)
+   USENIX Security 2024 [PDF](https://www.usenix.org/system/files/usenixsecurity24-cho-kyuwon.pdf) [Code](https://github.com/sslab-skku/RustSan) [Bib](./bibs/rustsan.bib)
 
    Cited by 2 papers in this awesome collection.
 
@@ -992,23 +992,23 @@ All paper data collected in this repository is checked manually by human, and is
 
 * [Auditing Rust Crates Effectively](https://doi.org/10.1007/978-3-032-22723-2_15)
 
-   ESOP 2026 [PDF](https://link.springer.com/content/pdf/10.1007/978-3-032-22723-2_15.pdf) [Code](https://github.com/PLSysSec/cargo-scan)
+   ESOP 2026 [PDF](https://link.springer.com/content/pdf/10.1007/978-3-032-22723-2_15.pdf) [Code](https://github.com/PLSysSec/cargo-scan) [Bib](./bibs/cargo-scan.bib)
 
 * [Detecting Cross-Language Memory Management Issues in Rust](https://doi.org/10.1007/978-3-031-17143-7_33)
 
-   ESORICS 2022
+   ESORICS 2022 [Bib](./bibs/ffichecker.bib)
 
    Cited by 12 papers in this awesome collection.
 
 * [MirChecker: Detecting Bugs in Rust Programs via Static Analysis](https://doi.org/10.1145/3460120.3484541)
 
-   CCS 2021 [PDF](https://dl.acm.org/doi/pdf/10.1145/3460120.3484541) [Code](https://github.com/lizhuohua/rust-mir-checker)
+   CCS 2021 [PDF](https://dl.acm.org/doi/pdf/10.1145/3460120.3484541) [Code](https://github.com/lizhuohua/rust-mir-checker) [Bib](./bibs/mirchecker.bib)
 
    Cited by 30 papers in this awesome collection.
 
 * [Rudra: Finding Memory Safety Bugs in Rust at the Ecosystem Scale](https://doi.org/10.1145/3477132.3483570)
 
-   SOSP 2021 [PDF](https://dl.acm.org/doi/pdf/10.1145/3477132.3483570) [Code](https://github.com/sslab-gatech/Rudra)
+   SOSP 2021 [PDF](https://dl.acm.org/doi/pdf/10.1145/3477132.3483570) [Code](https://github.com/sslab-gatech/Rudra) [Bib](./bibs/rudra.bib)
 
    Cited by 37 papers in this awesome collection.
 
@@ -1016,181 +1016,181 @@ All paper data collected in this repository is checked manually by human, and is
 
 * [Using Ghost Ownership to Verify Union-Find and Persistent Arrays in Rust](https://doi.org/10.1145/3779031.3779086)
 
-   CPP 2026 [PDF](https://dl.acm.org/doi/pdf/10.1145/3779031.3779086) [Code](https://github.com/creusot-rs/creusot)
+   CPP 2026 [PDF](https://dl.acm.org/doi/pdf/10.1145/3779031.3779086) [Code](https://github.com/creusot-rs/creusot) [Bib](./bibs/ghost-ownership.bib)
 
    Cited by 1 papers in this awesome collection.
 
 * [RUSTMC: Automated Verification of Real-World Concurrent Rust](https://doi.org/10.1007/978-3-032-28187-6_14)
 
-   FORTE 2026
+   FORTE 2026 [Bib](./bibs/rustmc.bib)
 
 * [Verifying the Rust Standard Library](https://doi.org/10.1007/978-3-032-28079-4_19)
 
-   NFM 2026 [PDF](https://arxiv.org/pdf/2606.17374) [Code](https://github.com/model-checking/verify-rust-std)
+   NFM 2026 [PDF](https://arxiv.org/pdf/2606.17374) [Code](https://github.com/model-checking/verify-rust-std) [Bib](./bibs/verify-rust-std.bib)
 
    Cited by 1 papers in this awesome collection.
 
 * [VerusBelt: A Semantic Foundation for Verus's Proof-Oriented Extensions to the Rust Type System](https://doi.org/10.1145/3808325)
 
-   PLDI 2026 [PDF](https://dl.acm.org/doi/pdf/10.1145/3808325) [Code](https://doi.org/10.5281/zenodo.19613067)
+   PLDI 2026 [PDF](https://dl.acm.org/doi/pdf/10.1145/3808325) [Code](https://doi.org/10.5281/zenodo.19613067) [Bib](./bibs/verusbelt.bib)
 
 * [Formal Verification of a Rust-Based Buddy Physical Memory Allocator](https://doi.org/10.1007/978-3-032-30693-7_5)
 
-   TASE 2026
+   TASE 2026 [Bib](./bibs/verify-utmanager.bib)
 
 * [Kani: A Model Checker for Rust](https://arxiv.org/abs/2607.01504)
 
-   arXiv 2026 [PDF](https://arxiv.org/pdf/2607.01504) [Code](https://github.com/model-checking/kani)
+   arXiv 2026 [PDF](https://arxiv.org/pdf/2607.01504) [Code](https://github.com/model-checking/kani) [Bib](./bibs/kani.bib)
 
 * [RustCompCert: A Verified and Verifying Compiler for a Sequential Subset of Rust](https://arxiv.org/abs/2602.07455)
 
-   arXiv 2026 [PDF](https://arxiv.org/pdf/2602.07455)
+   arXiv 2026 [PDF](https://arxiv.org/pdf/2602.07455) [Bib](./bibs/rustcompcert.bib)
 
 * [Formal Security and Functional Verification of Cryptographic Protocol Implementations in Rust](https://doi.org/10.1145/3719027.3765213)
 
-   CCS 2025 [PDF](https://dl.acm.org/doi/pdf/10.1145/3719027.3765213)
+   CCS 2025 [PDF](https://dl.acm.org/doi/pdf/10.1145/3719027.3765213) [Bib](./bibs/crypto-verification.bib)
 
    Cited by 3 papers in this awesome collection.
 
 * [A Tale of Two Case Studies: A Unified Exploration of Rust Verification with SEABMC](https://doi.org/10.34727/2025/isbn.978-3-85448-084-6_33)
 
-   FMCAD 2025 [PDF](https://repositum.tuwien.at/bitstream/20.500.12708/219563/1/Tafese%20Joseph%20-%202025%20-%20A%20Tale%20of%20Two%20Case%20Studies%20A%20Unified%20Exploration%20of%20Rust...pdf) [Code](https://doi.org/10.5281/zenodo.16415667)
+   FMCAD 2025 [PDF](https://repositum.tuwien.at/bitstream/20.500.12708/219563/1/Tafese%20Joseph%20-%202025%20-%20A%20Tale%20of%20Two%20Case%20Studies%20A%20Unified%20Exploration%20of%20Rust...pdf) [Code](https://doi.org/10.5281/zenodo.16415667) [Bib](./bibs/seabmc.bib)
 
    Cited by 1 papers in this awesome collection.
 
 * [A Refinement Methodology for Distributed Programs in Rust](https://doi.org/10.1145/3763119)
 
-   OOPSLA 2025 [PDF](https://dl.acm.org/doi/pdf/10.1145/3763119) [Code](https://doi.org/10.5281/zenodo.15753818)
+   OOPSLA 2025 [PDF](https://dl.acm.org/doi/pdf/10.1145/3763119) [Code](https://doi.org/10.5281/zenodo.15753818) [Bib](./bibs/refinement-distributed.bib)
 
 * [Thrust: A Prophecy-Based Refinement Type System for Rust](https://doi.org/10.1145/3729333)
 
-   PLDI 2025 [PDF](https://dl.acm.org/doi/pdf/10.1145/3729333) [Code](https://github.com/coord-e/thrust)
+   PLDI 2025 [PDF](https://dl.acm.org/doi/pdf/10.1145/3729333) [Code](https://github.com/coord-e/thrust) [Bib](./bibs/thrust.bib)
 
 * [TickTock: Verified Isolation in a Production Embedded OS](https://doi.org/10.1145/3731569.3764856)
 
-   SOSP 2025 [PDF](https://dl.acm.org/doi/pdf/10.1145/3731569.3764856)
+   SOSP 2025 [PDF](https://dl.acm.org/doi/pdf/10.1145/3731569.3764856) [Bib](./bibs/ticktock.bib)
 
    Cited by 1 papers in this awesome collection.
 
 * [Converos: Practical Model Checking for Verifying Rust OS Kernel Concurrency](https://www.usenix.org/conference/atc25/presentation/tang)
 
-   USENIX ATC 2025 [PDF](https://www.usenix.org/system/files/atc25-tang.pdf)
+   USENIX ATC 2025 [PDF](https://www.usenix.org/system/files/atc25-tang.pdf) [Bib](./bibs/converos.bib)
 
 * [UnsafeCop: Towards Memory Safety for Real-World Unsafe Rust Code with Practical Bounded Model Checking](https://doi.org/10.1007/978-3-031-71177-0_19)
 
-   FM 2024 [PDF](https://link.springer.com/content/pdf/10.1007/978-3-031-71177-0_19.pdf)
+   FM 2024 [PDF](https://link.springer.com/content/pdf/10.1007/978-3-031-71177-0_19.pdf) [Bib](./bibs/unsafecop.bib)
 
 * [Surveying the Rust Verification Landscape](https://doi.org/10.48550/arXiv.2410.01981)
 
-   HATRA@SPLASH 2024 [PDF](https://arxiv.org/pdf/2410.01981)
+   HATRA@SPLASH 2024 [PDF](https://arxiv.org/pdf/2410.01981) [Bib](./bibs/verification-landscape-survey.bib)
 
    Cited by 1 papers in this awesome collection.
 
 * [Verus: A Practical Foundation for Systems Verification](https://doi.org/10.1145/3694715.3695952)
 
-   SOSP 2024 [PDF](https://dl.acm.org/doi/pdf/10.1145/3694715.3695952) [Code](https://github.com/verus-lang/verus)
+   SOSP 2024 [PDF](https://dl.acm.org/doi/pdf/10.1145/3694715.3695952) [Code](https://github.com/verus-lang/verus) [Bib](./bibs/verus-practical-foundation.bib)
 
    Cited by 9 papers in this awesome collection.
 
 * [Automatically Enforcing Rust Trait Properties](https://doi.org/10.1007/978-3-031-50521-8_10)
 
-   VMCAI 2024 [Code](https://github.com/binarynewts/kani-vscode-extension)
+   VMCAI 2024 [Code](https://github.com/binarynewts/kani-vscode-extension) [Bib](./bibs/automatically-enforcing-rust-trait-properties.bib)
 
    Cited by 2 papers in this awesome collection.
 
 * [hax: Verifying Security-Critical Rust Software Using Multiple Provers](https://doi.org/10.1007/978-3-031-86695-1_7)
 
-   VSTTE 2024 [Code](https://github.com/cryspen/hax)
+   VSTTE 2024 [Code](https://github.com/cryspen/hax) [Bib](./bibs/hax.bib)
 
    Cited by 3 papers in this awesome collection.
 
 * [Verus: Verifying Rust Programs Using Linear Ghost Types](https://doi.org/10.1145/3586037)
 
-   OOPSLA 2023 [PDF](https://dl.acm.org/doi/pdf/10.1145/3586037) [Code](https://github.com/verus-lang/verus)
+   OOPSLA 2023 [PDF](https://dl.acm.org/doi/pdf/10.1145/3586037) [Code](https://github.com/verus-lang/verus) [Bib](./bibs/verus.bib)
 
    Cited by 31 papers in this awesome collection.
 
 * [Specifying and Verifying Higher-Order Rust Iterators](https://doi.org/10.1007/978-3-031-30820-8_9)
 
-   TACAS 2023 [PDF](https://link.springer.com/content/pdf/10.1007/978-3-031-30820-8_9.pdf) [Code](https://github.com/creusot-rs/creusot)
+   TACAS 2023 [PDF](https://link.springer.com/content/pdf/10.1007/978-3-031-30820-8_9.pdf) [Code](https://github.com/creusot-rs/creusot) [Bib](./bibs/iterator-verify.bib)
 
    Cited by 1 papers in this awesome collection.
 
 * [Creusot: A Foundry for the Deductive Verification of Rust Programs](https://doi.org/10.1007/978-3-031-17244-1_6)
 
-   ICFEM 2022 [Code](https://github.com/creusot-rs/creusot)
+   ICFEM 2022 [Code](https://github.com/creusot-rs/creusot) [Bib](./bibs/creusot.bib)
 
    Cited by 26 papers in this awesome collection.
 
 * [Aeneas: Rust Verification by Functional Translation](https://doi.org/10.1145/3547647)
 
-   ICFP 2022 [PDF](https://dl.acm.org/doi/pdf/10.1145/3547647) [Code](https://github.com/AeneasVerif/aeneas)
+   ICFP 2022 [PDF](https://dl.acm.org/doi/pdf/10.1145/3547647) [Code](https://github.com/AeneasVerif/aeneas) [Bib](./bibs/aeneas.bib)
 
    Cited by 31 papers in this awesome collection.
 
 * [Verifying Dynamic Trait Objects in Rust](https://doi.org/10.1145/3510457.3513031)
 
-   ICSE-SEIP 2022 [PDF](https://dl.acm.org/doi/pdf/10.1145/3510457.3513031) [Code](https://github.com/model-checking/kani)
+   ICSE-SEIP 2022 [PDF](https://dl.acm.org/doi/pdf/10.1145/3510457.3513031) [Code](https://github.com/model-checking/kani) [Bib](./bibs/trait-objects.bib)
 
    Cited by 24 papers in this awesome collection.
 
 * [The Prusti Project: Formal Verification for Rust](https://doi.org/10.1007/978-3-031-06773-0_5)
 
-   NFM 2022 [PDF](https://pm.inf.ethz.ch/publications/AstrauskasBilyFialaGrannanMathejaMuellerPoliSummers22.pdf) [Code](https://github.com/viperproject/prusti-dev)
+   NFM 2022 [PDF](https://pm.inf.ethz.ch/publications/AstrauskasBilyFialaGrannanMathejaMuellerPoliSummers22.pdf) [Code](https://github.com/viperproject/prusti-dev) [Bib](./bibs/prusti-project.bib)
 
    Cited by 14 papers in this awesome collection.
 
 * [RustHornBelt: A Semantic Foundation for Functional Verification of Rust Programs with Unsafe Code](https://doi.org/10.1145/3519939.3523704)
 
-   PLDI 2022 [PDF](https://dl.acm.org/doi/pdf/10.1145/3519939.3523704) [Code](https://gitlab.mpi-sws.org/iris/lambda-rust/-/tree/masters/rusthornbelt)
+   PLDI 2022 [PDF](https://dl.acm.org/doi/pdf/10.1145/3519939.3523704) [Code](https://gitlab.mpi-sws.org/iris/lambda-rust/-/tree/masters/rusthornbelt) [Bib](./bibs/rusthornbelt.bib)
 
    Cited by 26 papers in this awesome collection.
 
 * [Modular Specification and Verification of Closures in Rust](https://doi.org/10.1145/3485522)
 
-   OOPSLA 2021 [PDF](https://dl.acm.org/doi/pdf/10.1145/3485522) [Code](https://github.com/Aurel300/prusti-dev/tree/closure-oopsla-submission-2)
+   OOPSLA 2021 [PDF](https://dl.acm.org/doi/pdf/10.1145/3485522) [Code](https://github.com/Aurel300/prusti-dev/tree/closure-oopsla-submission-2) [Bib](./bibs/prusti-closures.bib)
 
    Cited by 15 papers in this awesome collection.
 
 * [RustHorn: CHC-Based Verification for Rust Programs](https://doi.org/10.1007/978-3-030-44914-8_18)
 
-   ESOP 2020 [PDF](https://link.springer.com/content/pdf/10.1007/978-3-030-44914-8_18.pdf) [Code](https://github.com/hopv/rust-horn)
+   ESOP 2020 [PDF](https://link.springer.com/content/pdf/10.1007/978-3-030-44914-8_18.pdf) [Code](https://github.com/hopv/rust-horn) [Bib](./bibs/rusthorn.bib)
 
    Cited by 30 papers in this awesome collection.
 
 * [Towards making formal methods normal: meeting developers where they are](https://2020.splashcon.org/details/hatra-2020-papers/4/)
 
-   HATRA@SPLASH 2020 [PDF](https://arxiv.org/pdf/2010.16345)
+   HATRA@SPLASH 2020 [PDF](https://arxiv.org/pdf/2010.16345) [Bib](./bibs/rvt.bib)
 
    Cited by 3 papers in this awesome collection.
 
 * [RustBelt Meets Relaxed Memory](https://doi.org/10.1145/3371102)
 
-   POPL 2020 [PDF](https://dl.acm.org/doi/pdf/10.1145/3371102) [Code](https://doi.org/10.5281/zenodo.3539237)
+   POPL 2020 [PDF](https://dl.acm.org/doi/pdf/10.1145/3371102) [Code](https://doi.org/10.5281/zenodo.3539237) [Bib](./bibs/rustbelt-concurrency.bib)
 
    Cited by 12 papers in this awesome collection.
 
 * [Leveraging Rust Types for Modular Specification and Verification](https://doi.org/10.1145/3360573)
 
-   OOPSLA 2019 [PDF](https://dl.acm.org/doi/pdf/10.1145/3360573) [Code](https://github.com/viperproject/prusti-dev)
+   OOPSLA 2019 [PDF](https://dl.acm.org/doi/pdf/10.1145/3360573) [Code](https://github.com/viperproject/prusti-dev) [Bib](./bibs/prusti.bib)
 
    Cited by 48 papers in this awesome collection.
 
 * [Verifying Rust Programs with SMACK](https://doi.org/10.1007/978-3-030-01090-4_32)
 
-   ATVA 2018 [PDF](https://soarlab.org/papers/2018_atva_bhr.pdf) [Code](https://github.com/smackers/smack)
+   ATVA 2018 [PDF](https://soarlab.org/papers/2018_atva_bhr.pdf) [Code](https://github.com/smackers/smack) [Bib](./bibs/smack.bib)
 
    Cited by 23 papers in this awesome collection.
 
 * [No Panic! Verification of Rust Programs by Symbolic Execution](https://doi.org/10.1109/INDIN.2018.8471992)
 
-   INDIN 2018 [Code](https://gitlab.henriktjader.com/pln/cargo-klee/)
+   INDIN 2018 [Code](https://gitlab.henriktjader.com/pln/cargo-klee/) [Bib](./bibs/cargo-klee.bib)
 
    Cited by 16 papers in this awesome collection.
 
 * [Crust: A Bounded Verifier for Rust](https://doi.org/10.1109/ASE.2015.77)
 
-   ASE 2015
+   ASE 2015 [Bib](./bibs/crust.bib)
 
    Cited by 26 papers in this awesome collection.
 
@@ -1198,35 +1198,35 @@ All paper data collected in this repository is checked manually by human, and is
 
 * [Enhancing LLM-Based Proof Synthesis for Rust Programs via Semantic Chunking and Hierarchical Context Expansion](https://doi.org/10.1007/978-3-032-30693-7_6)
 
-   TASE 2026
+   TASE 2026 [Bib](./bibs/verusseek.bib)
 
 * [Towards Repository-Level Program Verification with Large Language Models](https://doi.org/10.1145/3759425.3763382)
 
-   LMPL 2025 [PDF](https://dl.acm.org/doi/pdf/10.1145/3759425.3763382) [Code](https://github.com/GouQi12138/RVBench)
+   LMPL 2025 [PDF](https://dl.acm.org/doi/pdf/10.1145/3759425.3763382) [Code](https://github.com/GouQi12138/RVBench) [Bib](./bibs/ragverus.bib)
 
    Cited by 1 papers in this awesome collection.
 
 * [AutoVerus: Automated Proof Generation for Rust Code](https://doi.org/10.1145/3763174)
 
-   OOPSLA 2025 [PDF](https://dl.acm.org/doi/pdf/10.1145/3763174) [Code](https://github.com/microsoft/verus-proof-synthesis)
+   OOPSLA 2025 [PDF](https://dl.acm.org/doi/pdf/10.1145/3763174) [Code](https://github.com/microsoft/verus-proof-synthesis) [Bib](./bibs/autoverus.bib)
 
    Cited by 2 papers in this awesome collection.
 
 * [A Hybrid Approach to Semi-Automated Rust Verification](https://doi.org/10.1145/3729289)
 
-   PLDI 2025 [PDF](https://dl.acm.org/doi/pdf/10.1145/3729289) [Code](https://github.com/GillianPlatform/Gillian)
+   PLDI 2025 [PDF](https://dl.acm.org/doi/pdf/10.1145/3729289) [Code](https://github.com/GillianPlatform/Gillian) [Bib](./bibs/gillian-rust.bib)
 
    Cited by 8 papers in this awesome collection.
 
 * [Broadly Enabling KLEE to Effortlessly Find Unrecoverable Errors in Rust](https://doi.org/10.1145/3639477.3639714)
 
-   ICSE-SEIP 2024 [PDF](https://dl.acm.org/doi/pdf/10.1145/3639477.3639714)
+   ICSE-SEIP 2024 [PDF](https://dl.acm.org/doi/pdf/10.1145/3639477.3639714) [Bib](./bibs/paniccheck.bib)
 
    Cited by 1 papers in this awesome collection.
 
 * [RefinedRust: A Type System for High-Assurance Verification of Rust Programs](https://doi.org/10.1145/3656422)
 
-   PLDI 2024 [PDF](https://dl.acm.org/doi/pdf/10.1145/3656422) [Code](https://gitlab.mpi-sws.org/lgaeher/refinedrust-dev)
+   PLDI 2024 [PDF](https://dl.acm.org/doi/pdf/10.1145/3656422) [Code](https://gitlab.mpi-sws.org/lgaeher/refinedrust-dev) [Bib](./bibs/refinedrust.bib)
 
    Cited by 14 papers in this awesome collection.
 
