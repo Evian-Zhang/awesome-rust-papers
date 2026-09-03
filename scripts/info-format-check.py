@@ -64,8 +64,8 @@ def validate(payload, path, no_venue, titles, aliases):
     if "further" in payload:
         if not isinstance(payload["further"], list) or not all(isinstance(item, str) for item in payload["further"]):
             errors.append(f"{path}: invalid further")
-    if "base" in payload:
-        if not isinstance(payload["base"], list) or not all(isinstance(item, str) for item in payload["base"]):
+    if "based" in payload:
+        if not isinstance(payload["based"], list) or not all(isinstance(item, str) for item in payload["based"]):
             errors.append(f"{path}: invalid base")
     if "compared" in payload:
         if not isinstance(payload["compared"], list) or not all(isinstance(item, str) for item in payload["compared"]):
