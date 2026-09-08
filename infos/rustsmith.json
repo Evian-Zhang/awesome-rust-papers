@@ -1,5 +1,6 @@
 {
   "title": "RustSmith: Random Differential Compiler Testing for Rust",
+  "alias": "RustSmith",
   "link": "https://doi.org/10.1145/3597926.3604919",
   "pdf": "https://dl.acm.org/doi/pdf/10.1145/3597926.3604919",
   "repo": "https://github.com/rustsmith/rustsmith",
