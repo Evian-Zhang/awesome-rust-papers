@@ -2,9 +2,11 @@
 
 A curated list of academic papers about the [Rust](https://www.rust-lang.org/) programming language.
 
+See the web version at <https://evian-zhang.github.io/awesome-rust-papers/> for a far more interactive experience.
+
 Papers are grouped by topic and ordered by year within each group. Contributions are welcome — see [CONTRIBUTING](./CONTRIBUTING.md).
 
-All paper data collected in this repository is checked manually by human, and is guaranteed to be hallucination-free. If there is anything wrong, feel free to send an issue.
+Primary data is collected by human, and all data in this repository is checked manually by human, and is guaranteed to be hallucination-free. If there is anything wrong, feel free to send an issue.
 
 ## Citation
 
@@ -847,8 +849,6 @@ All paper data collected in this repository is checked manually by human, and is
 * [RustSmith: Random Differential Compiler Testing for Rust](https://doi.org/10.1145/3597926.3604919)
 
    ISSTA 2023 [PDF](https://dl.acm.org/doi/pdf/10.1145/3597926.3604919) [Code](https://github.com/rustsmith/rustsmith) [Bib](./bibs/rustsmith.bib)
-
-   Cited by 7 papers in this awesome collection.
 
 * [Fuzzing the Rust Typechecker Using CLP (T)](https://doi.org/10.1109/ASE.2015.65)
 
