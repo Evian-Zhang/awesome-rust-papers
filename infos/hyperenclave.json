@@ -6,7 +6,7 @@
   "repo": "https://github.com/asterinas/hyperenclave",
   "venue": "ASPLOS",
   "year": 2024,
-  "category": "verification",
+  "category": ["verification"],
   "tag": [
     "TEE",
     "hypervisor",
