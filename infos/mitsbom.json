@@ -1,0 +1,20 @@
+{
+  "title": "Hardening memory-safe languages: An empirical study of attack mitigations in rust and go binaries",
+  "alias": "MitSBOM",
+  "link": "https://doi.org/10.1016/j.cose.2026.104970",
+  "venue": "Computers & Security",
+  "year": 2026,
+  "category": [
+    "security"
+  ],
+  "tag": [
+    "empirical study",
+    "binary",
+    "memory safety",
+    "hardening",
+    "SBOM"
+  ],
+  "reference": [
+    "Memory-Safety Challenge Considered Solved? An In-Depth Study with All Rust CVEs"
+  ]
+}

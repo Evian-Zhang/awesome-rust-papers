@@ -1,0 +1,28 @@
+{
+  "title": "SBD: Securing safe rust automatically from unsafe rust",
+  "alias": "SBD",
+  "link": "https://doi.org/10.1016/j.scico.2025.103281",
+  "pdf": "https://www.sciencedirect.com/science/article/pii/S0167642325000206/pdfft?md5=fda598a34559b3121f26fa78ec11e191&pid=1-s2.0-S0167642325000206-main.pdf",
+  "venue": "SCP",
+  "year": 2025,
+  "category": [
+    "security",
+    "isolation"
+  ],
+  "tag": [
+    "data-flow analysis",
+    "MIR"
+  ],
+  "reference": [
+    "RustBelt",
+    "Prusti",
+    "Rust-SGX",
+    "Rudra",
+    "PKRU-safe",
+    "Sandcrust",
+    "Galeed",
+    "XRust",
+    "RusSOL",
+    "On the Dual Nature of Necessity in Use of Rust Unsafe Code"
+  ]
+}

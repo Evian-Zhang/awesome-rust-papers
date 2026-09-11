@@ -1,0 +1,23 @@
+{
+  "title": "Taming shared mutable states of operating systems in Rust",
+  "alias": "xv6Rust",
+  "link": "https://doi.org/10.1016/j.scico.2024.103152",
+  "code": "https://github.com/kaist-cp/rv6",
+  "venue": "SCP",
+  "year": 2024,
+  "category": [
+    "product",
+    "operating system"
+  ],
+  "tag": [
+    "borrow checker"
+  ],
+  "reference": [
+    "RustBelt",
+    "Prusti",
+    "Qrates",
+    "Stacked Borrows: An Aliasing Model for Rust",
+    "RustBelt Meets Relaxed Memory",
+    "GhostCell"
+  ]
+}

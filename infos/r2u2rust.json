@@ -1,0 +1,25 @@
+{
+  "title": "Towards a Safe, Verified Runtime Monitor for Embedded Systems: R2U2 in Embedded Rust",
+  "link": "https://doi.org/10.1007/978-3-031-93706-4_3",
+  "based": [
+    "Verus"
+  ],
+  "venue": "FM",
+  "year": 2025,
+  "category": [
+    "product"
+  ],
+  "tag": [
+    "embedded",
+    "verification",
+    "Verus"
+  ],
+  "reference": [
+    "Prusti",
+    "Verus",
+    "Creusot",
+    "The Prusti Project: Formal Verification for Rust",
+    "Verus: A Practical Foundation for Systems Verification",
+    "Rust for Embedded Systems: Current State and Open Problems"
+  ]
+}

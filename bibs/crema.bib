@@ -1,0 +1,15 @@
+@InProceedings{10.1007/978-3-032-10444-1_11,
+author="Franceschi, Andrea
+and Galletta, Letterio
+and Degano, Pierpaolo",
+editor="Bianculli, Domenico
+and G{\'o}mez-Mart{\'i}nez, Elena",
+title="Detecting Memory Errors in Rust Programs Including Unsafe Foreign Code",
+booktitle="Software Engineering and Formal Methods",
+year="2026",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="167--184",
+abstract="Memory corruption is one of the oldest and most disruptive problems in computer security, through which attackers may maliciously alter the program control flow. Unsafe languages, such as C and C++, are prone to these types of vulnerability. A promising alternative is Rust, which ensures memory safety through proper compile-time checks with no penalties at run-time. However, the Rust compiler is not able to provide these guarantees when programmers use Rust unsafe features or integrate code written in an unsafe language through the Foreign Function Interface mechanism. If the unsafe features and the integration of unsafe code are not handled with extreme care, the memory errors that Rust aims to eliminate may be reintroduced. Here, we define a static taint analysis that targets both Rust and foreign code to detect the common memory errors use-after-free, never-free, and double-free, and implement it in the tool crema. Our experimental evaluation on real cases from GitHub shows that crema detects memory errors effectively.",
+isbn="978-3-032-10444-1"
+}

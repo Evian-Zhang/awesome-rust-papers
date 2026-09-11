@@ -1,0 +1,9 @@
+{
+  "title": "A tool-assisted approach to engineer domain-specific languages (DSLs) using Rust",
+  "link": "https://doi.org/10.1145/3550356.3563133",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3550356.3563133",
+  "venue": "MODELS",
+  "year": 2022,
+  "category": ["product"],
+  "tag": ["DSL", "Ecore", "metamodeling"]
+}

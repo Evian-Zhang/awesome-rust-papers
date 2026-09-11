@@ -1,0 +1,13 @@
+@article{HU2024103199,
+title = {Unishyper: A Rust-based unikernel enhancing reliability and efficiency of embedded systems},
+journal = {Journal of Systems Architecture},
+volume = {153},
+pages = {103199},
+year = {2024},
+issn = {1383-7621},
+doi = {https://doi.org/10.1016/j.sysarc.2024.103199},
+url = {https://www.sciencedirect.com/science/article/pii/S138376212400136X},
+author = {Keyang Hu and Wang Huang and Lei Wang and Ce Mo and Runxiang Wang and Yu Chen and Ju Ren and Bo Jiang},
+keywords = {Unikernel, Embedded system, Reliability, Rust},
+abstract = {Unikernels are simple, customizable, efficient, and small in code size, which makes them highly applicable to embedded scenarios. However, most existing unikernels are developed and optimized for cloud computing, and they do not fully meet the requirements of high reliability and platform customization in embedded environments. We propose Unishyper, a reliable and high-performance embedded unikernel in Rust. To support memory isolation between user applications, user code, and kernel code, Unishyper designs the Zone mechanism on top of Intel MPK. Unishyper further proposes a thread-level unwind strategy for safe fault handling while avoiding memory leakage. Finally, Unishyper supports fine-grained customization, seamlessly integrates with the Rust ecosystem, and uses Unilib for function offloading to further reduce image size. Our evaluation results show that Unishyper achieves better performance than peer unikernels on major micro-benchmarks, can effectively stop illegal memory accesses across application boundaries, and has a minimal memory footprint of less than 100 KB.}
+}

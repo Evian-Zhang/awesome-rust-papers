@@ -1,0 +1,17 @@
+@inproceedings{10.1145/3519941.3535075,
+author = {Ayers, Hudson and Laufer, Evan and Mure, Paul and Park, Jaehyeon and Rodelo, Eduardo and Rossman, Thea and Pronin, Andrey and Levis, Philip and Van Why, Johnathan},
+title = {Tighten rust’s belt: shrinking embedded Rust binaries},
+year = {2022},
+isbn = {9781450392662},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3519941.3535075},
+doi = {10.1145/3519941.3535075},
+abstract = {Rust is a promising programming language for embedded software, providing low-level primitives and performance similar to C/C++ alongside type safety, memory safety, and modern high-level language features. We find naive use of Rust leads to binaries much larger than their C equivalents. For flash-constrained embedded microcontrollers, this is prohibitive. We find four major causes of this growth: monomorphization, inefficient derivations, implicit data structures, and missing compiler optimizations. We present a set of embedded Rust programming principles which reduce Rust binary sizes. We apply these principles to an industrial Rust firmware application, reducing size by 76kB (19\%), and an open source Rust OS kernel binary, reducing size by 23kB (26\%). We explore compiler optimizations that could further shrink embedded Rust.},
+booktitle = {Proceedings of the 23rd ACM SIGPLAN/SIGBED International Conference on Languages, Compilers, and Tools for Embedded Systems},
+pages = {121–132},
+numpages = {12},
+keywords = {Rust, binary size, embedded systems},
+location = {San Diego, CA, USA},
+series = {LCTES 2022}
+}

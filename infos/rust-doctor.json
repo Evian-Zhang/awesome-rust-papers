@@ -1,0 +1,10 @@
+{
+  "title": "Rust-doctor: Enhanced Feature for Rust Ownership and Lifetime Repair with Balanced Training Data Generation",
+  "alias": "Rust-doctor",
+  "link": "https://doi.org/10.18653/v1/2025.findings-emnlp.179",
+  "pdf": "https://aclanthology.org/2025.findings-emnlp.179.pdf",
+  "venue": "EMNLP",
+  "year": 2025,
+  "category": ["security", "patch"],
+  "tag": ["fine tune", "machine learning"]
+}

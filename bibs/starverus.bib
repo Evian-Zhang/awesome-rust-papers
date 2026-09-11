@@ -1,0 +1,17 @@
+@inproceedings{10.1145/3770855.3818485,
+author = {Jiang, Chao and Wang, Ding and Liu, Dugang and Xu, Zhiwu and Wen, Cheng and Ming, Zhong and Liu, Yuwei and Wan, Xinyi and Huang, Lin},
+title = {StarVerus: LLM-Powered Multi-Agent Collaboration for Industrial Rust Code Verification Automation},
+year = {2026},
+isbn = {9798400722592},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3770855.3818485},
+doi = {10.1145/3770855.3818485},
+abstract = {Creating code specifications is a crucial measure to improve the trustworthiness of many industrial systems implemented in Rust with high security requirements. Because writing specifications requires highly specialized professionals and is time-consuming, the automatic generation of specifications, enabled by large language models (LLMs), has received increasing attention and shown promising results. However, these methods typically focus on partial specification generation (generating proofs after the contract is known) and on extracting dependencies between code modules using predefined relations. This is not suitable for real-world industrial systems where the goal is to generate complete specifications from scratch and where the complex dependencies between code modules are variable. To address this, we propose a multi-agent collaborative framework, StarVerus, to automate the verification of industrial Rust code. Specifically, StarVerus addresses the aforementioned limitations in two ways: 1) In the generation phase, it instructs the LLM to generate all specifications for a given code, and in the repair phase, it uses a cascaded two-stage process of contract alignment and proof repair to correct them; 2) In both the generation and repair phases, it utilizes a function call graph to adaptively obtain bidirectional contextual information (i.e., what it calls and what calls it) for each code module as an additional information source for the LLM. Furthermore, StarVerus introduces a planner-repairer-actor-rewriter multi-agent paradigm to further enhance the proof repair capabilities. Finally, the effectiveness of StarVerus is validated through experiments on benchmark datasets and deployment in a real operating system.},
+booktitle = {Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2},
+pages = {7444–7455},
+numpages = {12},
+keywords = {multi-agent collaboration, code verification, specification generation, rust code},
+location = {Republic of Korea},
+series = {KDD '26}
+}

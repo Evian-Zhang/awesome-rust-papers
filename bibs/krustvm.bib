@@ -1,0 +1,17 @@
+@inproceedings{10.1145/3698038.3698562,
+author = {Chiang, Yu-Hsun and Chang, Wei-Lin and Li, Shih-Wei and Tu, Jan-Ting},
+title = {Securing a Multiprocessor KVM Hypervisor with Rust},
+year = {2024},
+isbn = {9798400712869},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3698038.3698562},
+doi = {10.1145/3698038.3698562},
+abstract = {As computations have increasingly shifted to virtual machines (VMs) running on a hypervisor, the security of the hypervisor is of critical concern. Rust has gained significant traction among developers due to its software safety guarantees and performance efficiency. This work explores building on Rust's safety features to construct a secure KVM hypervisor. We retrofit KVM to incorporate a Rust-based core to protect virtual machines. We build on Rust's type and lifetime system in a novel way to secure the core's memory accesses in a concurrent environment. Our resulting KVM implementation, KrustVM, incorporates a data race and deadlock-free core to protect VM confidentiality and integrity against privileged attackers who control the host Linux kernel while preserving KVM's commodity features and performance.},
+booktitle = {Proceedings of the 2024 ACM Symposium on Cloud Computing},
+pages = {650–667},
+numpages = {18},
+keywords = {Rust, Security, Virtualization},
+location = {Redmond, WA, USA},
+series = {SoCC '24}
+}

@@ -1,0 +1,27 @@
+{
+  "title": "Verifying Rust Implementation of Page Tables in a Software Enclave Hypervisor",
+  "alias": "HyperEncalve",
+  "link": "https://doi.org/10.1145/3620665.3640398",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3620665.3640398",
+  "repo": "https://github.com/asterinas/hyperenclave",
+  "venue": "ASPLOS",
+  "year": 2024,
+  "category": "verification",
+  "tag": [
+    "TEE",
+    "hypervisor",
+    "MIR"
+  ],
+  "reference": [
+    "RustBelt",
+    "Tock",
+    "Prusti",
+    "Verus",
+    "Creusot",
+    "RustHornBelt",
+    "cargo-klee",
+    "KRust",
+    "RedLeaf",
+    "Memory-Safety Challenge Considered Solved? An In-Depth Study with All Rust CVEs"
+  ]
+}

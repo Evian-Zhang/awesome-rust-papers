@@ -1,0 +1,17 @@
+{
+  "title": "Tighten rust’s belt: shrinking embedded Rust binaries",
+  "link": "https://doi.org/10.1145/3519941.3535075",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3519941.3535075",
+  "venue": "LCTES",
+  "year": 2022,
+  "category": [
+    "language"
+  ],
+  "tag": [
+    "embedded"
+  ],
+  "reference": [
+    "Tock",
+    "Engineering the Servo Web Browser Engine Using Rust"
+  ]
+}

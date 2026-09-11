@@ -1,0 +1,25 @@
+{
+  "title": "Detecting Memory Errors in Rust Programs Including Unsafe Foreign Code",
+  "alias": "CREMA",
+  "link": "https://doi.org/10.1007/978-3-032-10444-1_11",
+  "repo": "https://github.com/AFx3/crema-static-analyzer",
+  "venue": "FM",
+  "year": 2025,
+  "category": [
+    "security"
+  ],
+  "tag": [
+    "memory safety",
+    "static analysis",
+    "FFI"
+  ],
+  "reference": [
+    "The Rust Language",
+    "MirChecker",
+    "Memory-Safety Challenge Considered Solved? An In-Depth Study with All Rust CVEs",
+    "SafeDrop",
+    "Cross-Language Attacks",
+    "FFICHECKER",
+    "rCanary"
+  ]
+}

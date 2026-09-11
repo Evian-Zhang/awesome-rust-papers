@@ -1,0 +1,13 @@
+@article{HONG2024103152,
+title = {Taming shared mutable states of operating systems in Rust},
+journal = {Science of Computer Programming},
+volume = {238},
+pages = {103152},
+year = {2024},
+issn = {0167-6423},
+doi = {https://doi.org/10.1016/j.scico.2024.103152},
+url = {https://www.sciencedirect.com/science/article/pii/S0167642324000753},
+author = {Jaemin Hong and Sunghwan Shim and Sanguk Park and Tae Woo Kim and Jungwoo Kim and Junsoo Lee and Sukyoung Ryu and Jeehoon Kang},
+keywords = {Shared mutable state, Operating system, Rust},
+abstract = {Operating systems (OSs) suffer from pervasive memory bugs. Their primary source is shared mutable states, crucial to low-level control and efficiency. The safety of shared mutable states is not guaranteed by C/C++, in which legacy OSs are typically written. Recently, researchers have adopted Rust into OS development to implement clean-slate OSs with fewer memory bugs. Rust ensures the safety of shared mutable states that follow the “aliasing XOR mutability” discipline via its type system. With the success of Rust in clean-slate OSs, the industry has become interested in rewriting legacy OSs in Rust. However, one of the most significant obstacles to this goal is shared mutable states that are aliased AND mutable (A&M). While they are essential to the performance of legacy OSs, Rust does not guarantee their safety. Instead, programmers have identified A&M states with the same reasoning principle dubbed an A&M pattern and implemented its modular abstraction to facilitate safety reasoning. This paper investigates modular abstractions for A&M patterns in legacy OSs. We present modular abstractions for six A&M patterns in the xv6 OS. Our investigation of Linux and clean-slate Rust OSs shows that the patterns are practical, as all of them are utilized in Linux, and the abstractions are original, as none of them are found in the Rust OSs. Using the abstractions, we implemented xv6Rust, a complete rewrite of xv6 in Rust. The abstractions incur no run-time overhead compared to xv6 while reducing the reasoning cost of xv6Rust to the level of the clean-slate Rust OSs.}
+}

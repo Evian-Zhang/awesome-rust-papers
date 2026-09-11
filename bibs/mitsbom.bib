@@ -1,0 +1,13 @@
+@article{YUAN2026104970,
+title = {Hardening memory-safe languages: An empirical study of attack mitigations in rust and go binaries},
+journal = {Computers & Security},
+volume = {169},
+pages = {104970},
+year = {2026},
+issn = {0167-4048},
+doi = {https://doi.org/10.1016/j.cose.2026.104970},
+url = {https://www.sciencedirect.com/science/article/pii/S016740482600146X},
+author = {Runbin Yuan and Haodong Chen and Yunze Zhao and Yuchen Zhang},
+keywords = {Binary hardening, Attack mitigations, Software bill of materials (SBOM)},
+abstract = {Memory-safe languages such as Rust and Go are increasingly adopted across modern software supply chains, yet “unsafe” code, foreign-function interfaces, and native-library integration remain common in practice, leaving deployed binaries exposed to attack surfaces that language-level guarantees alone do not eliminate. To examine this gap, we conduct the first large-scale empirical study of six representative binary-level hardening mitigations in memory-safe ecosystems (i.e., Rust and Golang). Our dataset comprises 5581 ELF binaries, each representing a distinct Rust or Go project, drawn from 894,817 Rust and 1653,490 Go repositories spanning nine application domains. Despite strong language-level guarantees, we find that many real-world Rust and Go binaries omit hardening defenses even when the corresponding mitigations are supported by the underlying toolchain, especially in artifacts that rely on unsafe features, cgo, or native-code integration. Rust demonstrates stronger but still inconsistent adoption, whereas Go exhibits systematically weaker hardening coverage, reflecting differences in toolchain support, build defaults, and linking models across the two ecosystems. To address the resulting visibility gap in supply-chain settings, we introduce MitSBOM, a framework that augments Software Bills of Materials (SBOMs) with machine-readable mitigation metadata, enabling downstream hardening visibility, artifact comparison, and policy-driven risk assessment. Our findings show that language-level memory safety and binary-level hardening are complementary but distinct security properties, and that secure evaluation of Rust and Go artifacts in software supply chains requires visibility into both.}
+}

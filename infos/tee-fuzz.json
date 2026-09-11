@@ -1,0 +1,8 @@
+{
+  "title": "Fuzzing trusted execution environments with Rust",
+  "link": "https://doi.org/10.1016/j.cose.2024.104196",
+  "venue": "Computers & Security",
+  "year": 2025,
+  "category": ["product"],
+  "tag": ["fuzzing", "TEE", "specification", "QEMU"]
+}

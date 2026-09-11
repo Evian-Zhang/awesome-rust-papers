@@ -1,0 +1,14 @@
+@article{https://doi.org/10.1002/stvr.1875,
+author = {Dong, Yan and Zhang, Zhicong and Cui, Mohan and Xu, Hui},
+title = {SafeNet: Towards mitigating replaceable unsafe Rust code via a recommendation-based approach},
+journal = {Software Testing, Verification and Reliability},
+volume = {34},
+number = {5},
+pages = {e1875},
+keywords = {recommendation, Rust, unsafe code},
+doi = {https://doi.org/10.1002/stvr.1875},
+url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/stvr.1875},
+eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/stvr.1875},
+abstract = {Abstract Rust is a system-level programming language with advantages in memory safety. It ensures that any Rust programs without unsafe code should not incur undefined behaviours. However, unsafe code still plays an essential role in Rust to achieve low-level control. Therefore, a major design pattern of Rust programs is interior unsafe, which wraps unsafe code as safe APIs and handles all undefined behaviours internally. Rust standard library already provides a rich set of safe APIs to facilitate Rust code development. Nevertheless, due to unfamiliarity with these APIs, developers may misuse unnecessary unsafe code and suffer memory-safety risks. In this paper, we investigate an approach to mitigate replaceable unsafe code. We first analyse unsafe APIs of the Rust standard library and summarize their common usage patterns. Each pattern corresponds to one or several code samples in our knowledge base. Then, we develop an approach to automatically recognize the usage pattern and recommend corresponding code samples. Our approach leverages dataflow analysis to exclude impossible patterns and employs a BERT-based machine learning model to find the most similar pattern among the rest. We have conducted evaluation experiments with 472 unsafe code snippets collected from GitHub projects and successfully recognized the pattern of 394 snippets. We hope our approach can assist developers in detecting unnecessary unsafe code and suggesting safe alternatives.},
+year = {2024}
+}

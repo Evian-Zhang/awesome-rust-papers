@@ -1,0 +1,10 @@
+{
+  "title": "Rust-Bio: a fast and safe bioinformatics library",
+  "alias": "Rust-Bio",
+  "link": "https://doi.org/10.1093/bioinformatics/btv573",
+  "pdf": "https://academic.oup.com/bioinformatics/article-pdf/32/3/444/49016785/bioinformatics_32_3_444.pdf",
+  "repo": "https://github.com/rust-bio/rust-bio",
+  "venue": "Bioinformatics",
+  "year": 2015,
+  "category": ["product", "bioinformatics"]
+}

@@ -1,0 +1,13 @@
+@article{XIA2026103535,
+title = {From C to verifiable Rust: Towards practical migration of code and specifications},
+journal = {Science of Computer Programming},
+volume = {254},
+pages = {103535},
+year = {2026},
+issn = {0167-6423},
+doi = {https://doi.org/10.1016/j.scico.2026.103535},
+url = {https://www.sciencedirect.com/science/article/pii/S0167642326001012},
+author = {Shengjie Xia and Yijie Ou and Chenghao Su and Yimeng Guo and Yanhui Li and Lin Chen},
+keywords = {Formal verification, Program migration, ACSL, Verus},
+abstract = {Formal verification helps ensure software correctness and reliability. Rust is gaining popularity as a safer alternative to C due to its strong memory safety guarantees. As a result, many projects seek to migrate C code to Rust. However, the migration of C programs annotated with formal specifications remains unexplored. This paper investigates the feasibility of migrating C code annotated with ACSL specifications to verifiable Rust with Verus specifications. We present C2VR (C to Verifiable Rust), a semi-automated framework that migrates both C code and ACSL specifications. When applied to 175 annotated C programs, the framework automatically produces 92 formally verified Rust programs, and achieves 139 verified programs with manual fixes, demonstrating its effectiveness. We then conduct an empirical evaluation to assess the soundness and benefits of specification migration within our framework. The results show that our specification migration is semantics-preserving and that Verus reduces the burden of memory-related specifications, although two patterns of ACSL specifications remain non-migratable. We further classify migration failures into three major categories with a total of 15 symptoms, systematically identify 10 root causes, and present 9 effective repair strategies.}
+}

@@ -1,0 +1,26 @@
+{
+  "title": "From C to verifiable Rust: Towards practical migration of code and specifications",
+  "alias": "C2VR",
+  "link": "https://doi.org/10.1016/j.scico.2026.103535",
+  "based": [
+    "Verus"
+  ],
+  "venue": "SCP",
+  "year": 2026,
+  "category": [
+    "c2rust"
+  ],
+  "tag": [
+    "verification",
+    "ACSL"
+  ],
+  "reference": [
+    "Verus",
+    "Translating C to Safer Rust",
+    "Laertes",
+    "Tymcrat",
+    "Nopcrat",
+    "C2SaferRust",
+    "RustFlow"
+  ]
+}

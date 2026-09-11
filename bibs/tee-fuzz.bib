@@ -1,0 +1,13 @@
+@article{BLINOWSKI2025104196,
+title = {Fuzzing trusted execution environments with Rust},
+journal = {Computers & Security},
+volume = {150},
+pages = {104196},
+year = {2025},
+issn = {0167-4048},
+doi = {https://doi.org/10.1016/j.cose.2024.104196},
+url = {https://www.sciencedirect.com/science/article/pii/S0167404824005017},
+author = {Grzegorz Blinowski and Michał Szaknis},
+keywords = {Operating Systems Security, Operating System Fuzzing, Trusted Execution Environments, Rust},
+abstract = {Fuzzing, a software testing technique, aims to uncover bugs by subjecting the target program to random inputs, thus discerning abnormal program behaviors such as crashes. In this paper, we present the design and implementation of a fuzzing framework designed to test TEEs (Trusted Execution Environment). Our framework leverages established software tools in a novel way: (1) We employ the Rust programming language in a two-way code generator: to translate fuzzer output to a sequence of system calls and in a “reverse translation” process, where sample code snippets are used to seed the fuzzer – a single API specification suffices for both endeavors; (2) Our fuzzer exhibits the ability to iteratively traverse the API's specification, scrutinize object dependencies, and judiciously reuse objects. These features significantly amplify its bug-finding prowess. (3) A versatile Rust proc macro mechanism is used to process the API specification. The fuzzer's code is built with the Rust compiler sans the necessity for additional specialized tools. (4) To enable the efficient stateful execution of TEEs, we have tailored the QEMU system emulator accordingly. To verify the usability and performance of our fuzzer, and to test various configuration options we conducted a series of tests with a popular open-source OP-TEE trusted operating system.}
+}

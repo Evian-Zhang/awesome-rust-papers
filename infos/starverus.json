@@ -1,0 +1,25 @@
+{
+  "title": "StarVerus: LLM-Powered Multi-Agent Collaboration for Industrial Rust Code Verification Automation",
+  "alias": "StarVerus",
+  "link": "https://doi.org/10.1145/3770855.3818485",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3770855.3818485",
+  "based": [
+    "Verus"
+  ],
+  "venue": "SIGKDD",
+  "year": 2026,
+  "category": [
+    "verification",
+    "proof generation"
+  ],
+  "tag": [
+    "LLM",
+    "agent",
+    "multi-agent"
+  ],
+  "reference": [
+    "Verus",
+    "The Prusti Project: Formal Verification for Rust",
+    "AutoVerus"
+  ]
+}

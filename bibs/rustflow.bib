@@ -1,0 +1,18 @@
+@article{10.1007/s10515-025-00570-0,
+author = {Zhang, Ruxin and Zhang, Shanxin and Xie, Linbo},
+title = {A systematic exploration of C-to-rust code translation based on large language models: prompt strategies and automated repair},
+year = {2025},
+issue_date = {Nov 2025},
+publisher = {Kluwer Academic Publishers},
+address = {USA},
+volume = {33},
+number = {1},
+issn = {0928-8910},
+url = {https://doi.org/10.1007/s10515-025-00570-0},
+doi = {10.1007/s10515-025-00570-0},
+abstract = {C is widely used in system programming due to its low-level flexibility. However, as demands for memory safety and code reliability grow, Rust has become a more favorable alternative owing to its modern design principles. Migrating existing C code to Rust has therefore emerged as a key approach for enhancing the security and maintainability of software systems. Nevertheless, automating such migrations remains challenging due to fundamental differences between the two languages in terms of language design philosophy, type systems, and levels of abstraction. Most current code transformation tools focus on mappings of basic data types and syntactic replacements, such as handling pointers or conversion of lock mechanisms. These approaches often fail to deeply model the semantic features and programming paradigms of the target language. To address this limitation, this paper proposes RustFlow, a C-to-Rust code translation framework based on large language models (LLMs), designed to generate idiomatic and semantically accurate Rust code. This framework employs a multi-stage progressive architecture, which decomposes the overall translation task into several sequential stages, namely translation, validation, and repair. During the translation phase, a collaborative prompting strategy is employed to guide the LLM in achieving cross-language semantic alignment, thereby improving the accuracy of the generated code. Subsequently, a validation mechanism is introduced to perform syntactic and semantic checks on the generated output, and a conversational iterative repair strategy is employed to further enhance the quality of the final result. Experimental results show that RustFlow outperforms most of the latest baseline approaches, achieving an average improvement of 50.67\% in translation performance compared to the base LLM. This work offers a novel technical approach and practical support for efficient and reliable cross-language code migration.},
+journal = {Automated Software Engg.},
+month = oct,
+numpages = {34},
+keywords = {Large language models, Code translation, Prompt engineering, Empirical research}
+}

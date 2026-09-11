@@ -1,0 +1,27 @@
+{
+  "title": "SafeNet: Towards mitigating replaceable unsafe Rust code via a recommendation‐based approach",
+  "alias": "SafeNet",
+  "link": "https://doi.org/10.1002/stvr.1875",
+  "repo": "https://github.com/artisan-archived-projects/SafeNet",
+  "venue": "STVR",
+  "year": 2024,
+  "category": [
+    "program analysis"
+  ],
+  "tag": [
+    "unsafe",
+    "machine learning",
+    "unsafe reduction"
+  ],
+  "reference": [
+    "RustBelt",
+    "Qrates",
+    "Rudra",
+    "Is Rust Used Safely by Software Developers?",
+    "SafeDrop",
+    "RustHornBelt",
+    "Galeed",
+    "XRust",
+    "On the Dual Nature of Necessity in Use of Rust Unsafe Code"
+  ]
+}

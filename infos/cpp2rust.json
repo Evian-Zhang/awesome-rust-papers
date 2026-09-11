@@ -33,6 +33,8 @@
     "Rust for Linux: Understanding the Security Impact of Rust in the Linux Kernel",
     "CRustS2",
     "Nopcrat",
-    "RustBelt"
+    "RustBelt",
+    "xv6Rust",
+    "SBD"
   ]
 }

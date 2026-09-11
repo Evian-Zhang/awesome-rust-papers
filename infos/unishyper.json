@@ -1,0 +1,21 @@
+{
+  "title": "Unishyper: A Rust-based unikernel enhancing reliability and efficiency of embedded systems",
+  "alias": "Unishyper",
+  "link": "https://doi.org/10.1016/j.sysarc.2024.103199",
+  "repo": "https://github.com/hky1999/Unishyper",
+  "venue": "JSA",
+  "year": 2024,
+  "category": [
+    "product",
+    "operating system"
+  ],
+  "tag": [
+    "MPK",
+    "unikernel",
+    "embedded"
+  ],
+  "reference": [
+    "Theseus",
+    "Rust-Shyper"
+  ]
+}

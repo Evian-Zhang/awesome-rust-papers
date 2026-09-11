@@ -1,0 +1,21 @@
+{
+  "title": "A systematic exploration of C-to-rust code translation based on large language models: prompt strategies and automated repair",
+  "alias": "RustFlow",
+  "link": "https://doi.org/10.1007/s10515-025-00570-0",
+  "venue": "Automated Software Engineering",
+  "year": 2025,
+  "category": [
+    "c2rust"
+  ],
+  "tag": [
+    "LLM",
+    "validation"
+  ],
+  "reference": [
+    "Laertes",
+    "Tymcrat",
+    "Engineering the Servo Web Browser Engine Using Rust",
+    "Crust",
+    "Rust as a Language for High Performance GC Implementation"
+  ]
+}

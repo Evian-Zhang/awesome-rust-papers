@@ -1,0 +1,32 @@
+{
+  "title": "Thetis-lathe: Guidance on Reducing Residual Safety Obstacle in System Software from Rust Source Codes",
+  "alias": "Thetis-lathe",
+  "link": "https://doi.org/10.1145/3736729",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3736729",
+  "based": [
+    "Thetis"
+  ],
+  "compared": [
+    "Miri",
+    "Qrates",
+    "XRust",
+    "TRust"
+  ],
+  "venue": "TECS",
+  "year": 2025,
+  "category": [
+    "program analysis"
+  ],
+  "tag": [
+    "unsafe",
+    "unsafe reduction"
+  ],
+  "reference": [
+    "The Rust Language",
+    "Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs",
+    "Qrates",
+    "XRust",
+    "KRust",
+    "SafeNet"
+  ]
+}

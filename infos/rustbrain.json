@@ -1,0 +1,32 @@
+{
+  "title": "Unlocking a New Rust Programming Experience: Fast and Slow Thinking with LLMs to Conquer Undefined Behaviors",
+  "alias": "RustBrain",
+  "link": "https://doi.org/10.1109/dac63849.2025.11133064",
+  "pdf": "https://arxiv.org/pdf/2503.02335",
+  "compared": [
+    "Thetis-lathe",
+    "RustAssistant"
+  ],
+  "venue": "DAC",
+  "year": 2025,
+  "category": [
+    "security",
+    "patch"
+  ],
+  "tag": [
+    "LLM",
+    "soundness"
+  ],
+  "reference": [
+    "RustBelt",
+    "The Rust Language",
+    "Prusti",
+    "Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs",
+    "MirChecker",
+    "Rudra",
+    "SafeDrop",
+    "cargo-klee",
+    "RustAssistant",
+    "SafeNet"
+  ]
+}

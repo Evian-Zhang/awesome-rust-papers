@@ -1,0 +1,10 @@
+{
+  "title": "Rust-Shyper: A reliable embedded hypervisor supporting VM migration and hypervisor live-update",
+  "alias": "Rust-Shyper",
+  "link": "https://doi.org/10.1016/j.sysarc.2023.102948",
+  "repo": "https://github.com/openeuler-mirror/rust_shyper",
+  "venue": "JSA",
+  "year": 2023,
+  "category": ["product"],
+  "tag": ["hypervisor"]
+}

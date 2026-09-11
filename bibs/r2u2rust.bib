@@ -1,0 +1,16 @@
+@InProceedings{10.1007/978-3-031-93706-4_3,
+author="Aurandt, Alexis
+and Jones, Phillip H.
+and Rozier, Kristin Yvonne",
+editor="Dutle, Aaron
+and Humphrey, Laura
+and Titolo, Laura",
+title="Towards a Safe, Verified Runtime Monitor for Embedded Systems: R2U2 in Embedded Rust",
+booktitle="NASA Formal Methods",
+year="2025",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="31--53",
+abstract="Stream-based runtime monitors can effectively verify specified system behavior in a real-time online manner, but the effectiveness of these monitors relies heavily on complying with the system's timing and resource constraints and the correctness of the monitor's implementation. The R2U2 runtime monitoring framework provides real-time guarantees and a resource-aware architecture; however, we further reduce R2U2's overhead by optimizing both Mission-time Linear Temporal Logic (MLTL) and past-time MLTL (ptMLTL) operators and their corresponding instruction formats. We evaluate our optimizations on a suite of benchmarks and observe a significant decrease in latency and memory requirements. To improve the correctness guarantees of R2U2, we manually transpile the previous C version to safe embedded Rust and verify the correctness with hand-constructed proofs, testing, and code verification with Verus. We specifically target safe embedded Rust (i.e., no{\_}std) to allow for deployment on embedded platforms with bare-metal environments (e.g., microcontrollers), and we provide complete proofs for all of R2U2's operators and verify the Rust code implementation of 25 of these operators with Verus code contracts.",
+isbn="978-3-031-93706-4"
+}

@@ -1,0 +1,13 @@
+@article{MO2023102948,
+title = {Rust-Shyper: A reliable embedded hypervisor supporting VM migration and hypervisor live-update},
+journal = {Journal of Systems Architecture},
+volume = {142},
+pages = {102948},
+year = {2023},
+issn = {1383-7621},
+doi = {https://doi.org/10.1016/j.sysarc.2023.102948},
+url = {https://www.sciencedirect.com/science/article/pii/S1383762123001273},
+author = {Ce Mo and Lei Wang and Siran Li and Keyang Hu and Bo Jiang},
+keywords = {Embedded hypervisor, Hypervisor live-update, VM migration, Reliability, Rust},
+abstract = {Traditional embedded hypervisors usually focus on resource utilization and performance while neglecting the reliability requirements. On the one hand, the reliability issues result from the use of C language that may introduce memory safety bugs. On the other hand, most existing embedded hypervisors lacks run-time fault tolerance and dynamic bug-fixing mechanisms in deployed embedded system. To address the above challenges, in this paper, we propose Rust-Shyper, an embedded type-1 hypervisor built with Rust, which has both high performance and high reliability. We make full use of the Rust language features in terms of code safety to reduce the number of bugs within the embedded hypervisor. Furthermore, we have proposed low-overhead VM migration and hypervisor live-update mechanisms to enable our embedded hypervisor to tolerate hardware faults at runtime and dynamically fix hypervisor bugs. To the best of our knowledge, we are the first work to propose live-update mechanisms for embedded hypervisor. We have systematically evaluated the performance and reliability of Rust-Shyper, and the results show that Rust-Shyper can significantly improve memory safety without compromising performance. Furthermore, the VM migration and hypervisor live-update mechanisms only incur a small performance overhead.}
+}

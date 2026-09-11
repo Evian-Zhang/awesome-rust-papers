@@ -1,5 +1,5 @@
 {
-  "title": "PR2: Peephole Raw Pointer Rewriting with LLMs for Translating C to Safer Rust",
+  "title": "Raw Pointer Rewriting with LLMs for Translating C to Safer Rust",
   "alias": "PR2",
   "link": "https://doi.org/10.18653/v1/2026.findings-acl.1763",
   "pdf": "https://aclanthology.org/2026.findings-acl.1763.pdf",
