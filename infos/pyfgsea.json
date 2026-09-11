@@ -2,7 +2,7 @@
   "title": "PyFgsea: a Rust-powered, fgseaMultilevel-aligned GSEA framework with rolling-window enrichment along single-cell trajectories",
   "alias": "PyFgsea",
   "link": "https://doi.org/10.1093/bioinformatics/btag257",
-  "code": "https://github.com/shayuanxukuang/pyfgsea",
+  "repo": "https://github.com/shayuanxukuang/pyfgsea",
   "venue": "Bioinformatics",
   "year": 2026,
   "category": ["product", "bioinformatics"]
