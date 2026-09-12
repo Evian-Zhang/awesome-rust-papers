@@ -1,0 +1,16 @@
+{
+  "title": "SmartC2Rust: Iterative, Feedback-Driven C-to-Rust Translation via Large Language Models for Safety and Equivalence",
+  "alias": "SmartC2Rust",
+  "link": "https://doi.org/10.1145/3744916.3773259",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3744916.3773259",
+  "repo": "https://github.com/momo-trip/SmartC2Rust",
+  "compared": ["C2Rust", "CROWN", "C2SaferRust", "Laertes"],
+  "venue": "ICSE",
+  "year": 2026,
+  "category": ["c2rust"],
+  "tag": ["LLM", "memory safety"],
+  "reference": [
+    "C2SaferRust",
+    "Syzygy"
+  ]
+}

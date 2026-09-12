@@ -1,0 +1,16 @@
+{
+  "title": "RusyFuzz: Unhandled Exception Guided Fuzzing for Rust OS Kernel",
+  "alias": "RusyFuzz",
+  "link": "https://doi.org/10.1145/3744916.3773138",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3744916.3773138",
+  "venue": "ICSE",
+  "year": 2026,
+  "category": ["security", "fuzzing"],
+  "tag": ["panic", "operating system", "MIR"],
+  "reference": [
+    "Rudra",
+    "An Empirical Study of Rust-for-Linux: The Success, Dissatisfaction, and Compromise",
+    "ASTERINAS",
+    "RPG"
+  ]
+}

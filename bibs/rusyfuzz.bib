@@ -1,0 +1,18 @@
+@inproceedings{10.1145/3744916.3773138,
+author = {Liu, Yuwei and Wang, Yanhao and Wang, Minghua and Huang, Lin and Su, Purui and Wei, Tao},
+title = {RusyFuzz: Unhandled Exception Guided Fuzzing for Rust OS Kernel},
+year = {2026},
+isbn = {9798400720253},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3744916.3773138},
+doi = {10.1145/3744916.3773138},
+abstract = {Rust’s strong type system and ownership model eliminate many traditional memory safety issues in OS kernels. However, logic errors—such as unchecked indexing and failed unwrap operations—can still cause panic!s that crash the entire system. Existing kernel fuzzers, designed primarily for C-based kernels and reliant on KCOV, treat all crashes uniformly and fail to account for Rust-specific failure modes.We present RusyFuzz, the first fuzzing framework tailored to Rust OS kernels that explicitly targets panic-prone code paths using an unhandled-exception-guided strategy. RusyFuzz analyzes the compiler-inserted assertions within the Rust MIR, performs backward slicing to link these assertions to system call arguments, and uses constraint solving to synthesize inputs that trigger panics. In the absence of built-in coverage support, RusyFuzz employs a lightweight, log-based instrumentation method to enable coverage-guided fuzzing. We evaluate RusyFuzz on three emerging Rust-based kernels: Asterinas, Redox OS, and RuxOS. RusyFuzz discovers 70 previously unknown and developer-confirmed vulnerabilities. Compared to Trinity, it uncovers over twice as many bugs while improving line coverage by 14.4\%. These results demonstrate that unhandled-exception-guided fuzzing is critical for uncovering logic bugs and enhancing the reliability of Rust OS kernels, providing the first systematic methodology for detecting such vulnerabilities.},
+booktitle = {Proceedings of the 2026 IEEE/ACM 48th International Conference on Software Engineering},
+pages = {3348–3359},
+numpages = {12},
+keywords = {Kernel Fuzzing, Rust, Unhandled Exception Guided},
+location = {
+},
+series = {ICSE '26}
+}

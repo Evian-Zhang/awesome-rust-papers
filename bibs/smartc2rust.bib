@@ -1,0 +1,18 @@
+@inproceedings{10.1145/3744916.3773259,
+author = {Shiraishi, Momoko and Cao, Yinzhi and Shinagawa, Takahiro},
+title = {SmartC2Rust: Iterative, Feedback-Driven C-to-Rust Translation via Large Language Models for Safety and Equivalence},
+year = {2026},
+isbn = {9798400720253},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3744916.3773259},
+doi = {10.1145/3744916.3773259},
+abstract = {Memory safety vulnerabilities remain prevalent in today’s software systems and one promising solution to mitigate them is to adopt memory-safe languages such as Rust. Due to legacy code written in memory unsafe C, there is strong motivation to translate legacy C code into Rust. Prior works have already shown promise in using Large Language Models (LLMs) for such translations. However, significant challenges persist for LLM-based translation: the translated code often fails to compile, let alone reduce unsafe statements and maintain the semantic functionalities due to inherent limitations of LLMs such as limited token size and inconsistent outputs.In this paper, we design an automated C-to-Rust translation system, called SmartC2Rust, to segment and convert the C code to Rust with memory safety and semantic equivalence. The key insight is to iteratively refine the output Rust code with additional feedback, e.g., compilation errors, segmentation contexts, semantic discrepancies, and memory unsafe statements. Such feedback will gradually improve the quality of generated Rust code, thus mitigating unsafety, inconsistency, and semantic issues. Our evaluation shows that SmartC2Rust significantly decreases the unsafe statements and outperforms prior works in security and semantic equivalence.},
+booktitle = {Proceedings of the 2026 IEEE/ACM 48th International Conference on Software Engineering},
+pages = {980–991},
+numpages = {12},
+keywords = {C-to-Rust Translation, Large Language Models, Memory Safety},
+location = {
+},
+series = {ICSE '26}
+}

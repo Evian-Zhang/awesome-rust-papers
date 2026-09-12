@@ -1,0 +1,17 @@
+{
+  "title": "Evaluating and Improving Automated Repository-Level Rust Issue Resolution with LLM-based Agents",
+  "alias": "Rust-SWE-bench",
+  "link": "https://doi.org/10.1145/3744916.3773108",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3744916.3773108",
+  "repo": "https://github.com/GhabiX/Rust-SWE-Bench",
+  "venue": "ICSE",
+  "year": 2026,
+  "category": ["ecosystem"],
+  "tag": ["benchmark", "LLM", "software engineering"],
+  "reference": [
+    "An Empirical Study of Rust-for-Linux: The Success, Dissatisfaction, and Compromise",
+    "Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs",
+    "Syzygy",
+    "Memory-Safety Challenge Considered Solved? An In-Depth Study with All Rust CVEs"
+  ]
+}

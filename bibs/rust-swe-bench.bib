@@ -1,0 +1,18 @@
+@inproceedings{10.1145/3744916.3773108,
+author = {Xiang, Jiahong and He, Wenxiao and Wang, Xihua and Tian, Hongliang and Zhang, Yuqun},
+title = {Evaluating and Improving Automated Repository-Level Rust Issue Resolution with LLM-based Agents},
+year = {2026},
+isbn = {9798400720253},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3744916.3773108},
+doi = {10.1145/3744916.3773108},
+abstract = {The Rust programming language presents a steep learning curve and significant coding challenges, making the automation of issue resolution essential for its broader adoption. Recently, LLM-powered code agents have shown remarkable success in resolving complex software engineering tasks, yet their application to Rust has been limited by the absence of a large-scale, repository-level benchmark. To bridge this gap, we introduce Rust-SWE-bench, a benchmark comprising 500 real-world, repository-level software engineering tasks from 34 diverse and popular Rust repositories. We then perform a comprehensive study on Rust-SWE-bench with four representative agents and four state-of-the-art LLMs to establish a foundational understanding of their capabilities and limitations in the Rust ecosystem.Our extensive study reveals that while ReAct-style agents are promising, i.e., resolving up to 21.2\% of issues, they are limited by two primary challenges: comprehending repository-wide code structure and complying with Rust’s strict type and trait semantics. We also find that issue reproduction is rather critical for task resolution. Inspired by these findings, we propose RustForger, a novel agentic approach that integrates an automated test environment setup with a Rust metaprogramming-driven dynamic tracing strategy to facilitate reliable issue reproduction and dynamic analysis. The evaluation shows that RustForger using Claude-Sonnet-3.7 significantly outperforms all baselines, resolving 28.6\% of tasks on Rust-SWE-bench, i.e., a 34.9\% improvement over the strongest baseline, and, in aggregate, uniquely solves 46 tasks that no other agent could solve across all adopted advanced LLMs.},
+booktitle = {Proceedings of the 2026 IEEE/ACM 48th International Conference on Software Engineering},
+pages = {805–817},
+numpages = {13},
+keywords = {Large Language Models, Automated Program Repair, Autonomous Programming, Rust Benchmark},
+location = {
+},
+series = {ICSE '26}
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Automated Proof Generation for Rust Code via Self-Evolution",
+  "alias": "SAFE",
+  "link": "https://openreview.net/forum?id=2NqssmiXLu",
+  "pdf": "https://openreview.net/pdf?id=2NqssmiXLu",
+  "based": ["Verus"],
+  "venue": "ICLR",
+  "year": 2025,
+  "category": ["verification", "proof generation"],
+  "tag": ["LLM", "self-evolution", "fine tune"],
+  "reference": [
+    "Benefits and Drawbacks of Adopting a Secure Programming Language: Rust as a Case Study"
+  ]
+}

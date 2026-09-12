@@ -1,0 +1,23 @@
+{
+  "title": "Rusted Types: Static Detection of Rust Type Confusion Bugs",
+  "alias": "DeRust",
+  "link": "https://doi.org/10.1145/3744916.3764571",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3744916.3764571",
+  "repo": "https://github.com/cuhk-seclab/DeRust",
+  "compared": ["Rudra", "MirChecker", "SafeDrop", "Clippy"],
+  "venue": "ICSE",
+  "year": 2026,
+  "category": [
+    "security"
+  ],
+  "tag": [
+    "type confusion",
+    "static analysis",
+    "data-flow analysis"
+  ],
+  "reference": [
+    "Rudra",
+    "SafeDrop",
+    "Memory-Safety Challenge Considered Solved? An In-Depth Study with All Rust CVEs"
+  ]
+}

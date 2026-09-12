@@ -1,0 +1,15 @@
+{
+  "title": "Can LLMs Reason Like Automated Theorem Provers for Rust Verification? VCoT-Bench: Evaluating via Verification Chain of Thought",
+  "alias": "VCoT-Bench",
+  "link": "https://openreview.net/forum?id=YqI1tp78Ei",
+  "pdf": "https://openreview.net/pdf?id=YqI1tp78Ei",
+  "repo": "https://github.com/HIPREL-Group/VCoT-Bench",
+  "based": ["Verus"],
+  "venue": "ICML",
+  "year": 2026,
+  "category": ["verification"],
+  "tag": ["benchmark", "LLM", "reasoning"],
+  "reference": [
+    "AutoVerus"
+  ]
+}

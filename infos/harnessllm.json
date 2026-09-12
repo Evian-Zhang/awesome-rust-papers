@@ -1,0 +1,25 @@
+{
+  "title": "HarnessLLM: Rust Verification Harness Generation with Large Language Models",
+  "alias": "HarnessLLM",
+  "link": "https://doi.org/10.1145/3744916.3773122",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3744916.3773122",
+  "based": ["Kani"],
+  "compared": ["Autoharness"],
+  "venue": "ICSE",
+  "year": 2026,
+  "category": ["verification"],
+  "tag": ["harness", "LLM", "MIR"],
+  "reference": [
+    "Rudra",
+    "hax",
+    "SafeDrop",
+    "RefinedRust",
+    "RustBelt",
+    "Yuga",
+    "Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs",
+    "UnsafeCop",
+    "Memory-Safety Challenge Considered Solved? An In-Depth Study with All Rust CVEs",
+    "RPG",
+    "PanicCheck"
+  ]
+}

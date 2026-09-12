@@ -1,0 +1,18 @@
+@inproceedings{10.1145/3744916.3764571,
+author = {Zhuang, Zeyang and Meng, Wei and Lyu, Michael R.},
+title = {Rusted Types: Static Detection of Rust Type Confusion Bugs},
+year = {2026},
+isbn = {9798400720253},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3744916.3764571},
+doi = {10.1145/3744916.3764571},
+abstract = {Rust is a modern programming language designed for strict memory and concurrency safety. Despite the safety checks, unsafe code in Rust can introduce memory safety issues. Unsafe type conversion, which reinterprets data from one type to another type, can alter the type spatial and temporal properties, leading to memory safety and data corruption issues. Since an unsafely converted value could violate a programmer’s intended conversion semantics and allows attackers to access the sensitive memory, type confusion bugs have critical security implications. Despite the increasing number of Rust type confusion bugs, the problem has not been systematically studied and addressed by the Rust community.In this paper, we propose DeRust, the first and a novel static analysis tool for detecting Rust type confusion bugs. By precisely tracking the inter-procedural data flows from unsafe type conversions to sensitive operations, DeRust can effectively and efficiently identify type confusion bugs. Our evaluation shows that DeRust can detect all the type confusion bugs in the benchmark datasets, and further helped report 54 previously unknown bugs in the top 1000 Rust packages with 13 RustSec IDs assigned.},
+booktitle = {Proceedings of the 2026 IEEE/ACM 48th International Conference on Software Engineering},
+pages = {1919–1930},
+numpages = {12},
+keywords = {Software Security; Program Analysis; Rust Security},
+location = {
+},
+series = {ICSE '26}
+}

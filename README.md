@@ -46,6 +46,10 @@ Primary data is collected by human, and all data in this repository is checked m
 
    FSE 2026 [PDF](https://dl.acm.org/doi/pdf/10.1145/3808169) [Code](https://github.com/FudanSELab/PtrTrans-C2Rust) [Bib](./bibs/ptrtrans.bib)
 
+* [SmartC2Rust: Iterative, Feedback-Driven C-to-Rust Translation via Large Language Models for Safety and Equivalence](https://doi.org/10.1145/3744916.3773259)
+
+   ICSE 2026 [PDF](https://dl.acm.org/doi/pdf/10.1145/3744916.3773259) [Code](https://github.com/momo-trip/SmartC2Rust) [Bib](./bibs/smartc2rust.bib)
+
 * [EvoC2Rust: A Skeleton-guided Framework for Project-Level C-to-Rust Translation](https://doi.org/10.1145/3786583.3786856)
 
    ICSE-SEIP 2026 [PDF](https://dl.acm.org/doi/pdf/10.1145/3786583.3786856) [Code](https://github.com/bbzswcf/EvoC2rust) [Bib](./bibs/evoc2rust.bib)
@@ -54,7 +58,7 @@ Primary data is collected by human, and all data in this repository is checked m
 
    IEEE TSE 2026 [PDF](https://arxiv.org/pdf/2501.14257) [Code](https://github.com/vikramnitin9/c2saferrust) [Bib](./bibs/c2saferrust.bib)
 
-   Cited by 11 papers in this awesome collection.
+   Cited by 12 papers in this awesome collection.
 
 * [Scylla: Translating an Applicative Subset of C to Safe Rust](https://doi.org/10.1145/3798229)
 
@@ -156,7 +160,7 @@ Primary data is collected by human, and all data in this repository is checked m
 
    arXiv 2024 [PDF](https://arxiv.org/pdf/2412.14234) [Code](https://github.com/syzygy-project/Syzygy_Zopfli) [Bib](./bibs/syzygy.bib)
 
-   Cited by 5 papers in this awesome collection.
+   Cited by 7 papers in this awesome collection.
 
 * [Towards Translating Real-World Code with LLMs: A Study of Translating to Rust](https://arxiv.org/abs/2405.11514)
 
@@ -215,6 +219,10 @@ Primary data is collected by human, and all data in this repository is checked m
 * [An Empirical Analysis of Rust Integration in Android Open Source Project](https://doi.org/10.1145/3803437.3805227)
 
    FSE Companion 2026 [PDF](https://dl.acm.org/doi/pdf/10.1145/3803437.3805227) [Bib](./bibs/rust-android-integration-analysis.bib)
+
+* [Evaluating and Improving Automated Repository-Level Rust Issue Resolution with LLM-based Agents](https://doi.org/10.1145/3744916.3773108)
+
+   ICSE 2026 [PDF](https://dl.acm.org/doi/pdf/10.1145/3744916.3773108) [Code](https://github.com/GhabiX/Rust-SWE-Bench) [Bib](./bibs/rust-swe-bench.bib)
 
 * [A Deep Dive Into Deprecation Declarations in the Rust Package Ecosystem](https://doi.org/10.1109/TSE.2026.3660015)
 
@@ -284,7 +292,7 @@ Primary data is collected by human, and all data in this repository is checked m
 
    USENIX ATC 2024 [PDF](https://www.usenix.org/system/files/atc24-li-hongyu.pdf) [Code](https://github.com/Richardhongyu/rfl_empirical_tools) [Bib](./bibs/rust-for-linux-empirical.bib)
 
-   Cited by 3 papers in this awesome collection.
+   Cited by 5 papers in this awesome collection.
 
 * [An Empirical Study of Yanked Releases in the Rust Package Registry](https://doi.org/10.1109/TSE.2022.3152148)
 
@@ -302,7 +310,7 @@ Primary data is collected by human, and all data in this repository is checked m
 
    ACM TOSEM 2022 [PDF](https://dl.acm.org/doi/pdf/10.1145/3466642) [Bib](./bibs/rust-cves.bib)
 
-   Cited by 37 papers in this awesome collection.
+   Cited by 40 papers in this awesome collection.
 
 * [Learning and Programming Challenges of Rust: A Mixed-Methods Study](https://doi.org/10.1145/3510003.3510164)
 
@@ -320,7 +328,7 @@ Primary data is collected by human, and all data in this repository is checked m
 
    SOUPS 2021 [PDF](https://www.usenix.org/system/files/soups2021-fulton.pdf) [Bib](./bibs/rust-adoption.bib)
 
-   Cited by 3 papers in this awesome collection.
+   Cited by 4 papers in this awesome collection.
 
 * [Is Rust Used Safely by Software Developers?](https://doi.org/10.1145/3377811.3380413)
 
@@ -338,7 +346,7 @@ Primary data is collected by human, and all data in this repository is checked m
 
    PLDI 2020 [PDF](https://dl.acm.org/doi/pdf/10.1145/3385412.3386036) [Code](https://github.com/system-pclub/rust-study) [Bib](./bibs/memory-thread-safety.bib)
 
-   Cited by 56 papers in this awesome collection.
+   Cited by 58 papers in this awesome collection.
 
 ### formalization
 
@@ -406,7 +414,7 @@ Primary data is collected by human, and all data in this repository is checked m
 
    POPL 2018 [PDF](https://dl.acm.org/doi/pdf/10.1145/3158154) [Code](https://gitlab.mpi-sws.org/iris/lambda-rust) [Bib](./bibs/rustbelt.bib)
 
-   Cited by 79 papers in this awesome collection.
+   Cited by 80 papers in this awesome collection.
 
 * [KRust: A Formal Executable Semantics of Rust](https://doi.org/10.1109/TASE.2018.00014)
 
@@ -596,7 +604,7 @@ Primary data is collected by human, and all data in this repository is checked m
 
 * [PyFgsea: a Rust-powered, fgseaMultilevel-aligned GSEA framework with rolling-window enrichment along single-cell trajectories](https://doi.org/10.1093/bioinformatics/btag257)
 
-   Bioinformatics 2026 [Bib](./bibs/pyfgsea.bib)
+   Bioinformatics 2026 [Code](https://github.com/shayuanxukuang/pyfgsea) [Bib](./bibs/pyfgsea.bib)
 
 * [Bigtools: a high-performance BigWig and BigBed library in Rust](https://doi.org/10.1093/bioinformatics/btae350)
 
@@ -622,7 +630,7 @@ Primary data is collected by human, and all data in this repository is checked m
 
    USENIX ATC 2025 [PDF](https://www.usenix.org/system/files/atc25-peng-yuke.pdf) [Code](https://github.com/asterinas/asterinas) [Bib](./bibs/asterinas.bib)
 
-   Cited by 2 papers in this awesome collection.
+   Cited by 3 papers in this awesome collection.
 
 * [Unishyper: A Rust-based unikernel enhancing reliability and efficiency of embedded systems](https://doi.org/10.1016/j.sysarc.2024.103199)
 
@@ -630,7 +638,7 @@ Primary data is collected by human, and all data in this repository is checked m
 
 * [Taming shared mutable states of operating systems in Rust](https://doi.org/10.1016/j.scico.2024.103152)
 
-   SCP 2024 [Bib](./bibs/xv6rust.bib)
+   SCP 2024 [Code](https://github.com/kaist-cp/rv6) [Bib](./bibs/xv6rust.bib)
 
    Cited by 1 papers in this awesome collection.
 
@@ -826,6 +834,10 @@ Primary data is collected by human, and all data in this repository is checked m
 
    DSN 2026 [PDF](https://arxiv.org/pdf/2211.00111) [Bib](./bibs/ruby.bib)
 
+* [Rusted Types: Static Detection of Rust Type Confusion Bugs](https://doi.org/10.1145/3744916.3764571)
+
+   ICSE 2026 [PDF](https://dl.acm.org/doi/pdf/10.1145/3744916.3764571) [Code](https://github.com/cuhk-seclab/DeRust) [Bib](./bibs/derust.bib)
+
 * [Oxidizer: Toward Concise and High-fidelity Rust Decompilation](https://doi.org/10.1109/SP63933.2026.00257)
 
    IEEE S&P 2026 [PDF](https://adamdoupe.com/publications/oxidizer-oakland2026.pdf) [Code](https://github.com/sefcom/oxidizer) [Bib](./bibs/oxidizer.bib)
@@ -876,7 +888,7 @@ Primary data is collected by human, and all data in this repository is checked m
 
    IEEE TSE 2024 [PDF](https://arxiv.org/pdf/2310.08507) [Code](https://github.com/vnrst/Yuga) [Bib](./bibs/yuga.bib)
 
-   Cited by 5 papers in this awesome collection.
+   Cited by 6 papers in this awesome collection.
 
 * [rCanary: Detecting Memory Leaks Across Semi-Automated Memory Management Boundary in Rust](https://doi.org/10.1109/TSE.2024.3443624)
 
@@ -894,7 +906,7 @@ Primary data is collected by human, and all data in this repository is checked m
 
    ACM TOSEM 2023 [PDF](https://dl.acm.org/doi/pdf/10.1145/3542948) [Code](https://github.com/VaynNecol/SafeDrop) [Bib](./bibs/safedrop.bib)
 
-   Cited by 29 papers in this awesome collection.
+   Cited by 31 papers in this awesome collection.
 
 * [Cross-Language Attacks](https://www.ndss-symposium.org/ndss-paper/auto-draft-259/)
 
@@ -962,6 +974,10 @@ Primary data is collected by human, and all data in this repository is checked m
 
 #### fuzzing @ security
 
+* [RusyFuzz: Unhandled Exception Guided Fuzzing for Rust OS Kernel](https://doi.org/10.1145/3744916.3773138)
+
+   ICSE 2026 [PDF](https://dl.acm.org/doi/pdf/10.1145/3744916.3773138) [Bib](./bibs/rusyfuzz.bib)
+
 * [deepSURF: Detecting Memory Safety Vulnerabilities in Rust Through Fuzzing LLM-Augmented Harnesses](https://doi.org/10.1109/SP63933.2026.00060)
 
    IEEE S&P 2026 [PDF](https://arxiv.org/pdf/2506.15648) [Code](https://github.com/purseclab/deepSURF) [Bib](./bibs/deepsurf.bib)
@@ -986,7 +1002,7 @@ Primary data is collected by human, and all data in this repository is checked m
 
    ICSE 2024 [PDF](https://dl.acm.org/doi/pdf/10.1145/3597503.3639102) [Code](https://doi.org/10.5281/zenodo.8202158) [Bib](./bibs/rpg.bib)
 
-   Cited by 7 papers in this awesome collection.
+   Cited by 9 papers in this awesome collection.
 
 * [FRIES: Fuzzing Rust Library Interactions via Efficient Ecosystem-Guided Target Generation](https://doi.org/10.1145/3650212.3680348)
 
@@ -1108,35 +1124,7 @@ Primary data is collected by human, and all data in this repository is checked m
 
    SOSP 2021 [PDF](https://dl.acm.org/doi/pdf/10.1145/3477132.3483570) [Code](https://github.com/sslab-gatech/Rudra) [Bib](./bibs/rudra.bib)
 
-   Cited by 41 papers in this awesome collection.
-
-### v
-
-#### e @ v
-
-##### r @ e @ v
-
-###### i @ r @ e @ v
-
-####### f @ i @ r @ e @ v
-
-######## i @ f @ i @ r @ e @ v
-
-######### c @ i @ f @ i @ r @ e @ v
-
-########## a @ c @ i @ f @ i @ r @ e @ v
-
-########### t @ a @ c @ i @ f @ i @ r @ e @ v
-
-############ i @ t @ a @ c @ i @ f @ i @ r @ e @ v
-
-############# o @ i @ t @ a @ c @ i @ f @ i @ r @ e @ v
-
-############## n @ o @ i @ t @ a @ c @ i @ f @ i @ r @ e @ v
-
-* [Verifying Rust Implementation of Page Tables in a Software Enclave Hypervisor](https://doi.org/10.1145/3620665.3640398)
-
-   ASPLOS 2024 [PDF](https://dl.acm.org/doi/pdf/10.1145/3620665.3640398) [Code](https://github.com/asterinas/hyperenclave) [Bib](./bibs/hyperenclave.bib)
+   Cited by 44 papers in this awesome collection.
 
 ### verification
 
@@ -1149,6 +1137,14 @@ Primary data is collected by human, and all data in this repository is checked m
 * [RUSTMC: Automated Verification of Real-World Concurrent Rust](https://doi.org/10.1007/978-3-032-28187-6_14)
 
    FORTE 2026 [Bib](./bibs/rustmc.bib)
+
+* [Can LLMs Reason Like Automated Theorem Provers for Rust Verification? VCoT-Bench: Evaluating via Verification Chain of Thought](https://openreview.net/forum?id=YqI1tp78Ei)
+
+   ICML 2026 [PDF](https://openreview.net/pdf?id=YqI1tp78Ei) [Code](https://github.com/HIPREL-Group/VCoT-Bench) [Bib](./bibs/vcot-bench.bib)
+
+* [HarnessLLM: Rust Verification Harness Generation with Large Language Models](https://doi.org/10.1145/3744916.3773122)
+
+   ICSE 2026 [PDF](https://dl.acm.org/doi/pdf/10.1145/3744916.3773122) [Bib](./bibs/harnessllm.bib)
 
 * [Verifying the Rust Standard Library](https://doi.org/10.1007/978-3-032-28079-4_19)
 
@@ -1202,9 +1198,15 @@ Primary data is collected by human, and all data in this repository is checked m
 
    USENIX ATC 2025 [PDF](https://www.usenix.org/system/files/atc25-tang.pdf) [Bib](./bibs/converos.bib)
 
+* [Verifying Rust Implementation of Page Tables in a Software Enclave Hypervisor](https://doi.org/10.1145/3620665.3640398)
+
+   ASPLOS 2024 [PDF](https://dl.acm.org/doi/pdf/10.1145/3620665.3640398) [Code](https://github.com/asterinas/hyperenclave) [Bib](./bibs/hyperenclave.bib)
+
 * [UnsafeCop: Towards Memory Safety for Real-World Unsafe Rust Code with Practical Bounded Model Checking](https://doi.org/10.1007/978-3-031-71177-0_19)
 
    FM 2024 [PDF](https://link.springer.com/content/pdf/10.1007/978-3-031-71177-0_19.pdf) [Bib](./bibs/unsafecop.bib)
+
+   Cited by 1 papers in this awesome collection.
 
 * [Surveying the Rust Verification Landscape](https://doi.org/10.48550/arXiv.2410.01981)
 
@@ -1228,7 +1230,7 @@ Primary data is collected by human, and all data in this repository is checked m
 
    VSTTE 2024 [Code](https://github.com/cryspen/hax) [Bib](./bibs/hax.bib)
 
-   Cited by 3 papers in this awesome collection.
+   Cited by 4 papers in this awesome collection.
 
 * [Verus: Verifying Rust Programs Using Linear Ghost Types](https://doi.org/10.1145/3586037)
 
@@ -1330,6 +1332,10 @@ Primary data is collected by human, and all data in this repository is checked m
 
    TASE 2026 [Bib](./bibs/verusseek.bib)
 
+* [Automated Proof Generation for Rust Code via Self-Evolution](https://openreview.net/forum?id=2NqssmiXLu)
+
+   ICLR 2025 [PDF](https://openreview.net/pdf?id=2NqssmiXLu) [Bib](./bibs/safe.bib)
+
 * [Towards Repository-Level Program Verification with Large Language Models](https://doi.org/10.1145/3759425.3763382)
 
    LMPL 2025 [PDF](https://dl.acm.org/doi/pdf/10.1145/3759425.3763382) [Code](https://github.com/GouQi12138/RVBench) [Bib](./bibs/ragverus.bib)
@@ -1340,7 +1346,7 @@ Primary data is collected by human, and all data in this repository is checked m
 
    OOPSLA 2025 [PDF](https://dl.acm.org/doi/pdf/10.1145/3763174) [Code](https://github.com/microsoft/verus-proof-synthesis) [Bib](./bibs/autoverus.bib)
 
-   Cited by 3 papers in this awesome collection.
+   Cited by 4 papers in this awesome collection.
 
 * [A Hybrid Approach to Semi-Automated Rust Verification](https://doi.org/10.1145/3729289)
 
@@ -1352,13 +1358,13 @@ Primary data is collected by human, and all data in this repository is checked m
 
    ICSE-SEIP 2024 [PDF](https://dl.acm.org/doi/pdf/10.1145/3639477.3639714) [Bib](./bibs/paniccheck.bib)
 
-   Cited by 1 papers in this awesome collection.
+   Cited by 2 papers in this awesome collection.
 
 * [RefinedRust: A Type System for High-Assurance Verification of Rust Programs](https://doi.org/10.1145/3656422)
 
    PLDI 2024 [PDF](https://dl.acm.org/doi/pdf/10.1145/3656422) [Code](https://gitlab.mpi-sws.org/lgaeher/refinedrust-dev) [Bib](./bibs/refinedrust.bib)
 
-   Cited by 14 papers in this awesome collection.
+   Cited by 15 papers in this awesome collection.
 
 
 ## License
