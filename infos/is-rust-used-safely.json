@@ -18,6 +18,6 @@
     "Rust as a Language for High Performance GC Implementation",
     "Engineering the Servo Web Browser Engine Using Rust",
     "RustBelt",
-    "Rust for Morello: Always-On Memory Safety, Even in Unsafe Code (Experience Paper)"
+    "Rust for Morello: Always-On Memory Safety, Even in Unsafe Code"
   ]
 }
