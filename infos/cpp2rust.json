@@ -15,7 +15,6 @@
     "alias"
   ],
   "reference": [
-    "RustBelt: Securing the Foundations of the Rust Programming Language",
     "Rust-SGX",
     "Stacked Borrows: An Aliasing Model for Rust",
     "Translating C to Safer Rust",

@@ -14,7 +14,6 @@
     "MIR"
   ],
   "reference": [
-    "RustBelt: Securing the Foundations of the Rust Programming Language",
     "Prusti",
     "SMACK",
     "Prusti Closures",

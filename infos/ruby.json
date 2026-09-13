@@ -14,7 +14,6 @@
     "machine learning"
   ],
   "reference": [
-    "RustBelt: Securing the Foundations of the Rust Programming Language",
     "The Rust Language",
     "Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs",
     "Qrates",

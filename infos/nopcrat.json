@@ -20,7 +20,6 @@
     "output parameter"
   ],
   "reference": [
-    "RustBelt: Securing the Foundations of the Rust Programming Language",
     "The Rust Language",
     "Tock",
     "MirChecker",

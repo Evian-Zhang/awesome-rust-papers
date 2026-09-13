@@ -16,7 +16,6 @@
     "memory safety"
   ],
   "reference": [
-    "RustBelt: Securing the Foundations of the Rust Programming Language",
     "Prusti",
     "Stacked Borrows: An Aliasing Model for Rust",
     "RustHorn",

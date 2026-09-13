@@ -17,7 +17,6 @@
     "model checker"
   ],
   "reference": [
-    "RustBelt: Securing the Foundations of the Rust Programming Language",
     "Qrates",
     "Is Rust Used Safely by Software Developers?",
     "FFICHECKER",

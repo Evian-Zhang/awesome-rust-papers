@@ -15,7 +15,6 @@
     "verification"
   ],
   "reference": [
-    "RustBelt: Securing the Foundations of the Rust Programming Language",
     "The Rust Language",
     "Fuzzing the Rust Typechecker Using CLP (T)",
     "Engineering the Servo Web Browser Engine Using Rust",

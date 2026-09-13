@@ -15,7 +15,6 @@
     "unsafe"
   ],
   "reference": [
-    "RustBelt: Securing the Foundations of the Rust Programming Language",
     "Tock",
     "Stacked Borrows: An Aliasing Model for Rust",
     "Fuzzing the Rust Typechecker Using CLP (T)",

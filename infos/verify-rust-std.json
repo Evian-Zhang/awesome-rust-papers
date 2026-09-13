@@ -10,7 +10,6 @@
     "verification"
   ],
   "reference": [
-    "RustBelt: Securing the Foundations of the Rust Programming Language",
     "Tock",
     "Verus",
     "Qrates",

@@ -20,7 +20,6 @@
     "borrow checker"
   ],
   "reference": [
-    "RustBelt: Securing the Foundations of the Rust Programming Language",
     "Prusti",
     "The Rust Language",
     "Verus",

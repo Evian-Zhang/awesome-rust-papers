@@ -18,7 +18,6 @@
     "MIR"
   ],
   "reference": [
-    "RustBelt: Securing the Foundations of the Rust Programming Language",
     "The Rust Language",
     "SMACK",
     "cargo-klee",

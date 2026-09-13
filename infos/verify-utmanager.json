@@ -13,7 +13,6 @@
   "reference": [
     "The Prusti Project: Formal Verification for Rust",
     "Theseus",
-    "RustBelt: Securing the Foundations of the Rust Programming Language",
     "Verus: A Practical Foundation for Systems Verification",
     "Verus",
     "RedLeaf",

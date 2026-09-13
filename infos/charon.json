@@ -14,7 +14,6 @@
     "AST"
   ],
   "reference": [
-    "RustBelt: Securing the Foundations of the Rust Programming Language",
     "Prusti",
     "Verus",
     "Creusot",

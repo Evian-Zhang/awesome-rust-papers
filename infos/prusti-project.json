@@ -12,7 +12,6 @@
     "Prusti"
   ],
   "reference": [
-    "RustBelt: Securing the Foundations of the Rust Programming Language",
     "Prusti",
     "Qrates",
     "Stacked Borrows: An Aliasing Model for Rust",

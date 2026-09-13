@@ -14,7 +14,6 @@
     "void pointer"
   ],
   "reference": [
-    "RustBelt: Securing the Foundations of the Rust Programming Language",
     "Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs",
     "Qrates",
     "Translating C to Safer Rust",
