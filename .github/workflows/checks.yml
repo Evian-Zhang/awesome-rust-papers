@@ -17,3 +17,5 @@ jobs:
         run: python3 scripts/info-bib-consistency-check.py
       - name: info duplicate reference check
         run: python3 scripts/info-duplicate-reference-check.py
+      - name: unit tests
+        run: python3 -m unittest discover -v
