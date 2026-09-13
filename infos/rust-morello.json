@@ -1,5 +1,5 @@
 {
-  "title": "Rust for Morello: Always-On Memory Safety, Even in Unsafe Code (Experience Paper)",
+  "title": "Rust for Morello: Always-On Memory Safety, Even in Unsafe Code",
   "link": "https://doi.org/10.4230/LIPIcs.ECOOP.2023.39",
   "pdf": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol263-ecoop2023/LIPIcs.ECOOP.2023.39/LIPIcs.ECOOP.2023.39.pdf",
   "repo": "https://github.com/kent-weak-memory/rust",

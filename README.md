@@ -372,12 +372,6 @@ Agents that discover skills under `.agents/skills/` will pick up `analyzing-rust
 
    FM 2026 [PDF](https://link.springer.com/content/pdf/10.1007/978-3-032-26204-2_19.pdf) [Code](https://github.com/Drodt/fm26-artifact) [Bib](./bibs/rustydl.bib)
 
-* [Tree Borrows](https://doi.org/10.1145/3735592)
-
-   POPL 2026 [PDF](https://dl.acm.org/doi/pdf/10.1145/3735592) [Bib](./bibs/tree-borrows.bib)
-
-   Cited by 8 papers in this awesome collection.
-
 * [Compositional Bug Detection for Internally Unsafe Libraries: A Logical Approach to Type Unsoundness](https://doi.org/10.4230/LIPIcs.ECOOP.2025.5)
 
    ECOOP 2025 [PDF](https://drops.dagstuhl.de/storage/00lipics/lipics-vol333-ecoop2025/LIPIcs.ECOOP.2025.5/LIPIcs.ECOOP.2025.5.pdf) [Code](https://doi.org/10.4230/DARTS.11.2.9) [Bib](./bibs/ruxt.bib)
@@ -385,6 +379,12 @@ Agents that discover skills under `.agents/skills/` will pick up `analyzing-rust
 * [Place Capability Graphs: A General-Purpose Model of Rust's Ownership and Borrowing Guarantees](https://doi.org/10.1145/3763122)
 
    OOPSLA 2025 [PDF](https://dl.acm.org/doi/pdf/10.1145/3763122) [Code](https://github.com/prusti/pcg) [Bib](./bibs/place-capability-graphs.bib)
+
+* [Tree Borrows](https://doi.org/10.1145/3735592)
+
+   PLDI 2025 [PDF](https://dl.acm.org/doi/pdf/10.1145/3735592) [Bib](./bibs/tree-borrows.bib)
+
+   Cited by 8 papers in this awesome collection.
 
 * [Formally Understanding Rust's Ownership and Borrowing System at the Memory Level](https://doi.org/10.1007/s10703-024-00460-3)
 
@@ -556,7 +556,7 @@ Agents that discover skills under `.agents/skills/` will pick up `analyzing-rust
 
 * [Towards a Safe, Verified Runtime Monitor for Embedded Systems: R2U2 in Embedded Rust](https://doi.org/10.1007/978-3-031-93706-4_3)
 
-   FM 2025 [Bib](./bibs/r2u2rust.bib)
+   NFM 2025 [Bib](./bibs/r2u2rust.bib)
 
 * [Tock: From Research To Securing 10 Million Computers](https://doi.org/10.1145/3731569.3764828)
 
@@ -578,11 +578,9 @@ Agents that discover skills under `.agents/skills/` will pick up `analyzing-rust
 
    SoCC 2024 [PDF](https://dl.acm.org/doi/pdf/10.1145/3698038.3698562) [Bib](./bibs/krustvm.bib)
 
-* [Rust for Morello: Always-On Memory Safety, Even in Unsafe Code (Experience Paper)](https://doi.org/10.4230/LIPIcs.ECOOP.2023.39)
+* [Rust for Morello: Always-On Memory Safety, Even in Unsafe Code](https://doi.org/10.4230/LIPIcs.ECOOP.2023.39)
 
    ECOOP 2023 [PDF](https://drops.dagstuhl.de/storage/00lipics/lipics-vol263-ecoop2023/LIPIcs.ECOOP.2023.39/LIPIcs.ECOOP.2023.39.pdf) [Code](https://github.com/kent-weak-memory/rust) [Bib](./bibs/rust-morello.bib)
-
-   Cited by 4 papers in this awesome collection.
 
 * [Rust-Shyper: A reliable embedded hypervisor supporting VM migration and hypervisor live-update](https://doi.org/10.1016/j.sysarc.2023.102948)
 
@@ -630,7 +628,7 @@ Agents that discover skills under `.agents/skills/` will pick up `analyzing-rust
 
 * [Rust-Bio: a fast and safe bioinformatics library](https://doi.org/10.1093/bioinformatics/btv573)
 
-   Bioinformatics 2015 [PDF](https://academic.oup.com/bioinformatics/article-pdf/32/3/444/49016785/bioinformatics_32_3_444.pdf) [Code](https://github.com/rust-bio/rust-bio) [Bib](./bibs/rust-bio.bib)
+   Bioinformatics 2016 [PDF](https://academic.oup.com/bioinformatics/article-pdf/32/3/444/49016785/bioinformatics_32_3_444.pdf) [Code](https://github.com/rust-bio/rust-bio) [Bib](./bibs/rust-bio.bib)
 
    Cited by 1 papers in this awesome collection.
 
@@ -872,10 +870,6 @@ Agents that discover skills under `.agents/skills/` will pick up `analyzing-rust
 
    Cited by 1 papers in this awesome collection.
 
-* [Detecting Memory Errors in Rust Programs Including Unsafe Foreign Code](https://doi.org/10.1007/978-3-032-10444-1_11)
-
-   FM 2025 [Code](https://github.com/AFx3/crema-static-analyzer) [Bib](./bibs/crema.bib)
-
 * [A Study of Undefined Behavior Across Foreign Function Boundaries in Rust Libraries](https://doi.org/10.1109/ICSE55347.2025.00167)
 
    ICSE 2025 [PDF](https://arxiv.org/pdf/2404.11671) [Code](https://github.com/icmccorm/mirilli) [Bib](./bibs/mirilli.bib)
@@ -885,6 +879,10 @@ Agents that discover skills under `.agents/skills/` will pick up `analyzing-rust
 * [Safe4U: Identifying Unsound Safe Encapsulations of Unsafe Calls in Rust using LLMs](https://doi.org/10.1145/3728890)
 
    ISSTA 2025 [PDF](https://dl.acm.org/doi/pdf/10.1145/3728890) [Code](https://github.com/huanli-00/Safe4U-replication) [Bib](./bibs/safe4u.bib)
+
+* [Detecting Memory Errors in Rust Programs Including Unsafe Foreign Code](https://doi.org/10.1007/978-3-032-10444-1_11)
+
+   SEFM 2025 [Code](https://github.com/AFx3/crema-static-analyzer) [Bib](./bibs/crema.bib)
 
 * [TYPEPULSE: Detecting Type Confusion Bugs in Rust Programs](https://www.usenix.org/conference/usenixsecurity25/presentation/chen-hung-mao)
 
