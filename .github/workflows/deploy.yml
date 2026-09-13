@@ -9,6 +9,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
+        with:
+          # Full history so build-web-data.py can resolve addedAt dates.
+          fetch-depth: 0
       - uses: actions/checkout@v7
         with:
           repository: Evian-Zhang/awesome-rust-papers-web

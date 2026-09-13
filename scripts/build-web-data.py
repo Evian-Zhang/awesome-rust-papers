@@ -18,12 +18,18 @@ Resolution rules (agreed with the data maintainers):
   by hand.
 - BibTeX files are intentionally NOT parsed: author information is out of
   scope for the first version of the website.
+- `addedAt` (when an entry's infos file first entered the collection) is
+  derived from git history instead of being maintained by hand. Every
+  infos file must be committed and the full history must be available
+  (actions/checkout fetch-depth: 0); the script exits with an error
+  otherwise, so builds never silently lack add dates.
 
 Run:  python3 scripts/build-web-data.py --out <dir>
 """
 
 import argparse
 import json
+import subprocess
 import sys
 
 from pathlib import Path
@@ -49,6 +55,55 @@ def load_entries():
         with path.open() as f:
             entries[path.stem] = json.load(f)
     return entries
+
+
+def load_added_dates():
+    """Map paper id -> ISO 8601 author date of the commit that first added
+    infos/<id>.json. Exits with an error when git history is unusable.
+    """
+    try:
+        shallow = subprocess.run(
+            ["git", "rev-parse", "--is-shallow-repository"],
+            cwd=PROJECT_DIR,
+            capture_output=True,
+            text=True,
+        )
+    except OSError:
+        sys.exit("git is required to resolve addedAt dates")
+    if shallow.returncode != 0:
+        sys.exit("addedAt dates need git history, but this is not a git repository")
+    if shallow.stdout.strip() == "true":
+        sys.exit(
+            "addedAt dates need full git history: shallow clone detected, "
+            "run `git fetch --unshallow`"
+        )
+
+    result = subprocess.run(
+        [
+            "git",
+            "log",
+            "--diff-filter=A",
+            "--format=C:%aI",
+            "--name-only",
+            "--reverse",
+            "--",
+            "infos/",
+        ],
+        cwd=PROJECT_DIR,
+        capture_output=True,
+        text=True,
+    )
+    if result.returncode != 0:
+        sys.exit(f"git log failed while resolving addedAt dates: {result.stderr.strip()}")
+
+    added = {}
+    current_date = None
+    for line in result.stdout.splitlines():
+        if line.startswith("C:"):
+            current_date = line[2:]
+        elif current_date and line.endswith(".json"):
+            added.setdefault(Path(line).stem, current_date)
+    return added
 
 
 def build_lookups(entries):
@@ -105,6 +160,13 @@ def main():
     if not entries:
         sys.exit("no infos/*.json found")
 
+    added_dates = load_added_dates()
+
+    uncommitted = sorted(pid for pid in entries if pid not in added_dates)
+    if uncommitted:
+        listing = "\n  ".join(f"infos/{pid}.json" for pid in uncommitted)
+        sys.exit("infos files without a git history entry, commit them first:\n  " + listing)
+
     alias_map, no_alias_title_map, ref_map = build_lookups(entries)
 
     # First pass: resolve forward relations.
@@ -123,6 +185,7 @@ def main():
             "alias": payload.get("alias"),
             "venue": payload.get("venue"),
             "year": payload["year"],
+            "addedAt": added_dates.get(pid),
             "categories": list(payload.get("category", [])),
             "tags": list(payload.get("tag", [])),
             "links": {
@@ -198,6 +261,7 @@ def main():
     )
     print(f"papers: {len(paper_list)}")
     print(f"external codenames in based/compared: {external_count}")
+    print(f"addedAt dates resolved from git: {sum(1 for p in paper_list if p['addedAt'])}")
     print(f"wrote {out_path} ({out_path.stat().st_size} bytes)")
 
 
