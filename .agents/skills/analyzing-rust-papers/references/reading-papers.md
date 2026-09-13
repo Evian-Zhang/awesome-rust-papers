@@ -6,7 +6,8 @@ The collection metadata and local BibTeX files are the starting evidence.
 ## Inspect local BibTeX
 
 The library intentionally provides a `bib_path` rather than a BibTeX parser.
-Read the raw file directly; no third-party BibTeX dependency is needed.
+These files contain citation entries from first-party sources. Read the raw
+file directly; no third-party BibTeX dependency is needed.
 
 ```python
 paper = collection.get("rustbelt")
@@ -34,6 +35,10 @@ evidence. It does not mean the paper has no abstract, or that its content fails
 to match the topic. Report missing evidence when it affects search coverage.
 
 ## Synthesize from the available evidence
+
+A user-requested comparison of methods or features can be synthesized from
+the papers even when no `compared` edge is recorded. Identify it as your own
+comparison, distinct from an experiment reported by a paper.
 
 1. Define the comparison question and select candidates using the main skill's
    topic-search guidance.

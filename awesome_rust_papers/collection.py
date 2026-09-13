@@ -29,9 +29,19 @@ class Paper:
 
     ``category`` is an ordered path from the broadest category to the most
     specific one; ``tag`` contains independent labels.  ``year`` is the
-    collection's year for filtering, ordering, and statistics.  Empty relation
-    tuples mean no relation is recorded, not that none exists outside the
-    collection.
+    recorded publication year used for filtering, ordering, and statistics.
+    ``venue`` can identify a conference, journal, workshop, or preprint archive.
+
+    ``link`` is the canonical paper page, usually a DOI link; ``pdf`` is a
+    recorded direct PDF link.  ``repo`` can point to source code or other
+    research artifacts, so its presence alone does not establish that source
+    code is available.
+
+    ``reference`` lists cited papers in this collection, omitting works outside
+    it.  ``based`` records work the paper is built on.  ``compared`` records
+    experimental baselines or alternative tools compared in the paper's
+    evaluation, excluding related-work discussion and feature-only comparisons.
+    Empty relation tuples mean no relation is recorded, not that none exists.
     """
 
     id: str
@@ -40,7 +50,6 @@ class Paper:
     link: str | None
     pdf: str | None
     repo: str | None
-    further: tuple[str, ...]
     venue: str | None
     year: int
     category: tuple[str, ...]
@@ -199,7 +208,6 @@ def load_collection(root: str | Path = ".") -> Collection:
                 link=_optional_string(raw, "link", info_path),
                 pdf=_optional_string(raw, "pdf", info_path),
                 repo=_optional_string(raw, "repo", info_path),
-                further=_string_tuple(raw, "further", info_path),
                 venue=_optional_string(raw, "venue", info_path),
                 year=_required_year(raw, info_path),
                 category=_string_tuple(raw, "category", info_path),

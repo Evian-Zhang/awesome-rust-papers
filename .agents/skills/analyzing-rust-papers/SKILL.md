@@ -48,12 +48,14 @@ a script located outside the repository, run it from the repository root with
 | Paper field | Type and meaning |
 | --- | --- |
 | `id` | Stable string ID from the info filename |
-| `title`, `alias` | Title string and optional alias |
-| `year`, `venue` | Collection year and optional venue string |
+| `title`, `alias` | Full published title and optional short name |
+| `year` | Recorded publication year (integer) |
+| `venue` | Optional short name of a conference, journal, workshop, or preprint archive |
 | `category` | Tuple forming a path from broadest to most specific category |
 | `tag` | Tuple of independent labels |
-| `link`, `pdf`, `repo` | Optional recorded publication, PDF, and code links |
-| `further` | Tuple of supplementary links |
+| `link` | Optional canonical paper page, usually a DOI link |
+| `pdf` | Optional direct PDF link |
+| `repo` | Optional code or research artifact repository link |
 | `relations` | Raw `reference`, `based`, and `compared` values |
 | `info_path`, `bib_path` | Evidence path and optional BibTeX path |
 
@@ -102,8 +104,9 @@ name matching is for discovery, not for constructing new relation edges.
 - Include zero-count years throughout a requested interval. Sort timeline
   entries by year with a stable tie-breaker such as ID.
 - State a proportion's numerator and denominator. An empty denominator is
-  not applicable, not 0%. A code-link ratio measures recorded links, not
-  confirmed artifact availability.
+  not applicable, not 0%. Counting nonempty `repo` fields measures recorded
+  code or artifact links. For a question specifically about source-code
+  availability, inspect the linked contents before classifying them as code.
 - For citation statistics, distinguish the selected target papers from the
   set of citing papers being counted. Apply any requested year or topic
   constraints to the appropriate side and state both scopes.
@@ -111,6 +114,9 @@ name matching is for discovery, not for constructing new relation edges.
   papers can describe one tool; a shared repository does not merge papers.
 - Time trends describe the collection's recorded coverage. The current year
   may be incomplete; counts alone do not establish changes across the field.
+  arXiv and CoRR preprints are selected partly by citation uptake, and accepted
+  but unpublished versions are not added as formal publications. Account for
+  these selection rules when interpreting recent-year or preprint coverage.
 
 For example, an explicit request for ICSE coverage from 2021 through 2026:
 
@@ -130,8 +136,17 @@ for paper in sorted(papers, key=lambda paper: (paper.year, paper.id)):
 
 ## Analyze relationships
 
-All three relation kinds use the same string target format. In this table,
-`X` is a paper or its ID:
+All three relation kinds use string targets, with different meanings:
+
+- `reference`: papers in this collection cited by the source paper. Works
+  outside the collection are omitted, so this is not its full bibliography.
+- `based`: work the source paper is built on.
+- `compared`: experimental baselines and alternative tools compared against
+  in the source paper's evaluation. Related-work discussion and comparisons
+  only at the feature level are excluded.
+
+The same target can appear in several relation kinds; preserve each relation's
+meaning. In this table, `X` is a paper or its ID:
 
 | User question | Library call |
 | --- | --- |
@@ -139,8 +154,8 @@ All three relation kinds use the same string target format. In this table,
 | Which papers reference X? | `incoming(X, "reference")` |
 | Which papers is X based on? | `outgoing(X, "based")` |
 | Which papers are based on X? | `incoming(X, "based")` |
-| Which papers does X compare with? | `outgoing(X, "compared")` |
-| Which papers compare with X? | `incoming(X, "compared")` |
+| Which works does X compare against in its evaluation? | `outgoing(X, "compared")` |
+| Which papers compare against X in their evaluations? | `incoming(X, "compared")` |
 
 An unresolved `based` or `compared` target is an external object; keep its
 original name. External targets are also queryable:

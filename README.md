@@ -582,6 +582,8 @@ Agents that discover skills under `.agents/skills/` will pick up `analyzing-rust
 
    ECOOP 2023 [PDF](https://drops.dagstuhl.de/storage/00lipics/lipics-vol263-ecoop2023/LIPIcs.ECOOP.2023.39/LIPIcs.ECOOP.2023.39.pdf) [Code](https://github.com/kent-weak-memory/rust) [Bib](./bibs/rust-morello.bib)
 
+   Cited by 4 papers in this awesome collection.
+
 * [Rust-Shyper: A reliable embedded hypervisor supporting VM migration and hypervisor live-update](https://doi.org/10.1016/j.sysarc.2023.102948)
 
    JSA 2023 [Code](https://github.com/openeuler-mirror/rust_shyper) [Bib](./bibs/rust-shyper.bib)
