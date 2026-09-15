@@ -8,7 +8,7 @@ Subscribe via [RSS](https://evian-zhang.github.io/awesome-rust-papers/feed.xml) 
 
 Papers are grouped by topic and ordered by year within each group. Contributions are welcome — see [CONTRIBUTING](./CONTRIBUTING.md).
 
-Primary data is collected by human, and all data in this repository is checked manually by human, and is guaranteed to be hallucination-free. If there is anything wrong, feel free to send an issue.
+All content-related paper data is collected by human (e.g., categories, tags, the tools that this paper compares or extends), and all data in this repository is checked manually by human. All data is guaranteed to be hallucination-free. If there is anything wrong, feel free to send an issue.
 
 ## Agents
 
@@ -1384,6 +1384,11 @@ Agents that discover skills under `.agents/skills/` will pick up `analyzing-rust
 
    Cited by 15 papers in this awesome collection.
 
+
+## Related Projects
+
+* [rust-unofficial/awesome-rust](https://github.com/rust-unofficial/awesome-rust)
+* [BurtonQin/Awesome-Rust-Checker](https://github.com/BurtonQin/Awesome-Rust-Checker)
 
 ## License
 
