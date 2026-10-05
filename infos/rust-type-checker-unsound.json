@@ -1,0 +1,43 @@
+{
+  "title": "Rust’s Type Checker Implementation Is Unsound: An Empirical Study on Soundness Bugs in rustc",
+  "link": "https://doi.org/10.1145/3832220",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3832220",
+  "repo": "https://doi.org/10.5281/zenodo.20728406",
+  "compared": [
+    "An Empirical Study of Bugs in the rustc Compiler"
+  ],
+  "venue": "ISSTA",
+  "year": 2026,
+  "category": [
+    "security",
+    "compiler"
+  ],
+  "tag": [
+    "type checker",
+    "soundness",
+    "memory safety",
+    "empirical study"
+  ],
+  "reference": [
+    "Atmosphere",
+    "KrustVM",
+    "HyperEncalve",
+    "Fuzzing the Rust Typechecker Using CLP (T)",
+    "Laertes",
+    "Translating C to Safer Rust",
+    "Concrat",
+    "Nopcrat",
+    "Urcrat",
+    "Tymcrat",
+    "Forcrat",
+    "Unishyper",
+    "RustBelt",
+    "Miri",
+    "Tock",
+    "Rust for Linux: Understanding the Security Impact of Rust in the Linux Kernel",
+    "An Empirical Study of Bugs in the rustc Compiler",
+    "The Rust Language",
+    "RedLeaf",
+    "Rust-twins"
+  ]
+}

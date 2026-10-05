@@ -1,0 +1,38 @@
+{
+  "title": "RICE: Harnessing LLMs and Historical Issues to Discover Internal Rust Compiler Errors",
+  "alias": "RICE",
+  "link": "https://doi.org/10.1145/3832277",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3832277",
+  "repo": "https://github.com/lulan-cc/RICE",
+  "compared": [
+    "RustSmith",
+    "Clozemaster",
+    "Rustlantis"
+  ],
+  "venue": "ISSTA",
+  "year": 2026,
+  "category": [
+    "security",
+    "compiler"
+  ],
+  "tag": [
+    "LLM",
+    "ICE"
+  ],
+  "reference": [
+    "Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs",
+    "Verus",
+    "Qrates",
+    "RustSmith",
+    "Fuzzing the Rust Typechecker Using CLP (T)",
+    "Aquascope",
+    "Rustlantis",
+    "Clozemaster",
+    "Formal Security and Functional Verification of Cryptographic Protocol Implementations in Rust",
+    "Rust-twins",
+    "REM",
+    "Verifying Dynamic Trait Objects in Rust",
+    "OOM-Guard",
+    "An Empirical Study of Bugs in the rustc Compiler"
+  ]
+}

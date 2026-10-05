@@ -1,0 +1,18 @@
+@article{10.1145/3839484,
+author = {G{\"a}her, Lennard and Lafeychine, Vincent and Kehrli, Sascha and Shinnar, Avraham and Ozga, Wojciech and Hunt, Guerney and Dreyer, Derek},
+title = {Bringing Foundational Verification to Real-World Rust Code},
+year = {2026},
+issue_date = {October 2026},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {10},
+number = {OOPSLA2},
+url = {https://doi.org/10.1145/3839484},
+doi = {10.1145/3839484},
+abstract = {Rust is a modern systems programming language that, thanks to its strong memory safety guarantees, is well-suited to the domain of safety-critical systems.   Since memory safety alone is not ultimately enough for safety-critical systems, there have emerged in recent years a number of tools for deductive verification of functional correctness of Rust programs.   One recent tool, RefinedRust, is notable in that it both handles unsafe pointer-manipulating Rust code and produces foundational, machine-checked proofs in the Rocq prover.   However, RefinedRust is a prototype tool and lacks support for several of the high-level abstractions that Rust provides, including traits, closures, and iterators.   These features are commonly used in real-world Rust code, and are supported by other non-foundational Rust verification tools like Prusti and Creusot.    In this paper, we show how to extend RefinedRust with these features, and in a manner such that they can be used in conjunction with unsafe code.   We demonstrate its usefulness by verifying interesting parts of the memory subsystem of the real-world, low-level ACE security monitor, including its page allocator.},
+journal = {Proc. ACM Program. Lang.},
+month = oct,
+articleno = {352},
+numpages = {27},
+keywords = {Iris, Rust, program verification, separation logic}
+}

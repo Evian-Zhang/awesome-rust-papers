@@ -1,0 +1,35 @@
+{
+  "title": "Validating Rust Compilers with Trait-Type Constraint Graph",
+  "alias": "TraitFuzzer",
+  "link": "https://doi.org/10.1145/3830418.3843907",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3830418.3843907",
+  "repo": "https://github.com/CGCL-codes/TraitFuzzer/",
+  "compared": [
+    "Rust-twins",
+    "Clozemaster"
+  ],
+  "venue": "SOSP",
+  "year": 2026,
+  "category": [
+    "security",
+    "compiler"
+  ],
+  "tag": [
+    "trait",
+    "fuzzing",
+    "LLM",
+    "Agent"
+  ],
+  "reference": [
+    "RustBelt",
+    "Tock",
+    "RustSmith",
+    "Fuzzing the Rust Typechecker Using CLP (T)",
+    "Aquascope",
+    "Rustlantis",
+    "Clozemaster",
+    "An Empirical Study of Bugs in the rustc Compiler",
+    "Rust-twins",
+    "SquirrelFS"
+  ]
+}

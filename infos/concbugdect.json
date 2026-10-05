@@ -1,0 +1,37 @@
+{
+  "title": "Petri Nets-based Methods on Automatically Detecting for Concurrency Bugs in Rust Programs",
+  "link": "https://doi.org/10.1145/3849803",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3849803",
+  "repo": "https://github.com/kevindadi/ConcBugDect-Rust",
+  "compared": [
+    "lockbud",
+    "Miri"
+  ],
+  "venue": "TAAS",
+  "year": 2026,
+  "category": [
+    "security",
+    "concurrency"
+  ],
+  "tag": [
+    "MIR",
+    "deadlock",
+    "data race"
+  ],
+  "reference": [
+    "The Prusti Project: Formal Verification for Rust",
+    "Rudra",
+    "SafeDrop",
+    "RustAssistant",
+    "Is Rust used safely by software developers?",
+    "RustBelt",
+    "MirChecker",
+    "Understanding memory and thread safety practices and issues in real-world Rust programs",
+    "Verifying dynamic trait objects in rust",
+    "Krust",
+    "Memory-safety challenge considered solved? An in-depth study with all Rust CVEs",
+    "AutoVerus",
+    "Learning and programming challenges of rust: a mixed-methods study",
+    "lockbud"
+  ]
+}

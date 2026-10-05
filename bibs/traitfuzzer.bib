@@ -1,0 +1,18 @@
+@inproceedings{10.1145/3830418.3843907,
+author = {Lai, Xin and Wen, Ming and Liao, Xiaofei and Jin, Hai},
+title = {Validating Rust Compilers with Trait-Type Constraint Graph},
+year = {2026},
+isbn = {9798400725852},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3830418.3843907},
+doi = {10.1145/3830418.3843907},
+abstract = {Rust is increasingly adopted in safety-critical systems software, making the reliability of its compiler particularly important. Defects in the Rust compiler can lead to incorrect compiler behavior and compromise the reliability of the compilation process. Systematic validation of the compiler is therefore imperative. Through an empirical analysis of real-world Rust compiler bugs, we find that the trait mechanism remains a primary source of hard-to-detect compiler bugs that existing validation tools consistently miss. To address this, we propose a validation methodology based on a novel concept of Trait-Type Constraint Graph (TTCG), a graph that captures semantic relationships between traits and types and enables the derivation of the Trait Constraint Space (TCS) for systematic exploration. Guided by TTCG, our tool TraitFuzzer first leverages large language models to rewrite seed programs into trait-dense forms, and then applies TTCG-guided mutations to drive the compiler toward under-tested trait-solving logic and cross-feature interactions. In total, TraitFuzzer has discovered 51 bugs, 45 of which have already been confirmed. Further analysis reveals that 41 bugs can only be triggered with trait structures. More importantly, none of these bugs can be detected by the baseline approaches. Our tool, together with the reported bugs, has also received positive feedback from the community.},
+booktitle = {Proceedings of the ACM SIGOPS 32nd Symposium on Operating Systems Principles},
+pages = {1023–1038},
+numpages = {16},
+keywords = {Rust Compiler, Compiler Validation, Trait},
+location = {
+},
+series = {SOSP '26}
+}

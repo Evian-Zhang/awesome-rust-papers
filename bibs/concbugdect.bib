@@ -1,0 +1,15 @@
+@article{10.1145/3849803,
+author = {Zhang, Kaiwen and Liu, Guanjun},
+title = {Petri Nets-based Methods on Automatically Detecting for Concurrency Bugs in Rust Programs},
+year = {2026},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+issn = {1556-4665},
+url = {https://doi.org/10.1145/3849803},
+doi = {10.1145/3849803},
+abstract = {Rust's memory safety guarantees, notably ownership and lifetime systems, have driven its widespread adoption. Concurrency bugs still occur in Rust programs, and existing detection approaches exhibit significant limitations: static analyzers suffer from context insensitivity and high false positives, while dynamic methods incur prohibitive runtime costs due to exponential path exploration. This paper presents a Petri net-based method for detecting Rust concurrency bugs from Rust's compiler-derived Mid-level Intermediate Representation (MIR), restricted to the concurrency-relevant operations needed by the target bug classes. The method rests on three pillars: (1) A syntax-directed program-to-Petri-net transformation tailored for target bug classes; (2) Witness-preserving state compression via context-aware slicing; (3) Bug detection through efficient Petri net reachability analysis.The core innovation is its control-flow-driven modeling of Rust synchronization primitives and ownership-relevant resource lifecycles within the Petri net structure, with concurrency-relevant operations represented as token movements. Integrated pointer analysis automates alias identification during transformation. Experiments on Rust concurrency benchmarks show that the proposed analysis improves over LockBud in precision and over Miri in path coverage or runtime on the evaluated cases. Compared to LockBud, our approach reduces false positives by 35.7\% and false negatives by 28.3\% through flow-sensitive alias-aware resource binding. Compared with Miri, which is a dynamic analysis tool, our reachability-based method avoids repeated schedule execution and is substantially faster on several benchmark cases.},
+note = {Just Accepted},
+journal = {ACM Trans. Auton. Adapt. Syst.},
+month = oct,
+keywords = {Concurrent bugs, Petri Net, Rust Language}
+}

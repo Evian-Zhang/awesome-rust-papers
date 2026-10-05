@@ -1,0 +1,18 @@
+@article{10.1145/3832277,
+author = {Lu, Langyi and You, Wei and Liang, Bin and Huang, Jianjun},
+title = {RICE: Harnessing LLMs and Historical Issues to Discover Internal Rust Compiler Errors},
+year = {2026},
+issue_date = {October 2026},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {3},
+number = {ISSTA},
+url = {https://doi.org/10.1145/3832277},
+doi = {10.1145/3832277},
+abstract = {Rust is a modern system-level programming language that emphasizes safety, concurrency, and performance. Ensuring the reliability of the Rust compiler is critical, as undetected compiler defects, particularly internal compiler errors (ICEs), can lead to runtime crashes or undefined behavior in system software. Existing compiler testing methods, including generation-based, mutation-based, and recent LLM-driven approaches, are limited in their ability to systematically uncover ICEs triggered by advanced language features or complex code interactions. In this paper, we propose RICE, an LLM-assisted Rust compiler testing framework that generates test cases by adapting defect-prone patterns extracted from historical ICE issues to diverse code contexts in the official test suite. RICE features simplification-guided identification of defect-prone patterns and context-   aware adaptation of patterns to maintain compilability and meaningful semantic interactions. Applied to multiple recent Rust compiler releases, RICE discovered 37 ICEs, including 15 previously unknown zero-day bugs, outperforming existing testing tools in code coverage and ICE discovery. Our results demonstrate that systematically leveraging historical defect-prone patterns enables more effective testing, accelerates bug fixing, and enhances regression testing in Rust compilers},
+journal = {Proc. ACM Softw. Eng.},
+month = oct,
+articleno = {ISSTA186},
+numpages = {24},
+keywords = {compiler testing, historical issues, internal compiler errors, large language models}
+}

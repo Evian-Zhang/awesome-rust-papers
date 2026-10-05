@@ -1,0 +1,30 @@
+{
+  "title": "KaPilot: LLM-Assisted Generation of Kani Specifications for Unsafe Rust Verification",
+  "alias": "KaPilot",
+  "link": "https://doi.org/10.1145/3832239",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3832239",
+  "repo": "https://github.com/ant-research/KaPilot-skills",
+  "based": ["Kani"],
+  "venue": "ISSTA",
+  "year": 2026,
+  "category": [
+    "verification"
+  ],
+  "tag": [
+    "LLM",
+    "Agent",
+    "specification"
+  ],
+  "reference": [
+    "Gillian-Rust",
+    "RefinedRust",
+    "RustBelt",
+    "Verus",
+    "Safe4U",
+    "RustHornBelt",
+    "SMACK",
+    "Verifying Dynamic Trait Objects in Rust",
+    "UnsafeCop",
+    "AutoVerus"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "title": "Bringing Foundational Verification to Real-World Rust Code",
+  "link": "https://doi.org/10.1145/3839484",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3839484",
+  "repo": "https://doi.org/10.5281/zenodo.21636474",
+  "based": [
+    "RefinedRust"
+  ],
+  "compared": [
+    "Creusot"
+  ],
+  "venue": "OOPSLA",
+  "year": 2026,
+  "category": [
+    "verification"
+  ],
+  "tag": [
+    "trait",
+    "unsafe"
+  ],
+  "reference": [
+    "RefinedRust",
+    "RustHorn",
+    "Verus: A Practical Foundation for Systems Verification",
+    "RustHornBelt",
+    "Using Ghost Ownership to Verify Union-Find and Persistent Arrays in Rust"
+  ]
+}
