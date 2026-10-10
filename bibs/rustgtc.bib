@@ -1,0 +1,17 @@
+@inproceedings{10.1145/3832783.3837531,
+author = {Zhang, Yichi and Huang, Jinhao and Feng, Yang},
+title = {RustGTC: Constraint-Guided Test Generation for Rust APIs via Comment Analysis and Code Context},
+year = {2026},
+isbn = {9798400728822},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3832783.3837531},
+doi = {10.1145/3832783.3837531},
+abstract = {Manually crafting test cases for Rust APIs is labor-intensive and error-prone, especially because of Rust’s advanced features and complex trait system. Recent advances in large language models (LLMs) have shown promise in automated test generation; however, existing approaches often underuse documented input requirements embedded in API comments. We present RustGTC, a framework that uses API comments to guide Rust API test generation. RustGTC extracts documented parameter constraints from comments, constructs tests around boundary cases, and repairs generated tests to improve compilability. We evaluate RustGTC on 12 Rust crates, achieving high coverage and uncovering 41 defects. Additionally, we submitted 132 test cases; 123 were accepted, 9 were rejected. These results show that RustGTC uses documented constraints to guide Rust API test generation and reveal comment-code inconsistencies around boundary cases.},
+booktitle = {Proceedings of the 41st IEEE/ACM International Conference on Automated Software Engineering},
+pages = {2985–2996},
+numpages = {12},
+keywords = {Code Comment Inconsistency, Large Language Model, Program Analysis, Rust, Test Generation},
+location = {Munich, Germany},
+series = {ASE '26}
+}

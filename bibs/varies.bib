@@ -1,0 +1,17 @@
+@inproceedings{10.1145/3832783.3837450,
+author = {Li, Huan and Hu, Xing and Xia, Xin and Wang, Xinyu},
+title = {VARIES: Verification Harness Synthesis and Efficient Scheduling for Unsoundness Detection in Rust Libraries},
+year = {2026},
+isbn = {9798400728822},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3832783.3837450},
+doi = {10.1145/3832783.3837450},
+abstract = {Rust provides strong compile-time safety guarantees, but unsafe code in real-world libraries can still introduce unsoundness bugs that may undermine this guarantee. Compared with prior work,  bounded model checking (BMC) offers a promising direction by adapting formal verification to unsoundness detection. In practice, however, BMC requires harnesses that are tedious to construct, and many unsoundness bugs arise only under specific program states that a single harness may miss. To this end, we propose Varies, a BMC-based framework that treats unsoundness detection in Rust libraries as a joint problem of harness synthesis and budget-aware verification. During the synthesis stage, Varies builds seed harnesses for each target API and then expands them into derived harnesses through mutator injection. Over the resulting harness derivation tree, Varies applies feedback-driven pruning strategies to schedule verification efficiently. In our benchmark, Varies identifies defects involving target APIs in more evaluated crates than any baseline while maintaining a low false-positive rate. In a broader deployment on popular crates.io libraries, it identifies previously unknown unsoundness in 10 crates, with reports for 6 crates acknowledged by maintainers. The results indicate that stateful harness synthesis and feedback-driven scheduling can make BMC practical for targeted unsoundness detection in Rust libraries.},
+booktitle = {Proceedings of the 41st IEEE/ACM International Conference on Automated Software Engineering},
+pages = {1947–1959},
+numpages = {13},
+keywords = {Bounded Model Checking, Code Synthesis, Rust, Unsoundness Detection},
+location = {Munich, Germany},
+series = {ASE '26}
+}

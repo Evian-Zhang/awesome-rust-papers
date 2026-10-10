@@ -1,0 +1,48 @@
+{
+  "title": "SafeDep: Detecting State Mutation Unsoundness in Rust via Dependency Slicing and LLM Reasoning",
+  "alias": "SafeDep",
+  "link": "https://doi.org/10.1145/3832783.3837481",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3832783.3837481",
+  "repo": "https://doi.org/10.5281/zenodo.21695976",
+  "compared": [
+    "Rudra",
+    "RAPx",
+    "lockbud",
+    "Safe4U"
+  ],
+  "venue": "ASE",
+  "year": 2026,
+  "category": [
+    "security"
+  ],
+  "tag": [
+    "LLM",
+    "invariant",
+    "soundness",
+    "data-flow analysis",
+    "MIR"
+  ],
+  "reference": [
+    "RustBelt",
+    "Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs",
+    "Verus",
+    "Qrates",
+    "MirChecker",
+    "Rudra",
+    "Is Rust Used Safely by Software Developers?",
+    "SafeDrop",
+    "RustHornBelt",
+    "The Prusti Project: Formal Verification for Rust",
+    "Flux",
+    "RefinedRust",
+    "lockbud",
+    "Miri",
+    "Is Unsafe an Achilles' Heel? A Comprehensive Study of Safety Requirements in Unsafe Rust Programming",
+    "On the Dual Nature of Necessity in Use of Rust Unsafe Code",
+    "SBD",
+    "VERT",
+    "SafeNet",
+    "rCanary",
+    "Safe4U"
+  ]
+}

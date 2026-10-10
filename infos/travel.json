@@ -1,0 +1,37 @@
+{
+  "title": "Towards Reliable C-to-Rust Translation with Rule-Guided Reasoning and Reinforcement Learning",
+  "alias": "TRAVEL",
+  "link": "https://doi.org/10.1145/3832783.3834534",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3832783.3834534",
+  "repo": "https://github.com/Luo-feng-hitsz/TRAVEL",
+  "compared": [
+    "VERT",
+    "IRENE"
+  ],
+  "venue": "ASE",
+  "year": 2026,
+  "category": [
+    "c2rust"
+  ],
+  "tag": [
+    "LLM",
+    "reinforcement learning"
+  ],
+  "reference": [
+    "Firecracker",
+    "PR2",
+    "Improving Automatic C-to-Rust Translation with Static Analysis",
+    "Concrat",
+    "Urcrat",
+    "Forcrat",
+    "CRustS2",
+    "IRENE",
+    "C2SaferRust",
+    "Syzygy",
+    "SmartC2Rust",
+    "GenC2Rust",
+    "CROWN",
+    "SACTOR",
+    "VERT"
+  ]
+}

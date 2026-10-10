@@ -1,0 +1,34 @@
+{
+  "title": "RustGTC: Constraint-Guided Test Generation for Rust APIs via Comment Analysis and Code Context",
+  "alias": "RustGTC",
+  "link": "https://doi.org/10.1145/3832783.3837531",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3832783.3837531",
+  "compared": [
+    "RUSTYUNIT",
+    "RuMono",
+    "Rug",
+    "PALM"
+  ],
+  "venue": "ASE",
+  "year": 2026,
+  "category": [
+    "program analysis"
+  ],
+  "tag": [
+    "harness",
+    "unit test",
+    "documentation",
+    "LLM"
+  ],
+  "reference": [
+    "RULF",
+    "RPG",
+    "Rug",
+    "SyRust",
+    "RuMono",
+    "PALM",
+    "RUSTYUNIT",
+    "FRIES",
+    "Crabtree"
+  ]
+}

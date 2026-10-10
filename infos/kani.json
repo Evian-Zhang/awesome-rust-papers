@@ -1,10 +1,10 @@
 {
   "title": "Kani: A Model Checker for Rust",
   "alias": "Kani",
-  "link": "https://arxiv.org/abs/2607.01504",
-  "pdf": "https://arxiv.org/pdf/2607.01504",
+  "link": "https://doi.org/10.1145/3832783.3834499",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3832783.3834499",
   "repo": "https://github.com/model-checking/kani",
-  "venue": "arXiv",
+  "venue": "ASE",
   "year": 2026,
   "category": [
     "verification"

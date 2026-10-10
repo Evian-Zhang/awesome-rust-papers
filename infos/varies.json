@@ -1,0 +1,57 @@
+{
+  "title": "VARIES: Verification Harness Synthesis and Efficient Scheduling for Unsoundness Detection in Rust Libraries",
+  "alias": "VARIES",
+  "link": "https://doi.org/10.1145/3832783.3837450",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3832783.3837450",
+  "repo": "https://github.com/huanli-00/varies-kani",
+  "based": [
+    "Kani"
+  ],
+  "compared": [
+    "Safe4U",
+    "RuMono",
+    "Autoharness"
+  ],
+  "venue": "ASE",
+  "year": 2026,
+  "category": [
+    "verification"
+  ],
+  "tag": [
+    "harness",
+    "soundness",
+    "model checker"
+  ],
+  "reference": [
+    "RustBelt",
+    "Prusti",
+    "Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs",
+    "Verus",
+    "Qrates",
+    "MirChecker",
+    "Rudra",
+    "Memory-Safety Challenge Considered Solved? An In-Depth Study with All Rust CVEs",
+    "Is Rust Used Safely by Software Developers?",
+    "RustHorn",
+    "Creusot",
+    "SafeDrop",
+    "RULF",
+    "Aeneas",
+    "RustHornBelt",
+    "Flux",
+    "RefinedRust",
+    "A Closer Look at the Security Risks in the Rust Ecosystem",
+    "lockbud",
+    "RPG",
+    "Rug",
+    "Crust",
+    "SyRust",
+    "On the Dual Nature of Necessity in Use of Rust Unsafe Code",
+    "RuMono",
+    "RUSTYUNIT",
+    "Crabtree",
+    "Safe4U",
+    "UnsafeCop",
+    "A Mixed Methods Study on the Implications of Unsafe Rust for Interoperation, Encapsulation, and Tooling"
+  ]
+}

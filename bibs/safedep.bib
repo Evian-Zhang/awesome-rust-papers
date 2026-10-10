@@ -1,0 +1,17 @@
+@inproceedings{10.1145/3832783.3837481,
+author = {Rao, Zihao and Chen, Yilin and Chen, Chengjun and Xu, Hui},
+title = {SafeDep: Detecting State Mutation Unsoundness in Rust via Dependency Slicing and LLM Reasoning},
+year = {2026},
+isbn = {9798400728822},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3832783.3837481},
+doi = {10.1145/3832783.3837481},
+abstract = {Rust's type system protects safe code, but many low-level abstractions depend on internal unsafe operations whose correctness rests on memory and logical invariants. In struct-based abstractions, a sibling method may legally modify internal fields while invalidating a precondition required by another method's unsafe operation. We call this defect an unsound state mutation. Traditional pattern-based static analyzers support inter-procedural tracking but may lack the capability to model cross-method state interference. Furthermore, they cannot interpret natural-language safety contracts, making these deep defects difficult to detect. LLMs can reason about these contracts, but whole-crate prompting is expensive and often prone to hallucinated paths. To bridge this gap, we present SafeDep, a vulnerability discovery framework that combines compiler-driven static analysis with LLM-based semantic reasoning. SafeDep analyzes Rust MIR to build a field-sensitive read/write dependency graph and slices the graph to retain methods that may affect safety-critical state. An LLM then reconstructs cross-method state transitions from this compact context and generates PoC candidates. A bounded compiler/Miri feedback loop refines the candidates and their exploitability judgments before manual audit. On our evaluation dataset, SafeDep outperforms static and LLM baselines while reducing prompt context. A scan of the top 4,000 crates.io projects found 24 previously unreported soundness vulnerabilities, 18 of which had been confirmed by maintainers or accepted as RustSec advisories at the time of writing.},
+booktitle = {Proceedings of the 41st IEEE/ACM International Conference on Automated Software Engineering},
+pages = {2345–2357},
+numpages = {13},
+keywords = {Rust, large language models, soundness, static analysis, unsafe code},
+location = {Munich, Germany},
+series = {ASE '26}
+}

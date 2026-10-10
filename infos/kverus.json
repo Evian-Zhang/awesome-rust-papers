@@ -1,0 +1,37 @@
+{
+  "title": "KVerus: Scalable and Resilient Formal Verification Proof Generation for Rust Code",
+  "alias": "KVerus",
+  "link": "https://doi.org/10.1145/3832783.3834503",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3832783.3834503",
+  "repo": "https://github.com/asterinas/KVerus/tree/ase-26",
+  "based": ["Verus"],
+  "compared": [
+    "AutoVerus",
+    "AlphaVerus"
+  ],
+  "venue": "ASE",
+  "year": 2026,
+  "category": [
+    "verification",
+    "proof generation"
+  ],
+  "tag": [
+    "LLM",
+    "knowledge base"
+  ],
+  "reference": [
+    "AlphaVerus",
+    "The Prusti Project: Formal Verification for Rust",
+    "SAFE",
+    "Atmosphere",
+    "Creusot",
+    "Miri",
+    "Verus",
+    "Verus: A Practical Foundation for Systems Verification",
+    "ASTERINAS",
+    "AutoVerus",
+    "Verifying Dynamic Trait Objects in Rust",
+    "UnsafeCop",
+    "VERUSSEEK"
+  ]
+}

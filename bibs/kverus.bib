@@ -1,0 +1,17 @@
+@inproceedings{10.1145/3832783.3834503,
+author = {Liu, Yuwei and Wan, Xinyi and Wang, Yanhao and Wang, Minghua and Huang, Lin and Wei, Tao},
+title = {KVerus: Scalable and Resilient Formal Verification Proof Generation for Rust Code},
+year = {2026},
+isbn = {9798400728822},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3832783.3834503},
+doi = {10.1145/3832783.3834503},
+abstract = {Repository-scale formal verification is becoming practical for Rust   systems, but maintaining and extending proofs remains expensive   in real projects. In the Asterinas Rust OS kernel, the CortenMM   memory-management module requires Verus proofs that cross file   and module boundaries, reuse project-specific lemmas with limited   documentation, and survive frequent Verus/toolchain evolution. Existing   LLM-based proof-generation methods are mostly designed for small or   single-file tasks, and they do not provide the structural project   knowledge or verifier-aware repair needed in such a repository-scale   verification workflow.    This paper presents KVerus, a practical LLM-assisted workflow for Verus   proof generation in evolving Rust repositories. KVerus builds a dynamic   knowledge base over code metadata, lemma semantics, and Verus/toolchain   knowledge. It combines dependency-aware context extraction, semantic   lemma retrieval, and error-driven refinement to generate Verus proof   code that is checked by the verifier and then reviewed by engineers.   In CortenMM, KVerus generated verifier-passing proof patches that   verified 23 previously unverified functions, introduced 6 reusable   lemmas, and accounted for 21.0\% of the proof code in the module; these   patches were accepted upstream by Asterinas developers. The CortenMM   experience also exposed practical boundary cases, including incorrect   specifications that required human repair and generated proofs that   benefited from human cleanup. Across benchmarks, KVerus achieves a   51.0\% success rate on three repository-level benchmarks with cross-file   dependencies, compared with 4.5\% for a multi-round prompting baseline,   and verifies 80.2\% of tasks on three single-file benchmarks. These   experiences and results show that LLM-assisted proof generation can   move beyond benchmark-oriented synthesis and become a maintainable   workflow for repository-scale Rust verification.},
+booktitle = {Proceedings of the 41st IEEE/ACM International Conference on Automated Software Engineering},
+pages = {4139–4151},
+numpages = {13},
+keywords = {Formal Verification, Large Language Models, Proof Generation, Rust, Verus},
+location = {Munich, Germany},
+series = {ASE '26}
+}
