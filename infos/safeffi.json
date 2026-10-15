@@ -1,0 +1,42 @@
+{
+  "title": "SafeFFI: Efficient Sanitization at the Boundary Between Safe and Unsafe Code in Rust and Mixed-Language Applications",
+  "alias": "SafeFFI",
+  "link": "https://www.usenix.org/conference/usenixsecurity26/presentation/braunsdorf",
+  "pdf": "https://www.usenix.org/system/files/usenixsecurity26-braunsdorf.pdf",
+  "repo": "https://zenodo.org/records/18940953",
+  "compared": [
+    "RustSan",
+    "ERASan"
+  ],
+  "venue": "USENIX Security",
+  "year": 2026,
+  "category": [
+    "security",
+    "sanitizer"
+  ],
+  "tag": [
+    "FFI",
+    "unsafe",
+    "memory safety",
+    "MIR",
+    "LLVM IR"
+  ],
+  "reference": [
+    "Rudra",
+    "TRust",
+    "RustSan",
+    "SafeDrop",
+    "Translating C to Safer Rust",
+    "FLOURINE",
+    "Miri",
+    "PKRU-safe",
+    "Sandcrust",
+    "MirChecker",
+    "XRust",
+    "MiriLLI",
+    "Cross-Language Attacks",
+    "ERASan",
+    "Yuga",
+    "Galeed"
+  ]
+}

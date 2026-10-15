@@ -1,0 +1,50 @@
+{
+  "title": "CULPA: Universal Detection of Memory-Safety Bugs in Unsafe Rust Through the Lens of Safety Requirements",
+  "alias": "CULPA",
+  "link": "https://www.usenix.org/conference/usenixsecurity26/presentation/chen-hung-mao",
+  "pdf": "https://www.usenix.org/system/files/usenixsecurity26-chen-hung-mao.pdf",
+  "repo": "https://github.com/shinmao/culpa",
+  "compared": [
+    "MirChecker",
+    "Rudra",
+    "TYPEPULSE",
+    "SafeDrop",
+    "Safe4U"
+  ],
+  "venue": "USENIX Security",
+  "year": 2026,
+  "category": [
+    "security"
+  ],
+  "tag": [
+    "memory safety",
+    "unsafe",
+    "invariant",
+    "MIR"
+  ],
+  "reference": [
+    "The Prusti Project: Formal Verification for Rust",
+    "Gillian-Rust",
+    "Rudra",
+    "TYPEPULSE",
+    "RustSan",
+    "SafeDrop",
+    "Is Unsafe an Achilles' Heel? A Comprehensive Study of Safety Requirements in Unsafe Rust Programming",
+    "Creusot",
+    "Is Rust Used Safely by Software Developers?",
+    "RefinedRust",
+    "RustBelt",
+    "PKRU-safe",
+    "Verus",
+    "Safe4U",
+    "MirChecker",
+    "RustHornBelt",
+    "Cross-Language Attacks",
+    "ERASan",
+    "Yuga",
+    "Galeed",
+    "RPG",
+    "RuMono",
+    "Towards Understanding the Runtime Performance of Rust"
+  ]
+}
