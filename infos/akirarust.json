@@ -1,0 +1,40 @@
+{
+  "title": "AkiraRust: Re-thinking LLM-aided Rust Repair Using a Feedback-guided Thinking Switch",
+  "alias": "AkiraRust",
+  "link": "https://doi.org/10.1145/3770743.3804397",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3770743.3804397",
+  "repo": "https://github.com/chong-uestc/AkiraRust",
+  "compared": [
+    "Thetis-lathe",
+    "RustAssistant",
+    "RustBrain"
+  ],
+  "venue": "DAC",
+  "year": 2026,
+  "category": [
+    "program analysis"
+  ],
+  "tag": [
+    "LLM",
+    "agent",
+    "patch",
+    "undefined behavior"
+  ],
+  "reference": [
+    "Engineering the Servo Web Browser Engine Using Rust",
+    "Qrates",
+    "Prusti",
+    "Rug",
+    "RustAssistant",
+    "Translating C to Safer Rust",
+    "RefinedRust",
+    "RULF",
+    "Thetis-lathe",
+    "RustBrain",
+    "CRustS2",
+    "Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs",
+    "Verifying Dynamic Trait Objects in Rust",
+    "Rust-twins",
+    "Learning and Programming Challenges of Rust: A Mixed-Methods Study"
+  ]
+}
