@@ -10,6 +10,9 @@
   "compared": [
     "C2Rust"
   ],
+  "further": [
+    "https://doi.org/10.1145/3860636"
+  ],
   "venue": "PLDI",
   "year": 2024,
   "category": [
