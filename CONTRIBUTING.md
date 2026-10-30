@@ -1,8 +1,9 @@
 # Contributing to Awesome Rust Papers
 
-All collection data lives in `infos/<id>.json` (metadata) and `bibs/<id>.bib`
-(citation). The README and the website are generated from these files, so edit
-the data — not the generated output.
+All collection data lives in `infos/<id>.json` (metadata) and `bibs/`
+(citation: `<id>.bib` for the entry itself, `<id>-<venue>.bib` for its
+`further` publications). The README and the website are generated from these
+files, so edit the data — not the generated output.
 
 ## Scope
 
@@ -20,7 +21,7 @@ the data — not the generated output.
 | Path | Purpose |
 | --- | --- |
 | `infos/<id>.json` | Metadata for one paper — the single source of truth |
-| `bibs/<id>.bib` | BibTeX for the same paper |
+| `bibs/<id>.bib` | BibTeX for the same paper, plus `<id>-<venue>.bib` for its `further` publications |
 | `assertion.toml` | Documented exceptions (`no_bib`, `no_venue`) |
 | `scripts/` | Format checks and generators |
 | `awesome_rust_papers/` | Read-only Python library used by AI agents |
@@ -60,7 +61,7 @@ the format check.
 | `link` | string | Canonical page, usually a DOI link |
 | `pdf` | string | Openly accessible PDF |
 | `repo` | string | Code or artifact repository |
-| `further` | array of strings | Further reading links (rarely used) |
+| `further` | array of objects | Supplementary publications, usually the extended journal version |
 | `category` | array of strings | One hierarchical topic path |
 | `tag` | array of strings | Independent labels |
 | `reference` | array of strings | Collection papers cited by this paper |
@@ -189,15 +190,34 @@ and building on it are independent facts.
 
 ### `further`
 
-Supplementary links, shown as "Further reading" on the website. This key is
-rarely used: its main purpose is the extended journal version of a conference
-paper. The journal version is not added as a separate entry — put its link
-here, under the conference paper, instead. The main publication belongs in
-`link`, not here.
+Supplementary publications that belong with this entry instead of becoming
+entries of their own — mainly the extended journal version of a conference
+paper. Each item is an object:
+
+```json
+"further": [
+  {
+    "title": "Replacing Output Parameters with Algebraic Data Types in C-to-Rust Translation",
+    "link": "https://doi.org/10.1145/3860636",
+    "pdf": "https://dl.acm.org/doi/pdf/10.1145/3860636",
+    "venue": "ACM TOSEM",
+    "year": 2026,
+    "bib": "nopcrat-tosem.bib"
+  }
+]
+```
+
+`title`, `link`, `venue`, `year`, and `bib` are required; `pdf` is optional.
+`bib` is a file name under `bibs/`, downloaded from the first-party source the
+same way as the main entry. The journal version is not added as a separate
+entry — the main publication belongs in the entry's own `link`, not here.
 
 ## BibTeX (`bibs/<id>.bib`)
 
 * One file per paper, named `<id>.bib` to match the info file.
+* A `further` publication gets its own file, named after the parent entry and
+  its venue, for example `nopcrat-tosem.bib`; the `further` item's `bib` key
+  holds that file name.
 * Download the entry directly from the first-party source and paste it as-is:
   the page the DOI resolves to (ACM DL, IEEE Xplore, Springer, …), or the
   arXiv page for preprints. Do not copy entries from aggregators or reference
@@ -240,7 +260,8 @@ python3 scripts/info-duplicate-reference-check.py
 * `info-format-check.py` — allowed keys, value types, and that every
   `reference` resolves to an existing entry.
 * `info-bib-consistency-check.py` — every entry has a matching `.bib` unless
-  listed in `no_bib`, and there are no orphan `.bib` files.
+  listed in `no_bib`, every `further` `bib` file exists, and there are no
+  orphan `.bib` files.
 * `info-duplicate-reference-check.py` — no duplicate `reference` values,
   including the same paper referenced by both its title and its alias.
 

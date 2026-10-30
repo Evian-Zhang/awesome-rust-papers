@@ -1,0 +1,17 @@
+@inproceedings{10.1145/3832783.3834603,
+author = {Zhang, Yuchen and Wen, Cheng and Cao, Jialun and Liu, Dugang and Xu, Zhiwu and Liu, Yuwei and Qin, Shengchao},
+title = {VerusSeek: Retrieval-Augmented LLM-Based Proof Synthesis for Rust Programs},
+year = {2026},
+isbn = {9798400728822},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3832783.3834603},
+doi = {10.1145/3832783.3834603},
+abstract = {Formal verification of Rust programs with Verus provides strong correctness guarantees, but developing the auxiliary specifications and proofs still requires considerable manual effort. Existing LLM-based proof-synthesis agents can automate part of this process, yet their effectiveness on non-trivial tasks is often limited by the lack of reusable proof patterns that are directly relevant to verification. This paper presents VerusSeek, a retrieval-augmented tool for LLM-assisted Verus proof synthesis for Rust programs. Instead of retrieving entire files or functions, VerusSeek indexes previously verified Verus code as semantic proof constructs, including contracts, assertions, loop invariants, lemmas, and proof blocks. For each verification task, the tool performs type-aware retrieval to select constructs that match the current proof obligation, expands them with bounded hierarchical context, and synthesizes lightweight structural loop-invariant hints for index bounds, frame conditions, and termination arguments. Verus checks each candidate proof, and the resulting diagnostics guide the next repair attempt. On 150 tasks from VerusBench, VerusSeek verifies 122 tasks, compared with 69 for AutoVerus and 85 for RagVerus. A demonstration video of VerusSeek is available at https://youtu.be/p2mb61gj95A.},
+booktitle = {Proceedings of the 41st IEEE/ACM International Conference on Automated Software Engineering},
+pages = {3402–3406},
+numpages = {5},
+keywords = {Automated Proof Synthesis, Formal Verification, Large Language Models, Retrieval-Augmented Generation, Rust, Verus},
+location = {Munich, Germany},
+series = {ASE '26}
+}

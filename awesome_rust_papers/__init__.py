@@ -3,6 +3,7 @@
 from .collection import (
     RELATION_KINDS,
     Collection,
+    FurtherEntry,
     Paper,
     RelationKind,
     RelationTarget,
@@ -12,6 +13,7 @@ from .collection import (
 __all__ = [
     "RELATION_KINDS",
     "Collection",
+    "FurtherEntry",
     "Paper",
     "RelationKind",
     "RelationTarget",

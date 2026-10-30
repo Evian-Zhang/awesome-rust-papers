@@ -20,6 +20,27 @@ RELATION_KINDS: tuple[RelationKind, ...] = ("reference", "based", "compared")
 
 
 @dataclass(frozen=True)
+class FurtherEntry:
+    """A supplementary publication recorded under ``further``.
+
+    These are usually the extended journal version of the main paper.  They
+    carry their own metadata and a required BibTeX file under ``bibs/`` but
+    are not papers of the collection: they are excluded from ``papers``,
+    collection-wide statistics, and relation resolution.
+
+    ``bib_path`` is the declared ``bibs/<name>`` path; its existence is
+    checked by the repository check scripts, not by this read-only loader.
+    """
+
+    title: str
+    link: str
+    pdf: str | None
+    venue: str
+    year: int
+    bib_path: Path
+
+
+@dataclass(frozen=True)
 class Paper:
     """One normalized record from ``infos/<id>.json``.
 
@@ -42,6 +63,10 @@ class Paper:
     experimental baselines or alternative tools compared in the paper's
     evaluation, excluding related-work discussion and feature-only comparisons.
     Empty relation tuples mean no relation is recorded, not that none exists.
+
+    ``further`` records supplementary publications of the same work, usually
+    the extended journal version.  They are not separate collection papers
+    and do not contribute to statistics or relation lookups.
     """
 
     id: str
@@ -57,6 +82,7 @@ class Paper:
     relations: Mapping[RelationKind, tuple[str, ...]]
     info_path: Path
     bib_path: Path | None
+    further: tuple[FurtherEntry, ...]
 
     def relation(self, kind: RelationKind) -> tuple[str, ...]:
         """Return the raw values for one kind of outgoing relation."""
@@ -221,6 +247,7 @@ def load_collection(root: str | Path = ".") -> Collection:
                 ),
                 info_path=info_path,
                 bib_path=bib_path if bib_path.is_file() else None,
+                further=_further_entries(raw, bibs_dir, info_path),
             )
         )
     return Collection(papers)
@@ -236,14 +263,14 @@ def _vocabulary(papers: Iterable[Paper], field: Literal["category", "tag"]) -> t
     return tuple(sorted({value for paper in papers for value in getattr(paper, field)}))
 
 
-def _required_string(raw: dict[str, object], key: str, path: Path) -> str:
+def _required_string(raw: dict[str, object], key: str, path: Path | str) -> str:
     value = raw.get(key)
     if not isinstance(value, str):
         raise ValueError(f"{path}: {key} must be a string")
     return value
 
 
-def _optional_string(raw: dict[str, object], key: str, path: Path) -> str | None:
+def _optional_string(raw: dict[str, object], key: str, path: Path | str) -> str | None:
     if key not in raw:
         return None
     value = raw[key]
@@ -261,8 +288,35 @@ def _string_tuple(raw: dict[str, object], key: str, path: Path) -> tuple[str, ..
     return tuple(value)
 
 
-def _required_year(raw: dict[str, object], path: Path) -> int:
+def _required_year(raw: dict[str, object], path: Path | str) -> int:
     value = raw.get("year")
     if not isinstance(value, int) or isinstance(value, bool):
         raise ValueError(f"{path}: year must be an integer")
     return value
+
+
+def _further_entries(
+    raw: dict[str, object], bibs_dir: Path, path: Path
+) -> tuple[FurtherEntry, ...]:
+    if "further" not in raw:
+        return ()
+    items = raw["further"]
+    if not isinstance(items, list):
+        raise ValueError(f"{path}: further must be an array")
+
+    entries = []
+    for index, item in enumerate(items):
+        where = f"{path}: further[{index}]"
+        if not isinstance(item, dict):
+            raise ValueError(f"{where} must be an object")
+        entries.append(
+            FurtherEntry(
+                title=_required_string(item, "title", where),
+                link=_required_string(item, "link", where),
+                pdf=_optional_string(item, "pdf", where),
+                venue=_required_string(item, "venue", where),
+                year=_required_year(item, where),
+                bib_path=bibs_dir / _required_string(item, "bib", where),
+            )
+        )
+    return tuple(entries)

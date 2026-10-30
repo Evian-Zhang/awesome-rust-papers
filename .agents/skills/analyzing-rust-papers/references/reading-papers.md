@@ -17,6 +17,20 @@ else:
     print(paper.bib_path.read_text())
 ```
 
+A paper can also carry `further` entries, usually its extended journal
+version. Each has its own metadata and a required `bib_path` under `bibs/`:
+
+```python
+for entry in paper.further:
+    print(entry.venue, entry.year, entry.title)
+    print(entry.bib_path.read_text())
+```
+
+Those entries are additional publications of the same work. Include their
+`venue` and `year` in publication counts and year or venue distributions, and
+read `bib_path` for their authors or abstracts. They have no relation fields of
+their own; relation queries report the parent entry.
+
 For authors, inspect the complete `author` field. Entries can span multiple
 lines, use braces or quotes, and contain LaTeX escapes in names. Distinguish
 authors from editors and names mentioned in the abstract. Consider name-order

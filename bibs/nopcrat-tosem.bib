@@ -1,0 +1,15 @@
+@article{10.1145/3860636,
+author = {Hong, Jaemin and Kang, Hyunhee and Ryu, Sukyoung},
+title = {Replacing Output Parameters with Algebraic Data Types in C-to-Rust Translation},
+year = {2026},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+issn = {1049-331X},
+url = {https://doi.org/10.1145/3860636},
+doi = {10.1145/3860636},
+abstract = {Translating legacy systems from C to Rust promises to enhance their reliability. However, existing translators fail to generate Rust code that fully utilizes Rust's language features, such as algebraic data types. This work focuses on tuples and Option/Result types, an important subset of algebraic data types. These are used as return types to represent functions that return multiple values or may fail. Due to the absence of these types, C programs use output parameters, i.e., pointer-type parameters for producing outputs. As output parameters make code less readable and more error-prone, their use is discouraged in Rust. To address this problem, this paper presents techniques for removing output parameters during C-to-Rust translation. The main challenge is identifying and classifying output parameters. As a solution, we propose a static analysis accompanied by abstract read/write sets, which approximate the sets of read and written pointers, and two sensitivities: write set sensitivity and nullity sensitivity. Our evaluation shows the proposed approach is (1) efficient, processing up to 395k LOC within 386 seconds; (2) useful, identifying 3,287 output parameters across 97 real-world programs; and (3) test-validated, with all 38 programs that have test suites passing their tests after transformation when aliased pointer detection is enabled.},
+note = {Just Accepted},
+journal = {ACM Trans. Softw. Eng. Methodol.},
+month = oct,
+keywords = {Rust, C, automatic translation, output parameter, algebraic data type, static analysis, program transformation}
+}

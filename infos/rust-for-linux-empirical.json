@@ -3,7 +3,16 @@
   "link": "https://www.usenix.org/conference/atc24/presentation/li-hongyu",
   "pdf": "https://www.usenix.org/system/files/atc24-li-hongyu.pdf",
   "repo": "https://github.com/Richardhongyu/rfl_empirical_tools",
-  "further": ["https://doi.org/10.1145/3789260"],
+  "further": [
+    {
+      "title": "Rust Meets Linux: Lessons from an Evolving Experiment",
+      "link": "https://doi.org/10.1145/3789260",
+      "pdf": "https://dl.acm.org/doi/pdf/10.1145/3789260",
+      "venue": "TOCS",
+      "year": 2026,
+      "bib": "rust-for-linux-empirical-tocs.bib"
+    }
+  ],
   "venue": "USENIX ATC",
   "year": 2024,
   "category": [
@@ -15,5 +24,25 @@
     "security",
     "performance"
   ],
-  "reference": []
+  "reference": [
+    "Qrates",
+    "Rudra",
+    "TRust",
+    "Is Rust Used Safely by Software Developers?",
+    "\"I wouldn't want my unsafe code to run my pacemaker\": An Interview Study on the Use, Comprehension, and Perceived Risks of Unsafe Rust",
+    "RustBelt",
+    "PKRU-safe",
+    "Sandcrust",
+    "Tock",
+    "MirChecker",
+    "XRust",
+    "RedLeaf",
+    "Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs",
+    "Galeed",
+    "Oxide",
+    "Memory-Safety Challenge Considered Solved? An In-Depth Study with All Rust CVEs",
+    "Towards Understanding the Runtime Performance of Rust",
+    "A Closer Look at the Security Risks in the Rust Ecosystem",
+    "Learning and Programming Challenges of Rust: A Mixed-Methods Study"
+  ]
 }

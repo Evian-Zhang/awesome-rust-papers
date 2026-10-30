@@ -4,7 +4,13 @@
   "pdf": "https://dl.acm.org/doi/pdf/10.1145/3691620.3695368",
   "repo": "https://github.com/Unparalleled-Calvin/Rust-Performance-Study",
   "further": [
-    "https://doi.org/10.1109/ISSRE66568.2025.00045"
+    {
+      "title": "Unleashing the Efficiency of Rust: An Empirical Study of Performance Bugs in Rust Projects",
+      "link": "https://doi.org/10.1109/ISSRE66568.2025.00045",
+      "venue": "ISSRE",
+      "year": 2025,
+      "bib": "finding-performance-issues-issre.bib"
+    }
   ],
   "venue": "ASE",
   "year": 2024,

@@ -11,7 +11,14 @@
     "C2Rust"
   ],
   "further": [
-    "https://doi.org/10.1145/3860636"
+    {
+      "title": "Replacing Output Parameters with Algebraic Data Types in C-to-Rust Translation",
+      "link": "https://doi.org/10.1145/3860636",
+      "pdf": "https://dl.acm.org/doi/pdf/10.1145/3860636",
+      "venue": "ACM TOSEM",
+      "year": 2026,
+      "bib": "nopcrat-tosem.bib"
+    }
   ],
   "venue": "PLDI",
   "year": 2024,

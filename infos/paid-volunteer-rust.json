@@ -3,7 +3,14 @@
   "link": "https://doi.org/10.1145/3597503.3639197",
   "pdf": "https://dl.acm.org/doi/pdf/10.1145/3597503.3639197",
   "further": [
-    "https://doi.org/10.1145/3789503"
+    {
+      "title": "Contributions, Collaborations, and Transitions: Paid and Volunteer Developers in the Rust Community",
+      "link": "https://doi.org/10.1145/3789503",
+      "pdf": "https://dl.acm.org/doi/pdf/10.1145/3789503",
+      "venue": "ACM TOSEM",
+      "year": 2026,
+      "bib": "paid-volunteer-rust-tosem.bib"
+    }
   ],
   "venue": "ICSE",
   "year": 2024,

@@ -24,10 +24,58 @@ ALLOWED_KEYS = {
     "reference"
 }
 
+# `further` lists supplementary publications, usually the journal version of
+# the main entry. Each item carries its own metadata and the BibTeX file name
+# under bibs/.
+FURTHER_KEYS = {
+    "title",
+    "link",
+    "pdf",
+    "venue",
+    "year",
+    "bib",
+}
+
+FURTHER_REQUIRED_KEYS = ("title", "link", "venue", "year", "bib")
+
 def read_asserted_no_venue():
     with ASSERTION_TOML.open("rb") as f:
         assertion = tomllib.load(f)
     return set(assertion["no_venue"])
+
+def validate_further(items, path):
+    errors = []
+
+    if not isinstance(items, list):
+        return [f"{path}: invalid further"]
+
+    for index, item in enumerate(items):
+        where = f"{path}: further[{index}]"
+        if not isinstance(item, dict):
+            errors.append(f"{where}: invalid further")
+            continue
+
+        for key in FURTHER_REQUIRED_KEYS:
+            if key not in item:
+                errors.append(f"{where}: invalid {key}")
+
+        if "title" in item and not isinstance(item["title"], str):
+            errors.append(f"{where}: invalid title")
+        if "link" in item and not isinstance(item["link"], str):
+            errors.append(f"{where}: invalid link")
+        if "pdf" in item and not isinstance(item["pdf"], str):
+            errors.append(f"{where}: invalid pdf")
+        if "venue" in item and not isinstance(item["venue"], str):
+            errors.append(f"{where}: invalid venue")
+        if "year" in item and not isinstance(item["year"], int):
+            errors.append(f"{where}: invalid year")
+        if "bib" in item and not isinstance(item["bib"], str):
+            errors.append(f"{where}: invalid bib")
+
+        for key in sorted(set(item) - FURTHER_KEYS):
+            errors.append(f"{where}: unknown key '{key}'")
+
+    return errors
 
 def validate(payload, path, no_venue, titles, aliases):
     errors = []
@@ -48,8 +96,7 @@ def validate(payload, path, no_venue, titles, aliases):
     if "repo" in payload and not isinstance(payload["repo"], str):
         errors.append(f"{path}: invalid repo")
     if "further" in payload:
-        if not isinstance(payload["further"], list) or not all(isinstance(item, str) for item in payload["further"]):
-            errors.append(f"{path}: invalid further")
+        errors.extend(validate_further(payload["further"], path))
     if "based" in payload:
         if not isinstance(payload["based"], list) or not all(isinstance(item, str) for item in payload["based"]):
             errors.append(f"{path}: invalid base")

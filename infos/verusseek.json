@@ -6,7 +6,16 @@
     "AutoVerus",
     "RagVerus"
   ],
-  "further": ["https://doi.org/10.1145/3832783.3834603"],
+  "further": [
+    {
+      "title": "VerusSeek: Retrieval-Augmented LLM-Based Proof Synthesis for Rust Programs",
+      "link": "https://doi.org/10.1145/3832783.3834603",
+      "pdf": "https://dl.acm.org/doi/pdf/10.1145/3832783.3834603",
+      "venue": "ASE",
+      "year": 2026,
+      "bib": "verusseek-ase.bib"
+    }
+  ],
   "venue": "TASE",
   "year": 2026,
   "category": [

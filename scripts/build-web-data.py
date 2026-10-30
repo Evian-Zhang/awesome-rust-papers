@@ -16,6 +16,10 @@ Resolution rules (agreed with the data maintainers):
 - Reverse relations (referencedBy / basedBy / comparedBy) and the
   collection citation count (`citedBy`) are computed here, never maintained
   by hand.
+- `further` entries (usually the journal version of a conference paper) are
+  emitted as objects with their own metadata. Their `bib` value in infos/ is a
+  mandatory file name under bibs/, so it is resolved to the BibTeX text here,
+  mirroring the top-level `bib` field.
 - BibTeX files are intentionally NOT parsed: author information is out of
   scope for the first version of the website.
 - `addedAt` (when an entry's infos file first entered the collection) is
@@ -43,10 +47,33 @@ EXTERNAL_SUFFIX = "External"
 
 
 def load_bib(pid):
-    bib_path = BIBS_DIR / f"{pid}.bib"
+    return load_bib_file(f"{pid}.bib")
+
+def load_bib_file(name):
+    if not name:
+        return None
+    bib_path = BIBS_DIR / name
     if bib_path.exists():
         return bib_path.read_text().strip()
     return None
+
+def load_further(items):
+    further = []
+    for item in items:
+        bib = load_bib_file(item["bib"])
+        if bib is None:
+            sys.exit(
+                f"further entry '{item['title']}' references missing bibs/{item['bib']}"
+            )
+        further.append({
+            "title": item["title"],
+            "link": item["link"],
+            "pdf": item.get("pdf"),
+            "venue": item["venue"],
+            "year": item["year"],
+            "bib": bib,
+        })
+    return further
 
 
 def load_entries():
@@ -192,7 +219,7 @@ def main():
                 "link": payload.get("link"),
                 "pdf": payload.get("pdf"),
                 "repo": payload.get("repo"),
-                "further": list(payload.get("further", [])),
+                "further": load_further(payload.get("further", [])),
             },
             "relations": {
                 "references": references,
@@ -238,6 +265,12 @@ def main():
             stats["venues"][paper["venue"]] = (
                 stats["venues"].get(paper["venue"], 0) + 1
             )
+        # `further` publications count toward the venue tally so that venue
+        # options and counts cover every publication, not only its entry.
+        for further in paper["links"]["further"]:
+            venue = further.get("venue")
+            if venue:
+                stats["venues"][venue] = stats["venues"].get(venue, 0) + 1
         year = paper["year"]
         stats["years"][year] = stats["years"].get(year, 0) + 1
 

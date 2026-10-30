@@ -56,12 +56,23 @@ a script located outside the repository, run it from the repository root with
 | `link` | Optional canonical paper page, usually a DOI link |
 | `pdf` | Optional direct PDF link |
 | `repo` | Optional code or research artifact repository link |
+| `further` | Tuple of additional publications; each has `title`, `link`, `pdf`, `venue`, `year`, and a required `bib_path` |
 | `relations` | Raw `reference`, `based`, and `compared` values |
 | `info_path`, `bib_path` | Evidence path and optional BibTeX path |
 
 Authors and abstracts are available only through optional BibTeX fields.
 There are no structured full-text, global citation count, or acceptance-status
 fields. Missing metadata means it is not recorded, not that it does not exist.
+
+A `further` entry is a supplementary publication of the same work, usually its
+extended journal version, and counts as a publication in its own right: include
+its `venue` and `year` in year and venue distributions, and match its `title`
+during topic and metadata searches. `collection.papers` still has one record
+per collection entry, so state whether a figure counts collection entries or
+publications. `further` entries carry no `reference` / `based` / `compared`
+data of their own; for relation queries, report the relations of the parent
+entry and cite the parent ID. Read `bib_path` when the user needs the extended
+version's authors or abstract.
 
 ## Select papers for the user's question
 
@@ -89,12 +100,16 @@ rule. Distinguish papers selected by exact metadata from a reviewed thematic
 selection.
 
 When locating a named paper, inspect IDs, titles, and aliases for candidates.
-Confirm the intended paper before using its ID in relation queries. Approximate
+A name may match a paper's `further` publication instead of its own title;
+confirm the intended paper before using its ID in relation queries. Approximate
 name matching is for discovery, not for constructing new relation edges.
 
 ## Count and compare
 
 - Use `paper.year` for year filters, ordering, and counts.
+- Count each `further` entry as an additional publication with its own `venue`
+  and `year`, while `collection.papers` still counts collection entries.
+  State which basis a count uses; both can be correct for different questions.
 - Choose the classification level: top-level category (`paper.category[0]`
   when present), complete path, or coverage of a particular node. Parent and
   child node counts overlap; independent tag counts can overlap too. Include
