@@ -268,10 +268,6 @@ Agents that discover skills under `.agents/skills/` will pick up `analyzing-rust
 
    IEEE TSE 2025 [PDF](https://arxiv.org/pdf/2406.10317) [Bib](./bibs/trusting-code-in-the-wild.bib)
 
-* [Unleashing the Efficiency of Rust: An Empirical Study of Performance Bugs in Rust Projects](https://doi.org/10.1109/ISSRE66568.2025.00045)
-
-   ISSRE 2025 [Code](https://github.com/Unparalleled-Calvin/Rust-Performance-Study) [Bib](./bibs/rust-performance-study.bib)
-
 * [An Empirical Study of Bugs in the rustc Compiler](https://doi.org/10.1145/3763800)
 
    OOPSLA 2025 [PDF](https://dl.acm.org/doi/pdf/10.1145/3763800) [Code](https://doi.org/10.5281/zenodo.16600026) [Bib](./bibs/rustc-bugs.bib)
@@ -336,13 +332,13 @@ Agents that discover skills under `.agents/skills/` will pick up `analyzing-rust
 
    ACM TOSEM 2022 [PDF](https://dl.acm.org/doi/pdf/10.1145/3466642) [Bib](./bibs/rust-cves.bib)
 
-   Cited by 41 papers in this awesome collection.
+   Cited by 40 papers in this awesome collection.
 
 * [Learning and Programming Challenges of Rust: A Mixed-Methods Study](https://doi.org/10.1145/3510003.3510164)
 
    ICSE 2022 [PDF](https://dl.acm.org/doi/pdf/10.1145/3510003.3510164) [Code](https://github.com/system-pclub/rust-programming-challenges) [Bib](./bibs/rust-programming-challenges.bib)
 
-   Cited by 18 papers in this awesome collection.
+   Cited by 17 papers in this awesome collection.
 
 * [Comprehensiveness, Automation and Lifecycle: A New Perspective for Rust Security](https://doi.org/10.1109/QRS57517.2022.00102)
 
@@ -372,7 +368,7 @@ Agents that discover skills under `.agents/skills/` will pick up `analyzing-rust
 
    PLDI 2020 [PDF](https://dl.acm.org/doi/pdf/10.1145/3385412.3386036) [Code](https://github.com/system-pclub/rust-study) [Bib](./bibs/memory-thread-safety.bib)
 
-   Cited by 64 papers in this awesome collection.
+   Cited by 63 papers in this awesome collection.
 
 ### formalization
 
@@ -486,13 +482,13 @@ Agents that discover skills under `.agents/skills/` will pick up `analyzing-rust
 
    FSE 2023 [PDF](https://dl.acm.org/doi/pdf/10.1145/3611643.3613878) [Code](https://github.com/yzhang71/Rust-UnsafeToSafe) [Bib](./bibs/dual-nature-unsafe.bib)
 
-   Cited by 13 papers in this awesome collection.
+   Cited by 12 papers in this awesome collection.
 
 * [A Grounded Conceptual Model for Ownership Types in Rust](https://doi.org/10.1145/3622841)
 
    OOPSLA 2023 [PDF](https://dl.acm.org/doi/pdf/10.1145/3622841) [Code](https://github.com/cognitive-engineering-lab/rust-book) [Bib](./bibs/aquascope.bib)
 
-   Cited by 6 papers in this awesome collection.
+   Cited by 5 papers in this awesome collection.
 
 * [Adventure of a Lifetime: Extract Method Refactoring for Rust](https://doi.org/10.1145/3622821)
 
@@ -510,7 +506,7 @@ Agents that discover skills under `.agents/skills/` will pick up `analyzing-rust
 
    ASE 2022 [PDF](https://dl.acm.org/doi/pdf/10.1145/3551349.3559494) [Code](https://github.com/yzhang71/Rust_C_Benchmarks) [Bib](./bibs/runtime-performance.bib)
 
-   Cited by 7 papers in this awesome collection.
+   Cited by 6 papers in this awesome collection.
 
 * [Garbage Collection Makes Rust Easier to Use: A Randomized Controlled Trial of the Bronze Garbage Collector](https://doi.org/10.1145/3510003.3510107)
 
@@ -544,13 +540,13 @@ Agents that discover skills under `.agents/skills/` will pick up `analyzing-rust
 
    HotOS 2017 [PDF](https://dl.acm.org/doi/pdf/10.1145/3102980.3103006) [Bib](./bibs/system-programming-rust.bib)
 
-   Cited by 15 papers in this awesome collection.
+   Cited by 14 papers in this awesome collection.
 
 * [The Rust Language](https://doi.org/10.1145/2663171.2663188)
 
    HILT (ACM SIGAda) 2014 [PDF](https://dl.acm.org/doi/pdf/10.1145/2663171.2663188) [Code](https://github.com/rust-lang/rust) [Bib](./bibs/rust-language.bib)
 
-   Cited by 55 papers in this awesome collection.
+   Cited by 54 papers in this awesome collection.
 
 ### product
 
