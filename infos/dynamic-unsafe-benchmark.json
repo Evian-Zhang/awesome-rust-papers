@@ -1,0 +1,38 @@
+{
+  "title": "Dynamic Analysis of Unsafe Rust: Behaviors and Benchmarks",
+  "link": "https://doi.org/10.1145/3828523.3857071",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3828523.3857071",
+  "repo": "https://github.com/GWSysSec/unsafe-rust-dyn",
+  "venue": "SIGOPS ATC",
+  "year": 2026,
+  "category": [
+    "empirical study"
+  ],
+  "tag": [
+    "unsafe",
+    "LLVM IR",
+    "LLM"
+  ],
+  "reference": [
+    "RustBelt",
+    "The Rust Language",
+    "Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs",
+    "Qrates",
+    "Rudra",
+    "Memory-Safety Challenge Considered Solved? An In-Depth Study with All Rust CVEs",
+    "Is Rust Used Safely by Software Developers?",
+    "MirChecker",
+    "SafeDrop",
+    "PKRU-safe",
+    "Galeed",
+    "Rust for Embedded Systems: Current State and Open Problems",
+    "lockbud",
+    "Is Unsafe an Achilles' Heel? A Comprehensive Study of Safety Requirements in Unsafe Rust Programming",
+    "On the Dual Nature of Necessity in Use of Rust Unsafe Code",
+    "Sandcrust",
+    "XRust",
+    "Cross-Language Attacks",
+    "FFICHECKER",
+    "ERASan"
+  ]
+}

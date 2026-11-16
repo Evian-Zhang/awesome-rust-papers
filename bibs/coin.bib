@@ -1,0 +1,17 @@
+@inproceedings{10.1145/3830454.3832709,
+author = {Cheng, Xiang and Sang, Fan and Yang, Yibin and Zhang, Hang and Park, Sangdon and Zhang, Xiaokuan and Kim, Taesoo},
+title = {The Illusion of Rust Safety: Detecting Modular Unsafe Functions with LLMs},
+year = {2026},
+isbn = {9798400728716},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3830454.3832709},
+doi = {10.1145/3830454.3832709},
+abstract = {Memory safety vulnerabilities account for approximately 70\% of reported security bugs, prompting the adoption of Rust, a systems programming language designed to prevent such issues through compile-time checks. While Rust categorizes code into safe and unsafe regions, we identify a previously understudied class of vulnerabilities: modular unsafe functions (MUF) in Rust code. These functions appear safe to the compiler but are, in fact, unsafe within the whole module's APIs and can cause undefined behavior without using the unsafe keyword, leading to a misleading sense of safety and unsound issues in Rust. We present the first systematic study of mufs, defining five root cause categories from empirical analysis. We develop Coin, a detection system using fine-tuned large language models for vulnerability identification and proof-of-concept generation. Coin achieves 63.7\% precision and 80.4\% recall on labeled evaluation set, outperforming existing tools. On evaluation of 10,000 randomly sampled Rust crates, Coin identified 26 unknown mufs with 14 developer confirmations and 10 CVE assignments.},
+booktitle = {Proceedings of the 2026 ACM SIGSAC Conference on Computer and Communications Security},
+pages = {197–211},
+numpages = {15},
+keywords = {rust, llm, undefined behavior},
+location = {The Hague, Netherlands},
+series = {CCS '26}
+}

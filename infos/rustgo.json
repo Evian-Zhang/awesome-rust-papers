@@ -1,0 +1,43 @@
+{
+  "title": "RustGo: Fairly Directed Greybox Fuzzing for Enforcing Rust Memory Safety",
+  "alias": "RustGo",
+  "link": "https://doi.org/10.1145/3830454.3832621",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3830454.3832621",
+  "repo": "https://zenodo.org/records/21784601",
+  "compared": [
+    "PanicKiller",
+    "RPG",
+    "Rug",
+    "deepSURF"
+  ],
+  "venue": "CCS",
+  "year": 2026,
+  "category": [
+    "security",
+    "fuzzing"
+  ],
+  "tag": [
+    "directed fuzzing",
+    "memory safety",
+    "MIR",
+    "LLVM IR"
+  ],
+  "reference": [
+    "The Rust Language",
+    "Qrates",
+    "Rudra",
+    "MirChecker",
+    "Rust-SGX",
+    "SafeDrop",
+    "RULF",
+    "SyRust",
+    "RPG",
+    "ERASan",
+    "MiriLLI",
+    "FRIES",
+    "Crabtree",
+    "Rupair",
+    "deepSURF",
+    "PanicKiller"
+  ]
+}

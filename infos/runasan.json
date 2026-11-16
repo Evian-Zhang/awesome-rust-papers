@@ -1,0 +1,39 @@
+{
+  "title": "RunaSan: A Rust-Native Sanitizer for Precise and Context-Sensitive Sanitization",
+  "alias": "RunaSan",
+  "link": "https://doi.org/10.1145/3828523.3857072",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3828523.3857072",
+  "compared": [
+    "RustSan",
+    "ERASan"
+  ],
+  "venue": "SIGOPS ATC",
+  "year": 2026,
+  "category": [
+    "security",
+    "sanitizer"
+  ],
+  "tag": [
+    "MIR",
+    "pointer analysis",
+    "unsafe"
+  ],
+  "reference": [
+    "Qrates",
+    "Rudra",
+    "Memory-Safety Challenge Considered Solved? An In-Depth Study with All Rust CVEs",
+    "MirChecker",
+    "SafeDrop",
+    "RPG",
+    "Is Unsafe an Achilles' Heel? A Comprehensive Study of Safety Requirements in Unsafe Rust Programming",
+    "On the Dual Nature of Necessity in Use of Rust Unsafe Code",
+    "Miri",
+    "XRust",
+    "ERASan",
+    "Rupta",
+    "Yuga",
+    "FRIES",
+    "PanicKiller",
+    "Pincer"
+  ]
+}

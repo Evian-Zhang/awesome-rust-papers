@@ -1,0 +1,17 @@
+@inproceedings{10.1145/3828523.3857072,
+author = {Kim, Jongyoon and Cho, Kyuwon and Lee, Hojoon},
+title = {RunaSan: A Rust-Native Sanitizer for Precise and Context-Sensitive Sanitization},
+year = {2026},
+isbn = {9798400728181},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3828523.3857072},
+doi = {10.1145/3828523.3857072},
+abstract = {Rust guarantees memory safety by design and is increasingly used in systems software, yet the use of unsafe Rust can still introduce memory bugs. For this reason, prior works have leveraged sanitizers to detect memory errors stemming from unsafe Rust code. The shared objective is to instrument Rust programs selectively such that only the unsafe portions of code and their propagation are validated. However, previous approaches that retrofit the existing static analysis and sanitizer implementations are limited. They propagate unsafety over LLVM IR, where precision loss occurs due to the erased Rust semantics, and employ a context-insensitive pointer analysis since a context-sensitive one incurs high computational complexity. Moreover, the unsafety propagation is performed solely using static analysis, and thus cannot eliminate redundant checks in safe runtime contexts.We present RunaSan, a Rust-native analysis and instrumentation framework for sanitization of Rust: a context-sensitive sanitizer that keeps its entire analysis on Rust MIR to take advantage of Rust language semantics and evade redundant checks at runtime in safe contexts. RunaSan’s MIR-native unsafety analysis uses Rust semantics for improved precision. A context-sensitive MIR pointer analysis is made feasible through summarization of the Rust standard library. Also, its tagged-pointer scheme allows a pointer’s safety to be recognized by sanitizer checks such that unnecessary checks can be evaded at runtime. RunaSan runs 3.25 {\texttimes} faster than AddressSanitizer (ASan) while detecting the same memory safety bugs on a corpus of reproduced bugs.},
+booktitle = {Proceedings of the 2026 ACM SIGOPS Annual Technical Conference},
+pages = {193–207},
+numpages = {15},
+keywords = {Rust, Sanitizer, Memory Safety},
+location = {Hong Kong, China},
+series = {SIGOPS ATC '26}
+}

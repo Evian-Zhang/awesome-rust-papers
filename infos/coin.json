@@ -1,0 +1,46 @@
+{
+  "title": "The Illusion of Rust Safety: Detecting Modular Unsafe Functions with LLMs",
+  "alias": "Coin",
+  "link": "https://doi.org/10.1145/3830454.3832709",
+  "pdf": "https://dl.acm.org/doi/pdf/10.1145/3830454.3832709",
+  "repo": "https://github.com/CXWorks/coin-ae",
+  "compared": [
+    "Rudra",
+    "MirChecker",
+    "FFICHECKER",
+    "RPG",
+    "Rug"
+  ],
+  "venue": "CCS",
+  "year": 2026,
+  "category": [
+    "security"
+  ],
+  "tag": [
+    "LLM",
+    "unsafe",
+    "fine tune",
+    "soundness",
+    "invariant",
+    "FFI",
+    "data race"
+  ],
+  "reference": [
+    "The Rust Language",
+    "Prusti",
+    "Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs",
+    "Qrates",
+    "Rudra",
+    "Is Rust Used Safely by Software Developers?",
+    "MirChecker",
+    "Rust for Embedded Systems: Current State and Open Problems",
+    "RPG",
+    "Rug",
+    "Crust",
+    "XRust",
+    "SMACK",
+    "Cross-Language Attacks",
+    "FFICHECKER",
+    "Ruby"
+  ]
+}
