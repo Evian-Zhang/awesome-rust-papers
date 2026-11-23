@@ -1,0 +1,31 @@
+{
+  "title": "Rover: A Hybrid Approach to Detecting Out-of-Bounds Memory Access Vulnerabilities in Rust Foreign Function Interactions",
+  "alias": "Rover",
+  "link": "https://doi.ieeecomputersociety.org/10.1109/SP68766.2027.00130",
+  "pdf": "https://www.computer.org/csdl/pds/api/csdl/proceedings/download-article/2lvCVX3v7nW/pdf",
+  "compared": [
+    "SVF",
+    "afl.rs"
+  ],
+  "venue": "IEEE S&P",
+  "year": 2027,
+  "category": [
+    "security"
+  ],
+  "tag": [
+    "FFI",
+    "memory safety",
+    "data-flow analysis",
+    "LLVM IR"
+  ],
+  "reference": [
+    "Rudra",
+    "Rupta",
+    "MirChecker",
+    "MiriLLI",
+    "Cross-Language Attacks",
+    "Memory-Safety Challenge Considered Solved? An In-Depth Study with All Rust CVEs",
+    "DeRust",
+    "PanicKiller"
+  ]
+}

@@ -216,7 +216,7 @@ Agents that discover skills under `.agents/skills/` will pick up `analyzing-rust
 
    OOPSLA 2023 [PDF](https://dl.acm.org/doi/pdf/10.1145/3586046) [Code](https://doi.org/10.5281/zenodo.7714175) [Bib](./bibs/laertes.bib)
 
-   Cited by 22 papers in this awesome collection.
+   Cited by 23 papers in this awesome collection.
 
 * [In rust we trust: a transpiler from unsafe C to safer rust](https://doi.org/10.1145/3510454.3528640)
 
@@ -253,6 +253,10 @@ Agents that discover skills under `.agents/skills/` will pick up `analyzing-rust
 * [A Deep Dive Into Deprecation Declarations in the Rust Package Ecosystem](https://doi.org/10.1109/TSE.2026.3660015)
 
    IEEE TSE 2026 [Bib](./bibs/deprecation-declaration.bib)
+
+* [Dynamic Analysis of Unsafe Rust: Behaviors and Benchmarks](https://doi.org/10.1145/3828523.3857071)
+
+   SIGOPS ATC 2026 [PDF](https://dl.acm.org/doi/pdf/10.1145/3828523.3857071) [Code](https://github.com/GWSysSec/unsafe-rust-dyn) [Bib](./bibs/dynamic-unsafe-benchmark.bib)
 
 * [Drinking From a Firehose While Herding Cats: A Search for Accountability in the Rust Open Source Community](https://doi.org/10.1145/3757585)
 
@@ -308,7 +312,7 @@ Agents that discover skills under `.agents/skills/` will pick up `analyzing-rust
 
    IEEE TSE 2024 [PDF](https://songlh.github.io/paper/rust-tse.pdf) [Code](https://github.com/BurtonQin/lockbud) [Bib](./bibs/lockbud.bib)
 
-   Cited by 12 papers in this awesome collection.
+   Cited by 13 papers in this awesome collection.
 
 * [An Empirical Study of Rust-for-Linux: The Success, Dissatisfaction, and Compromise](https://www.usenix.org/conference/atc24/presentation/li-hongyu)
 
@@ -332,7 +336,7 @@ Agents that discover skills under `.agents/skills/` will pick up `analyzing-rust
 
    ACM TOSEM 2022 [PDF](https://dl.acm.org/doi/pdf/10.1145/3466642) [Bib](./bibs/rust-cves.bib)
 
-   Cited by 42 papers in this awesome collection.
+   Cited by 44 papers in this awesome collection.
 
 * [Learning and Programming Challenges of Rust: A Mixed-Methods Study](https://doi.org/10.1145/3510003.3510164)
 
@@ -368,13 +372,7 @@ Agents that discover skills under `.agents/skills/` will pick up `analyzing-rust
 
    PLDI 2020 [PDF](https://dl.acm.org/doi/pdf/10.1145/3385412.3386036) [Code](https://github.com/system-pclub/rust-study) [Bib](./bibs/memory-thread-safety.bib)
 
-   Cited by 65 papers in this awesome collection.
-
-### empirical study
-
-* [Dynamic Analysis of Unsafe Rust: Behaviors and Benchmarks](https://doi.org/10.1145/3828523.3857071)
-
-   SIGOPS ATC 2026 [PDF](https://dl.acm.org/doi/pdf/10.1145/3828523.3857071) [Code](https://github.com/GWSysSec/unsafe-rust-dyn) [Bib](./bibs/dynamic-unsafe-benchmark.bib)
+   Cited by 66 papers in this awesome collection.
 
 ### formalization
 
@@ -442,7 +440,7 @@ Agents that discover skills under `.agents/skills/` will pick up `analyzing-rust
 
    POPL 2018 [PDF](https://dl.acm.org/doi/pdf/10.1145/3158154) [Code](https://gitlab.mpi-sws.org/iris/lambda-rust) [Bib](./bibs/rustbelt.bib)
 
-   Cited by 89 papers in this awesome collection.
+   Cited by 90 papers in this awesome collection.
 
 * [KRust: A Formal Executable Semantics of Rust](https://doi.org/10.1109/TASE.2018.00014)
 
@@ -482,7 +480,7 @@ Agents that discover skills under `.agents/skills/` will pick up `analyzing-rust
 
    FSE 2023 [PDF](https://dl.acm.org/doi/pdf/10.1145/3611643.3616303) [Code](https://github.com/cchanging/OOM) [Bib](./bibs/oom-guard.bib)
 
-   Cited by 2 papers in this awesome collection.
+   Cited by 3 papers in this awesome collection.
 
 * [On the Dual Nature of Necessity in Use of Rust Unsafe Code](https://doi.org/10.1145/3611643.3613878)
 
@@ -722,7 +720,7 @@ Agents that discover skills under `.agents/skills/` will pick up `analyzing-rust
 
    PPoPP 2022 [PDF](https://dl.acm.org/doi/pdf/10.1145/3503221.3508404) [Code](https://github.com/zakcutner/rumpsteak) [Bib](./bibs/rumpsteak.bib)
 
-   Cited by 5 papers in this awesome collection.
+   Cited by 6 papers in this awesome collection.
 
 * [Implementing Multiparty Session Types in Rust](https://doi.org/10.1007/978-3-030-50029-0_8)
 
@@ -752,6 +750,8 @@ Agents that discover skills under `.agents/skills/` will pick up `analyzing-rust
 
    ACM TOSEM 2026 [PDF](https://dl.acm.org/doi/pdf/10.1145/3773991) [Bib](./bibs/panicfi.bib)
 
+   Cited by 1 papers in this awesome collection.
+
 * [RustGTC: Constraint-Guided Test Generation for Rust APIs via Comment Analysis and Code Context](https://doi.org/10.1145/3832783.3837531)
 
    ASE 2026 [PDF](https://dl.acm.org/doi/pdf/10.1145/3832783.3837531) [Bib](./bibs/rustgtc.bib)
@@ -779,6 +779,8 @@ Agents that discover skills under `.agents/skills/` will pick up `analyzing-rust
 * [Charon: An Analysis Framework for Rust](https://doi.org/10.1007/978-3-031-98685-7_18)
 
    CAV 2025 [PDF](https://arxiv.org/pdf/2410.18042) [Code](https://github.com/AeneasVerif/charon) [Bib](./bibs/charon.bib)
+
+   Cited by 1 papers in this awesome collection.
 
 * [Stack Filtering: Elevating Precision and Efficiency in Rust Pointer Analysis](https://doi.org/10.1145/3696443.3708921)
 
@@ -814,7 +816,7 @@ Agents that discover skills under `.agents/skills/` will pick up `analyzing-rust
 
    CC 2024 [PDF](https://dl.acm.org/doi/pdf/10.1145/3640537.3641574) [Code](https://github.com/rustanlys/rupta) [Bib](./bibs/rupta.bib)
 
-   Cited by 9 papers in this awesome collection.
+   Cited by 10 papers in this awesome collection.
 
 * [A Study of Common Bug Fix Patterns in Rust](https://doi.org/10.1007/s10664-023-10437-1)
 
@@ -832,7 +834,7 @@ Agents that discover skills under `.agents/skills/` will pick up `analyzing-rust
 
    OOPSLA 2024 [PDF](https://dl.acm.org/doi/pdf/10.1145/3649817) [Code](https://github.com/PLaSSticity/Cocoon-implementation) [Bib](./bibs/cocoon.bib)
 
-   Cited by 1 papers in this awesome collection.
+   Cited by 2 papers in this awesome collection.
 
 * [SafeNet: Towards mitigating replaceable unsafe Rust code via a recommendation‐based approach](https://doi.org/10.1002/stvr.1875)
 
@@ -872,6 +874,10 @@ Agents that discover skills under `.agents/skills/` will pick up `analyzing-rust
 
 ### security
 
+* [Rover: A Hybrid Approach to Detecting Out-of-Bounds Memory Access Vulnerabilities in Rust Foreign Function Interactions](https://doi.ieeecomputersociety.org/10.1109/SP68766.2027.00130)
+
+   IEEE S&P 2027 [PDF](https://www.computer.org/csdl/pds/api/csdl/proceedings/download-article/2lvCVX3v7nW/pdf) [Bib](./bibs/rover.bib)
+
 * [SafeDep: Detecting State Mutation Unsoundness in Rust via Dependency Slicing and LLM Reasoning](https://doi.org/10.1145/3832783.3837481)
 
    ASE 2026 [PDF](https://dl.acm.org/doi/pdf/10.1145/3832783.3837481) [Code](https://doi.org/10.5281/zenodo.21695976) [Bib](./bibs/safedep.bib)
@@ -893,6 +899,8 @@ Agents that discover skills under `.agents/skills/` will pick up `analyzing-rust
 * [Rusted Types: Static Detection of Rust Type Confusion Bugs](https://doi.org/10.1145/3744916.3764571)
 
    ICSE 2026 [PDF](https://dl.acm.org/doi/pdf/10.1145/3744916.3764571) [Code](https://github.com/cuhk-seclab/DeRust) [Bib](./bibs/derust.bib)
+
+   Cited by 1 papers in this awesome collection.
 
 * [Oxidizer: Toward Concise and High-fidelity Rust Decompilation](https://doi.org/10.1109/SP63933.2026.00257)
 
@@ -918,13 +926,13 @@ Agents that discover skills under `.agents/skills/` will pick up `analyzing-rust
 
    ICSE 2025 [PDF](https://arxiv.org/pdf/2404.11671) [Code](https://github.com/icmccorm/mirilli) [Bib](./bibs/mirilli.bib)
 
-   Cited by 5 papers in this awesome collection.
+   Cited by 6 papers in this awesome collection.
 
 * [Safe4U: Identifying Unsound Safe Encapsulations of Unsafe Calls in Rust using LLMs](https://doi.org/10.1145/3728890)
 
    ISSTA 2025 [PDF](https://dl.acm.org/doi/pdf/10.1145/3728890) [Code](https://github.com/huanli-00/Safe4U-replication) [Bib](./bibs/safe4u.bib)
 
-   Cited by 4 papers in this awesome collection.
+   Cited by 5 papers in this awesome collection.
 
 * [Detecting Memory Errors in Rust Programs Including Unsafe Foreign Code](https://doi.org/10.1007/978-3-032-10444-1_11)
 
@@ -934,7 +942,7 @@ Agents that discover skills under `.agents/skills/` will pick up `analyzing-rust
 
    USENIX Security 2025 [PDF](https://www.usenix.org/system/files/usenixsecurity25-chen-hung-mao.pdf) [Code](https://github.com/shinmao/TYPEPULSE) [Bib](./bibs/typepulse.bib)
 
-   Cited by 2 papers in this awesome collection.
+   Cited by 3 papers in this awesome collection.
 
 * [Semi-Automated Verification of Interior Unsafe Code Encapsulation in Real-World Rust Systems](https://doi.org/10.1145/3691620.3695373)
 
@@ -956,7 +964,7 @@ Agents that discover skills under `.agents/skills/` will pick up `analyzing-rust
 
    IEEE TSE 2024 [PDF](https://arxiv.org/pdf/2308.04787) [Code](https://github.com/artisan-archived-projects/rCanary) [Bib](./bibs/rcanary.bib)
 
-   Cited by 4 papers in this awesome collection.
+   Cited by 5 papers in this awesome collection.
 
 * [A Closer Look at the Security Risks in the Rust Ecosystem](https://doi.org/10.1145/3624738)
 
@@ -968,13 +976,13 @@ Agents that discover skills under `.agents/skills/` will pick up `analyzing-rust
 
    ACM TOSEM 2023 [PDF](https://dl.acm.org/doi/pdf/10.1145/3542948) [Code](https://github.com/VaynNecol/SafeDrop) [Bib](./bibs/safedrop.bib)
 
-   Cited by 39 papers in this awesome collection.
+   Cited by 40 papers in this awesome collection.
 
 * [Cross-Language Attacks](https://www.ndss-symposium.org/ndss-paper/auto-draft-259/)
 
    NDSS 2022 [PDF](https://doi.org/10.14722/ndss.2022.24078) [Code](https://github.com/mit-ll/Cross-Language-Attacks)
 
-   Cited by 8 papers in this awesome collection.
+   Cited by 9 papers in this awesome collection.
 
 * [Safer at Any Speed: Automatic Context-Aware Safety Enhancement for Rust](https://doi.org/10.1145/3485480)
 
@@ -1032,13 +1040,21 @@ Agents that discover skills under `.agents/skills/` will pick up `analyzing-rust
 
 #### concurrency @ security
 
+* [FLASH: Finding Liveness Hazards in Real-World Asynchronous Rust](https://doi.ieeecomputersociety.org/10.1109/SP68766.2027.00034)
+
+   IEEE S&P 2027 [PDF](https://www.computer.org/csdl/pds/api/csdl/proceedings/download-article/2lvCUF3aPmw/pdf) [Bib](./bibs/flash.bib)
+
 * [Two Birds One Stone: Effective Static Detection of Resource and Communication Deadlocks in Rust Programs](https://doi.org/10.1007/s10515-026-00614-z)
 
    Automated Software Engineering 2026 [PDF](https://arxiv.org/pdf/2401.01114v2) [Bib](./bibs/rcchecker.bib)
 
+   Cited by 1 papers in this awesome collection.
+
 * [Petri Nets-based Methods on Automatically Detecting for Concurrency Bugs in Rust Programs](https://doi.org/10.1145/3849803)
 
    TAAS 2026 [PDF](https://dl.acm.org/doi/pdf/10.1145/3849803) [Code](https://github.com/kevindadi/ConcBugDect-Rust) [Bib](./bibs/concbugdect.bib)
+
+   Cited by 1 papers in this awesome collection.
 
 * [Understanding Atomics and Memory Ordering Issues in Real-World Rust Software](https://doi.org/10.1109/ISSRE62328.2024.00061)
 
@@ -1052,7 +1068,7 @@ Agents that discover skills under `.agents/skills/` will pick up `analyzing-rust
 
    arXiv 2019 [PDF](https://arxiv.org/pdf/1902.01906) [Bib](./bibs/fearless-concurrency.bib)
 
-   Cited by 4 papers in this awesome collection.
+   Cited by 5 papers in this awesome collection.
 
 #### fuzzing @ security
 
@@ -1080,7 +1096,7 @@ Agents that discover skills under `.agents/skills/` will pick up `analyzing-rust
 
    CCS 2025 [PDF](https://dl.acm.org/doi/pdf/10.1145/3719027.3765142) [Bib](./bibs/panickiller.bib)
 
-   Cited by 2 papers in this awesome collection.
+   Cited by 4 papers in this awesome collection.
 
 * [Rug: Turbo LLM for Rust Unit Test Generation](https://doi.org/10.1109/ICSE55347.2025.00097)
 
@@ -1218,13 +1234,13 @@ Agents that discover skills under `.agents/skills/` will pick up `analyzing-rust
 
    CCS 2021 [PDF](https://dl.acm.org/doi/pdf/10.1145/3460120.3484541) [Code](https://github.com/lizhuohua/rust-mir-checker) [Bib](./bibs/mirchecker.bib)
 
-   Cited by 43 papers in this awesome collection.
+   Cited by 45 papers in this awesome collection.
 
 * [Rudra: Finding Memory Safety Bugs in Rust at the Ecosystem Scale](https://doi.org/10.1145/3477132.3483570)
 
    SOSP 2021 [PDF](https://dl.acm.org/doi/pdf/10.1145/3477132.3483570) [Code](https://github.com/sslab-gatech/Rudra) [Bib](./bibs/rudra.bib)
 
-   Cited by 54 papers in this awesome collection.
+   Cited by 56 papers in this awesome collection.
 
 ### verification
 
@@ -1380,7 +1396,7 @@ Agents that discover skills under `.agents/skills/` will pick up `analyzing-rust
 
    NFM 2022 [PDF](https://pm.inf.ethz.ch/publications/AstrauskasBilyFialaGrannanMathejaMuellerPoliSummers22.pdf) [Code](https://github.com/viperproject/prusti-dev) [Bib](./bibs/prusti-project.bib)
 
-   Cited by 20 papers in this awesome collection.
+   Cited by 21 papers in this awesome collection.
 
 * [RustHornBelt: A Semantic Foundation for Functional Verification of Rust Programs with Unsafe Code](https://doi.org/10.1145/3519939.3523704)
 

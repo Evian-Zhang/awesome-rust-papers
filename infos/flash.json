@@ -1,0 +1,43 @@
+{
+  "title": "FLASH: Finding Liveness Hazards in Real-World Asynchronous Rust",
+  "alias": "FLASH",
+  "link": "https://doi.ieeecomputersociety.org/10.1109/SP68766.2027.00034",
+  "pdf": "https://www.computer.org/csdl/pds/api/csdl/proceedings/download-article/2lvCUF3aPmw/pdf",
+  "compared": [
+    "lockbud"
+  ],
+  "venue": "IEEE S&P",
+  "year": 2027,
+  "category": [
+    "security",
+    "concurrency"
+  ],
+  "tag": [
+    "deadlock",
+    "asynchronous",
+    "MIR"
+  ],
+  "reference": [
+    "lockbud",
+    "RcChecker",
+    "MirChecker",
+    "SafeDrop",
+    "rCanary",
+    "Rudra",
+    "TYPEPULSE",
+    "Safe4U",
+    "PanicKiller",
+    "PanicFI",
+    "OOM-Guard",
+    "RustBelt",
+    "The Prusti Project: Formal Verification for Rust",
+    "Charon",
+    "Cocoon",
+    "Memory-Safety Challenge Considered Solved? An In-Depth Study with All Rust CVEs",
+    "Understanding Memory and Thread Safety Practices and Issues in Real-World Rust Programs",
+    "Fearless Concurrency? Understanding Concurrent Programming Safety in Real-World Rust Software",
+    "Petri Nets-based Methods on Automatically Detecting for Concurrency Bugs in Rust Programs",
+    "Laertes",
+    "Rumpsteak"
+  ]
+}
